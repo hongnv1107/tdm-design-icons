@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate-icons.js
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import SmIcon from '../components/SmIcon';
+import type { SmIconProps } from '../components/SmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const chevronRightDoubleSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M5.29289 6.29297C5.65901 5.92685 6.23801 5.90426 6.63078 6.22461L6.70696 6.29297L11.707 11.293C12.0975 11.6835 12.0975 12.3165 11.707 12.707L6.70696 17.707C6.31643 18.0976 5.68342 18.0976 5.29289 17.707C4.90237 17.3165 4.90237 16.6835 5.29289 16.293L9.58586 12L5.29289 7.70703L5.22453 7.63086C4.90418 7.23809 4.92678 6.65909 5.29289 6.29297ZM12.2929 6.29297C12.659 5.92685 13.238 5.90426 13.6308 6.22461L13.707 6.29297L18.707 11.293C19.0975 11.6835 19.0975 12.3165 18.707 12.707L13.707 17.707C13.3164 18.0976 12.6834 18.0976 12.2929 17.707C11.9024 17.3165 11.9024 16.6835 12.2929 16.293L16.5859 12L12.2929 7.70703L12.2245 7.63086C11.9042 7.23809 11.9268 6.65909 12.2929 6.29297Z" />
+  </svg>
+);
+
+const chevronRightDoubleIconDefinition = svgToIconDefinition(
+  chevronRightDoubleSvg,
+  'chevron-right-double'
+);
+
+/**![ChevronRightDoubleIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNS4yOTI4OSA2LjI5Mjk3QzUuNjU5MDEgNS45MjY4NSA2LjIzODAxIDUuOTA0MjYgNi42MzA3OCA2LjIyNDYxTDYuNzA2OTYgNi4yOTI5N0wxMS43MDcgMTEuMjkzQzEyLjA5NzUgMTEuNjgzNSAxMi4wOTc1IDEyLjMxNjUgMTEuNzA3IDEyLjcwN0w2LjcwNjk2IDE3LjcwN0M2LjMxNjQzIDE4LjA5NzYgNS42ODM0MiAxOC4wOTc2IDUuMjkyODkgMTcuNzA3QzQuOTAyMzcgMTcuMzE2NSA0LjkwMjM3IDE2LjY4MzUgNS4yOTI4OSAxNi4yOTNMOS41ODU4NiAxMkw1LjI5Mjg5IDcuNzA3MDNMNS4yMjQ1MyA3LjYzMDg2QzQuOTA0MTggNy4yMzgwOSA0LjkyNjc4IDYuNjU5MDkgNS4yOTI4OSA2LjI5Mjk3Wk0xMi4yOTI5IDYuMjkyOTdDMTIuNjU5IDUuOTI2ODUgMTMuMjM4IDUuOTA0MjYgMTMuNjMwOCA2LjIyNDYxTDEzLjcwNyA2LjI5Mjk3TDE4LjcwNyAxMS4yOTNDMTkuMDk3NSAxMS42ODM1IDE5LjA5NzUgMTIuMzE2NSAxOC43MDcgMTIuNzA3TDEzLjcwNyAxNy43MDdDMTMuMzE2NCAxOC4wOTc2IDEyLjY4MzQgMTguMDk3NiAxMi4yOTI5IDE3LjcwN0MxMS45MDI0IDE3LjMxNjUgMTEuOTAyNCAxNi42ODM1IDEyLjI5MjkgMTYuMjkzTDE2LjU4NTkgMTJMMTIuMjkyOSA3LjcwNzAzTDEyLjIyNDUgNy42MzA4NkMxMS45MDQyIDcuMjM4MDkgMTEuOTI2OCA2LjY1OTA5IDEyLjI5MjkgNi4yOTI5N1oiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
+  return <SmIcon {...props} ref={ref} icon={chevronRightDoubleIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ChevronRightDoubleIcon';
+}
+
+export default RefIcon;

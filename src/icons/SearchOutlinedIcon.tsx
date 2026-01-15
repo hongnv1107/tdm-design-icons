@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate-icons.js
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import SmIcon from '../components/SmIcon';
+import type { SmIconProps } from '../components/SmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const searchOutlinedSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M17.2227 11.1113C17.2227 7.73634 14.4863 5.00012 11.1113 5C7.73626 5 5 7.73626 5 11.1113C5.00012 14.4863 7.73634 17.2227 11.1113 17.2227C12.759 17.2226 14.2525 16.568 15.3516 15.5078C15.3744 15.4794 15.3994 15.4522 15.4258 15.4258C15.4522 15.3994 15.4794 15.3744 15.5078 15.3516C16.568 14.2525 17.2226 12.759 17.2227 11.1113ZM19.2227 11.1113C19.2226 12.9903 18.5802 14.7177 17.5078 16.0928L20.707 19.293L20.7754 19.3691C21.0957 19.7619 21.0731 20.3409 20.707 20.707C20.3409 21.0731 19.7619 21.0957 19.3691 20.7754L19.293 20.707L16.0928 17.5078C14.7177 18.5802 12.9903 19.2226 11.1113 19.2227C6.63177 19.2227 3.00012 15.5909 3 11.1113C3 6.63169 6.63169 3 11.1113 3C15.5909 3.00012 19.2227 6.63177 19.2227 11.1113Z" />
+  </svg>
+);
+
+const searchOutlinedIconDefinition = svgToIconDefinition(
+  searchOutlinedSvg,
+  'search-outlined'
+);
+
+/**![SearchOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTcuMjIyNyAxMS4xMTEzQzE3LjIyMjcgNy43MzYzNCAxNC40ODYzIDUuMDAwMTIgMTEuMTExMyA1QzcuNzM2MjYgNSA1IDcuNzM2MjYgNSAxMS4xMTEzQzUuMDAwMTIgMTQuNDg2MyA3LjczNjM0IDE3LjIyMjcgMTEuMTExMyAxNy4yMjI3QzEyLjc1OSAxNy4yMjI2IDE0LjI1MjUgMTYuNTY4IDE1LjM1MTYgMTUuNTA3OEMxNS4zNzQ0IDE1LjQ3OTQgMTUuMzk5NCAxNS40NTIyIDE1LjQyNTggMTUuNDI1OEMxNS40NTIyIDE1LjM5OTQgMTUuNDc5NCAxNS4zNzQ0IDE1LjUwNzggMTUuMzUxNkMxNi41NjggMTQuMjUyNSAxNy4yMjI2IDEyLjc1OSAxNy4yMjI3IDExLjExMTNaTTE5LjIyMjcgMTEuMTExM0MxOS4yMjI2IDEyLjk5MDMgMTguNTgwMiAxNC43MTc3IDE3LjUwNzggMTYuMDkyOEwyMC43MDcgMTkuMjkzTDIwLjc3NTQgMTkuMzY5MUMyMS4wOTU3IDE5Ljc2MTkgMjEuMDczMSAyMC4zNDA5IDIwLjcwNyAyMC43MDdDMjAuMzQwOSAyMS4wNzMxIDE5Ljc2MTkgMjEuMDk1NyAxOS4zNjkxIDIwLjc3NTRMMTkuMjkzIDIwLjcwN0wxNi4wOTI4IDE3LjUwNzhDMTQuNzE3NyAxOC41ODAyIDEyLjk5MDMgMTkuMjIyNiAxMS4xMTEzIDE5LjIyMjdDNi42MzE3NyAxOS4yMjI3IDMuMDAwMTIgMTUuNTkwOSAzIDExLjExMTNDMyA2LjYzMTY5IDYuNjMxNjkgMyAxMS4xMTEzIDNDMTUuNTkwOSAzLjAwMDEyIDE5LjIyMjcgNi42MzE3NyAxOS4yMjI3IDExLjExMTNaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
+  return <SmIcon {...props} ref={ref} icon={searchOutlinedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'SearchOutlinedIcon';
+}
+
+export default RefIcon;

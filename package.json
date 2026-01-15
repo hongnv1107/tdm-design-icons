@@ -1,0 +1,117 @@
+{
+  "name": "@tdm-design/icons",
+  "version": "0.0.1",
+  "description": "TDM Design Icon Library - React icon components with tree-shaking support",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "unpkg": "./dist/index.umd.js",
+  "types": "./es/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./es/index.d.ts",
+        "default": "./es/index.js"
+      },
+      "require": {
+        "types": "./lib/index.d.ts",
+        "default": "./lib/index.js"
+      }
+    },
+    "./utils": {
+      "import": {
+        "types": "./es/utils.d.ts",
+        "default": "./es/utils.js"
+      },
+      "require": {
+        "types": "./lib/utils.d.ts",
+        "default": "./lib/utils.js"
+      }
+    },
+    "./components/*": {
+      "import": {
+        "types": "./es/components/*.d.ts",
+        "default": "./es/components/*.js"
+      },
+      "require": {
+        "types": "./lib/components/*.d.ts",
+        "default": "./lib/components/*.js"
+      }
+    },
+    "./icons/*": {
+      "import": {
+        "types": "./es/icons/*.d.ts",
+        "default": "./es/icons/*.js"
+      },
+      "require": {
+        "types": "./lib/icons/*.d.ts",
+        "default": "./lib/icons/*.js"
+      }
+    },
+    "./*": {
+      "import": {
+        "types": "./es/*.d.ts",
+        "default": "./es/*.js"
+      },
+      "require": {
+        "types": "./lib/*.d.ts",
+        "default": "./lib/*.js"
+      }
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "es",
+    "lib",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongnv1107/tdm-design-icons.git"
+  },
+  "scripts": {
+    "build": "npm run clean && tsup && npm run build:types",
+    "build:types": "tsc --emitDeclarationOnly --outDir es && tsc --emitDeclarationOnly --outDir lib",
+    "build:watch": "tsup --watch",
+    "generate": "node scripts/generate-icons.js",
+    "generate:force": "node scripts/generate-icons.js --force",
+    "clean": "rimraf dist es lib",
+    "prepublishOnly": "npm run build",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "npm run build && changeset publish"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "typescript",
+    "component-library",
+    "tree-shaking"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.8",
+    "@types/node": "^25.0.3",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^5.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@rc-component/util": "^1.0.0",
+    "clsx": "^2.1.1"
+  }
+}

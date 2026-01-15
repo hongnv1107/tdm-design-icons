@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate-icons.js
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import SmIcon from '../components/SmIcon';
+import type { SmIconProps } from '../components/SmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const selectionCheckSquareCheckSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M5.57143 3.12H18.4286C19.1518 3.14678 19.7545 3.40125 20.2366 3.88339C20.7188 4.36553 20.9732 4.96821 21 5.69142V18.5486C20.9732 19.2718 20.7188 19.8745 20.2366 20.3566C19.7545 20.8387 19.1518 21.0932 18.4286 21.12H5.57143C4.84821 21.0932 4.24554 20.8387 3.76339 20.3566C3.28125 19.8745 3.02679 19.2718 3 18.5486V5.69142C3.02679 4.96821 3.28125 4.36553 3.76339 3.88339C4.24554 3.40125 4.84821 3.14678 5.57143 3.12ZM16.5402 10.2316C16.9152 9.77625 16.9152 9.32089 16.5402 8.86553C16.0848 8.49053 15.6295 8.49053 15.1741 8.86553L10.7143 13.3254L8.82589 11.437C8.37054 11.062 7.91518 11.062 7.45982 11.437C7.08482 11.8923 7.08482 12.3477 7.45982 12.803L10.0312 15.3745C10.4866 15.7495 10.942 15.7495 11.3973 15.3745L16.5402 10.2316Z" />
+  </svg>
+);
+
+const selectionCheckSquareCheckIconDefinition = svgToIconDefinition(
+  selectionCheckSquareCheckSvg,
+  'selection-check-square-check'
+);
+
+/**![SelectionCheckSquareCheckIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNS41NzE0MyAzLjEySDE4LjQyODZDMTkuMTUxOCAzLjE0Njc4IDE5Ljc1NDUgMy40MDEyNSAyMC4yMzY2IDMuODgzMzlDMjAuNzE4OCA0LjM2NTUzIDIwLjk3MzIgNC45NjgyMSAyMSA1LjY5MTQyVjE4LjU0ODZDMjAuOTczMiAxOS4yNzE4IDIwLjcxODggMTkuODc0NSAyMC4yMzY2IDIwLjM1NjZDMTkuNzU0NSAyMC44Mzg3IDE5LjE1MTggMjEuMDkzMiAxOC40Mjg2IDIxLjEySDUuNTcxNDNDNC44NDgyMSAyMS4wOTMyIDQuMjQ1NTQgMjAuODM4NyAzLjc2MzM5IDIwLjM1NjZDMy4yODEyNSAxOS44NzQ1IDMuMDI2NzkgMTkuMjcxOCAzIDE4LjU0ODZWNS42OTE0MkMzLjAyNjc5IDQuOTY4MjEgMy4yODEyNSA0LjM2NTUzIDMuNzYzMzkgMy44ODMzOUM0LjI0NTU0IDMuNDAxMjUgNC44NDgyMSAzLjE0Njc4IDUuNTcxNDMgMy4xMlpNMTYuNTQwMiAxMC4yMzE2QzE2LjkxNTIgOS43NzYyNSAxNi45MTUyIDkuMzIwODkgMTYuNTQwMiA4Ljg2NTUzQzE2LjA4NDggOC40OTA1MyAxNS42Mjk1IDguNDkwNTMgMTUuMTc0MSA4Ljg2NTUzTDEwLjcxNDMgMTMuMzI1NEw4LjgyNTg5IDExLjQzN0M4LjM3MDU0IDExLjA2MiA3LjkxNTE4IDExLjA2MiA3LjQ1OTgyIDExLjQzN0M3LjA4NDgyIDExLjg5MjMgNy4wODQ4MiAxMi4zNDc3IDcuNDU5ODIgMTIuODAzTDEwLjAzMTIgMTUuMzc0NUMxMC40ODY2IDE1Ljc0OTUgMTAuOTQyIDE1Ljc0OTUgMTEuMzk3MyAxNS4zNzQ1TDE2LjU0MDIgMTAuMjMxNloiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
+  return <SmIcon {...props} ref={ref} icon={selectionCheckSquareCheckIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'SelectionCheckSquareCheckIcon';
+}
+
+export default RefIcon;
