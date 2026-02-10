@@ -128,12 +128,23 @@ export default RefIcon;
 
 4. **Import and use** the new component:
    ```tsx
-   import BellFilledIcon from './icons/BellFilledIcon';
+    import BellFilledIcon from '@tdm-design/icons/BellFilledIcon';
 
-   function App() {
-     return <BellFilledIcon />;
-   }
-   ```
+    function App() {
+      return <BellFilledIcon />;
+    }
+    ```
+
+    ### Using Barrel Export (Supports Tree-shaking)
+
+    ```tsx
+    import { BellFilledIcon } from '@tdm-design/icons';
+    ```
+
+    ### Customizing Icons
+    ```tsx
+    <BellFilledIcon style={{ color: 'red' }} spin />
+    ```
 
 ## Output Status
 

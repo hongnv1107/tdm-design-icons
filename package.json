@@ -1,6 +1,6 @@
 {
   "name": "@tdm-design/icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TDM Design Icon Library - React icon components with tree-shaking support",
   "main": "./lib/index.js",
   "module": "./es/index.js",
@@ -49,12 +49,12 @@
     },
     "./*": {
       "import": {
-        "types": "./es/*.d.ts",
-        "default": "./es/*.js"
+        "types": "./es/icons/*.d.ts",
+        "default": "./es/icons/*.js"
       },
       "require": {
-        "types": "./lib/*.d.ts",
-        "default": "./lib/*.js"
+        "types": "./lib/icons/*.d.ts",
+        "default": "./lib/icons/*.js"
       }
     }
   },
