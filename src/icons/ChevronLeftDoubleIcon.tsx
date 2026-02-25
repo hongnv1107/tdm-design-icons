@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const chevronLeftDoubleSvg = (
@@ -26,9 +26,9 @@ const chevronLeftDoubleIconDefinition = svgToIconDefinition(
 
 /**![ChevronLeftDoubleIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTguNzA3MSA2LjI5Mjk4QzE4LjM0MSA1LjkyNjg2IDE3Ljc2MiA1LjkwNDI3IDE3LjM2OTIgNi4yMjQ2MkwxNy4yOTMgNi4yOTI5OEwxMi4yOTMgMTEuMjkzQzExLjkwMjUgMTEuNjgzNSAxMS45MDI1IDEyLjMxNjUgMTIuMjkzIDEyLjcwN0wxNy4yOTMgMTcuNzA3QzE3LjY4MzYgMTguMDk3NiAxOC4zMTY2IDE4LjA5NzYgMTguNzA3MSAxNy43MDdDMTkuMDk3NiAxNy4zMTY1IDE5LjA5NzYgMTYuNjgzNSAxOC43MDcxIDE2LjI5M0wxNC40MTQxIDEyTDE4LjcwNzEgNy43MDcwNEwxOC43NzU1IDcuNjMwODdDMTkuMDk1OCA3LjIzODEgMTkuMDczMiA2LjY1OTA5IDE4LjcwNzEgNi4yOTI5OFpNMTEuNzA3MSA2LjI5Mjk4QzExLjM0MSA1LjkyNjg2IDEwLjc2MiA1LjkwNDI3IDEwLjM2OTIgNi4yMjQ2MkwxMC4yOTMgNi4yOTI5OEw1LjI5MzA0IDExLjI5M0M0LjkwMjUyIDExLjY4MzUgNC45MDI1MiAxMi4zMTY1IDUuMjkzMDQgMTIuNzA3TDEwLjI5MyAxNy43MDdDMTAuNjgzNiAxOC4wOTc2IDExLjMxNjYgMTguMDk3NiAxMS43MDcxIDE3LjcwN0MxMi4wOTc2IDE3LjMxNjUgMTIuMDk3NiAxNi42ODM1IDExLjcwNzEgMTYuMjkzTDcuNDE0MTQgMTJMMTEuNzA3MSA3LjcwNzA0TDExLjc3NTUgNy42MzA4N0MxMi4wOTU4IDcuMjM4MSAxMi4wNzMyIDYuNjU5MDkgMTEuNzA3MSA2LjI5Mjk4WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={chevronLeftDoubleIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={chevronLeftDoubleIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const archiveOutlinedSvg = (
@@ -26,9 +26,9 @@ const archiveOutlinedIconDefinition = svgToIconDefinition(
 
 /**![ArchiveOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgNEwyMS4xMDI1IDQuMDA0ODhDMjEuNjA2NyA0LjA1NjIxIDIyIDQuNDgyMzIgMjIgNVY4Ljg4ODY3QzIyIDkuNDQwOTYgMjEuNTUyMyA5Ljg4ODY3IDIxIDkuODg4NjdIMjAuMzYzM1YxOUMyMC4zNjMzIDE5LjU1MjMgMTkuOTE1NiAyMCAxOS4zNjMzIDIwSDQuNjM2NzJDNC4wODQ0MyAyMCAzLjYzNjcyIDE5LjU1MjMgMy42MzY3MiAxOVY5Ljg4ODY3SDNDMi40NDc3MiA5Ljg4ODY3IDIgOS40NDA5NiAyIDguODg4NjdWNUwyLjAwNDg4IDQuODk3NDZDMi4wNTYyMSA0LjM5MzMzIDIuNDgyMzIgNCAzIDRIMjFaTTUuNjM2NzIgMThIMTguMzYzM1Y5Ljg4ODY3SDUuNjM2NzJWMThaTTEzLjYzNjcgMTFMMTMuNzM4MyAxMS4wMDQ5QzE0LjI0MjcgMTEuMDU1OSAxNC42MzY3IDExLjQ4MjEgMTQuNjM2NyAxMkMxNC42MzY3IDEyLjUxNzkgMTQuMjQyNyAxMi45NDQxIDEzLjczODMgMTIuOTk1MUwxMy42MzY3IDEzSDEwLjM2MzNDOS44MTExNiAxMi45OTk4IDkuMzYzMjggMTIuNTUyMiA5LjM2MzI4IDEyQzkuMzYzMjggMTEuNDQ3OCA5LjgxMTE2IDExLjAwMDIgMTAuMzYzMyAxMUgxMy42MzY3Wk00IDcuODg4NjdIMjBWNkg0VjcuODg4NjdaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={archiveOutlinedIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={archiveOutlinedIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

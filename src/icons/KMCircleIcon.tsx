@@ -1,0 +1,52 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const kMCircleSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#a)">
+    <path fill="#F0F0F0" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"/>
+    <path fill="#D80027" d="M24 11.965H10.99c-2.583 2.583-4.144 4.577-5.739 6.172l6.783.61 10.525-1.043A11.946 11.946 0 0 0 24 12v-.035Z"/>
+    <path fill="#FFDA44" d="M5.253 6.226h17.269A11.997 11.997 0 0 0 12 0a11.959 11.959 0 0 0-8.467 3.497l1.72 2.729Z"/>
+    <path fill="#0052B4" d="M5.773 17.704c-1.078 1.079-1.495 1.983-2.276 2.763A11.963 11.963 0 0 0 12 24c4.563 0 8.53-2.547 10.56-6.296H5.773Z"/>
+    <path fill="#6DA544" d="M3.514 3.48c-4.686 4.687-4.686 12.285 0 16.971L12 11.966 3.513 3.48Z"/>
+    <path fill="#F0F0F0" d="M3.165 11.965a3.653 3.653 0 0 1 2.87-3.568 3.652 3.652 0 1 0 0 7.134 3.653 3.653 0 0 1-2.87-3.566Z"/>
+    <path fill="#F0F0F0" d="m5.995 8.835.194.598h.629l-.509.37.194.597-.508-.37-.509.37.194-.598-.508-.37H5.8l.195-.597Zm0 1.565.194.598h.629l-.509.37.194.597-.508-.37-.509.37.194-.598-.508-.37H5.8l.195-.597Zm0 1.565.194.598h.629l-.509.369.194.598-.508-.37-.509.37.194-.598-.508-.37H5.8l.195-.597Z"/>
+    <path fill="#F0F0F0" d="m5.995 13.53.194.598h.629l-.509.37.194.597-.508-.37-.509.37.194-.598-.508-.37H5.8l.195-.597Z"/>
+    </g>
+    <defs>
+    <clipPath id="a">
+    <path fill="#fff" d="M0 0h24v24H0z"/>
+    </clipPath>
+    </defs>
+  </svg>
+);
+
+const kMCircleIconDefinition = svgToIconDefinition(
+  kMCircleSvg,
+  'kmcircle'
+);
+
+/**![KMCircleIcon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBjbGlwLXBhdGg9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNGMEYwRjAiIGQ9Ik0xMiAyNGM2LjYyNyAwIDEyLTUuMzczIDEyLTEyUzE4LjYyNyAwIDEyIDAgMCA1LjM3MyAwIDEyczUuMzczIDEyIDEyIDEyWiIvPjxwYXRoIGZpbGw9IiNEODAwMjciIGQ9Ik0yNCAxMS45NjVIMTAuOTljLTIuNTgzIDIuNTgzLTQuMTQ0IDQuNTc3LTUuNzM5IDYuMTcybDYuNzgzLjYxIDEwLjUyNS0xLjA0M0ExMS45NDYgMTEuOTQ2IDAgMCAwIDI0IDEydi0uMDM1WiIvPjxwYXRoIGZpbGw9IiNGRkRBNDQiIGQ9Ik01LjI1MyA2LjIyNmgxNy4yNjlBMTEuOTk3IDExLjk5NyAwIDAgMCAxMiAwYTExLjk1OSAxMS45NTkgMCAwIDAtOC40NjcgMy40OTdsMS43MiAyLjcyOVoiLz48cGF0aCBmaWxsPSIjMDA1MkI0IiBkPSJNNS43NzMgMTcuNzA0Yy0xLjA3OCAxLjA3OS0xLjQ5NSAxLjk4My0yLjI3NiAyLjc2M0ExMS45NjMgMTEuOTYzIDAgMCAwIDEyIDI0YzQuNTYzIDAgOC41My0yLjU0NyAxMC41Ni02LjI5Nkg1Ljc3M1oiLz48cGF0aCBmaWxsPSIjNkRBNTQ0IiBkPSJNMy41MTQgMy40OGMtNC42ODYgNC42ODctNC42ODYgMTIuMjg1IDAgMTYuOTcxTDEyIDExLjk2NiAzLjUxMyAzLjQ4WiIvPjxwYXRoIGZpbGw9IiNGMEYwRjAiIGQ9Ik0zLjE2NSAxMS45NjVhMy42NTMgMy42NTMgMCAwIDEgMi44Ny0zLjU2OCAzLjY1MiAzLjY1MiAwIDEgMCAwIDcuMTM0IDMuNjUzIDMuNjUzIDAgMCAxLTIuODctMy41NjZaIi8+PHBhdGggZmlsbD0iI0YwRjBGMCIgZD0ibTUuOTk1IDguODM1LjE5NC41OThoLjYyOWwtLjUwOS4zNy4xOTQuNTk3LS41MDgtLjM3LS41MDkuMzcuMTk0LS41OTgtLjUwOC0uMzdINS44bC4xOTUtLjU5N1ptMCAxLjU2NS4xOTQuNTk4aC42MjlsLS41MDkuMzcuMTk0LjU5Ny0uNTA4LS4zNy0uNTA5LjM3LjE5NC0uNTk4LS41MDgtLjM3SDUuOGwuMTk1LS41OTdabTAgMS41NjUuMTk0LjU5OGguNjI5bC0uNTA5LjM2OS4xOTQuNTk4LS41MDgtLjM3LS41MDkuMzcuMTk0LS41OTgtLjUwOC0uMzdINS44bC4xOTUtLjU5N1oiLz48cGF0aCBmaWxsPSIjRjBGMEYwIiBkPSJtNS45OTUgMTMuNTMuMTk0LjU5OGguNjI5bC0uNTA5LjM3LjE5NC41OTctLjUwOC0uMzctLjUwOS4zNy4xOTQtLjU5OC0uNTA4LS4zN0g1LjhsLjE5NS0uNTk3WiIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={kMCircleIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'KMCircleIcon';
+}
+
+export default RefIcon;

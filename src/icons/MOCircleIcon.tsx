@@ -1,0 +1,48 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const mOCircleSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#a)">
+    <path fill="#496E2D" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"/>
+    <path fill="#F0F0F0" d="M14.087 11.5c-.295 0-.574.059-.834.152.142-.317.238-.67.238-1.046C13.49 9.116 12 7.997 12 7.997s-1.49 1.118-1.49 2.609c0 .377.095.73.237 1.046a2.459 2.459 0 0 0-.834-.152c-1.49 0-2.609 1.491-2.609 1.491s1.118 1.49 2.609 1.49c.874 0 1.62-.512 2.087-.936.468.424 1.213.937 2.087.937 1.49 0 2.609-1.491 2.609-1.491s-1.119-1.49-2.61-1.49Z"/>
+    <path fill="#FFDA44" d="m12 4.695.309.947h.996l-.806.586.308.948L12 6.59l-.806.586.307-.948-.806-.586h.997L12 4.695ZM8.211 6.352l.593.533.69-.399-.324.729.592.533-.793-.083-.324.728-.166-.78-.792-.083.69-.399-.166-.78ZM5.438 9.126l.78.166.398-.69.083.792.78.166-.728.324.083.793-.533-.592-.729.324.399-.69-.533-.593ZM15.79 6.352l-.593.533-.69-.399.324.729-.592.533.792-.083.325.728.166-.78.792-.083-.69-.399.166-.78Zm2.773 2.774-.78.166-.398-.69-.084.792-.78.166.73.324-.084.793.533-.592.728.324-.398-.69.533-.593Z"/>
+    <path fill="#F0F0F0" d="M12 18.655a5.192 5.192 0 0 0 3.15-1.06h-6.3a5.193 5.193 0 0 0 3.15 1.06Zm-4.783-3.131c.166.38.376.734.622 1.06h8.322a5.21 5.21 0 0 0 .622-1.06H7.217Z"/>
+    </g>
+    <defs>
+    <clipPath id="a">
+    <path fill="#fff" d="M0 0h24v24H0z"/>
+    </clipPath>
+    </defs>
+  </svg>
+);
+
+const mOCircleIconDefinition = svgToIconDefinition(
+  mOCircleSvg,
+  'mocircle'
+);
+
+/**![MOCircleIcon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBjbGlwLXBhdGg9InVybCgjYSkiPjxwYXRoIGZpbGw9IiM0OTZFMkQiIGQ9Ik0xMiAyNGM2LjYyNyAwIDEyLTUuMzczIDEyLTEyUzE4LjYyNyAwIDEyIDAgMCA1LjM3MyAwIDEyczUuMzczIDEyIDEyIDEyWiIvPjxwYXRoIGZpbGw9IiNGMEYwRjAiIGQ9Ik0xNC4wODcgMTEuNWMtLjI5NSAwLS41NzQuMDU5LS44MzQuMTUyLjE0Mi0uMzE3LjIzOC0uNjcuMjM4LTEuMDQ2QzEzLjQ5IDkuMTE2IDEyIDcuOTk3IDEyIDcuOTk3cy0xLjQ5IDEuMTE4LTEuNDkgMi42MDljMCAuMzc3LjA5NS43My4yMzcgMS4wNDZhMi40NTkgMi40NTkgMCAwIDAtLjgzNC0uMTUyYy0xLjQ5IDAtMi42MDkgMS40OTEtMi42MDkgMS40OTFzMS4xMTggMS40OSAyLjYwOSAxLjQ5Yy44NzQgMCAxLjYyLS41MTIgMi4wODctLjkzNi40NjguNDI0IDEuMjEzLjkzNyAyLjA4Ny45MzcgMS40OSAwIDIuNjA5LTEuNDkxIDIuNjA5LTEuNDkxcy0xLjExOS0xLjQ5LTIuNjEtMS40OVoiLz48cGF0aCBmaWxsPSIjRkZEQTQ0IiBkPSJtMTIgNC42OTUuMzA5Ljk0N2guOTk2bC0uODA2LjU4Ni4zMDguOTQ4TDEyIDYuNTlsLS44MDYuNTg2LjMwNy0uOTQ4LS44MDYtLjU4NmguOTk3TDEyIDQuNjk1Wk04LjIxMSA2LjM1MmwuNTkzLjUzMy42OS0uMzk5LS4zMjQuNzI5LjU5Mi41MzMtLjc5My0uMDgzLS4zMjQuNzI4LS4xNjYtLjc4LS43OTItLjA4My42OS0uMzk5LS4xNjYtLjc4Wk01LjQzOCA5LjEyNmwuNzguMTY2LjM5OC0uNjkuMDgzLjc5Mi43OC4xNjYtLjcyOC4zMjQuMDgzLjc5My0uNTMzLS41OTItLjcyOS4zMjQuMzk5LS42OS0uNTMzLS41OTNaTTE1Ljc5IDYuMzUybC0uNTkzLjUzMy0uNjktLjM5OS4zMjQuNzI5LS41OTIuNTMzLjc5Mi0uMDgzLjMyNS43MjguMTY2LS43OC43OTItLjA4My0uNjktLjM5OS4xNjYtLjc4Wm0yLjc3MyAyLjc3NC0uNzguMTY2LS4zOTgtLjY5LS4wODQuNzkyLS43OC4xNjYuNzMuMzI0LS4wODQuNzkzLjUzMy0uNTkyLjcyOC4zMjQtLjM5OC0uNjkuNTMzLS41OTNaIi8+PHBhdGggZmlsbD0iI0YwRjBGMCIgZD0iTTEyIDE4LjY1NWE1LjE5MiA1LjE5MiAwIDAgMCAzLjE1LTEuMDZoLTYuM2E1LjE5MyA1LjE5MyAwIDAgMCAzLjE1IDEuMDZabS00Ljc4My0zLjEzMWMuMTY2LjM4LjM3Ni43MzQuNjIyIDEuMDZoOC4zMjJhNS4yMSA1LjIxIDAgMCAwIC42MjItMS4wNkg3LjIxN1oiLz48L2c+PGRlZnM+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDI0djI0SDB6Ii8+PC9jbGlwUGF0aD48L2RlZnM+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={mOCircleIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'MOCircleIcon';
+}
+
+export default RefIcon;

@@ -1,0 +1,50 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const aUCircleSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#a)">
+    <path fill="#0052B4" d="M24 12c0 6.627-5.373 12-12 12S0 18.627 0 12C0 12.003 12 .001 12 0c6.627 0 12 5.373 12 12Z"/>
+    <path fill="#F0F0F0" d="M11.968 12H12v-.032l-.032.032Z"/>
+    <path fill="#F0F0F0" d="M12 6.262V0h-.002C5.37 0 0 5.373 0 12h6.26V8.476l3.526 3.526h2.182l.032-.033v-2.18L8.474 6.261H12Z"/>
+    <path fill="#D80027" d="M6.071 1.566a12.057 12.057 0 0 0-4.506 4.506V12h3.13V4.696H12v-3.13H6.071Z"/>
+    <path fill="#D80027" d="M12 10.525 7.737 6.262H6.261L12 12v-1.475Z"/>
+    <path fill="#F0F0F0" d="m7.238 14.086.658 1.378 1.487-.344-.666 1.373 1.196.949-1.489.335.004 1.527-1.19-.955-1.191.955.004-1.527-1.49-.335 1.197-.949-.666-1.373 1.487.344.659-1.378Zm10.729 2.609.33.689.743-.172-.333.687.598.474-.745.168.003.763-.596-.477-.595.477.002-.763-.745-.168.598-.474-.333-.687.744.172.33-.689Zm-3.064-7.304.33.689.743-.172-.333.687.598.474-.744.168.002.763-.596-.477-.595.477.002-.763-.745-.168.599-.474-.333-.687.743.172.33-.689Zm3.064-4.173.33.688.743-.172-.333.687.598.474-.745.168.003.763-.596-.477-.595.477.002-.763-.745-.168.598-.474-.333-.687.744.172.33-.688Zm2.675 3.13.33.688.743-.172-.333.687.598.474-.745.168.003.764-.596-.478-.595.478.002-.764-.745-.168.598-.474-.333-.687.744.172.33-.688ZM18.73 12l.258.797h.838l-.678.493.26.797-.679-.492-.678.492.26-.797-.679-.492h.838l.26-.798Z"/>
+    </g>
+    <defs>
+    <clipPath id="a">
+    <path fill="#fff" d="M0 0h24v24H0z"/>
+    </clipPath>
+    </defs>
+  </svg>
+);
+
+const aUCircleIconDefinition = svgToIconDefinition(
+  aUCircleSvg,
+  'aucircle'
+);
+
+/**![AUCircleIcon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBjbGlwLXBhdGg9InVybCgjYSkiPjxwYXRoIGZpbGw9IiMwMDUyQjQiIGQ9Ik0yNCAxMmMwIDYuNjI3LTUuMzczIDEyLTEyIDEyUzAgMTguNjI3IDAgMTJDMCAxMi4wMDMgMTIgLjAwMSAxMiAwYzYuNjI3IDAgMTIgNS4zNzMgMTIgMTJaIi8+PHBhdGggZmlsbD0iI0YwRjBGMCIgZD0iTTExLjk2OCAxMkgxMnYtLjAzMmwtLjAzMi4wMzJaIi8+PHBhdGggZmlsbD0iI0YwRjBGMCIgZD0iTTEyIDYuMjYyVjBoLS4wMDJDNS4zNyAwIDAgNS4zNzMgMCAxMmg2LjI2VjguNDc2bDMuNTI2IDMuNTI2aDIuMTgybC4wMzItLjAzM3YtMi4xOEw4LjQ3NCA2LjI2MUgxMloiLz48cGF0aCBmaWxsPSIjRDgwMDI3IiBkPSJNNi4wNzEgMS41NjZhMTIuMDU3IDEyLjA1NyAwIDAgMC00LjUwNiA0LjUwNlYxMmgzLjEzVjQuNjk2SDEydi0zLjEzSDYuMDcxWiIvPjxwYXRoIGZpbGw9IiNEODAwMjciIGQ9Ik0xMiAxMC41MjUgNy43MzcgNi4yNjJINi4yNjFMMTIgMTJ2LTEuNDc1WiIvPjxwYXRoIGZpbGw9IiNGMEYwRjAiIGQ9Im03LjIzOCAxNC4wODYuNjU4IDEuMzc4IDEuNDg3LS4zNDQtLjY2NiAxLjM3MyAxLjE5Ni45NDktMS40ODkuMzM1LjAwNCAxLjUyNy0xLjE5LS45NTUtMS4xOTEuOTU1LjAwNC0xLjUyNy0xLjQ5LS4zMzUgMS4xOTctLjk0OS0uNjY2LTEuMzczIDEuNDg3LjM0NC42NTktMS4zNzhabTEwLjcyOSAyLjYwOS4zMy42ODkuNzQzLS4xNzItLjMzMy42ODcuNTk4LjQ3NC0uNzQ1LjE2OC4wMDMuNzYzLS41OTYtLjQ3Ny0uNTk1LjQ3Ny4wMDItLjc2My0uNzQ1LS4xNjguNTk4LS40NzQtLjMzMy0uNjg3Ljc0NC4xNzIuMzMtLjY4OVptLTMuMDY0LTcuMzA0LjMzLjY4OS43NDMtLjE3Mi0uMzMzLjY4Ny41OTguNDc0LS43NDQuMTY4LjAwMi43NjMtLjU5Ni0uNDc3LS41OTUuNDc3LjAwMi0uNzYzLS43NDUtLjE2OC41OTktLjQ3NC0uMzMzLS42ODcuNzQzLjE3Mi4zMy0uNjg5Wm0zLjA2NC00LjE3My4zMy42ODguNzQzLS4xNzItLjMzMy42ODcuNTk4LjQ3NC0uNzQ1LjE2OC4wMDMuNzYzLS41OTYtLjQ3Ny0uNTk1LjQ3Ny4wMDItLjc2My0uNzQ1LS4xNjguNTk4LS40NzQtLjMzMy0uNjg3Ljc0NC4xNzIuMzMtLjY4OFptMi42NzUgMy4xMy4zMy42ODguNzQzLS4xNzItLjMzMy42ODcuNTk4LjQ3NC0uNzQ1LjE2OC4wMDMuNzY0LS41OTYtLjQ3OC0uNTk1LjQ3OC4wMDItLjc2NC0uNzQ1LS4xNjguNTk4LS40NzQtLjMzMy0uNjg3Ljc0NC4xNzIuMzMtLjY4OFpNMTguNzMgMTJsLjI1OC43OTdoLjgzOGwtLjY3OC40OTMuMjYuNzk3LS42NzktLjQ5Mi0uNjc4LjQ5Mi4yNi0uNzk3LS42NzktLjQ5MmguODM4bC4yNi0uNzk4WiIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={aUCircleIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'AUCircleIcon';
+}
+
+export default RefIcon;

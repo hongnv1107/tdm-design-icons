@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const caretDownFilledSvg = (
@@ -26,9 +26,9 @@ const caretDownFilledIconDefinition = svgToIconDefinition(
 
 /**![CaretDownFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTEuMjgyNyAxNS43MTg4TDcuMjkxMDYgMTEuNzE4OEM3IDExLjM4NTQgNi45MjcyMyAxMS4wMjA4IDcuMDcyNzcgMTAuNjI1QzcuMjU5ODggMTAuMjI5MiA3LjU3MTczIDEwLjAyMDggOC4wMDgzMiAxMEgxNS45OTE3QzE2LjQyODMgMTAuMDIwOCAxNi43NDAxIDEwLjIyOTIgMTYuOTI3MiAxMC42MjVDMTcuMDcyOCAxMS4wMjA4IDE3IDExLjM4NTQgMTYuNzA4OSAxMS43MTg4TDEyLjcxNzMgMTUuNzE4OEMxMi41MDk0IDE1LjkwNjIgMTIuMjcwMyAxNiAxMiAxNkMxMS43Mjk3IDE2IDExLjQ5MDYgMTUuOTA2MiAxMS4yODI3IDE1LjcxODhaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={caretDownFilledIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={caretDownFilledIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

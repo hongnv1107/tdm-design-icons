@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const trashCanOutlinedSvg = (
@@ -26,9 +26,9 @@ const trashCanOutlinedIconDefinition = svgToIconDefinition(
 
 /**![TrashCanOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTcgOC4xMkg3VjE5LjEyQzcgMTkuNjcyMyA3LjQ0NzcyIDIwLjEyIDggMjAuMTJIMTZDMTYuNTUyMyAyMC4xMiAxNyAxOS42NzIzIDE3IDE5LjEyVjguMTJaTTkgMTYuMTJWMTIuMTJDOSAxMS41Njc3IDkuNDQ3NzIgMTEuMTIgMTAgMTEuMTJDMTAuNTUyMyAxMS4xMiAxMSAxMS41Njc3IDExIDEyLjEyVjE2LjEyQzExIDE2LjY3MjMgMTAuNTUyMyAxNy4xMiAxMCAxNy4xMkM5LjQ0NzcyIDE3LjEyIDkgMTYuNjcyMyA5IDE2LjEyWk0xMyAxNi4xMlYxMi4xMkMxMyAxMS41Njc3IDEzLjQ0NzcgMTEuMTIgMTQgMTEuMTJDMTQuNTUyMyAxMS4xMiAxNSAxMS41Njc3IDE1IDEyLjEyVjE2LjEyQzE1IDE2LjY3MjMgMTQuNTUyMyAxNy4xMiAxNCAxNy4xMkMxMy40NDc3IDE3LjEyIDEzIDE2LjY3MjMgMTMgMTYuMTJaTTE0IDUuMTJDMTQgNC41Njc3OSAxMy41NTIyIDQuMTIwMTMgMTMgNC4xMkgxMUMxMC40NDc3IDQuMTIgMTAgNC41Njc3MSAxMCA1LjEyVjYuMTJIMTRWNS4xMlpNMTYgNi4xMkgyMEMyMC41NTIzIDYuMTIgMjEgNi41Njc3MSAyMSA3LjEyQzIxIDcuNjcyMjggMjAuNTUyMyA4LjEyIDIwIDguMTJIMTlWMTkuMTJDMTkgMjAuNzc2OCAxNy42NTY5IDIyLjEyIDE2IDIyLjEySDhDNi4zNDMxNSAyMi4xMiA1IDIwLjc3NjggNSAxOS4xMlY4LjEySDRDMy40NDc3MiA4LjEyIDMgNy42NzIyOCAzIDcuMTJDMyA2LjU2NzcxIDMuNDQ3NzIgNi4xMiA0IDYuMTJIOFY1LjEyQzggMy40NjMxNCA5LjM0MzE1IDIuMTIgMTEgMi4xMkgxM0MxNC42NTY3IDIuMTIwMTMgMTYgMy40NjMyMiAxNiA1LjEyVjYuMTJaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={trashCanOutlinedIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={trashCanOutlinedIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

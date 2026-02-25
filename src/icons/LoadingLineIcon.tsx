@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const loadingLineSvg = (
@@ -26,9 +26,9 @@ const loadingLineIconDefinition = svgToIconDefinition(
 
 /**![LoadingLineIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTkuODM2OCAxNC4zMjc4QzIwLjM1NzUgMTQuNDQyIDIwLjg3NzMgMTQuMTEyNCAyMC45MzgxIDEzLjU4MjhDMjEuMDcxNyAxMi40MTg3IDIwLjk4OSAxMS4yMzcgMjAuNjkxMyAxMC4wOTc5QzIwLjMxMiA4LjY0Njc1IDE5LjU5NDYgNy4zMDYwMSAxOC41OTc2IDYuMTg1NEMxNy42MDA2IDUuMDY0OCAxNi4zNTI1IDQuMTk2MTkgMTQuOTU1MyAzLjY1MDY1QzEzLjg1ODYgMy4yMjI0NCAxMi42OTQ2IDMuMDAyODMgMTEuNTIyOCAzLjAwMDAzQzEwLjk4OTcgMi45OTg3NSAxMC42MDE5IDMuNDc2NzMgMTAuNjU0NyA0LjAwNzE4QzEwLjcwNzUgNC41Mzc2NCAxMS4xODE0IDQuOTE4MzggMTEuNzE0MyA0LjkzMzQ3QzEyLjU4MTUgNC45NTgwMyAxMy40NDA1IDUuMTMxNTggMTQuMjUzMiA1LjQ0ODg4QzE1LjM2NjQgNS44ODM1NiAxNi4zNjA5IDYuNTc1NjYgMTcuMTU1MyA3LjQ2ODU2QzE3Ljk0OTcgOC4zNjE0NSAxOC41MjE0IDkuNDI5NzUgMTguODIzNiAxMC41ODZDMTkuMDQ0MiAxMS40MzAxIDE5LjExNjYgMTIuMzAzNSAxOS4wNDAxIDEzLjE2NzdDMTguOTkzIDEzLjY5ODcgMTkuMzE2MSAxNC4yMTM3IDE5LjgzNjggMTQuMzI3OFoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={loadingLineIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={loadingLineIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

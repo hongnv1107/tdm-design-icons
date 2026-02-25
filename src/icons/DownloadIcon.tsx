@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const downloadSvg = (
@@ -26,9 +26,9 @@ const downloadIconDefinition = svgToIconDefinition(
 
 /**![DownloadIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMyAxOC4yMjI3VjE0LjY2N0MzIDE0LjExNDcgMy40NDc3MiAxMy42NjcgNCAxMy42NjdDNC41NTIyOCAxMy42NjcgNSAxNC4xMTQ3IDUgMTQuNjY3VjE4LjIyMjdDNS4wMDAxMSAxOC40Mjg4IDUuMDgxNzggMTguNjI2NyA1LjIyNzU0IDE4Ljc3MjVDNS4zNzMzIDE4LjkxODIgNS41NzEyMiAxOC45OTk5IDUuNzc3MzQgMTlIMTguMjIyN0MxOC40Mjg4IDE4Ljk5OTkgMTguNjI2NyAxOC45MTgyIDE4Ljc3MjUgMTguNzcyNUMxOC45MTgyIDE4LjYyNjcgMTguOTk5OSAxOC40Mjg4IDE5IDE4LjIyMjdWMTQuNjY3QzE5IDE0LjExNDcgMTkuNDQ3NyAxMy42NjcgMjAgMTMuNjY3QzIwLjU1MjMgMTMuNjY3IDIxIDE0LjExNDcgMjEgMTQuNjY3VjE4LjIyMjdDMjAuOTk5OSAxOC45NTkyIDIwLjcwNzQgMTkuNjY1NyAyMC4xODY1IDIwLjE4NjVDMTkuNjY1NyAyMC43MDc0IDE4Ljk1OTIgMjAuOTk5OSAxOC4yMjI3IDIxSDUuNzc3MzRDNS4wNDA3OSAyMC45OTk5IDQuMzM0MzEgMjAuNzA3NCAzLjgxMzQ4IDIwLjE4NjVDMy4yOTI2NCAxOS42NjU3IDMuMDAwMTEgMTguOTU5MiAzIDE4LjIyMjdaTTExIDRDMTEgMy40NDc3MiAxMS40NDc3IDMgMTIgM0MxMi41NTIzIDMgMTMgMy40NDc3MiAxMyA0VjEyLjI1MkwxNS43MzczIDkuNTE0NjVDMTYuMTI3NyA5LjEyNDQ1IDE2Ljc2MDkgOS4xMjQ1MiAxNy4xNTE0IDkuNTE0NjVDMTcuNTQxOSA5LjkwNTE3IDE3LjU0MTkgMTAuNTM5MiAxNy4xNTE0IDEwLjkyOTdMMTIuNzA3IDE1LjM3NEMxMi41MTk1IDE1LjU2MTUgMTIuMjY1MSAxNS42NjcgMTIgMTUuNjY3QzExLjczNDkgMTUuNjY3IDExLjQ4MDUgMTUuNTYxNSAxMS4yOTMgMTUuMzc0TDYuODQ4NjMgMTAuOTI5N0M2LjQ1ODExIDEwLjUzOTIgNi40NTgxMSA5LjkwNTE3IDYuODQ4NjMgOS41MTQ2NUM3LjIzOTExIDkuMTI0NTIgNy44NzIyNiA5LjEyNDQ1IDguMjYyNyA5LjUxNDY1TDExIDEyLjI1MlY0WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={downloadIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={downloadIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

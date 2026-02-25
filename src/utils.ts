@@ -53,12 +53,12 @@ interface RootProps {
   style?: CSSProperties;
   ref: MutableRefObject<any>;
   [props: string]:
-    | string
-    | number
-    | ReactNode
-    | MouseEventHandler<Element>
-    | CSSProperties
-    | MutableRefObject<any>;
+  | string
+  | number
+  | ReactNode
+  | MouseEventHandler<Element>
+  | CSSProperties
+  | MutableRefObject<any>;
 }
 
 export function generate(node: AbstractNode, key: string, rootProps?: RootProps | false): any {
@@ -90,7 +90,7 @@ export const svgBaseProps = {
 };
 
 export const iconStyles = `
-.smicon {
+.tdmicon {
   display: inline-flex;
   align-items: center;
   color: inherit;
@@ -104,29 +104,29 @@ export const iconStyles = `
   -moz-osx-font-smoothing: grayscale;
 }
 
-.smicon > * {
+.tdmicon > * {
   line-height: 1;
 }
 
-.smicon svg {
+.tdmicon svg {
   display: inline-block;
   vertical-align: inherit;
 }
 
-.smicon::before {
+.tdmicon::before {
   display: none;
 }
 
-.smicon .smicon-icon {
+.tdmicon .tdmicon-icon {
   display: block;
 }
 
-.smicon[tabindex] {
+.tdmicon[tabindex] {
   cursor: pointer;
 }
 
-.smicon-spin::before,
-.smicon-spin {
+.tdmicon-spin::before,
+.tdmicon-spin {
   display: inline-block;
   -webkit-animation: loadingCircle 1s infinite linear;
   animation: loadingCircle 1s infinite linear;
@@ -152,7 +152,7 @@ export const useInsertStyles = (eleRef: React.RefObject<HTMLElement>) => {
   let mergedStyleStr = iconStyles;
 
   if (prefixCls) {
-    mergedStyleStr = mergedStyleStr.replace(/smicon/g, prefixCls);
+    mergedStyleStr = mergedStyleStr.replace(/tdmicon/g, prefixCls);
   }
 
   if (layer) {

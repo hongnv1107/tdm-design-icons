@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const laptopMobileOutlinedSvg = (
@@ -26,9 +26,9 @@ const laptopMobileOutlinedIconDefinition = svgToIconDefinition(
 
 /**![LaptopMobileOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTcuMTEwNCAxNi40MDUzQzE3LjYxNDggMTYuNDU2MyAxOC4wMDg4IDE2Ljg4MjUgMTguMDA4OCAxNy40MDA0QzE4LjAwODYgMTcuOTE4MSAxNy42MTQ3IDE4LjM0MzUgMTcuMTEwNCAxOC4zOTQ1TDE3LjAwODggMTguNDAwNEgxN0MxNi40NDc4IDE4LjQwMDQgMTYuMDAwMiAxNy45NTI1IDE2IDE3LjQwMDRDMTYgMTYuODQ4MSAxNi40NDc3IDE2LjQwMDQgMTcgMTYuNDAwNEgxNy4wMDg4TDE3LjExMDQgMTYuNDA1M1oiLz48cGF0aCBmaWxsUnVsZT0iZXZlbm9kZCIgY2xpcFJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOS4yODYxIDhDMjAuODMwMyA4LjAwMDIzIDIxLjk5OTkgOS4zMDAxNiAyMiAxMC43OTk4VjE5LjIwMDJDMjEuOTk5OSAyMC42OTk4IDIwLjgzMDMgMjEuOTk5OCAxOS4yODYxIDIySDE0LjcxMzlDMTMuMjY2MSAyMS45OTk4IDEyLjE0NzggMjAuODU3MSAxMi4wMTM3IDE5LjQ3ODVMMTIgMTkuMjAwMlYxMC43OTk4QzEyLjAwMDEgOS4zMDAxNiAxMy4xNjk3IDguMDAwMjQgMTQuNzEzOSA4SDE5LjI4NjFaTTE0LjcxMzkgMTBDMTQuMzY1IDEwLjAwMDIgMTQuMDAwMSAxMC4zMTE3IDE0IDEwLjc5OThWMTkuMjAwMkwxNC4wMDM5IDE5LjI4OTFDMTQuMDQ1MSAxOS43MjU4IDE0LjM4NjYgMTkuOTk5OCAxNC43MTM5IDIwSDE5LjI4NjFDMTkuNjM1IDE5Ljk5OTggMTkuOTk5OSAxOS42ODgzIDIwIDE5LjIwMDJWMTAuNzk5OEMxOS45OTk5IDEwLjMxMTcgMTkuNjM1IDEwLjAwMDIgMTkuMjg2MSAxMEgxNC43MTM5WiIvPjxwYXRoIGQ9Ik05IDE4QzkuNTUyMjggMTggMTAgMTguNDQ3NyAxMCAxOUMxMCAxOS41NTIzIDkuNTUyMjggMjAgOSAyMEgzQzIuNzA4MzMgMjAgMi40Njg3NSAxOS45MDYyIDIuMjgxMjUgMTkuNzE4OEMyLjA5Mzc1IDE5LjUzMTIgMiAxOS4yOTE3IDIgMTlDMiAxOC43MDgzIDIuMDkzNzUgMTguNDY4OCAyLjI4MTI1IDE4LjI4MTJDMi40Njg3NSAxOC4wOTM4IDIuNzA4MzMgMTggMyAxOEg5WiIvPjxwYXRoIGQ9Ik0yMSA0QzIxLjU1MjMgNCAyMiA0LjQ0NzcyIDIyIDVDMjIgNS41NTIyOCAyMS41NTIzIDYgMjEgNkg0VjE1SDlDOS41NTIyOCAxNSAxMCAxNS40NDc3IDEwIDE2QzEwIDE2LjU1MjMgOS41NTIyOCAxNyA5IDE3SDRDMy40Mzc1IDE2Ljk3OTIgMi45Njg3NSAxNi43ODEyIDIuNTkzNzUgMTYuNDA2MkMyLjIxODc1IDE2LjAzMTIgMi4wMjA4MyAxNS41NjI1IDIgMTVWNkMyLjAyMDgzIDUuNDM3NSAyLjIxODc1IDQuOTY4NzUgMi41OTM3NSA0LjU5Mzc1QzIuOTY4NzUgNC4yMTg3NSAzLjQzNzUgNC4wMjA4MyA0IDRIMjFaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={laptopMobileOutlinedIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={laptopMobileOutlinedIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

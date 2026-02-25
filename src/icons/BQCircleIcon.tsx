@@ -1,0 +1,52 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const bQCircleSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#a)">
+    <path fill="#D80027" d="M5.237 21.913A11.944 11.944 0 0 0 12 24c2.51 0 4.838-.77 6.764-2.087L12 20.869l-6.763 1.044ZM18.764 2.087A11.944 11.944 0 0 0 12 0C9.491 0 7.163.77 5.237 2.087L12 3.131l6.764-1.044Z"/>
+    <path fill="#D80027" d="M5.237 21.913A11.944 11.944 0 0 0 12 24c2.51 0 4.838-.77 6.764-2.087L12 20.869l-6.763 1.044ZM18.764 2.087A11.944 11.944 0 0 0 12 0C9.491 0 7.163.77 5.237 2.087L12 3.131l6.764-1.044Z"/>
+    <path fill="#0052B4" d="M23.97 11.216c-.284-3.703-2.534-7.304-5.206-9.13H5.237a11.99 11.99 0 0 0-5.21 9.13L12 12l11.97-.783ZM.025 12.782a11.99 11.99 0 0 0 5.212 9.13h13.527a11.99 11.99 0 0 0 5.21-9.13L12 12l-11.975.782Z"/>
+    <path fill="#D80027" d="M23.97 11.217H12.782V1.565h-1.566v9.652H.025a12.194 12.194 0 0 0 0 1.565h11.192v9.653h1.566v-9.652h11.192c.016-.26.025-.52.025-.783 0-.261-.01-.522-.03-.783Z"/>
+    <path fill="#F0F0F0" d="M4.696 12 12 7.407 19.305 12 12 16.59 4.696 12Z"/>
+    <path fill="#6DA544" d="M7.826 14.087h9.391l-2.087-3.13L14.087 12l-1.044-.521L12 13.044H9.913L8.869 12l-1.043 2.087Z"/>
+    <path fill="#FFDA44" d="m12 8.869.26.797h.837l-.678.493.26.797-.679-.493-.678.493.26-.797-.679-.493h.838l.26-.797Z"/>
+    <path fill="#D80027" d="m12 6.097-9.39 5.902L12 17.902 21.392 12 12 6.097Zm-6.45 5.902L12 7.945 18.45 12 12 16.053 5.55 12Z"/>
+    </g>
+    <defs>
+    <clipPath id="a">
+    <path fill="#fff" d="M0 0h24v24H0z"/>
+    </clipPath>
+    </defs>
+  </svg>
+);
+
+const bQCircleIconDefinition = svgToIconDefinition(
+  bQCircleSvg,
+  'bqcircle'
+);
+
+/**![BQCircleIcon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBjbGlwLXBhdGg9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNEODAwMjciIGQ9Ik01LjIzNyAyMS45MTNBMTEuOTQ0IDExLjk0NCAwIDAgMCAxMiAyNGMyLjUxIDAgNC44MzgtLjc3IDYuNzY0LTIuMDg3TDEyIDIwLjg2OWwtNi43NjMgMS4wNDRaTTE4Ljc2NCAyLjA4N0ExMS45NDQgMTEuOTQ0IDAgMCAwIDEyIDBDOS40OTEgMCA3LjE2My43NyA1LjIzNyAyLjA4N0wxMiAzLjEzMWw2Ljc2NC0xLjA0NFoiLz48cGF0aCBmaWxsPSIjRDgwMDI3IiBkPSJNNS4yMzcgMjEuOTEzQTExLjk0NCAxMS45NDQgMCAwIDAgMTIgMjRjMi41MSAwIDQuODM4LS43NyA2Ljc2NC0yLjA4N0wxMiAyMC44NjlsLTYuNzYzIDEuMDQ0Wk0xOC43NjQgMi4wODdBMTEuOTQ0IDExLjk0NCAwIDAgMCAxMiAwQzkuNDkxIDAgNy4xNjMuNzcgNS4yMzcgMi4wODdMMTIgMy4xMzFsNi43NjQtMS4wNDRaIi8+PHBhdGggZmlsbD0iIzAwNTJCNCIgZD0iTTIzLjk3IDExLjIxNmMtLjI4NC0zLjcwMy0yLjUzNC03LjMwNC01LjIwNi05LjEzSDUuMjM3YTExLjk5IDExLjk5IDAgMCAwLTUuMjEgOS4xM0wxMiAxMmwxMS45Ny0uNzgzWk0uMDI1IDEyLjc4MmExMS45OSAxMS45OSAwIDAgMCA1LjIxMiA5LjEzaDEzLjUyN2ExMS45OSAxMS45OSAwIDAgMCA1LjIxLTkuMTNMMTIgMTJsLTExLjk3NS43ODJaIi8+PHBhdGggZmlsbD0iI0Q4MDAyNyIgZD0iTTIzLjk3IDExLjIxN0gxMi43ODJWMS41NjVoLTEuNTY2djkuNjUySC4wMjVhMTIuMTk0IDEyLjE5NCAwIDAgMCAwIDEuNTY1aDExLjE5MnY5LjY1M2gxLjU2NnYtOS42NTJoMTEuMTkyYy4wMTYtLjI2LjAyNS0uNTIuMDI1LS43ODMgMC0uMjYxLS4wMS0uNTIyLS4wMy0uNzgzWiIvPjxwYXRoIGZpbGw9IiNGMEYwRjAiIGQ9Ik00LjY5NiAxMiAxMiA3LjQwNyAxOS4zMDUgMTIgMTIgMTYuNTkgNC42OTYgMTJaIi8+PHBhdGggZmlsbD0iIzZEQTU0NCIgZD0iTTcuODI2IDE0LjA4N2g5LjM5MWwtMi4wODctMy4xM0wxNC4wODcgMTJsLTEuMDQ0LS41MjFMMTIgMTMuMDQ0SDkuOTEzTDguODY5IDEybC0xLjA0MyAyLjA4N1oiLz48cGF0aCBmaWxsPSIjRkZEQTQ0IiBkPSJtMTIgOC44NjkuMjYuNzk3aC44MzdsLS42NzguNDkzLjI2Ljc5Ny0uNjc5LS40OTMtLjY3OC40OTMuMjYtLjc5Ny0uNjc5LS40OTNoLjgzOGwuMjYtLjc5N1oiLz48cGF0aCBmaWxsPSIjRDgwMDI3IiBkPSJtMTIgNi4wOTctOS4zOSA1LjkwMkwxMiAxNy45MDIgMjEuMzkyIDEyIDEyIDYuMDk3Wm0tNi40NSA1LjkwMkwxMiA3Ljk0NSAxOC40NSAxMiAxMiAxNi4wNTMgNS41NSAxMloiLz48L2c+PGRlZnM+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDI0djI0SDB6Ii8+PC9jbGlwUGF0aD48L2RlZnM+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={bQCircleIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'BQCircleIcon';
+}
+
+export default RefIcon;

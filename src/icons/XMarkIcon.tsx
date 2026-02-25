@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const xMarkSvg = (
@@ -26,9 +26,9 @@ const xMarkIconDefinition = svgToIconDefinition(
 
 /**![XMarkIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTcuMjkzIDUuMjkzMDJDMTcuNjgzNSA0LjkwMjQ5IDE4LjMxNjUgNC45MDI0OSAxOC43MDcgNS4yOTMwMkMxOS4wOTc2IDUuNjgzNTQgMTkuMDk3NiA2LjMxNjU1IDE4LjcwNyA2LjcwNzA4TDEzLjQxNDEgMTJMMTguNzA3IDE3LjI5M0wxOC43NzU0IDE3LjM2OTJDMTkuMDk1NyAxNy43NjIgMTkuMDczMSAxOC4zNDEgMTguNzA3IDE4LjcwNzFDMTguMzQwOSAxOS4wNzMyIDE3Ljc2MTkgMTkuMDk1OCAxNy4zNjkxIDE4Ljc3NTRMMTcuMjkzIDE4LjcwNzFMMTIgMTMuNDE0MUw2LjcwNzAzIDE4LjcwNzFDNi4zMTY1MSAxOS4wOTc2IDUuNjgzNDkgMTkuMDk3NiA1LjI5Mjk3IDE4LjcwNzFDNC45MDI0NCAxOC4zMTY2IDQuOTAyNDQgMTcuNjgzNSA1LjI5Mjk3IDE3LjI5M0wxMC41ODU5IDEyTDUuMjkyOTcgNi43MDcwOEw1LjIyNDYxIDYuNjMwOTFDNC45MDQyNiA2LjIzODEzIDQuOTI2ODUgNS42NTkxMyA1LjI5Mjk3IDUuMjkzMDJDNS42NTkwOCA0LjkyNjkgNi4yMzgwOSA0LjkwNDMxIDYuNjMwODYgNS4yMjQ2Nkw2LjcwNzAzIDUuMjkzMDJMMTIgMTAuNTg2TDE3LjI5MyA1LjI5MzAyWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={xMarkIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={xMarkIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

@@ -8,6 +8,15 @@ lib
 es
 build
 out
+# Build outputs in root
+/[A-Z]*.js
+/[A-Z]*.d.ts
+/index.js
+/index.d.ts
+/utils.js
+/utils.d.ts
+/components.js
+/components.d.ts
 
 # Logs
 npm-debug.log*

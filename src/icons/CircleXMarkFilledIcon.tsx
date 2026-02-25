@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const circleXMarkFilledSvg = (
@@ -26,9 +26,9 @@ const circleXMarkFilledIconDefinition = svgToIconDefinition(
 
 /**![CircleXMarkFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZm9jdXNhYmxlPSJmYWxzZSIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkMxNy41MjI4IDIgMjIgNi40NzcxNSAyMiAxMkMyMiAxNy41MjI4IDE3LjUyMjggMjIgMTIgMjJDNi40NzcxNSAyMiAyIDE3LjUyMjggMiAxMkMyIDYuNDc3MTUgNi40NzcxNSAyIDEyIDJaTTE2LjExODkgNy44ODEwOEMxNS42ODUgNy40NDcxOCAxNC45ODE3IDcuNDQ3MjMgMTQuNTQ3NyA3Ljg4MTA4TDEyIDEwLjQyODhMOS40NTIyNiA3Ljg4MTA4TDkuMzY3NjIgNy44MDUxMkM4LjkzMTIzIDcuNDQ5MiA4LjI4Nzg4IDcuNDc0MzUgNy44ODEwOCA3Ljg4MTA4QzcuNDc0MjggOC4yODc4NyA3LjQ0OTE4IDguOTMxMjEgNy44MDUxMiA5LjM2NzYyTDcuODgxMDggOS40NTIyNkwxMC40Mjg4IDEyTDcuODgxMDggMTQuNTQ3N0M3LjQ0NzE2IDE0Ljk4MTcgNy40NDcxNiAxNS42ODUgNy44ODEwOCAxNi4xMTg5QzguMzE0OTkgMTYuNTUyOCA5LjAxODM1IDE2LjU1MjggOS40NTIyNiAxNi4xMTg5TDEyIDEzLjU3MTJMMTQuNTQ3NyAxNi4xMTg5TDE0LjYzMjQgMTYuMTk0OUMxNS4wNjg4IDE2LjU1MDggMTUuNzEyMSAxNi41MjU3IDE2LjExODkgMTYuMTE4OUMxNi41MjU3IDE1LjcxMjEgMTYuNTUwOCAxNS4wNjg4IDE2LjE5NDkgMTQuNjMyNEwxNi4xMTg5IDE0LjU0NzdMMTMuNTcxMiAxMkwxNi4xMTg5IDkuNDUyMjZDMTYuNTUyOCA5LjAxODM0IDE2LjU1MjggOC4zMTQ5NyAxNi4xMTg5IDcuODgxMDhaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={circleXMarkFilledIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={circleXMarkFilledIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

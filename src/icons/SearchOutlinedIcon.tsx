@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const searchOutlinedSvg = (
@@ -26,9 +26,9 @@ const searchOutlinedIconDefinition = svgToIconDefinition(
 
 /**![SearchOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTcuMjIyNyAxMS4xMTEzQzE3LjIyMjcgNy43MzYzNCAxNC40ODYzIDUuMDAwMTIgMTEuMTExMyA1QzcuNzM2MjYgNSA1IDcuNzM2MjYgNSAxMS4xMTEzQzUuMDAwMTIgMTQuNDg2MyA3LjczNjM0IDE3LjIyMjcgMTEuMTExMyAxNy4yMjI3QzEyLjc1OSAxNy4yMjI2IDE0LjI1MjUgMTYuNTY4IDE1LjM1MTYgMTUuNTA3OEMxNS4zNzQ0IDE1LjQ3OTQgMTUuMzk5NCAxNS40NTIyIDE1LjQyNTggMTUuNDI1OEMxNS40NTIyIDE1LjM5OTQgMTUuNDc5NCAxNS4zNzQ0IDE1LjUwNzggMTUuMzUxNkMxNi41NjggMTQuMjUyNSAxNy4yMjI2IDEyLjc1OSAxNy4yMjI3IDExLjExMTNaTTE5LjIyMjcgMTEuMTExM0MxOS4yMjI2IDEyLjk5MDMgMTguNTgwMiAxNC43MTc3IDE3LjUwNzggMTYuMDkyOEwyMC43MDcgMTkuMjkzTDIwLjc3NTQgMTkuMzY5MUMyMS4wOTU3IDE5Ljc2MTkgMjEuMDczMSAyMC4zNDA5IDIwLjcwNyAyMC43MDdDMjAuMzQwOSAyMS4wNzMxIDE5Ljc2MTkgMjEuMDk1NyAxOS4zNjkxIDIwLjc3NTRMMTkuMjkzIDIwLjcwN0wxNi4wOTI4IDE3LjUwNzhDMTQuNzE3NyAxOC41ODAyIDEyLjk5MDMgMTkuMjIyNiAxMS4xMTEzIDE5LjIyMjdDNi42MzE3NyAxOS4yMjI3IDMuMDAwMTIgMTUuNTkwOSAzIDExLjExMTNDMyA2LjYzMTY5IDYuNjMxNjkgMyAxMS4xMTEzIDNDMTUuNTkwOSAzLjAwMDEyIDE5LjIyMjcgNi42MzE3NyAxOS4yMjI3IDExLjExMTNaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={searchOutlinedIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={searchOutlinedIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

@@ -1,0 +1,55 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const hRCircleSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#a)">
+    <path fill="#F0F0F0" d="M24 12c0-1.468-.264-2.874-.746-4.174L12 7.304.746 7.826A11.974 11.974 0 0 0 0 12c0 1.468.264 2.874.746 4.174L12 16.696l11.254-.522c.482-1.3.746-2.706.746-4.174Z"/>
+    <path fill="#0052B4" d="M12 24c5.16 0 9.558-3.256 11.254-7.826H.746C2.442 20.744 6.84 23.999 12 23.999Z"/>
+    <path fill="#D80027" d="M.746 7.826h22.508C21.558 3.256 17.159.001 12 .001 6.84 0 2.442 3.256.746 7.826Z"/>
+    <path fill="#338AF3" d="M15.13 8.348h-2.087l.348-2.61 1.391-1.043 1.392 1.044v2.087l-1.044.522Zm-6.26 0h2.086l-.348-2.609-1.391-1.043-1.391 1.043v2.087l1.043.522Z"/>
+    <path fill="#0052B4" d="M13.39 8.348h-2.782V5.739L12 4.696l1.392 1.043v2.609Z"/>
+    <path fill="#F0F0F0" d="M7.826 7.826v5.739a4.17 4.17 0 0 0 1.678 3.344l.73-.183.922.927a4.173 4.173 0 0 0 1.683 0l1.052-.875.604.129a4.169 4.169 0 0 0 1.679-3.342v-5.74l-8.348.001Z"/>
+    <path fill="#D80027" d="M9.496 7.826h-1.67v1.67h1.67v-1.67Zm3.339 0h-1.67v1.67h1.67v-1.67Zm3.339 0h-1.67v1.67h1.67v-1.67Z"/>
+    <path fill="#D80027" d="M11.165 9.495h-1.67v1.67h1.67v-1.67Zm3.34 0h-1.67v1.67h1.669v-1.67Z"/>
+    <path fill="#D80027" d="m9.495 11.165-1.669-.001v1.67h1.67v-1.67Zm1.67 1.67h-1.67v1.67h1.67v-1.67Zm1.669-1.67h-1.67l.001 1.668h1.67v-1.668Zm3.34-.001h-1.67v1.67h1.67v-1.67Zm-1.67 1.671h-1.67v1.67h1.67v-1.67Z"/>
+    <path fill="#D80027" d="M12.834 14.504h-1.67l.001 1.67h1.67v-1.67Zm-3.339 0H7.934a4.17 4.17 0 0 0 .81 1.67h.751v-1.67Zm5.01 1.67h.75a4.16 4.16 0 0 0 .811-1.67h-1.562v1.67Z"/>
+    <path fill="#D80027" d="M9.495 16.173v.729a4.158 4.158 0 0 0 1.67.753v-1.482h-1.67Zm3.34 0v1.482a4.156 4.156 0 0 0 1.669-.753v-.728h-1.67Z"/>
+    </g>
+    <defs>
+    <clipPath id="a">
+    <path fill="#fff" d="M0 0h24v24H0z"/>
+    </clipPath>
+    </defs>
+  </svg>
+);
+
+const hRCircleIconDefinition = svgToIconDefinition(
+  hRCircleSvg,
+  'hrcircle'
+);
+
+/**![HRCircleIcon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBjbGlwLXBhdGg9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNGMEYwRjAiIGQ9Ik0yNCAxMmMwLTEuNDY4LS4yNjQtMi44NzQtLjc0Ni00LjE3NEwxMiA3LjMwNC43NDYgNy44MjZBMTEuOTc0IDExLjk3NCAwIDAgMCAwIDEyYzAgMS40NjguMjY0IDIuODc0Ljc0NiA0LjE3NEwxMiAxNi42OTZsMTEuMjU0LS41MjJjLjQ4Mi0xLjMuNzQ2LTIuNzA2Ljc0Ni00LjE3NFoiLz48cGF0aCBmaWxsPSIjMDA1MkI0IiBkPSJNMTIgMjRjNS4xNiAwIDkuNTU4LTMuMjU2IDExLjI1NC03LjgyNkguNzQ2QzIuNDQyIDIwLjc0NCA2Ljg0IDIzLjk5OSAxMiAyMy45OTlaIi8+PHBhdGggZmlsbD0iI0Q4MDAyNyIgZD0iTS43NDYgNy44MjZoMjIuNTA4QzIxLjU1OCAzLjI1NiAxNy4xNTkuMDAxIDEyIC4wMDEgNi44NCAwIDIuNDQyIDMuMjU2Ljc0NiA3LjgyNloiLz48cGF0aCBmaWxsPSIjMzM4QUYzIiBkPSJNMTUuMTMgOC4zNDhoLTIuMDg3bC4zNDgtMi42MSAxLjM5MS0xLjA0MyAxLjM5MiAxLjA0NHYyLjA4N2wtMS4wNDQuNTIyWm0tNi4yNiAwaDIuMDg2bC0uMzQ4LTIuNjA5LTEuMzkxLTEuMDQzLTEuMzkxIDEuMDQzdjIuMDg3bDEuMDQzLjUyMloiLz48cGF0aCBmaWxsPSIjMDA1MkI0IiBkPSJNMTMuMzkgOC4zNDhoLTIuNzgyVjUuNzM5TDEyIDQuNjk2bDEuMzkyIDEuMDQzdjIuNjA5WiIvPjxwYXRoIGZpbGw9IiNGMEYwRjAiIGQ9Ik03LjgyNiA3LjgyNnY1LjczOWE0LjE3IDQuMTcgMCAwIDAgMS42NzggMy4zNDRsLjczLS4xODMuOTIyLjkyN2E0LjE3MyA0LjE3MyAwIDAgMCAxLjY4MyAwbDEuMDUyLS44NzUuNjA0LjEyOWE0LjE2OSA0LjE2OSAwIDAgMCAxLjY3OS0zLjM0MnYtNS43NGwtOC4zNDguMDAxWiIvPjxwYXRoIGZpbGw9IiNEODAwMjciIGQ9Ik05LjQ5NiA3LjgyNmgtMS42N3YxLjY3aDEuNjd2LTEuNjdabTMuMzM5IDBoLTEuNjd2MS42N2gxLjY3di0xLjY3Wm0zLjMzOSAwaC0xLjY3djEuNjdoMS42N3YtMS42N1oiLz48cGF0aCBmaWxsPSIjRDgwMDI3IiBkPSJNMTEuMTY1IDkuNDk1aC0xLjY3djEuNjdoMS42N3YtMS42N1ptMy4zNCAwaC0xLjY3djEuNjdoMS42Njl2LTEuNjdaIi8+PHBhdGggZmlsbD0iI0Q4MDAyNyIgZD0ibTkuNDk1IDExLjE2NS0xLjY2OS0uMDAxdjEuNjdoMS42N3YtMS42N1ptMS42NyAxLjY3aC0xLjY3djEuNjdoMS42N3YtMS42N1ptMS42NjktMS42N2gtMS42N2wuMDAxIDEuNjY4aDEuNjd2LTEuNjY4Wm0zLjM0LS4wMDFoLTEuNjd2MS42N2gxLjY3di0xLjY3Wm0tMS42NyAxLjY3MWgtMS42N3YxLjY3aDEuNjd2LTEuNjdaIi8+PHBhdGggZmlsbD0iI0Q4MDAyNyIgZD0iTTEyLjgzNCAxNC41MDRoLTEuNjdsLjAwMSAxLjY3aDEuNjd2LTEuNjdabS0zLjMzOSAwSDcuOTM0YTQuMTcgNC4xNyAwIDAgMCAuODEgMS42N2guNzUxdi0xLjY3Wm01LjAxIDEuNjdoLjc1YTQuMTYgNC4xNiAwIDAgMCAuODExLTEuNjdoLTEuNTYydjEuNjdaIi8+PHBhdGggZmlsbD0iI0Q4MDAyNyIgZD0iTTkuNDk1IDE2LjE3M3YuNzI5YTQuMTU4IDQuMTU4IDAgMCAwIDEuNjcuNzUzdi0xLjQ4MmgtMS42N1ptMy4zNCAwdjEuNDgyYTQuMTU2IDQuMTU2IDAgMCAwIDEuNjY5LS43NTN2LS43MjhoLTEuNjdaIi8+PC9nPjxkZWZzPjxjbGlwUGF0aCBpZD0iYSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgyNHYyNEgweiIvPjwvY2xpcFBhdGg+PC9kZWZzPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={hRCircleIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'HRCircleIcon';
+}
+
+export default RefIcon;

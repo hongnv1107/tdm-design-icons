@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const removeMinusOutlinedSvg = (
@@ -26,9 +26,9 @@ const removeMinusOutlinedIconDefinition = svgToIconDefinition(
 
 /**![RemoveMinusOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTkgMTFDMTkuNTUyMyAxMSAyMCAxMS40NDc3IDIwIDEyQzIwIDEyLjU1MjMgMTkuNTUyMyAxMyAxOSAxM0g1QzQuNDQ3NzIgMTMgNCAxMi41NTIzIDQgMTJDNCAxMS40NDc3IDQuNDQ3NzIgMTEgNSAxMUgxOVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={removeMinusOutlinedIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={removeMinusOutlinedIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

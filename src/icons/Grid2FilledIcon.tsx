@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const grid2FilledSvg = (
@@ -26,9 +26,9 @@ const grid2FilledIconDefinition = svgToIconDefinition(
 
 /**![Grid2FilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMyA1QzMgMy44OTU0MyAzLjg5NTQzIDMgNSAzSDlDMTAuMTA0NiAzIDExIDMuODk1NDMgMTEgNVY5QzExIDEwLjEwNDYgMTAuMTA0NiAxMSA5IDExSDVDMy44OTU0MyAxMSAzIDEwLjEwNDYgMyA5VjVaIi8+PHBhdGggZD0iTTEzIDVDMTMgMy44OTU0MyAxMy44OTU0IDMgMTUgM0gxOUMyMC4xMDQ2IDMgMjEgMy44OTU0MyAyMSA1VjlDMjEgMTAuMTA0NiAyMC4xMDQ2IDExIDE5IDExSDE1QzEzLjg5NTQgMTEgMTMgMTAuMTA0NiAxMyA5VjVaIi8+PHBhdGggZD0iTTMgMTVDMyAxMy44OTU0IDMuODk1NDMgMTMgNSAxM0g5QzEwLjEwNDYgMTMgMTEgMTMuODk1NCAxMSAxNVYxOUMxMSAyMC4xMDQ2IDEwLjEwNDYgMjEgOSAyMUg1QzMuODk1NDMgMjEgMyAyMC4xMDQ2IDMgMTlWMTVaIi8+PHBhdGggZD0iTTEzIDE1QzEzIDEzLjg5NTQgMTMuODk1NCAxMyAxNSAxM0gxOUMyMC4xMDQ2IDEzIDIxIDEzLjg5NTQgMjEgMTVWMTlDMjEgMjAuMTA0NiAyMC4xMDQ2IDIxIDE5IDIxSDE1QzEzLjg5NTQgMjEgMTMgMjAuMTA0NiAxMyAxOVYxNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={grid2FilledIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={grid2FilledIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

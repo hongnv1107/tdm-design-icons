@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const moreVerticalSvg = (
@@ -26,9 +26,9 @@ const moreVerticalIconDefinition = svgToIconDefinition(
 
 /**![MoreVerticalIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAgMTlDMTAgMTcuODk1NCAxMC44OTU0IDE3IDEyIDE3QzEzLjEwNDYgMTcgMTQgMTcuODk1NCAxNCAxOUMxNCAyMC4xMDQ2IDEzLjEwNDYgMjEgMTIgMjFDMTAuODk1NCAyMSAxMCAyMC4xMDQ2IDEwIDE5Wk0xMCAxMkMxMCAxMC44OTU0IDEwLjg5NTQgMTAgMTIgMTBDMTMuMTA0NiAxMCAxNCAxMC44OTU0IDE0IDEyQzE0IDEzLjEwNDYgMTMuMTA0NiAxNCAxMiAxNEMxMC44OTU0IDE0IDEwIDEzLjEwNDYgMTAgMTJaTTEwIDVDMTAgMy44OTU0MyAxMC44OTU0IDMgMTIgM0MxMy4xMDQ2IDMgMTQgMy44OTU0MyAxNCA1QzE0IDYuMTA0NTcgMTMuMTA0NiA3IDEyIDdDMTAuODk1NCA3IDEwIDYuMTA0NTcgMTAgNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={moreVerticalIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={moreVerticalIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

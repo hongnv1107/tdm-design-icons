@@ -1,0 +1,48 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const vECircleSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#a)">
+    <path fill="#0052B4" d="M22.809 17.217a11.952 11.952 0 0 0 1.19-5.218c0-1.87-.427-3.64-1.19-5.217l-10.81-1.044L1.19 6.782A11.952 11.952 0 0 0 0 11.999c0 1.87.427 3.64 1.19 5.218L12 18.26l10.809-1.043Z"/>
+    <path fill="#D80027" d="M12 24a12 12 0 0 0 10.809-6.782H1.19A12 12 0 0 0 12 24Z"/>
+    <path fill="#F0F0F0" d="m20.782 14.356-.634.495.275.756-.667-.45-.634.495.222-.773-.667-.45.804-.027.222-.774.275.756.804-.028Zm-1.623-2.812-.426.683.517.616-.78-.195-.427.682-.056-.802-.78-.195.745-.301-.056-.803.517.617.746-.302Zm-2.487-2.086-.167.787.697.402-.8.085-.167.786-.327-.735-.8.085.597-.539-.327-.734.697.402.597-.539Zm-3.05-1.11.112.797.792.14-.723.352.112.796-.558-.578-.723.352.377-.71-.559-.578.793.14.377-.711Zm-3.245 0 .377.71.792-.14-.558.58.377.71-.723-.353-.559.578.112-.796-.723-.353.793-.14.111-.796Zm-3.051 1.11.598.539.696-.402-.327.734.598.539-.8-.085-.327.735-.167-.787-.8-.083.696-.403-.167-.787ZM4.84 11.544l.746.302.516-.616-.056.802.746.302-.78.194-.056.802-.427-.682-.78.195.517-.616-.426-.683Zm-1.623 2.812.804.028.275-.755.222.773.803.028-.666.45.221.773-.634-.495-.666.45.275-.757-.634-.495Z"/>
+    <path fill="#FFDA44" d="M22.809 6.782A12 12 0 0 0 11.999 0 12 12 0 0 0 1.19 6.782h21.62Z"/>
+    </g>
+    <defs>
+    <clipPath id="a">
+    <path fill="#fff" d="M0 0h24v24H0z"/>
+    </clipPath>
+    </defs>
+  </svg>
+);
+
+const vECircleIconDefinition = svgToIconDefinition(
+  vECircleSvg,
+  'vecircle'
+);
+
+/**![VECircleIcon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBjbGlwLXBhdGg9InVybCgjYSkiPjxwYXRoIGZpbGw9IiMwMDUyQjQiIGQ9Ik0yMi44MDkgMTcuMjE3YTExLjk1MiAxMS45NTIgMCAwIDAgMS4xOS01LjIxOGMwLTEuODctLjQyNy0zLjY0LTEuMTktNS4yMTdsLTEwLjgxLTEuMDQ0TDEuMTkgNi43ODJBMTEuOTUyIDExLjk1MiAwIDAgMCAwIDExLjk5OWMwIDEuODcuNDI3IDMuNjQgMS4xOSA1LjIxOEwxMiAxOC4yNmwxMC44MDktMS4wNDNaIi8+PHBhdGggZmlsbD0iI0Q4MDAyNyIgZD0iTTEyIDI0YTEyIDEyIDAgMCAwIDEwLjgwOS02Ljc4MkgxLjE5QTEyIDEyIDAgMCAwIDEyIDI0WiIvPjxwYXRoIGZpbGw9IiNGMEYwRjAiIGQ9Im0yMC43ODIgMTQuMzU2LS42MzQuNDk1LjI3NS43NTYtLjY2Ny0uNDUtLjYzNC40OTUuMjIyLS43NzMtLjY2Ny0uNDUuODA0LS4wMjcuMjIyLS43NzQuMjc1Ljc1Ni44MDQtLjAyOFptLTEuNjIzLTIuODEyLS40MjYuNjgzLjUxNy42MTYtLjc4LS4xOTUtLjQyNy42ODItLjA1Ni0uODAyLS43OC0uMTk1Ljc0NS0uMzAxLS4wNTYtLjgwMy41MTcuNjE3Ljc0Ni0uMzAyWm0tMi40ODctMi4wODYtLjE2Ny43ODcuNjk3LjQwMi0uOC4wODUtLjE2Ny43ODYtLjMyNy0uNzM1LS44LjA4NS41OTctLjUzOS0uMzI3LS43MzQuNjk3LjQwMi41OTctLjUzOVptLTMuMDUtMS4xMS4xMTIuNzk3Ljc5Mi4xNC0uNzIzLjM1Mi4xMTIuNzk2LS41NTgtLjU3OC0uNzIzLjM1Mi4zNzctLjcxLS41NTktLjU3OC43OTMuMTQuMzc3LS43MTFabS0zLjI0NSAwIC4zNzcuNzEuNzkyLS4xNC0uNTU4LjU4LjM3Ny43MS0uNzIzLS4zNTMtLjU1OS41NzguMTEyLS43OTYtLjcyMy0uMzUzLjc5My0uMTQuMTExLS43OTZabS0zLjA1MSAxLjExLjU5OC41MzkuNjk2LS40MDItLjMyNy43MzQuNTk4LjUzOS0uOC0uMDg1LS4zMjcuNzM1LS4xNjctLjc4Ny0uOC0uMDgzLjY5Ni0uNDAzLS4xNjctLjc4N1pNNC44NCAxMS41NDRsLjc0Ni4zMDIuNTE2LS42MTYtLjA1Ni44MDIuNzQ2LjMwMi0uNzguMTk0LS4wNTYuODAyLS40MjctLjY4Mi0uNzguMTk1LjUxNy0uNjE2LS40MjYtLjY4M1ptLTEuNjIzIDIuODEyLjgwNC4wMjguMjc1LS43NTUuMjIyLjc3My44MDMuMDI4LS42NjYuNDUuMjIxLjc3My0uNjM0LS40OTUtLjY2Ni40NS4yNzUtLjc1Ny0uNjM0LS40OTVaIi8+PHBhdGggZmlsbD0iI0ZGREE0NCIgZD0iTTIyLjgwOSA2Ljc4MkExMiAxMiAwIDAgMCAxMS45OTkgMCAxMiAxMiAwIDAgMCAxLjE5IDYuNzgyaDIxLjYyWiIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={vECircleIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'VECircleIcon';
+}
+
+export default RefIcon;

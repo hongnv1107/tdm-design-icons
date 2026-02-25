@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #050816;
+  color: #e5e7eb;
+}
+
+.demo-root {
+  min-height: 100vh;
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.demo-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 12px 24px;
+  margin-bottom: 24px;
+}
+
+.demo-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.demo-header p {
+  margin: 0;
+  opacity: 0.7;
+}
+
+.demo-search-row {
+  margin-bottom: 12px;
+}
+
+.demo-section-title {
+  font-size: 16px;
+  margin: 0 0 12px;
+  opacity: 0.85;
+}
+
+.demo-search {
+  flex: 1 1 240px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background: #020617;
+  color: inherit;
+}
+
+.demo-search:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 1px;
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 10px;
+}
+
+.demo-card {
+  border-radius: 10px;
+  border: 1px solid #1f2933;
+  background: radial-gradient(circle at top left, #111827, #020617);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  color: inherit;
+  aspect-ratio: 1 / 1;
+}
+
+.demo-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.4);
+}
+
+.demo-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+
+
+.demo-name {
+  font-size: 11px;
+  text-align: center;
+  word-break: break-all;
+  opacity: 0.9;
+}
+
+.demo-name-tag {
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #f97373;
+  color: #111827;
+  font-size: 10px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease, transform 0.12s ease;
+}
+
+.demo-card:hover .demo-name-tag {
+  opacity: 1;
+  transform: translate(-50%, -4px);
+}
+
+.demo-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 32px 0;
+  opacity: 0.7;
+}
+
+.demo-toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(15, 23, 42, 0.98);
+  color: #e5e7eb;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 12px;
+  border: 1px solid #3b82f6;
+  box-shadow: 0 10px 40px rgba(15, 23, 42, 0.7);
+  max-width: 90vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 40;
+}

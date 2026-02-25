@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const folderOutlinedSvg = (
@@ -26,9 +26,9 @@ const folderOutlinedIconDefinition = svgToIconDefinition(
 
 /**![FolderOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMyA2LjQ5NUMzLjAyMzQ0IDUuODYyMTggMy4yNDYwOSA1LjMzNDg0IDMuNjY3OTcgNC45MTI5NkM0LjA4OTg0IDQuNDkxMDkgNC42MTcxOSA0LjI2ODQzIDUuMjUgNC4yNDVIOS44OTA2MkMxMC41OTM4IDQuMjQ1IDExLjE5MTQgNC40OTEwOSAxMS42ODM2IDQuOTgzMjhMMTMuMTk1MyA2LjQ5NUgxOC43NUMxOS4zODI4IDYuNTE4NDMgMTkuOTEwMiA2Ljc0MTA5IDIwLjMzMiA3LjE2Mjk2QzIwLjc1MzkgNy41ODQ4NCAyMC45NzY2IDguMTEyMTggMjEgOC43NDVWMTcuNzQ1QzIwLjk3NjYgMTguMzc3OCAyMC43NTM5IDE4LjkwNTIgMjAuMzMyIDE5LjMyN0MxOS45MTAyIDE5Ljc0ODkgMTkuMzgyOCAxOS45NzE2IDE4Ljc1IDE5Ljk5NUg1LjI1QzQuNjE3MTkgMTkuOTcxNiA0LjA4OTg0IDE5Ljc0ODkgMy42Njc5NyAxOS4zMjdDMy4yNDYwOSAxOC45MDUyIDMuMDIzNDQgMTguMzc3OCAzIDE3Ljc0NVY2LjQ5NVpNNS4yNSA1LjkzMjVDNC44OTg0NCA1Ljk1NTkzIDQuNzEwOTQgNi4xNDM0MyA0LjY4NzUgNi40OTVWMTcuNzQ1QzQuNzEwOTQgMTguMDk2NiA0Ljg5ODQ0IDE4LjI4NDEgNS4yNSAxOC4zMDc1SDE4Ljc1QzE5LjEwMTYgMTguMjg0MSAxOS4yODkxIDE4LjA5NjYgMTkuMzEyNSAxNy43NDVWOC43NDVDMTkuMjg5MSA4LjM5MzQzIDE5LjEwMTYgOC4yMDU5MyAxOC43NSA4LjE4MjVIMTMuMDg5OEMxMi42OTE0IDguMTgyNSAxMi4zNTE2IDguMDQxODcgMTIuMDcwMyA3Ljc2MDYyTDEwLjQ4ODMgNi4xNzg1OUMxMC4zMjQyIDYuMDE0NTMgMTAuMTI1IDUuOTMyNSA5Ljg5MDYyIDUuOTMyNUg1LjI1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={folderOutlinedIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={folderOutlinedIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

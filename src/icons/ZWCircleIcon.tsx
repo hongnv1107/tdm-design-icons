@@ -1,0 +1,53 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const zWCircleSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#a)">
+    <path fill="#F0F0F0" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"/>
+    <path fill="#FFDA44" d="M22.852 6.873a12.031 12.031 0 0 0-2.447-3.437l-8.404-.827-8.405.828-.08.08 3.357 3.356L12 7.029l10.851-.156ZM3.516 20.485c.044.044.088.089.133.132l8.351.775 8.352-.775a12.03 12.03 0 0 0 2.475-3.436l-15.522-.484-3.789 3.788Z"/>
+    <path fill="#000" d="M23.88 10.308 9.914 9.913 12 12l-2.087 2.087 13.96-.343a12.087 12.087 0 0 0 .008-3.436Z"/>
+    <path fill="#6DA544" d="M12 0a11.959 11.959 0 0 0-8.404 3.437h16.81A11.962 11.962 0 0 0 12 0Z"/>
+    <path fill="#D80027" d="M10.308 10.309H23.88a11.912 11.912 0 0 0-1.03-3.436H6.871l3.437 3.436ZM6.82 17.181h16.007a11.914 11.914 0 0 0 1.046-3.436H10.255L6.82 17.183Z"/>
+    <path fill="#6DA544" d="M12 24a11.96 11.96 0 0 0 8.352-3.383H3.649A11.958 11.958 0 0 0 12 24Z"/>
+    <path fill="#000" d="M4.285 2.81a12.1 12.1 0 0 0-.77.705L12 12l-8.485 8.486c.246.246.503.481.77.705l9.19-9.19-9.19-9.191Z"/>
+    <path fill="#D80027" d="m4.825 8.87.777 2.39h2.514l-2.034 1.48.777 2.391-2.034-1.478L2.79 15.13l.777-2.392-2.034-1.477h2.515l.777-2.392Z"/>
+    <path fill="#FFDA44" d="m6.962 12.195-2.025-.718s-.15-1.403-.158-1.45a.783.783 0 1 0-1.523.353l-.568.571h1.01c0 1.048-.783 1.048-.783 2.091l.434 1.044h2.609l.435-1.043c.043-.1.07-.204.08-.307.375-.152.49-.541.49-.541Z"/>
+    </g>
+    <defs>
+    <clipPath id="a">
+    <path fill="#fff" d="M0 0h24v24H0z"/>
+    </clipPath>
+    </defs>
+  </svg>
+);
+
+const zWCircleIconDefinition = svgToIconDefinition(
+  zWCircleSvg,
+  'zwcircle'
+);
+
+/**![ZWCircleIcon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBjbGlwLXBhdGg9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNGMEYwRjAiIGQ9Ik0xMiAyNGM2LjYyNyAwIDEyLTUuMzczIDEyLTEyUzE4LjYyNyAwIDEyIDAgMCA1LjM3MyAwIDEyczUuMzczIDEyIDEyIDEyWiIvPjxwYXRoIGZpbGw9IiNGRkRBNDQiIGQ9Ik0yMi44NTIgNi44NzNhMTIuMDMxIDEyLjAzMSAwIDAgMC0yLjQ0Ny0zLjQzN2wtOC40MDQtLjgyNy04LjQwNS44MjgtLjA4LjA4IDMuMzU3IDMuMzU2TDEyIDcuMDI5bDEwLjg1MS0uMTU2Wk0zLjUxNiAyMC40ODVjLjA0NC4wNDQuMDg4LjA4OS4xMzMuMTMybDguMzUxLjc3NSA4LjM1Mi0uNzc1YTEyLjAzIDEyLjAzIDAgMCAwIDIuNDc1LTMuNDM2bC0xNS41MjItLjQ4NC0zLjc4OSAzLjc4OFoiLz48cGF0aCBmaWxsPSIjMDAwIiBkPSJNMjMuODggMTAuMzA4IDkuOTE0IDkuOTEzIDEyIDEybC0yLjA4NyAyLjA4NyAxMy45Ni0uMzQzYTEyLjA4NyAxMi4wODcgMCAwIDAgLjAwOC0zLjQzNloiLz48cGF0aCBmaWxsPSIjNkRBNTQ0IiBkPSJNMTIgMGExMS45NTkgMTEuOTU5IDAgMCAwLTguNDA0IDMuNDM3aDE2LjgxQTExLjk2MiAxMS45NjIgMCAwIDAgMTIgMFoiLz48cGF0aCBmaWxsPSIjRDgwMDI3IiBkPSJNMTAuMzA4IDEwLjMwOUgyMy44OGExMS45MTIgMTEuOTEyIDAgMCAwLTEuMDMtMy40MzZINi44NzFsMy40MzcgMy40MzZaTTYuODIgMTcuMTgxaDE2LjAwN2ExMS45MTQgMTEuOTE0IDAgMCAwIDEuMDQ2LTMuNDM2SDEwLjI1NUw2LjgyIDE3LjE4M1oiLz48cGF0aCBmaWxsPSIjNkRBNTQ0IiBkPSJNMTIgMjRhMTEuOTYgMTEuOTYgMCAwIDAgOC4zNTItMy4zODNIMy42NDlBMTEuOTU4IDExLjk1OCAwIDAgMCAxMiAyNFoiLz48cGF0aCBmaWxsPSIjMDAwIiBkPSJNNC4yODUgMi44MWExMi4xIDEyLjEgMCAwIDAtLjc3LjcwNUwxMiAxMmwtOC40ODUgOC40ODZjLjI0Ni4yNDYuNTAzLjQ4MS43Ny43MDVsOS4xOS05LjE5LTkuMTktOS4xOTFaIi8+PHBhdGggZmlsbD0iI0Q4MDAyNyIgZD0ibTQuODI1IDguODcuNzc3IDIuMzloMi41MTRsLTIuMDM0IDEuNDguNzc3IDIuMzkxLTIuMDM0LTEuNDc4TDIuNzkgMTUuMTNsLjc3Ny0yLjM5Mi0yLjAzNC0xLjQ3N2gyLjUxNWwuNzc3LTIuMzkyWiIvPjxwYXRoIGZpbGw9IiNGRkRBNDQiIGQ9Im02Ljk2MiAxMi4xOTUtMi4wMjUtLjcxOHMtLjE1LTEuNDAzLS4xNTgtMS40NWEuNzgzLjc4MyAwIDEgMC0xLjUyMy4zNTNsLS41NjguNTcxaDEuMDFjMCAxLjA0OC0uNzgzIDEuMDQ4LS43ODMgMi4wOTFsLjQzNCAxLjA0NGgyLjYwOWwuNDM1LTEuMDQzYy4wNDMtLjEuMDctLjIwNC4wOC0uMzA3LjM3NS0uMTUyLjQ5LS41NDEuNDktLjU0MVoiLz48L2c+PGRlZnM+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDI0djI0SDB6Ii8+PC9jbGlwUGF0aD48L2RlZnM+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={zWCircleIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ZWCircleIcon';
+}
+
+export default RefIcon;

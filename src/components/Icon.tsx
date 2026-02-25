@@ -55,7 +55,7 @@ const Icon: React.ForwardRefExoticComponent<
 
   useInsertStyles(iconRef);
 
-  const { prefixCls = 'smicon', rootClassName } = React.useContext(Context);
+  const { prefixCls = 'tdmicon', rootClassName } = React.useContext(Context);
 
   const classString = clsx(
     rootClassName,

@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const laptopMobileFilledSvg = (
@@ -26,9 +26,9 @@ const laptopMobileFilledIconDefinition = svgToIconDefinition(
 
 /**![LaptopMobileFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTEgMThDMTEuNTUyMyAxOCAxMiAxOC40NDc3IDEyIDE5QzEyIDE5LjU1MjMgMTEuNTUyMyAyMCAxMSAyMEgzQzIuNzA4MzMgMjAgMi40Njg3NSAxOS45MDYyIDIuMjgxMjUgMTkuNzE4OEMyLjA5Mzc1IDE5LjUzMTIgMiAxOS4yOTE3IDIgMTlDMiAxOC43MDgzIDIuMDkzNzUgMTguNDY4OCAyLjI4MTI1IDE4LjI4MTJDMi40Njg3NSAxOC4wOTM4IDIuNzA4MzMgMTggMyAxOEgxMVoiLz48cGF0aCBkPSJNMjEgNEMyMS41NTIzIDQgMjIgNC40NDc3MiAyMiA1QzIyIDUuNTUyMjggMjEuNTUyMyA2IDIxIDZINFYxNUgxMUMxMS41NTIzIDE1IDEyIDE1LjQ0NzcgMTIgMTZDMTIgMTYuNTUyMyAxMS41NTIzIDE3IDExIDE3SDRDMy40Mzc1IDE2Ljk3OTIgMi45Njg3NSAxNi43ODEyIDIuNTkzNzUgMTYuNDA2MkMyLjIxODc1IDE2LjAzMTIgMi4wMjA4MyAxNS41NjI1IDIgMTVWNkMyLjAyMDgzIDUuNDM3NSAyLjIxODc1IDQuOTY4NzUgMi41OTM3NSA0LjU5Mzc1QzIuOTY4NzUgNC4yMTg3NSAzLjQzNzUgNC4wMjA4MyA0IDRIMjFaIi8+PHBhdGggZD0iTTIxIDdDMjEuNTUyMyA3IDIyIDcuNDQ3NzIgMjIgOEMyMiA4LjU1MjI4IDIxLjU1MjMgOSAyMSA5SDE2LjVDMTQuNTY3IDkgMTMgMTAuNTY3IDEzIDEyLjVWMTRINVY3SDIxWiIvPjxwYXRoIGQ9Ik0xOS4yODYxIDEwQzIwLjgzMDMgMTAuMDAwMiAyMS45OTk5IDExLjMwMDIgMjIgMTIuNzk5OFYxOS4yMDAyQzIxLjk5OTkgMjAuNjk5OCAyMC44MzAzIDIxLjk5OTggMTkuMjg2MSAyMkgxNi43MTM5QzE1LjI2NjEgMjEuOTk5OCAxNC4xNDc4IDIwLjg1NzEgMTQuMDEzNyAxOS40Nzg1TDE0IDE5LjIwMDJWMTIuNzk5OEMxNC4wMDAxIDExLjMwMDIgMTUuMTY5NyAxMC4wMDAyIDE2LjcxMzkgMTBIMTkuMjg2MVpNMTggMThDMTcuNDQ3NyAxOCAxNyAxOC40NDc3IDE3IDE5QzE3IDE5LjU1MjMgMTcuNDQ3NyAyMCAxOCAyMEMxOC41NTIzIDIwIDE5IDE5LjU1MjMgMTkgMTlDMTkgMTguNDQ3NyAxOC41NTIzIDE4IDE4IDE4WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={laptopMobileFilledIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={laptopMobileFilledIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

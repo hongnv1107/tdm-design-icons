@@ -1,0 +1,11 @@
+{
+  "buildCommand": "pnpm install --frozen-lockfile=false && pnpm demo:build",
+  "outputDirectory": "demo-dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+

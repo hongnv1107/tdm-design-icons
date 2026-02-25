@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const playOutlinedSvg = (
@@ -26,9 +26,9 @@ const playOutlinedIconDefinition = svgToIconDefinition(
 
 /**![PlayOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNyAxOS4xODMyTDE5IDEyLjEyTDcgNS4wNTY3NFYxOS4xODMyWk02LjA0MTY3IDMuMzcxMTlDNi43MDgzMyAzLjAyMzM4IDcuMzc1IDMuMDM2NzYgOC4wNDE2NyAzLjQxMTMyTDIwLjA0MTcgMTAuNDc0NkMyMC42NTI4IDEwLjg0OTEgMjAuOTcyMiAxMS4zOTc2IDIxIDEyLjEyQzIwLjk3MjIgMTIuODQyNCAyMC42NTI4IDEzLjM5MDggMjAuMDQxNyAxMy43NjU0TDguMDQxNjcgMjAuODI4N0M3LjM3NSAyMS4yMDMyIDYuNzA4MzMgMjEuMjE2NiA2LjA0MTY3IDIwLjg2ODhDNS4zNzUgMjAuNDk0MiA1LjAyNzc4IDE5LjkzMjQgNSAxOS4xODMyVjUuMDU2NzRDNS4wMjc3OCA0LjMwNzYxIDUuMzc1IDMuNzQ1NzYgNi4wNDE2NyAzLjM3MTE5WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={playOutlinedIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={playOutlinedIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

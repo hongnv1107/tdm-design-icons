@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const grid2OutlinedSvg = (
@@ -15,7 +15,7 @@ const grid2OutlinedSvg = (
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <path d="M9 19V21H5V19H9ZM19 19V21H15V19H19ZM19 15H15V21C13.8954 21 13 20.1046 13 19V15C13 13.8954 13.8954 13 15 13H19C20.1046 13 21 13.8954 21 15V19C21 20.1046 20.1046 21 19 21V15ZM9 15H5V21C3.89543 21 3 20.1046 3 19V15C3 13.8954 3.89543 13 5 13H9C10.1046 13 11 13.8954 11 15V19C11 20.1046 10.1046 21 9 21V15ZM9 9V11H5V9H9ZM19 9V11H15V9H19ZM19 5H15V11C13.8954 11 13 10.1046 13 9V5C13 3.89543 13.8954 3 15 3H19C20.1046 3 21 3.89543 21 5V9C21 10.1046 20.1046 11 19 11V5ZM9 5H5V11C3.89543 11 3 10.1046 3 9V5C3 3.89543 3.89543 3 5 3H9C10.1046 3 11 3.89543 11 5V9C11 10.1046 10.1046 11 9 11V5Z" />
+    <path d="M9 19v2H5v-2h4zm10 0v2h-4v-2h4zm0-4h-4v6a2 2 0 01-2-2v-4a2 2 0 012-2h4a2 2 0 012 2v4a2 2 0 01-2 2v-6zM9 15H5v6a2 2 0 01-2-2v-4a2 2 0 012-2h4a2 2 0 012 2v4a2 2 0 01-2 2v-6zm0-6v2H5V9h4zm10 0v2h-4V9h4zm0-4h-4v6a2 2 0 01-2-2V5a2 2 0 012-2h4a2 2 0 012 2v4a2 2 0 01-2 2V5zM9 5H5v6a2 2 0 01-2-2V5a2 2 0 012-2h4a2 2 0 012 2v4a2 2 0 01-2 2V5z"/>
   </svg>
 );
 
@@ -24,11 +24,11 @@ const grid2OutlinedIconDefinition = svgToIconDefinition(
   'grid2outlined'
 );
 
-/**![Grid2OutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOSAxOVYyMUg1VjE5SDlaTTE5IDE5VjIxSDE1VjE5SDE5Wk0xOSAxNUgxNVYyMUMxMy44OTU0IDIxIDEzIDIwLjEwNDYgMTMgMTlWMTVDMTMgMTMuODk1NCAxMy44OTU0IDEzIDE1IDEzSDE5QzIwLjEwNDYgMTMgMjEgMTMuODk1NCAyMSAxNVYxOUMyMSAyMC4xMDQ2IDIwLjEwNDYgMjEgMTkgMjFWMTVaTTkgMTVINVYyMUMzLjg5NTQzIDIxIDMgMjAuMTA0NiAzIDE5VjE1QzMgMTMuODk1NCAzLjg5NTQzIDEzIDUgMTNIOUMxMC4xMDQ2IDEzIDExIDEzLjg5NTQgMTEgMTVWMTlDMTEgMjAuMTA0NiAxMC4xMDQ2IDIxIDkgMjFWMTVaTTkgOVYxMUg1VjlIOVpNMTkgOVYxMUgxNVY5SDE5Wk0xOSA1SDE1VjExQzEzLjg5NTQgMTEgMTMgMTAuMTA0NiAxMyA5VjVDMTMgMy44OTU0MyAxMy44OTU0IDMgMTUgM0gxOUMyMC4xMDQ2IDMgMjEgMy44OTU0MyAyMSA1VjlDMjEgMTAuMTA0NiAyMC4xMDQ2IDExIDE5IDExVjVaTTkgNUg1VjExQzMuODk1NDMgMTEgMyAxMC4xMDQ2IDMgOVY1QzMgMy44OTU0MyAzLjg5NTQzIDMgNSAzSDlDMTAuMTA0NiAzIDExIDMuODk1NDMgMTEgNVY5QzExIDEwLjEwNDYgMTAuMTA0NiAxMSA5IDExVjVaIi8+PC9zdmc+) */
+/**![Grid2OutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkgMTl2Mkg1di0yaDR6bTEwIDB2MmgtNHYtMmg0em0wLTRoLTR2NmEyIDIgMCAwMS0yLTJ2LTRhMiAyIDAgMDEyLTJoNGEyIDIgMCAwMTIgMnY0YTIgMiAwIDAxLTIgMnYtNnpNOSAxNUg1djZhMiAyIDAgMDEtMi0ydi00YTIgMiAwIDAxMi0yaDRhMiAyIDAgMDEyIDJ2NGEyIDIgMCAwMS0yIDJ2LTZ6bTAtNnYySDVWOWg0em0xMCAwdjJoLTRWOWg0em0wLTRoLTR2NmEyIDIgMCAwMS0yLTJWNWEyIDIgMCAwMTItMmg0YTIgMiAwIDAxMiAydjRhMiAyIDAgMDEtMiAyVjV6TTkgNUg1djZhMiAyIDAgMDEtMi0yVjVhMiAyIDAgMDEyLTJoNGEyIDIgMCAwMTIgMnY0YTIgMiAwIDAxLTIgMlY1eiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={grid2OutlinedIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={grid2OutlinedIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

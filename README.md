@@ -17,7 +17,7 @@ icon/
 │   └── *.svg              # Other icons
 ├── icons/                  # Generated TSX components (output)
 ├── components/
-│   └── SmIcon.tsx         # Base icon component
+│   └── TdmIcon.tsx        # Base icon component
 ├── utils.ts               # Utility functions
 └── generate-icons.js      # The generator script
 ```
@@ -63,8 +63,8 @@ Each generated component follows this structure:
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const iconNameSvg = (
@@ -86,9 +86,9 @@ const iconNameIconDefinition = svgToIconDefinition(
 
 /**![IconNameIcon](data:image/svg+xml;base64,...) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={iconNameIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={iconNameIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {
@@ -108,43 +108,167 @@ export default RefIcon;
 
 ## Adding New Icons
 
-1. **Prepare SVG file**: Ensure your SVG has standard attributes:
-   ```xml
-   <svg width="24" height="24" viewBox="0 0 24 24" fill="#cacaca" xmlns="http://www.w3.org/2000/svg">
-     <path d="..." />
-   </svg>
-   ```
+### 1. Chuẩn bị file SVG
 
-2. **Place SVG file**: Add the file to the appropriate folder in `svg/`:
-   - `svg/filled/` - For filled style icons (e.g., `BellFilledIcon.svg`)
-   - `svg/outlined/` - For outlined style icons (e.g., `BellOutlinedIcon.svg`)
-   - `svg/color/` - For color icons (e.g., `LogoColorIcon.svg`)
-   - `svg/` - For icons without a specific style
+Đảm bảo file SVG của bạn có các thuộc tính chuẩn:
 
-3. **Run the generator**:
+```xml
+<svg width="24" height="24" viewBox="0 0 24 24" fill="#cacaca" xmlns="http://www.w3.org/2000/svg">
+  <path d="..." />
+</svg>
+```
+
+### 2. Đặt file SVG vào thư mục phù hợp
+
+Thêm file vào thư mục tương ứng trong `svg/`:
+- `svg/filled/` - Icon kiểu filled (ví dụ: `BellFilledIcon.svg`)
+- `svg/outlined/` - Icon kiểu outlined (ví dụ: `BellOutlinedIcon.svg`)
+- `svg/color/` - Icon có màu (ví dụ: `LogoColorIcon.svg`)
+- `svg/` - Icon không thuộc style cụ thể
+
+### 3. Generate icon components
+
+Chạy script để tạo các component React từ file SVG:
+
+```bash
+node generate-icons.js
+```
+
+Hoặc dùng `--force` để ghi đè các file đã tồn tại:
+
+```bash
+node generate-icons.js --force
+```
+
+### 4. Tạo changeset
+
+Tạo changeset để ghi nhận thay đổi cho version tiếp theo:
+
+```bash
+pnpm changeset
+```
+
+Chọn loại thay đổi:
+- **patch** - Sửa lỗi hoặc thay đổi nhỏ (0.0.x)
+- **minor** - Thêm tính năng mới (0.x.0)
+- **major** - Thay đổi breaking changes (x.0.0)
+
+Nhập mô tả thay đổi (ví dụ: "Add new BellFilledIcon")
+
+### 5. Publish lên npm (local flow)
+
+Flow publish được thực hiện **tách biệt trên local**, không còn auto publish trong CI:
+
+1. Tạo changeset mô tả thay đổi:
+
    ```bash
-   node generate-icons.js
+   pnpm changeset
    ```
 
-4. **Import and use** the new component:
-   ```tsx
-    import BellFilledIcon from '@tdm-design/icons/BellFilledIcon';
+2. Bump version + cập nhật CHANGELOG:
 
-    function App() {
-      return <BellFilledIcon />;
-    }
-    ```
+   ```bash
+   npm run version
+   ```
 
-    ### Using Barrel Export (Supports Tree-shaking)
+   Lệnh này sẽ:
 
-    ```tsx
-    import { BellFilledIcon } from '@tdm-design/icons';
-    ```
+   - Cập nhật version trong `package.json`
+   - Tạo/cập nhật `CHANGELOG.md`
+   - Xóa các changeset files đã được áp dụng
 
-    ### Customizing Icons
-    ```tsx
-    <BellFilledIcon style={{ color: 'red' }} spin />
-    ```
+3. Build package:
+
+   ```bash
+   npm run generate && npm run compile
+   ```
+
+4. Publish lên npm:
+
+   ```bash
+   npm publish
+   ```
+
+**Lưu ý**: Đảm bảo đã `npm login` và có quyền publish package.
+
+### 7. Sử dụng icon mới
+
+Sau khi publish, bạn có thể sử dụng icon trong project:
+
+#### Import trực tiếp (Recommended)
+
+```tsx
+import BellFilledIcon from '@tdm-design/icons/BellFilledIcon';
+
+function App() {
+  return <BellFilledIcon />;
+}
+```
+
+#### Sử dụng Barrel Export (Hỗ trợ Tree-shaking)
+
+```tsx
+import { BellFilledIcon } from '@tdm-design/icons';
+```
+
+#### Tùy chỉnh Icon
+
+```tsx
+<BellFilledIcon style={{ color: 'red' }} spin />
+```
+
+## CI Release & Demo Deploy Flow
+
+Repo này dùng **GitHub Actions + Vercel** để tự động deploy demo, còn publish npm được thực hiện thủ công trên local.
+
+### Scripts chính
+
+- **`npm run generate`**: đọc SVG trong `svg/` → sinh `src/icons/*.tsx` + `src/icons/index.ts`
+- **`npm run compile`**: build lib bằng `father` → tạo `es/`, `lib/`, `dist/`
+- **`npm run version`**: `changeset version` → update `package.json` + `CHANGELOG.md`
+- **`npm run demo:build`**: build trang demo Vite vào `demo-dist/`
+
+### Flow deploy demo khi push lên nhánh `main`
+
+Workflow `.github/workflows/release.yml` chạy với trigger:
+
+- `on.push.branches: [main]`
+
+Các bước chính:
+
+1. **Cài đặt**:
+
+   ```yaml
+   - name: Install dependencies
+     run: npm ci
+   ```
+
+2. **Deploy demo lên Vercel (production)**:
+
+   ```yaml
+   - name: Deploy demo to Vercel (production)
+     run: npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --yes
+     env:
+       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+       VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+   ```
+
+   - Vercel đọc cấu hình từ `vercel.json`:
+
+     ```json
+     {
+       "buildCommand": "pnpm install --frozen-lockfile=false && pnpm demo:build",
+       "outputDirectory": "demo-dist",
+       "rewrites": [
+         {
+           "source": "/(.*)",
+           "destination": "/index.html"
+         }
+       ]
+     }
+     ```
+
+   - Build trang demo từ thư mục `demo/` (Vite) ra `demo-dist/` và deploy lên production.
 
 ## Output Status
 

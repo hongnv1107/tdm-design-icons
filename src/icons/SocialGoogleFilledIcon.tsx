@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const socialGoogleFilledSvg = (
@@ -26,9 +26,9 @@ const socialGoogleFilledIconDefinition = svgToIconDefinition(
 
 /**![SocialGoogleFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTkuMjUgMTMuMDU3NkMxOS4yMDgzIDE1LjMwNzYgMTguNTIwOCAxNy4xMjAxIDE3LjE4NzUgMTguNDk1MUMxNS44MzMzIDE5Ljg3MDEgMTQuMDIwOCAyMC41Nzg1IDExLjc1IDIwLjYyMDFDMTAuMzEyNSAyMC41OTkzIDkuMDEwNDIgMjAuMjQ1MSA3Ljg0Mzc1IDE5LjU1NzZDNi42NzcwOCAxOC44NzAxIDUuNzUgMTcuOTQzIDUuMDYyNSAxNi43NzY0QzQuMzc1IDE1LjYwOTcgNC4wMjA4MyAxNC4zMDc2IDQgMTIuODcwMUM0LjAyMDgzIDExLjQzMjYgNC4zNzUgMTAuMTMwNSA1LjA2MjUgOC45NjM4N0M1Ljc1IDcuNzk3MiA2LjY3NzA4IDYuODcwMTIgNy44NDM3NSA2LjE4MjYyQzkuMDEwNDIgNS40OTUxMiAxMC4zMTI1IDUuMTQwOTUgMTEuNzUgNS4xMjAxMkMxMy44NTQyIDUuMTYxNzggMTUuNTgzMyA1LjgzODg3IDE2LjkzNzUgNy4xNTEzN0wxNC44NDM4IDkuMTgyNjJDMTMuODY0NiA4LjMwNzYyIDEyLjc3MDggNy45MTE3OCAxMS41NjI1IDcuOTk1MTJDMTAuMzU0MiA4LjA1NzYyIDkuMjkxNjcgOC41MTU5NSA4LjM3NSA5LjM3MDEyQzcuNDc5MTcgMTAuMjQ1MSA3IDExLjQxMTggNi45Mzc1IDEyLjg3MDFDNi45NzkxNyAxNC4yNjYgNy40NDc5MiAxNS40MjIyIDguMzQzNzUgMTYuMzM4OUM5LjI2MDQyIDE3LjI1NTUgMTAuMzk1OCAxNy43MzQ3IDExLjc1IDE3Ljc3NjRDMTIuNzcwOCAxNy43NTU1IDEzLjU5MzggMTcuNTQ3MiAxNC4yMTg4IDE3LjE1MTRDMTQuODQzOCAxNi43NTU1IDE1LjMxMjUgMTYuMzA3NiAxNS42MjUgMTUuODA3NkMxNS45MTY3IDE1LjI4NjggMTYuMDkzOCAxNC44Mjg1IDE2LjE1NjIgMTQuNDMyNkgxMS43NVYxMS43NDUxSDE5LjEyNUMxOS4yMDgzIDEyLjEyMDEgMTkuMjUgMTIuNTU3NiAxOS4yNSAxMy4wNTc2WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={socialGoogleFilledIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={socialGoogleFilledIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

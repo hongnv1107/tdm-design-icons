@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const chevronRightSingleSvg = (
@@ -26,9 +26,9 @@ const chevronRightSingleIconDefinition = svgToIconDefinition(
 
 /**![ChevronRightSingleIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsUnVsZT0iZXZlbm9kZCIgY2xpcFJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjI5Mjg5IDUuMjkyODlDOS42ODM0MiA0LjkwMjM3IDEwLjMxNjYgNC45MDIzNyAxMC43MDcxIDUuMjkyODlMMTYuNzA3MSAxMS4yOTI5QzE3LjA5NzYgMTEuNjgzNCAxNy4wOTc2IDEyLjMxNjYgMTYuNzA3MSAxMi43MDcxTDEwLjcwNzEgMTguNzA3MUMxMC4zMTY2IDE5LjA5NzYgOS42ODM0MiAxOS4wOTc2IDkuMjkyODkgMTguNzA3MUM4LjkwMjM3IDE4LjMxNjYgOC45MDIzNyAxNy42ODM0IDkuMjkyODkgMTcuMjkyOUwxNC41ODU4IDEyTDkuMjkyODkgNi43MDcxMUM4LjkwMjM3IDYuMzE2NTggOC45MDIzNyA1LjY4MzQyIDkuMjkyODkgNS4yOTI4OVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={chevronRightSingleIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={chevronRightSingleIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

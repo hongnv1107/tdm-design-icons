@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const chartPollOutlinedSvg = (
@@ -26,9 +26,9 @@ const chartPollOutlinedIconDefinition = svgToIconDefinition(
 
 /**![ChartPollOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTUgMTFDMTUgMTAuNDQ3NyAxNS40NDc3IDEwIDE2IDEwQzE2LjU1MjMgMTAgMTcgMTAuNDQ3NyAxNyAxMVYxNkMxNyAxNi41NTIzIDE2LjU1MjMgMTcgMTYgMTdDMTUuNDQ3NyAxNyAxNSAxNi41NTIzIDE1IDE2VjExWk0xMSA4QzExIDcuNDQ3NzIgMTEuNDQ3NyA3IDEyIDdDMTIuNTUyMyA3IDEzIDcuNDQ3NzEgMTMgOFYxNkMxMyAxNi41NTIzIDEyLjU1MjMgMTcgMTIgMTdDMTEuNDQ3NyAxNyAxMSAxNi41NTIzIDExIDE2TDExIDhaTTcgMTNDNyAxMi40NDc3IDcuNDQ3NzEgMTIgOCAxMkM4LjU1MjI4IDEyIDkgMTIuNDQ3NyA5IDEzTDkgMTZDOSAxNi41NTIzIDguNTUyMjggMTcgOCAxN0M3LjQ0NzcyIDE3IDcgMTYuNTUyMyA3IDE2TDcgMTNaIi8+PHBhdGggZD0iTTE5IDUuODhDMTkgNS4zMjc3MiAxOC41NTIzIDQuODggMTggNC44OEg2QzUuNDQ3NzIgNC44OCA1IDUuMzI3NzIgNSA1Ljg4VjE3Ljg4QzUgMTguNDMyMyA1LjQ0NzcyIDE4Ljg4IDYgMTguODhIMThDMTguNTUyMyAxOC44OCAxOSAxOC40MzIzIDE5IDE3Ljg4VjUuODhaTTIxIDE3Ljg4QzIxIDE5LjUzNjkgMTkuNjU2OSAyMC44OCAxOCAyMC44OEg2QzQuMzQzMTUgMjAuODggMyAxOS41MzY5IDMgMTcuODhWNS44OEMzIDQuMjIzMTUgNC4zNDMxNSAyLjg4IDYgMi44OEgxOEMxOS42NTY5IDIuODggMjEgNC4yMjMxNSAyMSA1Ljg4VjE3Ljg4WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={chartPollOutlinedIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={chartPollOutlinedIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

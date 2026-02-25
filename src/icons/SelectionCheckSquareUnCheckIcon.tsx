@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const selectionCheckSquareUnCheckSvg = (
@@ -26,9 +26,9 @@ const selectionCheckSquareUnCheckIconDefinition = svgToIconDefinition(
 
 /**![SelectionCheckSquareUnCheckIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTguNDI4NiA1LjA0ODU3SDUuNTcxNDNDNS4xNjk2NCA1LjA3NTM1IDQuOTU1MzYgNS4yODk2NCA0LjkyODU3IDUuNjkxNDJWMTguNTQ4NkM0Ljk1NTM2IDE4Ljk1MDQgNS4xNjk2NCAxOS4xNjQ2IDUuNTcxNDMgMTkuMTkxNEgxOC40Mjg2QzE4LjgzMDQgMTkuMTY0NiAxOS4wNDQ2IDE4Ljk1MDQgMTkuMDcxNCAxOC41NDg2VjUuNjkxNDJDMTkuMDQ0NiA1LjI4OTY0IDE4LjgzMDQgNS4wNzUzNSAxOC40Mjg2IDUuMDQ4NTdaTTUuNTcxNDMgMy4xMkgxOC40Mjg2QzE5LjE1MTggMy4xNDY3OCAxOS43NTQ1IDMuNDAxMjUgMjAuMjM2NiAzLjg4MzM5QzIwLjcxODggNC4zNjU1MyAyMC45NzMyIDQuOTY4MjEgMjEgNS42OTE0MlYxOC41NDg2QzIwLjk3MzIgMTkuMjcxOCAyMC43MTg4IDE5Ljg3NDUgMjAuMjM2NiAyMC4zNTY2QzE5Ljc1NDUgMjAuODM4NyAxOS4xNTE4IDIxLjA5MzIgMTguNDI4NiAyMS4xMkg1LjU3MTQzQzQuODQ4MjEgMjEuMDkzMiA0LjI0NTU0IDIwLjgzODcgMy43NjMzOSAyMC4zNTY2QzMuMjgxMjUgMTkuODc0NSAzLjAyNjc5IDE5LjI3MTggMyAxOC41NDg2VjUuNjkxNDJDMy4wMjY3OSA0Ljk2ODIxIDMuMjgxMjUgNC4zNjU1MyAzLjc2MzM5IDMuODgzMzlDNC4yNDU1NCAzLjQwMTI1IDQuODQ4MjEgMy4xNDY3OCA1LjU3MTQzIDMuMTJaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={selectionCheckSquareUnCheckIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={selectionCheckSquareUnCheckIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

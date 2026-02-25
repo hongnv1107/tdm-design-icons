@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const selectionRadioCircleDotSvg = (
@@ -26,9 +26,9 @@ const selectionRadioCircleDotIconDefinition = svgToIconDefinition(
 
 /**![SelectionRadioCircleDotIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMjJDMTAuMTc3MSAyMS45NzQgOC41MTA0MiAyMS41MzEyIDcgMjAuNjcxOUM1LjQ4OTU4IDE5Ljc4NjUgNC4yNjU2MiAxOC41NjI1IDMuMzI4MTIgMTdDMi40NDI3MSAxNS40MTE1IDIgMTMuNzQ0OCAyIDEyQzIgMTAuMjU1MiAyLjQ0MjcxIDguNTg4NTQgMy4zMjgxMiA3QzQuMjY1NjIgNS40Mzc1IDUuNDg5NTggNC4yMTM1NCA3IDMuMzI4MTJDOC41MTA0MiAyLjQ2ODc1IDEwLjE3NzEgMi4wMjYwNCAxMiAyQzEzLjgyMjkgMi4wMjYwNCAxNS40ODk2IDIuNDY4NzUgMTcgMy4zMjgxMkMxOC41MTA0IDQuMjEzNTQgMTkuNzM0NCA1LjQzNzUgMjAuNjcxOSA3QzIxLjU1NzMgOC41ODg1NCAyMiAxMC4yNTUyIDIyIDEyQzIyIDEzLjc0NDggMjEuNTU3MyAxNS40MTE1IDIwLjY3MTkgMTdDMTkuNzM0NCAxOC41NjI1IDE4LjUxMDQgMTkuNzg2NSAxNyAyMC42NzE5QzE1LjQ4OTYgMjEuNTMxMiAxMy44MjI5IDIxLjk3NCAxMiAyMlpNMTIgOC4yNUMxMS4zMjI5IDguMjUgMTAuNjk3OSA4LjQxOTI3IDEwLjEyNSA4Ljc1NzgxQzkuNTUyMDggOS4wOTYzNSA5LjA5NjM1IDkuNTUyMDggOC43NTc4MSAxMC4xMjVDOC40MTkyNyAxMC43MjQgOC4yNSAxMS4zNDkgOC4yNSAxMkM4LjI1IDEyLjY1MSA4LjQxOTI3IDEzLjI3NiA4Ljc1NzgxIDEzLjg3NUM5LjA5NjM1IDE0LjQ0NzkgOS41NTIwOCAxNC45MDM2IDEwLjEyNSAxNS4yNDIyQzEwLjY5NzkgMTUuNTgwNyAxMS4zMjI5IDE1Ljc1IDEyIDE1Ljc1QzEyLjY3NzEgMTUuNzUgMTMuMzAyMSAxNS41ODA3IDEzLjg3NSAxNS4yNDIyQzE0LjQ0NzkgMTQuOTAzNiAxNC45MDM2IDE0LjQ0NzkgMTUuMjQyMiAxMy44NzVDMTUuNTgwNyAxMy4yNzYgMTUuNzUgMTIuNjUxIDE1Ljc1IDEyQzE1Ljc1IDExLjM0OSAxNS41ODA3IDEwLjcyNCAxNS4yNDIyIDEwLjEyNUMxNC45MDM2IDkuNTUyMDggMTQuNDQ3OSA5LjA5NjM1IDEzLjg3NSA4Ljc1NzgxQzEzLjMwMjEgOC40MTkyNyAxMi42NzcxIDguMjUgMTIgOC4yNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={selectionRadioCircleDotIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={selectionRadioCircleDotIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {

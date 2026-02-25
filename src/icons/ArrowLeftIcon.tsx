@@ -1,10 +1,10 @@
-// GENERATE BY ./scripts/generate-icons.js
+// GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
 import * as React from 'react';
 
-import SmIcon from '../components/SmIcon';
-import type { SmIconProps } from '../components/SmIcon';
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
 import { svgToIconDefinition } from '../utils';
 
 const arrowLeftSvg = (
@@ -26,9 +26,9 @@ const arrowLeftIconDefinition = svgToIconDefinition(
 
 /**![ArrowLeftIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NhY2FjYSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsUnVsZT0iZXZlbm9kZCIgY2xpcFJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDEyLjEyQzQgMTEuODU0OCA0LjEwNTM2IDExLjYwMDQgNC4yOTI4OSAxMS40MTI5TDExLjI5MjkgNC40MTI4OUMxMS42ODM0IDQuMDIyMzYgMTIuMzE2NiA0LjAyMjM2IDEyLjcwNzEgNC40MTI4OUMxMy4wOTc2IDQuODAzNDEgMTMuMDk3NiA1LjQzNjU4IDEyLjcwNzEgNS44MjcxTDcuNDE0MjEgMTEuMTJMMTkgMTEuMTJDMTkuNTUyMyAxMS4xMiAyMCAxMS41Njc3IDIwIDEyLjEyQzIwIDEyLjY3MjMgMTkuNTUyMyAxMy4xMiAxOSAxMy4xMkw3LjQxNDIxIDEzLjEyTDEyLjcwNzEgMTguNDEyOUMxMy4wOTc2IDE4LjgwMzQgMTMuMDk3NiAxOS40MzY2IDEyLjcwNzEgMTkuODI3MUMxMi4zMTY2IDIwLjIxNzYgMTEuNjgzNCAyMC4yMTc2IDExLjI5MjkgMTkuODI3MUw0LjI5Mjg5IDEyLjgyNzFDNC4xMDUzNiAxMi42Mzk2IDQgMTIuMzg1MiA0IDEyLjEyWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
-  Omit<SmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
-> = React.forwardRef<HTMLSpanElement, SmIconProps>((props, ref) => {
-  return <SmIcon {...props} ref={ref} icon={arrowLeftIconDefinition} />;
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={arrowLeftIconDefinition} />;
 });
 
 if (process.env.NODE_ENV !== 'production') {
