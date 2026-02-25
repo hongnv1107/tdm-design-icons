@@ -1,6 +1,8 @@
 import React, { useMemo, useState, useCallback, useEffect } from 'react';
 // @ts-expect-error: Unable to resolve module in demo context.
 import * as Icons from '@tdm-icons/icons';
+// eslint-disable-next-line import/no-relative-packages
+import pkg from '../../package.json';
 import '../styles.css';
 
 type IconComponent = React.ComponentType<any>;
@@ -57,6 +59,7 @@ export const DemoApp: React.FC = () => {
   const totalCount = entries.length;
   const visibleCount =
     filtered.others.length + filtered.colors.length + filtered.flags.length;
+  const version = (pkg as any).version as string | undefined;
 
   const handleCopy = useCallback((name: string) => {
     const importText = `import ${name} from '@tdm-design/icons/${name}';`;
@@ -73,7 +76,10 @@ export const DemoApp: React.FC = () => {
   return (
     <div className="demo-root">
       <header className="demo-header">
-        <h1>TDM Design Icons</h1>
+        <div className="demo-title">
+          <h1>TDM Design Icons</h1>
+          {version && <span className="demo-version">v{version}</span>}
+        </div>
         <p>
           {visibleCount} / {totalCount} icons
         </p>
@@ -98,7 +104,6 @@ export const DemoApp: React.FC = () => {
                 type="button"
                 className="demo-card"
                 onClick={() => handleCopy(name)}
-                title={`Click to copy import: import ${name} from '@tdm-design/icons/${name}';`}
               >
                 <div className="demo-icon">
                   <Icon />
