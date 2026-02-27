@@ -213,6 +213,7 @@ export { default as ChevronLeftDoubleFilledIcon } from './ChevronLeftDoubleFille
 export { default as ChevronLeftFilledIcon } from './ChevronLeftFilledIcon';
 export { default as ChevronRightDoubleFilledIcon } from './ChevronRightDoubleFilledIcon';
 export { default as ChevronRightFilledIcon } from './ChevronRightFilledIcon';
+export { default as ChevronUpDoubleFilledIcon } from './ChevronUpDoubleFilledIcon';
 export { default as ChevronUpFilledIcon } from './ChevronUpFilledIcon';
 export { default as ChildReachingFilledIcon } from './ChildReachingFilledIcon';
 export { default as ChildReachingOutlinedIcon } from './ChildReachingOutlinedIcon';
