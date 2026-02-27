@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const anglesUpDownFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M17.7071 9.58696C18.0732 9.22084 18.0958 8.64184 17.7754 8.24907L17.7071 8.1729L12.7071 3.1729C12.3166 2.78237 11.6835 2.78237 11.293 3.1729L6.29302 8.1729C5.90249 8.56342 5.90249 9.19644 6.29302 9.58696C6.68354 9.97749 7.31655 9.97749 7.70708 9.58696L12 5.29399L16.293 9.58696L16.3692 9.65532C16.762 9.97567 17.341 9.95308 17.7071 9.58696Z"/><path d="M17.7754 15.5108C18.0958 15.118 18.0732 14.539 17.7071 14.1729C17.341 13.8068 16.762 13.7842 16.3692 14.1045L16.293 14.1729L12 18.4659L7.70708 14.1729C7.31655 13.7824 6.68354 13.7824 6.29302 14.1729C5.90249 14.5634 5.90249 15.1964 6.29302 15.587L11.293 20.587C11.6835 20.9775 12.3166 20.9775 12.7071 20.587L17.7071 15.587L17.7754 15.5108Z"/>
+  </svg>
+);
+
+const anglesUpDownFilledIconDefinition = svgToIconDefinition(
+  anglesUpDownFilledSvg,
+  'angles-up-down-filled'
+);
+
+/**![AnglesUpDownFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTcuNzA3MSA5LjU4Njk2QzE4LjA3MzIgOS4yMjA4NCAxOC4wOTU4IDguNjQxODQgMTcuNzc1NCA4LjI0OTA3TDE3LjcwNzEgOC4xNzI5TDEyLjcwNzEgMy4xNzI5QzEyLjMxNjYgMi43ODIzNyAxMS42ODM1IDIuNzgyMzcgMTEuMjkzIDMuMTcyOUw2LjI5MzAyIDguMTcyOUM1LjkwMjQ5IDguNTYzNDIgNS45MDI0OSA5LjE5NjQ0IDYuMjkzMDIgOS41ODY5NkM2LjY4MzU0IDkuOTc3NDkgNy4zMTY1NSA5Ljk3NzQ5IDcuNzA3MDggOS41ODY5NkwxMiA1LjI5Mzk5TDE2LjI5MyA5LjU4Njk2TDE2LjM2OTIgOS42NTUzMkMxNi43NjIgOS45NzU2NyAxNy4zNDEgOS45NTMwOCAxNy43MDcxIDkuNTg2OTZaIi8+PHBhdGggZD0iTTE3Ljc3NTQgMTUuNTEwOEMxOC4wOTU4IDE1LjExOCAxOC4wNzMyIDE0LjUzOSAxNy43MDcxIDE0LjE3MjlDMTcuMzQxIDEzLjgwNjggMTYuNzYyIDEzLjc4NDIgMTYuMzY5MiAxNC4xMDQ1TDE2LjI5MyAxNC4xNzI5TDEyIDE4LjQ2NTlMNy43MDcwOCAxNC4xNzI5QzcuMzE2NTUgMTMuNzgyNCA2LjY4MzU0IDEzLjc4MjQgNi4yOTMwMiAxNC4xNzI5QzUuOTAyNDkgMTQuNTYzNCA1LjkwMjQ5IDE1LjE5NjQgNi4yOTMwMiAxNS41ODdMMTEuMjkzIDIwLjU4N0MxMS42ODM1IDIwLjk3NzUgMTIuMzE2NiAyMC45Nzc1IDEyLjcwNzEgMjAuNTg3TDE3LjcwNzEgMTUuNTg3TDE3Ljc3NTQgMTUuNTEwOFoiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={anglesUpDownFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'AnglesUpDownFilledIcon';
+}
+
+export default RefIcon;

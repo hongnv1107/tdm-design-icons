@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const slidersSimpleOutlinedSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M20 15.88C20 14.7754 19.1046 13.88 18 13.88C16.8954 13.88 16 14.7754 16 15.88C16 16.9846 16.8954 17.88 18 17.88C19.1046 17.88 20 16.9846 20 15.88ZM6 3.88C7.86384 3.88 9.42998 5.15477 9.87402 6.88H21C21.5523 6.88 22 7.32772 22 7.88C22 8.43229 21.5523 8.88 21 8.88H9.87402C9.42998 10.6052 7.86384 11.88 6 11.88C3.79086 11.88 2 10.0891 2 7.88C2 5.67087 3.79086 3.88 6 3.88ZM22 15.88C22 18.0891 20.2091 19.88 18 19.88C16.1362 19.88 14.57 18.6052 14.126 16.88H3C2.44772 16.88 2 16.4323 2 15.88C2 15.3277 2.44772 14.88 3 14.88H14.126C14.57 13.1548 16.1362 11.88 18 11.88C20.2091 11.88 22 13.6709 22 15.88ZM4 7.88C4 8.98457 4.89543 9.88 6 9.88C7.10457 9.88 8 8.98457 8 7.88C8 6.77544 7.10457 5.88 6 5.88C4.89543 5.88 4 6.77544 4 7.88Z"/>
+  </svg>
+);
+
+const slidersSimpleOutlinedIconDefinition = svgToIconDefinition(
+  slidersSimpleOutlinedSvg,
+  'sliders-simple-outlined'
+);
+
+/**![SlidersSimpleOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMjAgMTUuODhDMjAgMTQuNzc1NCAxOS4xMDQ2IDEzLjg4IDE4IDEzLjg4QzE2Ljg5NTQgMTMuODggMTYgMTQuNzc1NCAxNiAxNS44OEMxNiAxNi45ODQ2IDE2Ljg5NTQgMTcuODggMTggMTcuODhDMTkuMTA0NiAxNy44OCAyMCAxNi45ODQ2IDIwIDE1Ljg4Wk02IDMuODhDNy44NjM4NCAzLjg4IDkuNDI5OTggNS4xNTQ3NyA5Ljg3NDAyIDYuODhIMjFDMjEuNTUyMyA2Ljg4IDIyIDcuMzI3NzIgMjIgNy44OEMyMiA4LjQzMjI5IDIxLjU1MjMgOC44OCAyMSA4Ljg4SDkuODc0MDJDOS40Mjk5OCAxMC42MDUyIDcuODYzODQgMTEuODggNiAxMS44OEMzLjc5MDg2IDExLjg4IDIgMTAuMDg5MSAyIDcuODhDMiA1LjY3MDg3IDMuNzkwODYgMy44OCA2IDMuODhaTTIyIDE1Ljg4QzIyIDE4LjA4OTEgMjAuMjA5MSAxOS44OCAxOCAxOS44OEMxNi4xMzYyIDE5Ljg4IDE0LjU3IDE4LjYwNTIgMTQuMTI2IDE2Ljg4SDNDMi40NDc3MiAxNi44OCAyIDE2LjQzMjMgMiAxNS44OEMyIDE1LjMyNzcgMi40NDc3MiAxNC44OCAzIDE0Ljg4SDE0LjEyNkMxNC41NyAxMy4xNTQ4IDE2LjEzNjIgMTEuODggMTggMTEuODhDMjAuMjA5MSAxMS44OCAyMiAxMy42NzA5IDIyIDE1Ljg4Wk00IDcuODhDNCA4Ljk4NDU3IDQuODk1NDMgOS44OCA2IDkuODhDNy4xMDQ1NyA5Ljg4IDggOC45ODQ1NyA4IDcuODhDOCA2Ljc3NTQ0IDcuMTA0NTcgNS44OCA2IDUuODhDNC44OTU0MyA1Ljg4IDQgNi43NzU0NCA0IDcuODhaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={slidersSimpleOutlinedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'SlidersSimpleOutlinedIcon';
+}
+
+export default RefIcon;

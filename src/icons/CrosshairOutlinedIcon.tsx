@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const crosshairOutlinedSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2ZM11 6.59961V4.06348C7.38148 4.51479 4.51582 7.3815 4.06445 11H6.59961C7.15189 11 7.59961 11.4477 7.59961 12C7.59961 12.5523 7.15189 13 6.59961 13H4.06445C4.51581 16.6185 7.38154 19.4842 11 19.9355V17.4004C11 16.8481 11.4477 16.4004 12 16.4004C12.5523 16.4004 13 16.8481 13 17.4004V19.9355C16.6185 19.4842 19.4842 16.6185 19.9355 13H17.4004C16.8481 13 16.4004 12.5523 16.4004 12C16.4004 11.4477 16.8481 11 17.4004 11H19.9355C19.4842 7.3815 16.6185 4.51479 13 4.06348V6.59961C13 7.15189 12.5523 7.59961 12 7.59961C11.4477 7.59961 11 7.15189 11 6.59961Z"/>
+  </svg>
+);
+
+const crosshairOutlinedIconDefinition = svgToIconDefinition(
+  crosshairOutlinedSvg,
+  'crosshair-outlined'
+);
+
+/**![CrosshairOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTIgMkMxNy41MjI4IDIgMjIgNi40NzcxNSAyMiAxMkMyMiAxNy41MjI4IDE3LjUyMjggMjIgMTIgMjJDNi40NzcxNSAyMiAyIDE3LjUyMjggMiAxMkMyIDYuNDc3MTUgNi40NzcxNSAyIDEyIDJaTTExIDYuNTk5NjFWNC4wNjM0OEM3LjM4MTQ4IDQuNTE0NzkgNC41MTU4MiA3LjM4MTUgNC4wNjQ0NSAxMUg2LjU5OTYxQzcuMTUxODkgMTEgNy41OTk2MSAxMS40NDc3IDcuNTk5NjEgMTJDNy41OTk2MSAxMi41NTIzIDcuMTUxODkgMTMgNi41OTk2MSAxM0g0LjA2NDQ1QzQuNTE1ODEgMTYuNjE4NSA3LjM4MTU0IDE5LjQ4NDIgMTEgMTkuOTM1NVYxNy40MDA0QzExIDE2Ljg0ODEgMTEuNDQ3NyAxNi40MDA0IDEyIDE2LjQwMDRDMTIuNTUyMyAxNi40MDA0IDEzIDE2Ljg0ODEgMTMgMTcuNDAwNFYxOS45MzU1QzE2LjYxODUgMTkuNDg0MiAxOS40ODQyIDE2LjYxODUgMTkuOTM1NSAxM0gxNy40MDA0QzE2Ljg0ODEgMTMgMTYuNDAwNCAxMi41NTIzIDE2LjQwMDQgMTJDMTYuNDAwNCAxMS40NDc3IDE2Ljg0ODEgMTEgMTcuNDAwNCAxMUgxOS45MzU1QzE5LjQ4NDIgNy4zODE1IDE2LjYxODUgNC41MTQ3OSAxMyA0LjA2MzQ4VjYuNTk5NjFDMTMgNy4xNTE4OSAxMi41NTIzIDcuNTk5NjEgMTIgNy41OTk2MUMxMS40NDc3IDcuNTk5NjEgMTEgNy4xNTE4OSAxMSA2LjU5OTYxWiIvPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={crosshairOutlinedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'CrosshairOutlinedIcon';
+}
+
+export default RefIcon;

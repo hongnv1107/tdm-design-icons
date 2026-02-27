@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const alertOctagonFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M14.8975 3C15.4279 3 15.9365 3.2109 16.3115 3.58594L20.4141 7.68848C20.7891 8.06354 21 8.57213 21 9.10254V14.8975C21 15.4279 20.7891 15.9365 20.4141 16.3115L16.3115 20.4141C15.9365 20.7891 15.4279 21 14.8975 21H9.10254C8.57213 21 8.06354 20.7891 7.68848 20.4141L3.58594 16.3115C3.2109 15.9365 3 15.4279 3 14.8975V9.10254C3 8.57213 3.2109 8.06354 3.58594 7.68848L7.68848 3.58594C8.06354 3.2109 8.57213 3 9.10254 3H14.8975ZM12 15C11.4477 15 11 15.4477 11 16C11 16.5523 11.4477 17 12 17C12.5523 17 13 16.5523 13 16C13 15.4477 12.5523 15 12 15ZM12 7C11.4477 7 11 7.44772 11 8V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V8C13 7.44772 12.5523 7 12 7Z"/>
+  </svg>
+);
+
+const alertOctagonFilledIconDefinition = svgToIconDefinition(
+  alertOctagonFilledSvg,
+  'alert-octagon-filled'
+);
+
+/**![AlertOctagonFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuODk3NSAzQzE1LjQyNzkgMyAxNS45MzY1IDMuMjEwOSAxNi4zMTE1IDMuNTg1OTRMMjAuNDE0MSA3LjY4ODQ4QzIwLjc4OTEgOC4wNjM1NCAyMSA4LjU3MjEzIDIxIDkuMTAyNTRWMTQuODk3NUMyMSAxNS40Mjc5IDIwLjc4OTEgMTUuOTM2NSAyMC40MTQxIDE2LjMxMTVMMTYuMzExNSAyMC40MTQxQzE1LjkzNjUgMjAuNzg5MSAxNS40Mjc5IDIxIDE0Ljg5NzUgMjFIOS4xMDI1NEM4LjU3MjEzIDIxIDguMDYzNTQgMjAuNzg5MSA3LjY4ODQ4IDIwLjQxNDFMMy41ODU5NCAxNi4zMTE1QzMuMjEwOSAxNS45MzY1IDMgMTUuNDI3OSAzIDE0Ljg5NzVWOS4xMDI1NEMzIDguNTcyMTMgMy4yMTA5IDguMDYzNTQgMy41ODU5NCA3LjY4ODQ4TDcuNjg4NDggMy41ODU5NEM4LjA2MzU0IDMuMjEwOSA4LjU3MjEzIDMgOS4xMDI1NCAzSDE0Ljg5NzVaTTEyIDE1QzExLjQ0NzcgMTUgMTEgMTUuNDQ3NyAxMSAxNkMxMSAxNi41NTIzIDExLjQ0NzcgMTcgMTIgMTdDMTIuNTUyMyAxNyAxMyAxNi41NTIzIDEzIDE2QzEzIDE1LjQ0NzcgMTIuNTUyMyAxNSAxMiAxNVpNMTIgN0MxMS40NDc3IDcgMTEgNy40NDc3MiAxMSA4VjEyQzExIDEyLjU1MjMgMTEuNDQ3NyAxMyAxMiAxM0MxMi41NTIzIDEzIDEzIDEyLjU1MjMgMTMgMTJWOEMxMyA3LjQ0NzcyIDEyLjU1MjMgNyAxMiA3WiIvPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={alertOctagonFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'AlertOctagonFilledIcon';
+}
+
+export default RefIcon;

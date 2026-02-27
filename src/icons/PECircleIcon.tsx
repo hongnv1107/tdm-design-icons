@@ -15,15 +15,7 @@ const pECircleSvg = (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#a)">
-    <path fill="#F0F0F0" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"/>
-    <path fill="#D80027" d="M24 12.002c0-5.16-3.256-9.559-7.826-11.254v22.507C20.744 21.56 24 17.161 24 12.002ZM0 12c0 5.16 3.257 9.559 7.826 11.254V.747C3.256 2.443 0 6.84 0 12Z"/>
-    </g>
-    <defs>
-    <clipPath id="a">
-    <path fill="#fff" d="M0 0h24v24H0z"/>
-    </clipPath>
-    </defs>
+    <g clip-path="url(#a)"><path fill="#F0F0F0" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"/><path fill="#D80027" d="M24 12.002c0-5.16-3.256-9.559-7.826-11.254v22.507C20.744 21.56 24 17.161 24 12.002ZM0 12c0 5.16 3.257 9.559 7.826 11.254V.747C3.256 2.443 0 6.84 0 12Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs>
   </svg>
 );
 

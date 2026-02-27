@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const starFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M12.9781 3.88832L15.1592 8.38671L20.0665 9.13644C20.4982 9.2046 20.7935 9.44315 20.9525 9.85209C21.0661 10.2838 20.9753 10.6586 20.6799 10.9767L17.1357 14.4868L17.9536 19.4623C18.0218 19.894 17.8741 20.2461 17.5106 20.5187C17.1471 20.7686 16.7722 20.7914 16.386 20.5869L11.9898 18.2695L7.62777 20.5869C7.21882 20.7914 6.8326 20.7686 6.46909 20.5187C6.1283 20.2461 5.98063 19.894 6.02607 19.4623L6.87804 14.4868L3.33385 10.9767C3.01578 10.6586 2.9249 10.2838 3.06122 9.85209C3.19753 9.44315 3.48152 9.2046 3.91319 9.13644L8.82052 8.38671L11.0016 3.88832C11.2288 3.50209 11.5582 3.29762 11.9898 3.2749C12.4442 3.29762 12.7737 3.50209 12.9781 3.88832Z"/>
+  </svg>
+);
+
+const starFilledIconDefinition = svgToIconDefinition(
+  starFilledSvg,
+  'star-filled'
+);
+
+/**![StarFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTIuOTc4MSAzLjg4ODMyTDE1LjE1OTIgOC4zODY3MUwyMC4wNjY1IDkuMTM2NDRDMjAuNDk4MiA5LjIwNDYgMjAuNzkzNSA5LjQ0MzE1IDIwLjk1MjUgOS44NTIwOUMyMS4wNjYxIDEwLjI4MzggMjAuOTc1MyAxMC42NTg2IDIwLjY3OTkgMTAuOTc2N0wxNy4xMzU3IDE0LjQ4NjhMMTcuOTUzNiAxOS40NjIzQzE4LjAyMTggMTkuODk0IDE3Ljg3NDEgMjAuMjQ2MSAxNy41MTA2IDIwLjUxODdDMTcuMTQ3MSAyMC43Njg2IDE2Ljc3MjIgMjAuNzkxNCAxNi4zODYgMjAuNTg2OUwxMS45ODk4IDE4LjI2OTVMNy42Mjc3NyAyMC41ODY5QzcuMjE4ODIgMjAuNzkxNCA2LjgzMjYgMjAuNzY4NiA2LjQ2OTA5IDIwLjUxODdDNi4xMjgzIDIwLjI0NjEgNS45ODA2MyAxOS44OTQgNi4wMjYwNyAxOS40NjIzTDYuODc4MDQgMTQuNDg2OEwzLjMzMzg1IDEwLjk3NjdDMy4wMTU3OCAxMC42NTg2IDIuOTI0OSAxMC4yODM4IDMuMDYxMjIgOS44NTIwOUMzLjE5NzUzIDkuNDQzMTUgMy40ODE1MiA5LjIwNDYgMy45MTMxOSA5LjEzNjQ0TDguODIwNTIgOC4zODY3MUwxMS4wMDE2IDMuODg4MzJDMTEuMjI4OCAzLjUwMjA5IDExLjU1ODIgMy4yOTc2MiAxMS45ODk4IDMuMjc0OUMxMi40NDQyIDMuMjk3NjIgMTIuNzczNyAzLjUwMjA5IDEyLjk3ODEgMy44ODgzMloiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={starFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'StarFilledIcon';
+}
+
+export default RefIcon;

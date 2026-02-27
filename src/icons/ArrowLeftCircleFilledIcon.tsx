@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const arrowLeftCircleFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M5 12C5 8.13401 8.13401 5 12 5C15.866 5 19 8.13401 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12ZM21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 5C8.13401 5 5 8.13401 5 12C5 15.866 8.13401 19 12 19C15.866 19 19 15.866 19 12C19 8.13401 15.866 5 12 5ZM11.2139 13H15.2002C15.7524 12.9999 16.2002 12.5522 16.2002 12C16.2002 11.4478 15.7524 11.0001 15.2002 11H11.2139L12.707 9.50684L12.7754 9.43164C13.0961 9.03886 13.0733 8.45904 12.707 8.09277C12.3409 7.72678 11.7619 7.70417 11.3691 8.02441L11.293 8.09277L8.09277 11.293C7.72678 11.6591 7.70417 12.2381 8.02441 12.6309L8.09277 12.707L11.293 15.9072C11.6835 16.2976 12.3165 16.2976 12.707 15.9072C13.0975 15.5167 13.0975 14.8837 12.707 14.4932L11.2139 13Z"/>
+  </svg>
+);
+
+const arrowLeftCircleFilledIconDefinition = svgToIconDefinition(
+  arrowLeftCircleFilledSvg,
+  'arrow-left-circle-filled'
+);
+
+/**![ArrowLeftCircleFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUgMTJDNSA4LjEzNDAxIDguMTM0MDEgNSAxMiA1QzE1Ljg2NiA1IDE5IDguMTM0MDEgMTkgMTJDMTkgMTUuODY2IDE1Ljg2NiAxOSAxMiAxOUM4LjEzNDAxIDE5IDUgMTUuODY2IDUgMTJaTTIxIDEyQzIxIDcuMDI5NDQgMTYuOTcwNiAzIDEyIDNDNy4wMjk0NCAzIDMgNy4wMjk0NCAzIDEyQzMgMTYuOTcwNiA3LjAyOTQ0IDIxIDEyIDIxQzE2Ljk3MDYgMjEgMjEgMTYuOTcwNiAyMSAxMloiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEyIDVDOC4xMzQwMSA1IDUgOC4xMzQwMSA1IDEyQzUgMTUuODY2IDguMTM0MDEgMTkgMTIgMTlDMTUuODY2IDE5IDE5IDE1Ljg2NiAxOSAxMkMxOSA4LjEzNDAxIDE1Ljg2NiA1IDEyIDVaTTExLjIxMzkgMTNIMTUuMjAwMkMxNS43NTI0IDEyLjk5OTkgMTYuMjAwMiAxMi41NTIyIDE2LjIwMDIgMTJDMTYuMjAwMiAxMS40NDc4IDE1Ljc1MjQgMTEuMDAwMSAxNS4yMDAyIDExSDExLjIxMzlMMTIuNzA3IDkuNTA2ODRMMTIuNzc1NCA5LjQzMTY0QzEzLjA5NjEgOS4wMzg4NiAxMy4wNzMzIDguNDU5MDQgMTIuNzA3IDguMDkyNzdDMTIuMzQwOSA3LjcyNjc4IDExLjc2MTkgNy43MDQxNyAxMS4zNjkxIDguMDI0NDFMMTEuMjkzIDguMDkyNzdMOC4wOTI3NyAxMS4yOTNDNy43MjY3OCAxMS42NTkxIDcuNzA0MTcgMTIuMjM4MSA4LjAyNDQxIDEyLjYzMDlMOC4wOTI3NyAxMi43MDdMMTEuMjkzIDE1LjkwNzJDMTEuNjgzNSAxNi4yOTc2IDEyLjMxNjUgMTYuMjk3NiAxMi43MDcgMTUuOTA3MkMxMy4wOTc1IDE1LjUxNjcgMTMuMDk3NSAxNC44ODM3IDEyLjcwNyAxNC40OTMyTDExLjIxMzkgMTNaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={arrowLeftCircleFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ArrowLeftCircleFilledIcon';
+}
+
+export default RefIcon;

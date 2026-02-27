@@ -1,5 +1,11 @@
 # @tdm-design/icons
 
+## 0.1.0
+
+### Minor Changes
+
+- Chuẩn hóa lại README.md để tập trung hướng dẫn sử dụng thư viện icon.
+
 ## 0.0.21
 
 ### Patch Changes

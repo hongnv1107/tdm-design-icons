@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const displayOutlinedSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M19 6.55566C19 6.3102 18.8146 6.06911 18.5283 6.0127L18.4004 6H5.59961C5.24171 6.0002 5 6.27531 5 6.55566V14.333C5 14.6134 5.24171 14.8885 5.59961 14.8887H18.4004C18.7583 14.8885 19 14.6134 19 14.333V6.55566ZM21 14.333C21 15.7706 19.8094 16.8885 18.4004 16.8887H13V18H15.2002L15.3018 18.0049C15.8063 18.0559 16.2002 18.4821 16.2002 19C16.2002 19.5179 15.8063 19.9441 15.3018 19.9951L15.2002 20H8.7998C8.24761 19.9999 7.7998 19.5522 7.7998 19C7.7998 18.4478 8.24761 18.0001 8.7998 18H11V16.8887H5.59961C4.19058 16.8885 3 15.7706 3 14.333V6.55566C3 5.11803 4.19058 4.00021 5.59961 4H18.4004L18.6611 4.0127C19.9532 4.14062 21 5.20765 21 6.55566V14.333Z"/>
+  </svg>
+);
+
+const displayOutlinedIconDefinition = svgToIconDefinition(
+  displayOutlinedSvg,
+  'display-outlined'
+);
+
+/**![DisplayOutlinedIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTkgNi41NTU2NkMxOSA2LjMxMDIgMTguODE0NiA2LjA2OTExIDE4LjUyODMgNi4wMTI3TDE4LjQwMDQgNkg1LjU5OTYxQzUuMjQxNzEgNi4wMDAyIDUgNi4yNzUzMSA1IDYuNTU1NjZWMTQuMzMzQzUgMTQuNjEzNCA1LjI0MTcxIDE0Ljg4ODUgNS41OTk2MSAxNC44ODg3SDE4LjQwMDRDMTguNzU4MyAxNC44ODg1IDE5IDE0LjYxMzQgMTkgMTQuMzMzVjYuNTU1NjZaTTIxIDE0LjMzM0MyMSAxNS43NzA2IDE5LjgwOTQgMTYuODg4NSAxOC40MDA0IDE2Ljg4ODdIMTNWMThIMTUuMjAwMkwxNS4zMDE4IDE4LjAwNDlDMTUuODA2MyAxOC4wNTU5IDE2LjIwMDIgMTguNDgyMSAxNi4yMDAyIDE5QzE2LjIwMDIgMTkuNTE3OSAxNS44MDYzIDE5Ljk0NDEgMTUuMzAxOCAxOS45OTUxTDE1LjIwMDIgMjBIOC43OTk4QzguMjQ3NjEgMTkuOTk5OSA3Ljc5OTggMTkuNTUyMiA3Ljc5OTggMTlDNy43OTk4IDE4LjQ0NzggOC4yNDc2MSAxOC4wMDAxIDguNzk5OCAxOEgxMVYxNi44ODg3SDUuNTk5NjFDNC4xOTA1OCAxNi44ODg1IDMgMTUuNzcwNiAzIDE0LjMzM1Y2LjU1NTY2QzMgNS4xMTgwMyA0LjE5MDU4IDQuMDAwMjEgNS41OTk2MSA0SDE4LjQwMDRMMTguNjYxMSA0LjAxMjdDMTkuOTUzMiA0LjE0MDYyIDIxIDUuMjA3NjUgMjEgNi41NTU2NlYxNC4zMzNaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={displayOutlinedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'DisplayOutlinedIcon';
+}
+
+export default RefIcon;

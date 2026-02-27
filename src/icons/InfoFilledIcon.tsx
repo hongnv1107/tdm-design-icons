@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const infoFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M10.5 6.5C10.5 5.96875 10.7812 5.5 11.25 5.21875C11.6875 4.9375 12.2812 4.9375 12.75 5.21875C13.1875 5.5 13.5 5.96875 13.5 6.5C13.5 7.0625 13.1875 7.53125 12.75 7.8125C12.2812 8.09375 11.6875 8.09375 11.25 7.8125C10.7812 7.53125 10.5 7.0625 10.5 6.5ZM9 11C9 10.4688 9.4375 10 10 10H12C12.5312 10 13 10.4688 13 11V18H14C14.5312 18 15 18.4688 15 19C15 19.5625 14.5312 20 14 20H10C9.4375 20 9 19.5625 9 19C9 18.4688 9.4375 18 10 18H11V12H10C9.4375 12 9 11.5625 9 11Z"/>
+  </svg>
+);
+
+const infoFilledIconDefinition = svgToIconDefinition(
+  infoFilledSvg,
+  'info-filled'
+);
+
+/**![InfoFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTAuNSA2LjVDMTAuNSA1Ljk2ODc1IDEwLjc4MTIgNS41IDExLjI1IDUuMjE4NzVDMTEuNjg3NSA0LjkzNzUgMTIuMjgxMiA0LjkzNzUgMTIuNzUgNS4yMTg3NUMxMy4xODc1IDUuNSAxMy41IDUuOTY4NzUgMTMuNSA2LjVDMTMuNSA3LjA2MjUgMTMuMTg3NSA3LjUzMTI1IDEyLjc1IDcuODEyNUMxMi4yODEyIDguMDkzNzUgMTEuNjg3NSA4LjA5Mzc1IDExLjI1IDcuODEyNUMxMC43ODEyIDcuNTMxMjUgMTAuNSA3LjA2MjUgMTAuNSA2LjVaTTkgMTFDOSAxMC40Njg4IDkuNDM3NSAxMCAxMCAxMEgxMkMxMi41MzEyIDEwIDEzIDEwLjQ2ODggMTMgMTFWMThIMTRDMTQuNTMxMiAxOCAxNSAxOC40Njg4IDE1IDE5QzE1IDE5LjU2MjUgMTQuNTMxMiAyMCAxNCAyMEgxMEM5LjQzNzUgMjAgOSAxOS41NjI1IDkgMTlDOSAxOC40Njg4IDkuNDM3NSAxOCAxMCAxOEgxMVYxMkgxMEM5LjQzNzUgMTIgOSAxMS41NjI1IDkgMTFaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={infoFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'InfoFilledIcon';
+}
+
+export default RefIcon;

@@ -15,16 +15,7 @@ const fRCircleSvg = (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#a)">
-    <path fill="#F0F0F0" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"/>
-    <path fill="#D80027" d="M24 12c0-5.16-3.257-9.558-7.826-11.254v22.508C20.744 21.558 24 17.16 24 12Z"/>
-    <path fill="#0052B4" d="M0 12c0 5.16 3.257 9.559 7.827 11.254V.747C3.257 2.443 0 6.84 0 12Z"/>
-    </g>
-    <defs>
-    <clipPath id="a">
-    <path fill="#fff" d="M0 0h24v24H0z"/>
-    </clipPath>
-    </defs>
+    <g clip-path="url(#a)"><path fill="#F0F0F0" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"/><path fill="#D80027" d="M24 12c0-5.16-3.257-9.558-7.826-11.254v22.508C20.744 21.558 24 17.16 24 12Z"/><path fill="#0052B4" d="M0 12c0 5.16 3.257 9.559 7.827 11.254V.747C3.257 2.443 0 6.84 0 12Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs>
   </svg>
 );
 

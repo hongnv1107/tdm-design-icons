@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const minusCircleFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M12 21C10.3594 20.9766 8.85938 20.5781 7.5 19.8047C6.14062 19.0078 5.03906 17.9062 4.19531 16.5C3.39844 15.0703 3 13.5703 3 12C3 10.4297 3.39844 8.92969 4.19531 7.5C5.03906 6.09375 6.14062 4.99219 7.5 4.19531C8.85938 3.42188 10.3594 3.02344 12 3C13.6406 3.02344 15.1406 3.42188 16.5 4.19531C17.8594 4.99219 18.9609 6.09375 19.8047 7.5C20.6016 8.92969 21 10.4297 21 12C21 13.5703 20.6016 15.0703 19.8047 16.5C18.9609 17.9062 17.8594 19.0078 16.5 19.8047C15.1406 20.5781 13.6406 20.9766 12 21ZM9.46875 11.1562C8.95312 11.2031 8.67188 11.4844 8.625 12C8.67188 12.5156 8.95312 12.7969 9.46875 12.8438H14.5312C15.0469 12.7969 15.3281 12.5156 15.375 12C15.3281 11.4844 15.0469 11.2031 14.5312 11.1562H9.46875Z"/>
+  </svg>
+);
+
+const minusCircleFilledIconDefinition = svgToIconDefinition(
+  minusCircleFilledSvg,
+  'minus-circle-filled'
+);
+
+/**![MinusCircleFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTIgMjFDMTAuMzU5NCAyMC45NzY2IDguODU5MzggMjAuNTc4MSA3LjUgMTkuODA0N0M2LjE0MDYyIDE5LjAwNzggNS4wMzkwNiAxNy45MDYyIDQuMTk1MzEgMTYuNUMzLjM5ODQ0IDE1LjA3MDMgMyAxMy41NzAzIDMgMTJDMyAxMC40Mjk3IDMuMzk4NDQgOC45Mjk2OSA0LjE5NTMxIDcuNUM1LjAzOTA2IDYuMDkzNzUgNi4xNDA2MiA0Ljk5MjE5IDcuNSA0LjE5NTMxQzguODU5MzggMy40MjE4OCAxMC4zNTk0IDMuMDIzNDQgMTIgM0MxMy42NDA2IDMuMDIzNDQgMTUuMTQwNiAzLjQyMTg4IDE2LjUgNC4xOTUzMUMxNy44NTk0IDQuOTkyMTkgMTguOTYwOSA2LjA5Mzc1IDE5LjgwNDcgNy41QzIwLjYwMTYgOC45Mjk2OSAyMSAxMC40Mjk3IDIxIDEyQzIxIDEzLjU3MDMgMjAuNjAxNiAxNS4wNzAzIDE5LjgwNDcgMTYuNUMxOC45NjA5IDE3LjkwNjIgMTcuODU5NCAxOS4wMDc4IDE2LjUgMTkuODA0N0MxNS4xNDA2IDIwLjU3ODEgMTMuNjQwNiAyMC45NzY2IDEyIDIxWk05LjQ2ODc1IDExLjE1NjJDOC45NTMxMiAxMS4yMDMxIDguNjcxODggMTEuNDg0NCA4LjYyNSAxMkM4LjY3MTg4IDEyLjUxNTYgOC45NTMxMiAxMi43OTY5IDkuNDY4NzUgMTIuODQzOEgxNC41MzEyQzE1LjA0NjkgMTIuNzk2OSAxNS4zMjgxIDEyLjUxNTYgMTUuMzc1IDEyQzE1LjMyODEgMTEuNDg0NCAxNS4wNDY5IDExLjIwMzEgMTQuNTMxMiAxMS4xNTYySDkuNDY4NzVaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={minusCircleFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'MinusCircleFilledIcon';
+}
+
+export default RefIcon;

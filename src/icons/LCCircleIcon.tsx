@@ -15,17 +15,7 @@ const lCCircleSvg = (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#a)">
-    <path fill="#338AF3" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"/>
-    <path fill="#F3F3F3" d="M7.565 16.174h8.87L12 5.739 7.565 16.174Z"/>
-    <path fill="#333" d="M9.107 15.13 12 8.55l2.894 6.581H9.107Z"/>
-    <path fill="#FFDA44" d="M7.565 16.174h8.87L12 12l-4.435 4.173Z"/>
-    </g>
-    <defs>
-    <clipPath id="a">
-    <path fill="#fff" d="M0 0h24v24H0z"/>
-    </clipPath>
-    </defs>
+    <g clip-path="url(#a)"><path fill="#338AF3" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"/><path fill="#F3F3F3" d="M7.565 16.174h8.87L12 5.739 7.565 16.174Z"/><path fill="#333" d="M9.107 15.13 12 8.55l2.894 6.581H9.107Z"/><path fill="#FFDA44" d="M7.565 16.174h8.87L12 12l-4.435 4.173Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs>
   </svg>
 );
 

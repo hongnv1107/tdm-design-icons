@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const cornerLeftUpFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M9.99976 16V6.41407L13.2927 9.70704C13.6832 10.0976 14.3163 10.0976 14.7068 9.70704C15.0973 9.31652 15.0973 8.6835 14.7068 8.29298L9.70679 3.29298L9.63062 3.22462C9.23784 2.90427 8.65884 2.92686 8.29272 3.29298L3.29272 8.29298L3.22437 8.36915C2.90401 8.76192 2.92661 9.34092 3.29272 9.70704C3.65884 10.0732 4.23784 10.0958 4.63062 9.7754L4.70679 9.70704L7.99976 6.41407V16L8.00562 16.2481C8.06695 17.4838 8.58555 18.6561 9.4646 19.5352C10.4023 20.4728 11.6737 21 12.9998 21H19.9998C20.552 21 20.9998 20.5523 20.9998 20C20.9998 19.4477 20.552 19 19.9998 19H12.9998C12.2041 19 11.4413 18.6837 10.8787 18.1211C10.3865 17.6289 10.0827 16.9835 10.0144 16.2969L9.99976 16Z"/>
+  </svg>
+);
+
+const cornerLeftUpFilledIconDefinition = svgToIconDefinition(
+  cornerLeftUpFilledSvg,
+  'corner-left-up-filled'
+);
+
+/**![CornerLeftUpFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNOS45OTk3NiAxNlY2LjQxNDA3TDEzLjI5MjcgOS43MDcwNEMxMy42ODMyIDEwLjA5NzYgMTQuMzE2MyAxMC4wOTc2IDE0LjcwNjggOS43MDcwNEMxNS4wOTczIDkuMzE2NTIgMTUuMDk3MyA4LjY4MzUgMTQuNzA2OCA4LjI5Mjk4TDkuNzA2NzkgMy4yOTI5OEw5LjYzMDYyIDMuMjI0NjJDOS4yMzc4NCAyLjkwNDI3IDguNjU4ODQgMi45MjY4NiA4LjI5MjcyIDMuMjkyOThMMy4yOTI3MiA4LjI5Mjk4TDMuMjI0MzcgOC4zNjkxNUMyLjkwNDAxIDguNzYxOTIgMi45MjY2MSA5LjM0MDkyIDMuMjkyNzIgOS43MDcwNEMzLjY1ODg0IDEwLjA3MzIgNC4yMzc4NCAxMC4wOTU4IDQuNjMwNjIgOS43NzU0TDQuNzA2NzkgOS43MDcwNEw3Ljk5OTc2IDYuNDE0MDdWMTZMOC4wMDU2MiAxNi4yNDgxQzguMDY2OTUgMTcuNDgzOCA4LjU4NTU1IDE4LjY1NjEgOS40NjQ2IDE5LjUzNTJDMTAuNDAyMyAyMC40NzI4IDExLjY3MzcgMjEgMTIuOTk5OCAyMUgxOS45OTk4QzIwLjU1MiAyMSAyMC45OTk4IDIwLjU1MjMgMjAuOTk5OCAyMEMyMC45OTk4IDE5LjQ0NzcgMjAuNTUyIDE5IDE5Ljk5OTggMTlIMTIuOTk5OEMxMi4yMDQxIDE5IDExLjQ0MTMgMTguNjgzNyAxMC44Nzg3IDE4LjEyMTFDMTAuMzg2NSAxNy42Mjg5IDEwLjA4MjcgMTYuOTgzNSAxMC4wMTQ0IDE2LjI5NjlMOS45OTk3NiAxNloiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={cornerLeftUpFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'CornerLeftUpFilledIcon';
+}
+
+export default RefIcon;

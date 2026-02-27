@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const expandCornerFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M19.3691 4.22462C19.7618 3.90427 20.3408 3.92686 20.707 4.29298C21.0731 4.65909 21.0957 5.2381 20.7753 5.63087L20.707 5.70704L5.70696 20.707C5.31643 21.0976 4.68342 21.0976 4.29289 20.707C3.90237 20.3165 3.90237 19.6835 4.29289 19.293L19.2929 4.29298L19.3691 4.22462ZM19.2929 11.293C19.6834 10.9025 20.3164 10.9025 20.707 11.293C21.0975 11.6835 21.0975 12.3165 20.707 12.707L12.707 20.707C12.3164 21.0976 11.6834 21.0976 11.2929 20.707C10.9024 20.3165 10.9024 19.6835 11.2929 19.293L19.2929 11.293ZM19.2929 17.293C19.6834 16.9025 20.3164 16.9025 20.707 17.293C21.0975 17.6835 21.0975 18.3165 20.707 18.707L18.707 20.707C18.3164 21.0976 17.6834 21.0976 17.2929 20.707C16.9024 20.3165 16.9024 19.6835 17.2929 19.293L19.2929 17.293Z"/>
+  </svg>
+);
+
+const expandCornerFilledIconDefinition = svgToIconDefinition(
+  expandCornerFilledSvg,
+  'expand-corner-filled'
+);
+
+/**![ExpandCornerFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTkuMzY5MSA0LjIyNDYyQzE5Ljc2MTggMy45MDQyNyAyMC4zNDA4IDMuOTI2ODYgMjAuNzA3IDQuMjkyOThDMjEuMDczMSA0LjY1OTA5IDIxLjA5NTcgNS4yMzgxIDIwLjc3NTMgNS42MzA4N0wyMC43MDcgNS43MDcwNEw1LjcwNjk2IDIwLjcwN0M1LjMxNjQzIDIxLjA5NzYgNC42ODM0MiAyMS4wOTc2IDQuMjkyODkgMjAuNzA3QzMuOTAyMzcgMjAuMzE2NSAzLjkwMjM3IDE5LjY4MzUgNC4yOTI4OSAxOS4yOTNMMTkuMjkyOSA0LjI5Mjk4TDE5LjM2OTEgNC4yMjQ2MlpNMTkuMjkyOSAxMS4yOTNDMTkuNjgzNCAxMC45MDI1IDIwLjMxNjQgMTAuOTAyNSAyMC43MDcgMTEuMjkzQzIxLjA5NzUgMTEuNjgzNSAyMS4wOTc1IDEyLjMxNjUgMjAuNzA3IDEyLjcwN0wxMi43MDcgMjAuNzA3QzEyLjMxNjQgMjEuMDk3NiAxMS42ODM0IDIxLjA5NzYgMTEuMjkyOSAyMC43MDdDMTAuOTAyNCAyMC4zMTY1IDEwLjkwMjQgMTkuNjgzNSAxMS4yOTI5IDE5LjI5M0wxOS4yOTI5IDExLjI5M1pNMTkuMjkyOSAxNy4yOTNDMTkuNjgzNCAxNi45MDI1IDIwLjMxNjQgMTYuOTAyNSAyMC43MDcgMTcuMjkzQzIxLjA5NzUgMTcuNjgzNSAyMS4wOTc1IDE4LjMxNjUgMjAuNzA3IDE4LjcwN0wxOC43MDcgMjAuNzA3QzE4LjMxNjQgMjEuMDk3NiAxNy42ODM0IDIxLjA5NzYgMTcuMjkyOSAyMC43MDdDMTYuOTAyNCAyMC4zMTY1IDE2LjkwMjQgMTkuNjgzNSAxNy4yOTI5IDE5LjI5M0wxOS4yOTI5IDE3LjI5M1oiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={expandCornerFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ExpandCornerFilledIcon';
+}
+
+export default RefIcon;

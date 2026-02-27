@@ -1,6 +1,6 @@
 {
   "name": "@tdm-design/icons",
-  "version": "0.0.21",
+  "version": "0.1.0",
   "description": "TDM Design Icon Library - React icon components with tree-shaking support",
   "contributes": [
     "hongnv1107<hong.nv1107@gmail.com>"
@@ -32,8 +32,6 @@
     "compile": "father build",
     "postcompile": "npm run clean && cross-env TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=entry",
     "lint": "eslint src/ --ext .tsx,.ts",
-    "prepublishOnly": "npm run generate && npm run compile",
-    "test:usage": "npm run generate && npm run compile && node scripts/test-usage.cjs",
     "changeset": "changeset",
     "version": "changeset version",
     "release": "npm run generate && npm run compile && changeset publish",

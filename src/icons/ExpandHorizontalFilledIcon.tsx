@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const expandHorizontalFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M4.19352 12.5909C3.91744 12.2146 3.93742 11.6911 4.25309 11.336L7.80876 7.33597L7.88005 7.26273C8.25333 6.91982 8.83289 6.90896 9.21989 7.25296C9.60689 7.59701 9.66425 8.17409 9.36735 8.58499L9.3029 8.66409L7.22575 11H16.7736L14.6974 8.66409C14.3306 8.25133 14.3677 7.61987 14.7804 7.25296C15.1932 6.88606 15.8246 6.92324 16.1916 7.33597L19.7472 11.336C20.084 11.7149 20.084 12.2852 19.7472 12.6641L16.1916 16.6641C15.8246 17.0768 15.1932 17.114 14.7804 16.7471C14.3934 16.403 14.3361 15.826 14.633 15.4151L14.6974 15.336L16.7736 13H7.22575L9.3029 15.336C9.66975 15.7487 9.6326 16.3802 9.21989 16.7471C8.80713 17.114 8.17568 17.0768 7.80876 16.6641L4.25309 12.6641L4.19352 12.5909Z"/>
+  </svg>
+);
+
+const expandHorizontalFilledIconDefinition = svgToIconDefinition(
+  expandHorizontalFilledSvg,
+  'expand-horizontal-filled'
+);
+
+/**![ExpandHorizontalFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNC4xOTM1MiAxMi41OTA5QzMuOTE3NDQgMTIuMjE0NiAzLjkzNzQyIDExLjY5MTEgNC4yNTMwOSAxMS4zMzZMNy44MDg3NiA3LjMzNTk3TDcuODgwMDUgNy4yNjI3M0M4LjI1MzMzIDYuOTE5ODIgOC44MzI4OSA2LjkwODk2IDkuMjE5ODkgNy4yNTI5NkM5LjYwNjg5IDcuNTk3MDEgOS42NjQyNSA4LjE3NDA5IDkuMzY3MzUgOC41ODQ5OUw5LjMwMjkgOC42NjQwOUw3LjIyNTc1IDExSDE2Ljc3MzZMMTQuNjk3NCA4LjY2NDA5QzE0LjMzMDYgOC4yNTEzMyAxNC4zNjc3IDcuNjE5ODcgMTQuNzgwNCA3LjI1Mjk2QzE1LjE5MzIgNi44ODYwNiAxNS44MjQ2IDYuOTIzMjQgMTYuMTkxNiA3LjMzNTk3TDE5Ljc0NzIgMTEuMzM2QzIwLjA4NCAxMS43MTQ5IDIwLjA4NCAxMi4yODUyIDE5Ljc0NzIgMTIuNjY0MUwxNi4xOTE2IDE2LjY2NDFDMTUuODI0NiAxNy4wNzY4IDE1LjE5MzIgMTcuMTE0IDE0Ljc4MDQgMTYuNzQ3MUMxNC4zOTM0IDE2LjQwMyAxNC4zMzYxIDE1LjgyNiAxNC42MzMgMTUuNDE1MUwxNC42OTc0IDE1LjMzNkwxNi43NzM2IDEzSDcuMjI1NzVMOS4zMDI5IDE1LjMzNkM5LjY2OTc1IDE1Ljc0ODcgOS42MzI2IDE2LjM4MDIgOS4yMTk4OSAxNi43NDcxQzguODA3MTMgMTcuMTE0IDguMTc1NjggMTcuMDc2OCA3LjgwODc2IDE2LjY2NDFMNC4yNTMwOSAxMi42NjQxTDQuMTkzNTIgMTIuNTkwOVoiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={expandHorizontalFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ExpandHorizontalFilledIcon';
+}
+
+export default RefIcon;

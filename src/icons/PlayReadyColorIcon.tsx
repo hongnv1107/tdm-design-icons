@@ -15,7 +15,7 @@ const playReadyColorSvg = (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <path d="M8.86364 8.86364H16.25V16.25H8.86364V8.86364Z" fill="#FEBA08" /> <path d="M0 8.86364H7.38636V16.25H0V8.86364Z" fill="#05A6F0" /> <path d="M8.86364 0H16.25V7.38636H8.86364V0Z" fill="#80BC06" /> <path d="M0 0H7.38636V7.38636H0V0Z" fill="#F25325" />
+    <path d="M8.86364 8.86364H16.25V16.25H8.86364V8.86364Z" fill="#FEBA08" /><path d="M0 8.86364H7.38636V16.25H0V8.86364Z" fill="#05A6F0" /><path d="M8.86364 0H16.25V7.38636H8.86364V0Z" fill="#80BC06" /><path d="M0 0H7.38636V7.38636H0V0Z" fill="#F25325" />
   </svg>
 );
 

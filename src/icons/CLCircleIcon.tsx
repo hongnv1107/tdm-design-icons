@@ -15,17 +15,7 @@ const cLCircleSvg = (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#a)">
-    <path fill="#F0F0F0" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"/>
-    <path fill="#D80027" d="M24 12c0 6.627-5.373 12-12 12S0 18.627 0 12s12 0 12 0h12Z"/>
-    <path fill="#0052B4" d="M0 12C0 5.373 5.373 0 12 0v12H0Z"/>
-    <path fill="#F0F0F0" d="m7.143 4.173.777 2.392h2.514L8.4 8.043l.777 2.391-2.034-1.478-2.034 1.478.777-2.391L3.85 6.565h2.515l.777-2.392Z"/>
-    </g>
-    <defs>
-    <clipPath id="a">
-    <path fill="#fff" d="M0 0h24v24H0z"/>
-    </clipPath>
-    </defs>
+    <g clip-path="url(#a)"><path fill="#F0F0F0" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"/><path fill="#D80027" d="M24 12c0 6.627-5.373 12-12 12S0 18.627 0 12s12 0 12 0h12Z"/><path fill="#0052B4" d="M0 12C0 5.373 5.373 0 12 0v12H0Z"/><path fill="#F0F0F0" d="m7.143 4.173.777 2.392h2.514L8.4 8.043l.777 2.391-2.034-1.478-2.034 1.478.777-2.391L3.85 6.565h2.515l.777-2.392Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs>
   </svg>
 );
 
