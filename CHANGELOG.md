@@ -1,5 +1,11 @@
 # @tdm-design/icons
 
+## 0.1.2
+
+### Patch Changes
+
+- add ForensicWatermarkingIcon
+
 ## 0.1.1
 
 ### Patch Changes

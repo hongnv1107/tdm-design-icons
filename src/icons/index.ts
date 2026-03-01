@@ -373,6 +373,7 @@ export { default as FolderFilledIcon } from './FolderFilledIcon';
 export { default as FolderOutlinedIcon } from './FolderOutlinedIcon';
 export { default as FontCaseFilledIcon } from './FontCaseFilledIcon';
 export { default as FontCaseOutlinedIcon } from './FontCaseOutlinedIcon';
+export { default as ForensicWatermarkingFilledIcon } from './ForensicWatermarkingFilledIcon';
 export { default as ForwardFastFilledIcon } from './ForwardFastFilledIcon';
 export { default as ForwardFastOutlinedIcon } from './ForwardFastOutlinedIcon';
 export { default as ForwardFilledIcon } from './ForwardFilledIcon';
