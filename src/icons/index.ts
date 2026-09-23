@@ -260,6 +260,7 @@ export { default as CoinVerticalOutlinedIcon } from './CoinVerticalOutlinedIcon'
 export { default as CollapseFilledIcon } from './CollapseFilledIcon';
 export { default as CopyFilledIcon } from './CopyFilledIcon';
 export { default as CopyOutlinedIcon } from './CopyOutlinedIcon';
+export { default as CopyPlusOutlinedIcon } from './CopyPlusOutlinedIcon';
 export { default as CornerDownLeftFilledIcon } from './CornerDownLeftFilledIcon';
 export { default as CornerDownRightFilledIcon } from './CornerDownRightFilledIcon';
 export { default as CornerLeftDownFilledIcon } from './CornerLeftDownFilledIcon';
