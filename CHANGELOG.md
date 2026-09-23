@@ -1,5 +1,17 @@
 # @tdm-design/icons
 
+## 0.1.5
+
+### Patch Changes
+
+- update fill currentColor
+
+## 0.1.4
+
+### Patch Changes
+
+- add 10 icon new: ZoomOutOutlinedIcon, ZoomInOutlinedIcon, ArrowUpDownOutlinedIcon,...
+
 ## 0.1.2
 
 ### Patch Changes
