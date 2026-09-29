@@ -15,7 +15,7 @@ const dotLiveFilledSvg = (
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <circle cx="12" cy="12" r="6" fill="#CACACA"/>
+    <circle cx="12" cy="12" r="6" />
   </svg>
 );
 
@@ -24,7 +24,7 @@ const dotLiveFilledIconDefinition = svgToIconDefinition(
   'dot-live-filled'
 );
 
-/**![DotLiveFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI2IiBmaWxsPSIjQ0FDQUNBIi8+PC9zdmc+) */
+/**![DotLiveFilledIcon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI2Ii8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
