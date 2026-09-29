@@ -1,5 +1,11 @@
 # @tdm-design/icons
 
+## 0.1.9
+
+### Patch Changes
+
+- Add github action, auto publish, change icon ChevronUpFilledIcon
+
 ## 0.1.5
 
 ### Patch Changes
