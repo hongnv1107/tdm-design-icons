@@ -17,18 +17,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
+          cache: pnpm
           registry-url: https://registry.npmjs.org
 
       - name: Update npm (required for OIDC trusted publishing)
         run: npm install -g npm@latest
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Verify tag matches package.json version
         run: |
@@ -39,7 +42,7 @@ jobs:
           fi
 
       - name: Build
-        run: npm run release
+        run: pnpm run release
 
       - name: Publish to npm
         run: npm publish --provenance --access public
