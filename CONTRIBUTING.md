@@ -1,6 +1,20 @@
-# Contributing — Thêm icon, Generate & Publish
+# Contributing — Thêm icon mới & Publish lên npm
 
-Tài liệu này mô tả toàn bộ luồng từ khi có file SVG mới cho đến khi publish lên npm.
+Tài liệu mô tả toàn bộ luồng từ khi có file SVG mới đến khi package được publish lên npm.
+
+---
+
+## Mục lục
+
+1. [Cấu trúc thư mục](#cấu-trúc-thư-mục)
+2. [Thêm icon mới](#thêm-icon-mới)
+3. [Generate React components](#generate-react-components)
+4. [Kiểm tra bằng demo local](#kiểm-tra-bằng-demo-local)
+5. [Build](#build)
+6. [Tạo changeset & bump version](#tạo-changeset--bump-version)
+7. [Publish lên npm qua Git tag](#publish-lên-npm-qua-git-tag)
+8. [Cấu hình GitHub & npm (một lần)](#cấu-hình-github--npm-một-lần)
+9. [Post-process SVG (tiện ích)](#post-process-svg-tiện-ích)
 
 ---
 
@@ -8,7 +22,7 @@ Tài liệu này mô tả toàn bộ luồng từ khi có file SVG mới cho đ�
 
 ```
 tdm-design-icons/
-├── svg/                        # SVG nguồn được dùng để generate
+├── svg/                        # SVG nguồn — dùng để generate component
 │   ├── filled/                 # Icon kiểu filled  (VD: BellFilledIcon.svg)
 │   ├── outlined/               # Icon kiểu outlined (VD: BellOutlinedIcon.svg)
 │   ├── color/                  # Icon có màu       (VD: SocialGoogleColorIcon.svg)
@@ -16,7 +30,7 @@ tdm-design-icons/
 │   └── *.svg                   # Icon không thuộc nhóm cụ thể
 ├── svg-source/                 # SVG gốc tải về từ Figma (chưa phân loại)
 ├── src/
-│   ├── icons/                  # TSX component được generate tự động (không sửa tay)
+│   ├── icons/                  # ⚠️ TSX component được generate tự động — KHÔNG sửa tay
 │   ├── components/
 │   │   └── TdmIcon.tsx         # Base icon component
 │   └── utils.ts
@@ -25,16 +39,19 @@ tdm-design-icons/
 ├── figma-script/
 │   ├── figma-sync-svgs.js      # Sync SVG từ Figma
 │   └── classify-svgs.js        # Phân loại SVG vào svg/filled, svg/outlined...
+├── .changeset/                 # Changeset config & pending changesets
+├── .github/workflows/
+│   └── publish.yml             # CI/CD — tự động publish khi push tag
 └── package.json
 ```
 
 ---
 
-## Luồng thêm icon mới
+## Thêm icon mới
 
-### Bước 1 — Thêm file SVG
+### Bước 1 — Chuẩn hóa file SVG
 
-Đảm bảo file SVG đáp ứng chuẩn sau trước khi thêm vào thư mục:
+Đảm bảo file SVG đáp ứng chuẩn sau **trước khi** thêm vào thư mục:
 
 ```xml
 <svg width="24" height="24" viewBox="0 0 24 24" fill="#cacaca" xmlns="http://www.w3.org/2000/svg">
@@ -42,30 +59,34 @@ tdm-design-icons/
 </svg>
 ```
 
-**Yêu cầu nội dung SVG:**
+**Yêu cầu:**
 
-- `fill="#cacaca"` trên thẻ `<svg>`, không đặt `fill` trên các thẻ con (`<path>`, `<rect>`,…)
-- Kích thước `width="24" height="24"`, `viewBox="0 0 24 24"`
-- Nội dung đã minify (1 dòng)
+| Tiêu chí | Giá trị |
+| --- | --- |
+| Kích thước | `width="24" height="24"`, `viewBox="0 0 24 24"` |
+| Fill | `fill="#cacaca"` trên thẻ `<svg>`, **không** đặt `fill` trên thẻ con (`<path>`, `<rect>`,…) |
+| Nội dung | Đã minify (1 dòng) |
 
-**Quy tắc đặt tên file:** `{Name}{Style}Icon.svg`
+### Bước 2 — Đặt tên file
 
-| Style          | Hậu tố                  | Ví dụ                       |
-| -------------- | ----------------------- | --------------------------- |
-| Solid/Filled   | `FilledIcon`            | `BellFilledIcon.svg`        |
-| Stroke/Outline | `OutlinedIcon`          | `BellOutlinedIcon.svg`      |
-| Multi-color    | `ColorIcon`             | `SocialGoogleColorIcon.svg` |
-| Flag           | (không có suffix style) | `VNCircleIcon.svg`          |
+Quy tắc: **`{Name}{Style}Icon.svg`**
 
-**Vị trí đặt file:**
+| Style | Hậu tố | Ví dụ |
+| --- | --- | --- |
+| Solid/Filled | `FilledIcon` | `BellFilledIcon.svg` |
+| Stroke/Outline | `OutlinedIcon` | `BellOutlinedIcon.svg` |
+| Multi-color | `ColorIcon` | `SocialGoogleColorIcon.svg` |
+| Cờ quốc gia | _(không có suffix style)_ | `VNCircleIcon.svg` |
 
-| Loại icon             | Thư mục         |
-| --------------------- | --------------- |
-| `*FilledIcon.svg`     | `svg/filled/`   |
-| `*OutlinedIcon.svg`   | `svg/outlined/` |
-| `*ColorIcon.svg`      | `svg/color/`    |
-| Flag icon             | `svg/flag/`     |
-| Không thuộc nhóm trên | `svg/` (root)   |
+### Bước 3 — Đặt file vào đúng thư mục
+
+| Loại icon | Thư mục |
+| --- | --- |
+| `*FilledIcon.svg` | `svg/filled/` |
+| `*OutlinedIcon.svg` | `svg/outlined/` |
+| `*ColorIcon.svg` | `svg/color/` |
+| Flag icon | `svg/flag/` |
+| Không thuộc nhóm trên | `svg/` (root) |
 
 ---
 
@@ -84,7 +105,25 @@ Lệnh này sẽ:
 3. Tạo `src/icons/{IconName}.tsx` cho từng icon
 4. Tạo `src/icons/index.ts` export tất cả
 
-> **Không sửa tay** bất kỳ file nào trong `src/icons/` — chúng sẽ bị ghi đè mỗi lần generate.
+> ⚠️ **Không sửa tay** bất kỳ file nào trong `src/icons/` — chúng sẽ bị ghi đè mỗi lần generate.
+
+---
+
+## Kiểm tra bằng demo local
+
+Sau khi generate, kiểm tra icon mới bằng demo:
+
+```bash
+npm run demo:dev
+```
+
+Build demo để deploy:
+
+```bash
+npm run demo:build
+```
+
+Demo sẽ được auto-deploy lên Vercel khi push lên nhánh `main`.
 
 ---
 
@@ -96,11 +135,11 @@ npm run compile
 
 Lệnh này chạy `father build` để tạo:
 
-| Output  | Format | Dùng cho                |
-| ------- | ------ | ----------------------- |
-| `es/`   | ESM    | Bundler (webpack, vite) |
-| `lib/`  | CJS    | Node.js / fallback      |
-| `dist/` | UMD    | CDN / unpkg             |
+| Output | Format | Dùng cho |
+| --- | --- | --- |
+| `es/` | ESM | Bundler (webpack, vite) |
+| `lib/` | CJS | Node.js / fallback |
+| `dist/` | UMD | CDN / unpkg |
 
 `postcompile` tự động chạy sau `compile` để tạo các entry file `*.js` / `*.d.ts` ở root (hỗ trợ import trực tiếp theo tên icon).
 
@@ -117,11 +156,13 @@ npm run changeset
 
 Chọn loại bump:
 
-- `patch` — sửa lỗi nhỏ, không thêm icon mới (0.0.**x**)
-- `minor` — thêm icon mới (0.**x**.0)
-- `major` — breaking change (**x**.0.0)
+| Loại | Khi nào dùng | Ví dụ version |
+| --- | --- | --- |
+| `patch` | Sửa lỗi nhỏ, không thêm icon | `0.0.x` |
+| `minor` | **Thêm icon mới** (tính năng mới) | `0.x.0` |
+| `major` | Breaking change | `x.0.0` |
 
-Nhập mô tả, ví dụ: `Add BellFilledIcon, BellOutlinedIcon`.
+Nhập mô tả, ví dụ: _"Add BellFilledIcon, BellOutlinedIcon"_
 
 ```bash
 # 2. Áp dụng changeset → cập nhật package.json + CHANGELOG.md
@@ -130,42 +171,28 @@ npm run version
 
 ---
 
-## Publish lên npm
+## Publish lên npm qua Git tag
+
+Quy trình publish **hoàn toàn tự động** thông qua GitHub Actions khi push một Git tag có dạng `v*`.
+
+### Các lệnh thực hiện
 
 ```bash
-# Đảm bảo đã đăng nhập npm
-npm login
+# 1. Ghi nhận thay đổi (chọn "minor" khi thêm icon mới)
+npm run changeset
 
-# Build + publish
-npm run generate && npm run compile
-npm publish
+# 2. Bump version → cập nhật package.json + CHANGELOG.md
+npm run version
+
+# 3. Commit release
+git add .
+git commit -m "chore: release vX.Y.Z"
+
+# 4. Push code + tag
+git push origin main
+git tag vX.Y.Z
+git push origin --tags
 ```
-
-Hoặc dùng script tổng hợp (generate + compile + changeset publish):
-
-```bash
-npm run release
-```
-
-> **Lưu ý**: `publishConfig.access` đã được đặt là `"public"` trong `package.json`, không cần thêm `--access public`.
-
----
-
-## Demo
-
-Chạy demo local:
-
-```bash
-npm run demo:dev
-```
-
-Build demo để deploy:
-
-```bash
-npm run demo:build
-```
-
-Demo sẽ được auto-deploy lên Vercel khi push lên nhánh `main` thông qua GitHub Actions.
 
 ---
 
@@ -180,4 +207,33 @@ Script `svg-postprocess-all.js` (ở root) dùng để chuẩn hóa toàn bộ S
 
 ```bash
 node svg-postprocess-all.js
+```
+
+---
+
+## Tóm tắt nhanh — Thêm icon & Publish
+
+```bash
+# 1. Thêm file SVG vào svg/filled/, svg/outlined/,... (đã chuẩn hóa)
+
+# 2. Generate component
+npm run generate
+
+# 3. Kiểm tra
+npm run demo:dev
+
+# 4. Tạo changeset (chọn minor)
+npm run changeset
+
+# 5. Bump version
+npm run version
+
+# 6. Commit & push
+git add .
+git commit -m "chore: release vX.Y.Z"
+git push origin main
+
+# 7. Tag & push → GitHub Actions tự publish
+git tag vX.Y.Z
+git push origin --tags
 ```
