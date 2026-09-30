@@ -1,5 +1,11 @@
 # @tdm-design/icons
 
+## 0.1.10
+
+### Patch Changes
+
+- docs: rewrite CONTRIBUTING.md & add EqualIcon SVGs
+
 ## 0.1.9
 
 ### Patch Changes
