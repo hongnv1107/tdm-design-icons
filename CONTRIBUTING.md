@@ -2,6 +2,8 @@
 
 Tài liệu mô tả toàn bộ luồng từ khi có file SVG mới đến khi package được publish lên npm.
 
+> **Package manager**: repo hiện dùng **pnpm** (`pnpm-lock.yaml`, `packageManager` trong `package.json`). Các lệnh `npm run ...` bên dưới chỉ đang gọi script khai báo trong `package.json` nên vẫn chạy được với bất kỳ package manager nào (`npm run x` / `pnpm run x` / `yarn x`) — nhưng khi **cài dependency**, hãy dùng đúng công cụ khớp với lock file đang có trong repo (đừng chạy `npm install` hay `yarn install` sẽ tạo lock file khác và gây lệch phiên bản). CI (`.github/workflows/publish.yml`) tự nhận diện package manager qua lock file (`pnpm-lock.yaml` / `yarn.lock` / `package-lock.json`), nên không cần sửa workflow nếu sau này đổi sang npm hoặc yarn.
+
 ---
 
 ## Mục lục
