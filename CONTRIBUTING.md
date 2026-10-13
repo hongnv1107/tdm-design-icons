@@ -25,8 +25,8 @@ Tài liệu mô tả toàn bộ luồng từ khi có file SVG mới đến khi p
 ```
 tdm-design-icons/
 ├── svg/                        # SVG nguồn — dùng để generate component
-│   ├── filled/                 # Icon kiểu filled  (VD: BellFilledIcon.svg)
-│   ├── outlined/               # Icon kiểu outlined (VD: BellOutlinedIcon.svg)
+│   ├── filled/                 # Icon kiểu filled  (VD: Bell.svg → BellFilled)
+│   ├── outlined/               # Icon kiểu outlined (VD: Bell.svg → BellOutlined)
 │   ├── color/                  # Icon có màu       (VD: SocialGoogleColorIcon.svg)
 │   ├── flag/                   # Icon cờ quốc gia  (VD: VNCircleIcon.svg)
 │   └── *.svg                   # Icon không thuộc nhóm cụ thể
@@ -71,10 +71,27 @@ tdm-design-icons/
 
 ### Bước 2 — Đặt tên file
 
-Quy tắc: **`{Name}{Style}Icon.svg`**
+Tên component **không có đuôi `Icon`**. Style lấy từ thư mục chứa file.
 
-| Style | Hậu tố | Ví dụ |
+| Thư mục | Tên file SVG | Component sinh ra |
 | --- | --- | --- |
+| `svg/filled/` | `Bell.svg` | `BellFilled` |
+| `svg/outlined/` | `Bell.svg` | `BellOutlined` |
+| `svg/color/` | `SocialGoogleColorIcon.svg` | `SocialGoogleColor` |
+| `svg/flag/` | `VNCircleIcon.svg` | `VNCircle` |
+
+(Đuôi `Icon` nếu có trong tên file SVG sẽ bị bỏ khi generate.)
+
+### Bước 3 — Đặt file vào đúng thư mục
+
+| Loại icon | Thư mục |
+| --- | --- |
+| Filled | `svg/filled/` |
+| Outlined | `svg/outlined/` |
+| Color | `svg/color/` |
+| Flag icon | `svg/flag/` |
+
+--- | --- | --- |
 | Solid/Filled | `FilledIcon` | `BellFilledIcon.svg` |
 | Stroke/Outline | `OutlinedIcon` | `BellOutlinedIcon.svg` |
 | Multi-color | `ColorIcon` | `SocialGoogleColorIcon.svg` |
@@ -164,7 +181,7 @@ Chọn loại bump:
 | `minor` | **Thêm icon mới** (tính năng mới) | `0.x.0` |
 | `major` | Breaking change | `x.0.0` |
 
-Nhập mô tả, ví dụ: _"Add BellFilledIcon, BellOutlinedIcon"_
+Nhập mô tả, ví dụ: _"Add BellFilled, BellOutlined"_
 
 ```bash
 # 2. Áp dụng changeset → cập nhật package.json + CHANGELOG.md

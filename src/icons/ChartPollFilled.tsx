@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const chartPollFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#clip0_1_3343)"><path fill-rule="evenodd" clip-rule="evenodd" d="M20 24C22.2091 24 24 22.2091 24 20V4C24 1.79086 22.2091 0 20 0H4C1.79086 0 0 1.79086 0 4V20C0 22.2091 1.79086 24 4 24H20ZM17.3333 9.49333C16.597 9.49333 16 10.0903 16 10.8267V17.4933C16 18.2297 16.597 18.8267 17.3333 18.8267C18.0697 18.8267 18.6667 18.2297 18.6667 17.4933V10.8267C18.6667 10.0903 18.0697 9.49333 17.3333 9.49333ZM10.6667 6.82666C10.6667 6.09028 11.2636 5.49333 12 5.49333C12.7364 5.49333 13.3333 6.09028 13.3333 6.82666V17.4933C13.3333 18.2297 12.7364 18.8267 12 18.8267C11.2636 18.8267 10.6667 18.2297 10.6667 17.4933L10.6667 6.82666ZM6.66667 12.16C5.93029 12.16 5.33333 12.7569 5.33333 13.4933L5.33333 17.4933C5.33333 18.2297 5.93029 18.8267 6.66667 18.8267C7.40305 18.8267 8 18.2297 8 17.4933L8 13.4933C8 12.7569 7.40305 12.16 6.66667 12.16Z"/></g><defs><clipPath id="clip0_1_3343"><rect width="24" height="24" fill="white"/></clipPath></defs>
+  </svg>
+);
+
+const chartPollFilledIconDefinition = svgToIconDefinition(
+  chartPollFilledSvg,
+  'chart-poll-filled'
+);
+
+/**![ChartPollFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfMV8zMzQzKSI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMCAyNEMyMi4yMDkxIDI0IDI0IDIyLjIwOTEgMjQgMjBWNEMyNCAxLjc5MDg2IDIyLjIwOTEgMCAyMCAwSDRDMS43OTA4NiAwIDAgMS43OTA4NiAwIDRWMjBDMCAyMi4yMDkxIDEuNzkwODYgMjQgNCAyNEgyMFpNMTcuMzMzMyA5LjQ5MzMzQzE2LjU5NyA5LjQ5MzMzIDE2IDEwLjA5MDMgMTYgMTAuODI2N1YxNy40OTMzQzE2IDE4LjIyOTcgMTYuNTk3IDE4LjgyNjcgMTcuMzMzMyAxOC44MjY3QzE4LjA2OTcgMTguODI2NyAxOC42NjY3IDE4LjIyOTcgMTguNjY2NyAxNy40OTMzVjEwLjgyNjdDMTguNjY2NyAxMC4wOTAzIDE4LjA2OTcgOS40OTMzMyAxNy4zMzMzIDkuNDkzMzNaTTEwLjY2NjcgNi44MjY2NkMxMC42NjY3IDYuMDkwMjggMTEuMjYzNiA1LjQ5MzMzIDEyIDUuNDkzMzNDMTIuNzM2NCA1LjQ5MzMzIDEzLjMzMzMgNi4wOTAyOCAxMy4zMzMzIDYuODI2NjZWMTcuNDkzM0MxMy4zMzMzIDE4LjIyOTcgMTIuNzM2NCAxOC44MjY3IDEyIDE4LjgyNjdDMTEuMjYzNiAxOC44MjY3IDEwLjY2NjcgMTguMjI5NyAxMC42NjY3IDE3LjQ5MzNMMTAuNjY2NyA2LjgyNjY2Wk02LjY2NjY3IDEyLjE2QzUuOTMwMjkgMTIuMTYgNS4zMzMzMyAxMi43NTY5IDUuMzMzMzMgMTMuNDkzM0w1LjMzMzMzIDE3LjQ5MzNDNS4zMzMzMyAxOC4yMjk3IDUuOTMwMjkgMTguODI2NyA2LjY2NjY3IDE4LjgyNjdDNy40MDMwNSAxOC44MjY3IDggMTguMjI5NyA4IDE3LjQ5MzNMOCAxMy40OTMzQzggMTIuNzU2OSA3LjQwMzA1IDEyLjE2IDYuNjY2NjcgMTIuMTZaIi8+PC9nPjxkZWZzPjxjbGlwUGF0aCBpZD0iY2xpcDBfMV8zMzQzIj48cmVjdCB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IndoaXRlIi8+PC9jbGlwUGF0aD48L2RlZnM+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={chartPollFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ChartPollFilled';
+}
+
+export default RefIcon;

@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const creditCardOutlinedSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M21.6 10.65H2.4V18.45C2.4 18.8564 2.73442 19.2 3.16406 19.2H20.8359C21.2656 19.2 21.6 18.8564 21.6 18.45V10.65ZM21.6 5.40603C21.6 4.99969 21.2656 4.65603 20.8359 4.65603H3.16406C2.73442 4.65603 2.4 4.99969 2.4 5.40603V8.25603H21.6V5.40603ZM24 18.45C24 20.1976 22.5753 21.6 20.8359 21.6H3.16406C1.42473 21.6 0 20.1976 0 18.45V5.55002C0 3.80246 1.42473 2.40002 3.16406 2.40002H20.8359C22.5753 2.40002 24 3.80246 24 5.55002V18.45Z"/><path d="M4.8 15.6C4.8 14.9373 5.33726 14.4 6 14.4H9.6C10.2627 14.4 10.8 14.9373 10.8 15.6C10.8 16.2628 10.2627 16.8 9.6 16.8H6C5.33726 16.8 4.8 16.2628 4.8 15.6Z"/><path d="M13.2 15.6C13.2 14.9373 13.7373 14.4 14.4 14.4H15.6C16.2627 14.4 16.8 14.9373 16.8 15.6C16.8 16.2628 16.2627 16.8 15.6 16.8H14.4C13.7373 16.8 13.2 16.2628 13.2 15.6Z"/>
+  </svg>
+);
+
+const creditCardOutlinedIconDefinition = svgToIconDefinition(
+  creditCardOutlinedSvg,
+  'credit-card-outlined'
+);
+
+/**![CreditCardOutlined](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMjEuNiAxMC42NUgyLjRWMTguNDVDMi40IDE4Ljg1NjQgMi43MzQ0MiAxOS4yIDMuMTY0MDYgMTkuMkgyMC44MzU5QzIxLjI2NTYgMTkuMiAyMS42IDE4Ljg1NjQgMjEuNiAxOC40NVYxMC42NVpNMjEuNiA1LjQwNjAzQzIxLjYgNC45OTk2OSAyMS4yNjU2IDQuNjU2MDMgMjAuODM1OSA0LjY1NjAzSDMuMTY0MDZDMi43MzQ0MiA0LjY1NjAzIDIuNCA0Ljk5OTY5IDIuNCA1LjQwNjAzVjguMjU2MDNIMjEuNlY1LjQwNjAzWk0yNCAxOC40NUMyNCAyMC4xOTc2IDIyLjU3NTMgMjEuNiAyMC44MzU5IDIxLjZIMy4xNjQwNkMxLjQyNDczIDIxLjYgMCAyMC4xOTc2IDAgMTguNDVWNS41NTAwMkMwIDMuODAyNDYgMS40MjQ3MyAyLjQwMDAyIDMuMTY0MDYgMi40MDAwMkgyMC44MzU5QzIyLjU3NTMgMi40MDAwMiAyNCAzLjgwMjQ2IDI0IDUuNTUwMDJWMTguNDVaIi8+PHBhdGggZD0iTTQuOCAxNS42QzQuOCAxNC45MzczIDUuMzM3MjYgMTQuNCA2IDE0LjRIOS42QzEwLjI2MjcgMTQuNCAxMC44IDE0LjkzNzMgMTAuOCAxNS42QzEwLjggMTYuMjYyOCAxMC4yNjI3IDE2LjggOS42IDE2LjhINkM1LjMzNzI2IDE2LjggNC44IDE2LjI2MjggNC44IDE1LjZaIi8+PHBhdGggZD0iTTEzLjIgMTUuNkMxMy4yIDE0LjkzNzMgMTMuNzM3MyAxNC40IDE0LjQgMTQuNEgxNS42QzE2LjI2MjcgMTQuNCAxNi44IDE0LjkzNzMgMTYuOCAxNS42QzE2LjggMTYuMjYyOCAxNi4yNjI3IDE2LjggMTUuNiAxNi44SDE0LjRDMTMuNzM3MyAxNi44IDEzLjIgMTYuMjYyOCAxMy4yIDE1LjZaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={creditCardOutlinedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'CreditCardOutlined';
+}
+
+export default RefIcon;

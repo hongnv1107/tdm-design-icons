@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const noteStickyOutlinedSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M3.42857 2.57143C2.89286 2.60714 2.60714 2.89286 2.57143 3.42857V20.5714C2.60714 21.1071 2.89286 21.3929 3.42857 21.4286H15.4286V17.1429C15.4286 16.6429 15.5893 16.2321 15.9107 15.9107C16.2321 15.5893 16.6429 15.4286 17.1429 15.4286H21.4286V3.42857C21.3929 2.89286 21.1071 2.60714 20.5714 2.57143H3.42857ZM3.42857 24C2.46429 23.9643 1.66071 23.625 1.01786 22.9821C0.375 22.3393 0.0357143 21.5357 0 20.5714V3.42857C0.0357143 2.46429 0.375 1.66071 1.01786 1.01786C1.66071 0.375 2.46429 0.0357143 3.42857 0H20.5714C21.5357 0.0357143 22.3393 0.375 22.9821 1.01786C23.625 1.66071 23.9643 2.46429 24 3.42857V15.75C24 16.6786 23.6607 17.4821 22.9821 18.1607L18.1607 22.9821C17.4821 23.6607 16.6786 24 15.75 24H3.42857Z"/>
+  </svg>
+);
+
+const noteStickyOutlinedIconDefinition = svgToIconDefinition(
+  noteStickyOutlinedSvg,
+  'note-sticky-outlined'
+);
+
+/**![NoteStickyOutlined](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMy40Mjg1NyAyLjU3MTQzQzIuODkyODYgMi42MDcxNCAyLjYwNzE0IDIuODkyODYgMi41NzE0MyAzLjQyODU3VjIwLjU3MTRDMi42MDcxNCAyMS4xMDcxIDIuODkyODYgMjEuMzkyOSAzLjQyODU3IDIxLjQyODZIMTUuNDI4NlYxNy4xNDI5QzE1LjQyODYgMTYuNjQyOSAxNS41ODkzIDE2LjIzMjEgMTUuOTEwNyAxNS45MTA3QzE2LjIzMjEgMTUuNTg5MyAxNi42NDI5IDE1LjQyODYgMTcuMTQyOSAxNS40Mjg2SDIxLjQyODZWMy40Mjg1N0MyMS4zOTI5IDIuODkyODYgMjEuMTA3MSAyLjYwNzE0IDIwLjU3MTQgMi41NzE0M0gzLjQyODU3Wk0zLjQyODU3IDI0QzIuNDY0MjkgMjMuOTY0MyAxLjY2MDcxIDIzLjYyNSAxLjAxNzg2IDIyLjk4MjFDMC4zNzUgMjIuMzM5MyAwLjAzNTcxNDMgMjEuNTM1NyAwIDIwLjU3MTRWMy40Mjg1N0MwLjAzNTcxNDMgMi40NjQyOSAwLjM3NSAxLjY2MDcxIDEuMDE3ODYgMS4wMTc4NkMxLjY2MDcxIDAuMzc1IDIuNDY0MjkgMC4wMzU3MTQzIDMuNDI4NTcgMEgyMC41NzE0QzIxLjUzNTcgMC4wMzU3MTQzIDIyLjMzOTMgMC4zNzUgMjIuOTgyMSAxLjAxNzg2QzIzLjYyNSAxLjY2MDcxIDIzLjk2NDMgMi40NjQyOSAyNCAzLjQyODU3VjE1Ljc1QzI0IDE2LjY3ODYgMjMuNjYwNyAxNy40ODIxIDIyLjk4MjEgMTguMTYwN0wxOC4xNjA3IDIyLjk4MjFDMTcuNDgyMSAyMy42NjA3IDE2LjY3ODYgMjQgMTUuNzUgMjRIMy40Mjg1N1oiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={noteStickyOutlinedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'NoteStickyOutlined';
+}
+
+export default RefIcon;

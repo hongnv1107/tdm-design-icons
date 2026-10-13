@@ -18,17 +18,38 @@ interface IconNames {
   kebabName: string;
 }
 
-function getNames(filename: string): IconNames {
-  const baseName = filename.replace(/\.svg$/i, '');
-  const varName = baseName.charAt(0).toLowerCase() + baseName.slice(1);
-  const kebabName = baseName
+const STYLE_FOLDERS = ['filled', 'outlined'];
+
+// svgDir/<filled|outlined>/<Name>.svg has no style baked into the filename, so
+// the style folder is appended to the component name here to keep filled/outlined
+// variants unique. A trailing "Icon" in the filename (color, flag) is stripped so
+// no component name ends with "Icon".
+function getComponentName(svgPath: string): string {
+  const filename = path.basename(svgPath);
+  const baseName = filename.replace(/\.svg$/i, '').replace(/Icon$/, '');
+  const relParts = path.relative(svgDir, svgPath).split(path.sep);
+  if (relParts.length === 2 && STYLE_FOLDERS.includes(relParts[0])) {
+    const style = relParts[0];
+    const styleSuffix = style.charAt(0).toUpperCase() + style.slice(1);
+    return `${baseName}${styleSuffix}`;
+  }
+  return baseName;
+}
+
+function getNames(componentName: string): IconNames {
+  const varName = componentName.charAt(0).toLowerCase() + componentName.slice(1);
+  // Strip a trailing "Icon" when present (legacy BellFilledIcon style) so the two
+  // generated identifiers stay distinct either way; componentName without "Icon"
+  // (new BellFilled style) passes through unchanged since there's nothing to strip.
+  const strippedVarName = varName.replace(/Icon$/, '');
+  const kebabName = componentName
     .replace(/Icon$/, '')
     .replace(/([a-z])([A-Z])/g, '$1-$2')
     .toLowerCase();
   return {
-    componentName: baseName,
-    svgVarName: varName.replace(/Icon$/, 'Svg'),
-    defVarName: varName.replace(/Icon$/, 'IconDefinition'),
+    componentName,
+    svgVarName: `${strippedVarName}Svg`,
+    defVarName: `${strippedVarName}IconDefinition`,
     kebabName,
   };
 }
@@ -146,10 +167,21 @@ async function generateIcons(): Promise<void> {
 
   const svgFiles = await collectSvgFiles(svgDir);
   const componentNames: string[] = [];
+  const seenBy = new Map<string, string>();
 
   for (const svgPath of svgFiles) {
     const filename = path.basename(svgPath);
-    const names = getNames(filename);
+    const names = getNames(getComponentName(svgPath));
+
+    const relPath = path.relative(svgDir, svgPath);
+    const previous = seenBy.get(names.componentName);
+    if (previous) {
+      console.error(
+        `[ERROR] Component name collision "${names.componentName}": ${previous} vs ${relPath}. Skipping the latter.`
+      );
+      continue;
+    }
+    seenBy.set(names.componentName, relPath);
 
     const svgContent = await readFile(svgPath, 'utf-8');
     const svgJsx = svgToJsx(svgContent);

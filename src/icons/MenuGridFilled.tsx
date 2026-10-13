@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const menuGridFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H8C9.47276 0 10.6667 1.19391 10.6667 2.66667V8C10.6667 9.47276 9.47276 10.6667 8 10.6667H2.66667C1.19391 10.6667 0 9.47276 0 8V2.66667Z"/><path d="M13.3333 2.66667C13.3333 1.19391 14.5272 0 16 0H21.3333C22.8061 0 24 1.19391 24 2.66667V8C24 9.47276 22.8061 10.6667 21.3333 10.6667H16C14.5272 10.6667 13.3333 9.47276 13.3333 8V2.66667Z"/><path d="M0 16C0 14.5272 1.19391 13.3333 2.66667 13.3333H8C9.47276 13.3333 10.6667 14.5272 10.6667 16V21.3333C10.6667 22.8061 9.47276 24 8 24H2.66667C1.19391 24 0 22.8061 0 21.3333V16Z"/><path d="M13.3333 16C13.3333 14.5272 14.5272 13.3333 16 13.3333H21.3333C22.8061 13.3333 24 14.5272 24 16V21.3333C24 22.8061 22.8061 24 21.3333 24H16C14.5272 24 13.3333 22.8061 13.3333 21.3333V16Z"/>
+  </svg>
+);
+
+const menuGridFilledIconDefinition = svgToIconDefinition(
+  menuGridFilledSvg,
+  'menu-grid-filled'
+);
+
+/**![MenuGridFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMCAyLjY2NjY3QzAgMS4xOTM5MSAxLjE5MzkxIDAgMi42NjY2NyAwSDhDOS40NzI3NiAwIDEwLjY2NjcgMS4xOTM5MSAxMC42NjY3IDIuNjY2NjdWOEMxMC42NjY3IDkuNDcyNzYgOS40NzI3NiAxMC42NjY3IDggMTAuNjY2N0gyLjY2NjY3QzEuMTkzOTEgMTAuNjY2NyAwIDkuNDcyNzYgMCA4VjIuNjY2NjdaIi8+PHBhdGggZD0iTTEzLjMzMzMgMi42NjY2N0MxMy4zMzMzIDEuMTkzOTEgMTQuNTI3MiAwIDE2IDBIMjEuMzMzM0MyMi44MDYxIDAgMjQgMS4xOTM5MSAyNCAyLjY2NjY3VjhDMjQgOS40NzI3NiAyMi44MDYxIDEwLjY2NjcgMjEuMzMzMyAxMC42NjY3SDE2QzE0LjUyNzIgMTAuNjY2NyAxMy4zMzMzIDkuNDcyNzYgMTMuMzMzMyA4VjIuNjY2NjdaIi8+PHBhdGggZD0iTTAgMTZDMCAxNC41MjcyIDEuMTkzOTEgMTMuMzMzMyAyLjY2NjY3IDEzLjMzMzNIOEM5LjQ3Mjc2IDEzLjMzMzMgMTAuNjY2NyAxNC41MjcyIDEwLjY2NjcgMTZWMjEuMzMzM0MxMC42NjY3IDIyLjgwNjEgOS40NzI3NiAyNCA4IDI0SDIuNjY2NjdDMS4xOTM5MSAyNCAwIDIyLjgwNjEgMCAyMS4zMzMzVjE2WiIvPjxwYXRoIGQ9Ik0xMy4zMzMzIDE2QzEzLjMzMzMgMTQuNTI3MiAxNC41MjcyIDEzLjMzMzMgMTYgMTMuMzMzM0gyMS4zMzMzQzIyLjgwNjEgMTMuMzMzMyAyNCAxNC41MjcyIDI0IDE2VjIxLjMzMzNDMjQgMjIuODA2MSAyMi44MDYxIDI0IDIxLjMzMzMgMjRIMTZDMTQuNTI3MiAyNCAxMy4zMzMzIDIyLjgwNjEgMTMuMzMzMyAyMS4zMzMzVjE2WiIvPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={menuGridFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'MenuGridFilled';
+}
+
+export default RefIcon;

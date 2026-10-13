@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const awardFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9995 0C16.4686 0 20.1001 3.6103 20.1001 8.07324C20.0999 10.6426 18.8942 12.9266 17.02 14.4043L18.1187 22.6416C18.1793 23.0979 17.9727 23.5485 17.5884 23.8018C17.2038 24.055 16.7073 24.0663 16.312 23.8301L11.9995 21.252L7.68701 23.8301C7.29178 24.0661 6.79615 24.0549 6.41162 23.8018C6.02725 23.5485 5.82068 23.0979 5.88135 22.6416L6.97998 14.4062C5.10548 12.9285 3.90005 10.6429 3.8999 8.07324C3.8999 3.61044 7.53067 0.000231112 11.9995 0ZM14.7671 15.6611C13.9034 15.974 12.9711 16.1445 11.9995 16.1445C11.0281 16.1445 10.0964 15.974 9.23291 15.6611L8.58838 20.4951L11.3843 18.8252L11.5298 18.75C11.8795 18.6012 12.2829 18.627 12.6147 18.8252L15.4116 20.4951L14.7671 15.6611Z"/>
+  </svg>
+);
+
+const awardFilledIconDefinition = svgToIconDefinition(
+  awardFilledSvg,
+  'award-filled'
+);
+
+/**![AwardFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExLjk5OTUgMEMxNi40Njg2IDAgMjAuMTAwMSAzLjYxMDMgMjAuMTAwMSA4LjA3MzI0QzIwLjA5OTkgMTAuNjQyNiAxOC44OTQyIDEyLjkyNjYgMTcuMDIgMTQuNDA0M0wxOC4xMTg3IDIyLjY0MTZDMTguMTc5MyAyMy4wOTc5IDE3Ljk3MjcgMjMuNTQ4NSAxNy41ODg0IDIzLjgwMThDMTcuMjAzOCAyNC4wNTUgMTYuNzA3MyAyNC4wNjYzIDE2LjMxMiAyMy44MzAxTDExLjk5OTUgMjEuMjUyTDcuNjg3MDEgMjMuODMwMUM3LjI5MTc4IDI0LjA2NjEgNi43OTYxNSAyNC4wNTQ5IDYuNDExNjIgMjMuODAxOEM2LjAyNzI1IDIzLjU0ODUgNS44MjA2OCAyMy4wOTc5IDUuODgxMzUgMjIuNjQxNkw2Ljk3OTk4IDE0LjQwNjJDNS4xMDU0OCAxMi45Mjg1IDMuOTAwMDUgMTAuNjQyOSAzLjg5OTkgOC4wNzMyNEMzLjg5OTkgMy42MTA0NCA3LjUzMDY3IDAuMDAwMjMxMTEyIDExLjk5OTUgMFpNMTQuNzY3MSAxNS42NjExQzEzLjkwMzQgMTUuOTc0IDEyLjk3MTEgMTYuMTQ0NSAxMS45OTk1IDE2LjE0NDVDMTEuMDI4MSAxNi4xNDQ1IDEwLjA5NjQgMTUuOTc0IDkuMjMyOTEgMTUuNjYxMUw4LjU4ODM4IDIwLjQ5NTFMMTEuMzg0MyAxOC44MjUyTDExLjUyOTggMTguNzVDMTEuODc5NSAxOC42MDEyIDEyLjI4MjkgMTguNjI3IDEyLjYxNDcgMTguODI1MkwxNS40MTE2IDIwLjQ5NTFMMTQuNzY3MSAxNS42NjExWiIvPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={awardFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'AwardFilled';
+}
+
+export default RefIcon;

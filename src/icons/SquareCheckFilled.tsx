@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const squareCheckFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M3.42857 0H20.5714C21.5357 0.0357143 22.3393 0.375 22.9821 1.01786C23.625 1.66071 23.9643 2.46429 24 3.42857V20.5714C23.9643 21.5357 23.625 22.3393 22.9821 22.9821C22.3393 23.625 21.5357 23.9643 20.5714 24H3.42857C2.46429 23.9643 1.66071 23.625 1.01786 22.9821C0.375 22.3393 0.0357143 21.5357 0 20.5714V3.42857C0.0357143 2.46429 0.375 1.66071 1.01786 1.01786C1.66071 0.375 2.46429 0.0357143 3.42857 0ZM18.0536 9.48214C18.5536 8.875 18.5536 8.26786 18.0536 7.66071C17.4464 7.16071 16.8393 7.16071 16.2321 7.66071L10.2857 13.6071L7.76786 11.0893C7.16071 10.5893 6.55357 10.5893 5.94643 11.0893C5.44643 11.6964 5.44643 12.3036 5.94643 12.9107L9.375 16.3393C9.98214 16.8393 10.5893 16.8393 11.1964 16.3393L18.0536 9.48214Z"/>
+  </svg>
+);
+
+const squareCheckFilledIconDefinition = svgToIconDefinition(
+  squareCheckFilledSvg,
+  'square-check-filled'
+);
+
+/**![SquareCheckFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMy40Mjg1NyAwSDIwLjU3MTRDMjEuNTM1NyAwLjAzNTcxNDMgMjIuMzM5MyAwLjM3NSAyMi45ODIxIDEuMDE3ODZDMjMuNjI1IDEuNjYwNzEgMjMuOTY0MyAyLjQ2NDI5IDI0IDMuNDI4NTdWMjAuNTcxNEMyMy45NjQzIDIxLjUzNTcgMjMuNjI1IDIyLjMzOTMgMjIuOTgyMSAyMi45ODIxQzIyLjMzOTMgMjMuNjI1IDIxLjUzNTcgMjMuOTY0MyAyMC41NzE0IDI0SDMuNDI4NTdDMi40NjQyOSAyMy45NjQzIDEuNjYwNzEgMjMuNjI1IDEuMDE3ODYgMjIuOTgyMUMwLjM3NSAyMi4zMzkzIDAuMDM1NzE0MyAyMS41MzU3IDAgMjAuNTcxNFYzLjQyODU3QzAuMDM1NzE0MyAyLjQ2NDI5IDAuMzc1IDEuNjYwNzEgMS4wMTc4NiAxLjAxNzg2QzEuNjYwNzEgMC4zNzUgMi40NjQyOSAwLjAzNTcxNDMgMy40Mjg1NyAwWk0xOC4wNTM2IDkuNDgyMTRDMTguNTUzNiA4Ljg3NSAxOC41NTM2IDguMjY3ODYgMTguMDUzNiA3LjY2MDcxQzE3LjQ0NjQgNy4xNjA3MSAxNi44MzkzIDcuMTYwNzEgMTYuMjMyMSA3LjY2MDcxTDEwLjI4NTcgMTMuNjA3MUw3Ljc2Nzg2IDExLjA4OTNDNy4xNjA3MSAxMC41ODkzIDYuNTUzNTcgMTAuNTg5MyA1Ljk0NjQzIDExLjA4OTNDNS40NDY0MyAxMS42OTY0IDUuNDQ2NDMgMTIuMzAzNiA1Ljk0NjQzIDEyLjkxMDdMOS4zNzUgMTYuMzM5M0M5Ljk4MjE0IDE2LjgzOTMgMTAuNTg5MyAxNi44MzkzIDExLjE5NjQgMTYuMzM5M0wxOC4wNTM2IDkuNDgyMTRaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={squareCheckFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'SquareCheckFilled';
+}
+
+export default RefIcon;

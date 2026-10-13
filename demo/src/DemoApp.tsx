@@ -29,9 +29,9 @@ export const DemoApp: React.FC = () => {
 
     byName.forEach((entry) => {
       const [name] = entry;
-      if (/CircleIcon$/.test(name)) {
+      if (/Circle$/.test(name)) {
         flagsSection.push(entry);
-      } else if (/ColorIcon$/.test(name)) {
+      } else if (/Color$/.test(name)) {
         colorsSection.push(entry);
       } else {
         othersSection.push(entry);

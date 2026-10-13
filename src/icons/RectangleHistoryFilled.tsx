@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const rectangleHistoryFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M24 10.5V21C23.9688 21.8438 23.6719 22.5469 23.1094 23.1094C22.5469 23.6719 21.8438 23.9688 21 24H3C2.15625 23.9688 1.45312 23.6719 0.890625 23.1094C0.328125 22.5469 0.03125 21.8438 0 21V10.5C0.03125 9.65625 0.328125 8.95312 0.890625 8.39062C1.45312 7.82812 2.15625 7.53125 3 7.5H21C21.8438 7.53125 22.5469 7.82812 23.1094 8.39062C23.6719 8.95312 23.9688 9.65625 24 10.5ZM20.625 3.75C21.3125 3.8125 21.6875 4.1875 21.75 4.875C21.6875 5.5625 21.3125 5.9375 20.625 6H3.375C2.6875 5.9375 2.3125 5.5625 2.25 4.875C2.3125 4.1875 2.6875 3.8125 3.375 3.75H20.625ZM18.375 0C19.0625 0.0625 19.4375 0.4375 19.5 1.125C19.4375 1.8125 19.0625 2.1875 18.375 2.25H5.625C4.9375 2.1875 4.5625 1.8125 4.5 1.125C4.5625 0.4375 4.9375 0.0625 5.625 0H18.375Z"/>
+  </svg>
+);
+
+const rectangleHistoryFilledIconDefinition = svgToIconDefinition(
+  rectangleHistoryFilledSvg,
+  'rectangle-history-filled'
+);
+
+/**![RectangleHistoryFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMjQgMTAuNVYyMUMyMy45Njg4IDIxLjg0MzggMjMuNjcxOSAyMi41NDY5IDIzLjEwOTQgMjMuMTA5NEMyMi41NDY5IDIzLjY3MTkgMjEuODQzOCAyMy45Njg4IDIxIDI0SDNDMi4xNTYyNSAyMy45Njg4IDEuNDUzMTIgMjMuNjcxOSAwLjg5MDYyNSAyMy4xMDk0QzAuMzI4MTI1IDIyLjU0NjkgMC4wMzEyNSAyMS44NDM4IDAgMjFWMTAuNUMwLjAzMTI1IDkuNjU2MjUgMC4zMjgxMjUgOC45NTMxMiAwLjg5MDYyNSA4LjM5MDYyQzEuNDUzMTIgNy44MjgxMiAyLjE1NjI1IDcuNTMxMjUgMyA3LjVIMjFDMjEuODQzOCA3LjUzMTI1IDIyLjU0NjkgNy44MjgxMiAyMy4xMDk0IDguMzkwNjJDMjMuNjcxOSA4Ljk1MzEyIDIzLjk2ODggOS42NTYyNSAyNCAxMC41Wk0yMC42MjUgMy43NUMyMS4zMTI1IDMuODEyNSAyMS42ODc1IDQuMTg3NSAyMS43NSA0Ljg3NUMyMS42ODc1IDUuNTYyNSAyMS4zMTI1IDUuOTM3NSAyMC42MjUgNkgzLjM3NUMyLjY4NzUgNS45Mzc1IDIuMzEyNSA1LjU2MjUgMi4yNSA0Ljg3NUMyLjMxMjUgNC4xODc1IDIuNjg3NSAzLjgxMjUgMy4zNzUgMy43NUgyMC42MjVaTTE4LjM3NSAwQzE5LjA2MjUgMC4wNjI1IDE5LjQzNzUgMC40Mzc1IDE5LjUgMS4xMjVDMTkuNDM3NSAxLjgxMjUgMTkuMDYyNSAyLjE4NzUgMTguMzc1IDIuMjVINS42MjVDNC45Mzc1IDIuMTg3NSA0LjU2MjUgMS44MTI1IDQuNSAxLjEyNUM0LjU2MjUgMC40Mzc1IDQuOTM3NSAwLjA2MjUgNS42MjUgMEgxOC4zNzVaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={rectangleHistoryFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'RectangleHistoryFilled';
+}
+
+export default RefIcon;

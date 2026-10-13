@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const backwardStepFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M18.7431 23.5505L6.00634 12.9365V21.9896C6.00634 22.5723 5.81903 23.051 5.44442 23.4256C5.06981 23.8002 4.59114 23.9875 4.00842 23.9875C3.42569 23.9875 2.94702 23.8002 2.57241 23.4256C2.1978 23.051 2.0105 22.5723 2.0105 21.9896V2.01041C2.0105 1.42768 2.1978 0.949011 2.57241 0.574402C2.94702 0.199792 3.42569 0.012487 4.00842 0.012487C4.59114 0.012487 5.06981 0.199792 5.44442 0.574402C5.81903 0.949011 6.00634 1.42768 6.00634 2.01041V11.0635L18.7431 0.449532C19.3674 -0.049948 20.075 -0.133195 20.8659 0.199792C21.5735 0.574402 21.9481 1.17794 21.9897 2.01041V21.9896C21.9481 22.8221 21.5735 23.4256 20.8659 23.8002C20.075 24.1332 19.3674 24.0499 18.7431 23.5505Z"/>
+  </svg>
+);
+
+const backwardStepFilledIconDefinition = svgToIconDefinition(
+  backwardStepFilledSvg,
+  'backward-step-filled'
+);
+
+/**![BackwardStepFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTguNzQzMSAyMy41NTA1TDYuMDA2MzQgMTIuOTM2NVYyMS45ODk2QzYuMDA2MzQgMjIuNTcyMyA1LjgxOTAzIDIzLjA1MSA1LjQ0NDQyIDIzLjQyNTZDNS4wNjk4MSAyMy44MDAyIDQuNTkxMTQgMjMuOTg3NSA0LjAwODQyIDIzLjk4NzVDMy40MjU2OSAyMy45ODc1IDIuOTQ3MDIgMjMuODAwMiAyLjU3MjQxIDIzLjQyNTZDMi4xOTc4IDIzLjA1MSAyLjAxMDUgMjIuNTcyMyAyLjAxMDUgMjEuOTg5NlYyLjAxMDQxQzIuMDEwNSAxLjQyNzY4IDIuMTk3OCAwLjk0OTAxMSAyLjU3MjQxIDAuNTc0NDAyQzIuOTQ3MDIgMC4xOTk3OTIgMy40MjU2OSAwLjAxMjQ4NyA0LjAwODQyIDAuMDEyNDg3QzQuNTkxMTQgMC4wMTI0ODcgNS4wNjk4MSAwLjE5OTc5MiA1LjQ0NDQyIDAuNTc0NDAyQzUuODE5MDMgMC45NDkwMTEgNi4wMDYzNCAxLjQyNzY4IDYuMDA2MzQgMi4wMTA0MVYxMS4wNjM1TDE4Ljc0MzEgMC40NDk1MzJDMTkuMzY3NCAtMC4wNDk5NDggMjAuMDc1IC0wLjEzMzE5NSAyMC44NjU5IDAuMTk5NzkyQzIxLjU3MzUgMC41NzQ0MDIgMjEuOTQ4MSAxLjE3Nzk0IDIxLjk4OTcgMi4wMTA0MVYyMS45ODk2QzIxLjk0ODEgMjIuODIyMSAyMS41NzM1IDIzLjQyNTYgMjAuODY1OSAyMy44MDAyQzIwLjA3NSAyNC4xMzMyIDE5LjM2NzQgMjQuMDQ5OSAxOC43NDMxIDIzLjU1MDVaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={backwardStepFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'BackwardStepFilled';
+}
+
+export default RefIcon;

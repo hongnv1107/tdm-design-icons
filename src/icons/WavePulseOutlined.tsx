@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const wavePulseOutlinedSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M11.9625 2.40002C12.4375 2.42502 12.7375 2.65002 12.8625 3.07502L15.8625 14.475L16.875 12.3C17.275 11.525 17.9 11.125 18.75 11.1H23.1C23.65 11.15 23.95 11.45 24 12C23.95 12.55 23.65 12.85 23.1 12.9H18.75C18.625 12.9 18.5375 12.9625 18.4875 13.0875L16.425 17.475C16.225 17.85 15.925 18.025 15.525 18C15.125 17.95 14.8625 17.725 14.7375 17.325L12.1125 7.23752L9.3 20.8875C9.175 21.3125 8.8875 21.55 8.4375 21.6C7.9875 21.575 7.6875 21.35 7.5375 20.925L5.3625 13.125C5.3125 12.975 5.225 12.9 5.1 12.9H0.9C0.35 12.85 0.05 12.55 0 12C0.05 11.45 0.35 11.15 0.9 11.1H5.1C5.575 11.1 6 11.2375 6.375 11.5125C6.725 11.8125 6.975 12.1875 7.125 12.6375L8.2875 16.875L11.1375 3.11252C11.2375 2.68752 11.5125 2.45002 11.9625 2.40002Z"/>
+  </svg>
+);
+
+const wavePulseOutlinedIconDefinition = svgToIconDefinition(
+  wavePulseOutlinedSvg,
+  'wave-pulse-outlined'
+);
+
+/**![WavePulseOutlined](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTEuOTYyNSAyLjQwMDAyQzEyLjQzNzUgMi40MjUwMiAxMi43Mzc1IDIuNjUwMDIgMTIuODYyNSAzLjA3NTAyTDE1Ljg2MjUgMTQuNDc1TDE2Ljg3NSAxMi4zQzE3LjI3NSAxMS41MjUgMTcuOSAxMS4xMjUgMTguNzUgMTEuMUgyMy4xQzIzLjY1IDExLjE1IDIzLjk1IDExLjQ1IDI0IDEyQzIzLjk1IDEyLjU1IDIzLjY1IDEyLjg1IDIzLjEgMTIuOUgxOC43NUMxOC42MjUgMTIuOSAxOC41Mzc1IDEyLjk2MjUgMTguNDg3NSAxMy4wODc1TDE2LjQyNSAxNy40NzVDMTYuMjI1IDE3Ljg1IDE1LjkyNSAxOC4wMjUgMTUuNTI1IDE4QzE1LjEyNSAxNy45NSAxNC44NjI1IDE3LjcyNSAxNC43Mzc1IDE3LjMyNUwxMi4xMTI1IDcuMjM3NTJMOS4zIDIwLjg4NzVDOS4xNzUgMjEuMzEyNSA4Ljg4NzUgMjEuNTUgOC40Mzc1IDIxLjZDNy45ODc1IDIxLjU3NSA3LjY4NzUgMjEuMzUgNy41Mzc1IDIwLjkyNUw1LjM2MjUgMTMuMTI1QzUuMzEyNSAxMi45NzUgNS4yMjUgMTIuOSA1LjEgMTIuOUgwLjlDMC4zNSAxMi44NSAwLjA1IDEyLjU1IDAgMTJDMC4wNSAxMS40NSAwLjM1IDExLjE1IDAuOSAxMS4xSDUuMUM1LjU3NSAxMS4xIDYgMTEuMjM3NSA2LjM3NSAxMS41MTI1QzYuNzI1IDExLjgxMjUgNi45NzUgMTIuMTg3NSA3LjEyNSAxMi42Mzc1TDguMjg3NSAxNi44NzVMMTEuMTM3NSAzLjExMjUyQzExLjIzNzUgMi42ODc1MiAxMS41MTI1IDIuNDUwMDIgMTEuOTYyNSAyLjQwMDAyWiIvPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={wavePulseOutlinedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'WavePulseOutlined';
+}
+
+export default RefIcon;

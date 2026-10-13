@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const barsProgressOutlinedSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M21.75 5.25H15V8.25H21.75V5.25ZM2.25 3H21.75C22.375 3.03125 22.9062 3.25 23.3438 3.65625C23.75 4.09375 23.9688 4.625 24 5.25V8.25C23.9688 8.875 23.75 9.40625 23.3438 9.84375C22.9062 10.25 22.375 10.4688 21.75 10.5H2.25C1.625 10.4688 1.09375 10.25 0.65625 9.84375C0.25 9.40625 0.03125 8.875 0 8.25V5.25C0.03125 4.625 0.25 4.09375 0.65625 3.65625C1.09375 3.25 1.625 3.03125 2.25 3ZM21.75 15.75H9V18.75H21.75V15.75ZM2.25 13.5H21.75C22.375 13.5312 22.9062 13.75 23.3438 14.1562C23.75 14.5938 23.9688 15.125 24 15.75V18.75C23.9688 19.375 23.75 19.9062 23.3438 20.3438C22.9062 20.75 22.375 20.9688 21.75 21H2.25C1.625 20.9688 1.09375 20.75 0.65625 20.3438C0.25 19.9062 0.03125 19.375 0 18.75V15.75C0.03125 15.125 0.25 14.5938 0.65625 14.1562C1.09375 13.75 1.625 13.5312 2.25 13.5Z"/>
+  </svg>
+);
+
+const barsProgressOutlinedIconDefinition = svgToIconDefinition(
+  barsProgressOutlinedSvg,
+  'bars-progress-outlined'
+);
+
+/**![BarsProgressOutlined](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMjEuNzUgNS4yNUgxNVY4LjI1SDIxLjc1VjUuMjVaTTIuMjUgM0gyMS43NUMyMi4zNzUgMy4wMzEyNSAyMi45MDYyIDMuMjUgMjMuMzQzOCAzLjY1NjI1QzIzLjc1IDQuMDkzNzUgMjMuOTY4OCA0LjYyNSAyNCA1LjI1VjguMjVDMjMuOTY4OCA4Ljg3NSAyMy43NSA5LjQwNjI1IDIzLjM0MzggOS44NDM3NUMyMi45MDYyIDEwLjI1IDIyLjM3NSAxMC40Njg4IDIxLjc1IDEwLjVIMi4yNUMxLjYyNSAxMC40Njg4IDEuMDkzNzUgMTAuMjUgMC42NTYyNSA5Ljg0Mzc1QzAuMjUgOS40MDYyNSAwLjAzMTI1IDguODc1IDAgOC4yNVY1LjI1QzAuMDMxMjUgNC42MjUgMC4yNSA0LjA5Mzc1IDAuNjU2MjUgMy42NTYyNUMxLjA5Mzc1IDMuMjUgMS42MjUgMy4wMzEyNSAyLjI1IDNaTTIxLjc1IDE1Ljc1SDlWMTguNzVIMjEuNzVWMTUuNzVaTTIuMjUgMTMuNUgyMS43NUMyMi4zNzUgMTMuNTMxMiAyMi45MDYyIDEzLjc1IDIzLjM0MzggMTQuMTU2MkMyMy43NSAxNC41OTM4IDIzLjk2ODggMTUuMTI1IDI0IDE1Ljc1VjE4Ljc1QzIzLjk2ODggMTkuMzc1IDIzLjc1IDE5LjkwNjIgMjMuMzQzOCAyMC4zNDM4QzIyLjkwNjIgMjAuNzUgMjIuMzc1IDIwLjk2ODggMjEuNzUgMjFIMi4yNUMxLjYyNSAyMC45Njg4IDEuMDkzNzUgMjAuNzUgMC42NTYyNSAyMC4zNDM4QzAuMjUgMTkuOTA2MiAwLjAzMTI1IDE5LjM3NSAwIDE4Ljc1VjE1Ljc1QzAuMDMxMjUgMTUuMTI1IDAuMjUgMTQuNTkzOCAwLjY1NjI1IDE0LjE1NjJDMS4wOTM3NSAxMy43NSAxLjYyNSAxMy41MzEyIDIuMjUgMTMuNVoiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={barsProgressOutlinedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'BarsProgressOutlined';
+}
+
+export default RefIcon;

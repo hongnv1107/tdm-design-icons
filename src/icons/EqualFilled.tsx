@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const equalFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#clip0_1_4424)"><path d="M22.29 14.5708C22.79 14.5708 23.1986 14.7328 23.52 15.0542C23.8414 15.3756 24 15.7862 24 16.2861C23.9999 16.7859 23.8413 17.1967 23.52 17.5181C23.1986 17.8393 22.7898 18 22.29 18C22.29 18 2.20984 18 1.71 18C1.21016 18 0.801382 17.8393 0.48 17.5181C0.158661 17.1967 8.95127e-05 16.7859 0 16.2861C0 15.7862 0.158641 15.3756 0.48 15.0542C0.801429 14.7328 1.21 14.5708 1.71 14.5708H22.29ZM22.2861 6C22.7859 6.00009 23.1967 6.16059 23.5181 6.48193C23.8394 6.80327 23.9999 7.21406 24 7.71387C24 8.21365 23.8392 8.62443 23.5181 8.9458C23.1967 9.26714 22.7859 9.42911 22.2861 9.4292H1.71387C1.21406 9.42911 0.803272 9.26714 0.481934 8.9458C0.160784 8.62443 0 8.21365 0 7.71387C8.96802e-05 7.21406 0.160595 6.80327 0.481934 6.48193C0.803272 6.16059 1.21406 6.00009 1.71387 6H22.2861Z"/></g><defs><clipPath id="clip0_1_4424"><rect width="24" height="24" fill="white"/></clipPath></defs>
+  </svg>
+);
+
+const equalFilledIconDefinition = svgToIconDefinition(
+  equalFilledSvg,
+  'equal-filled'
+);
+
+/**![EqualFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfMV80NDI0KSI+PHBhdGggZD0iTTIyLjI5IDE0LjU3MDhDMjIuNzkgMTQuNTcwOCAyMy4xOTg2IDE0LjczMjggMjMuNTIgMTUuMDU0MkMyMy44NDE0IDE1LjM3NTYgMjQgMTUuNzg2MiAyNCAxNi4yODYxQzIzLjk5OTkgMTYuNzg1OSAyMy44NDEzIDE3LjE5NjcgMjMuNTIgMTcuNTE4MUMyMy4xOTg2IDE3LjgzOTMgMjIuNzg5OCAxOCAyMi4yOSAxOEMyMi4yOSAxOCAyLjIwOTg0IDE4IDEuNzEgMThDMS4yMTAxNiAxOCAwLjgwMTM4MiAxNy44MzkzIDAuNDggMTcuNTE4MUMwLjE1ODY2MSAxNy4xOTY3IDguOTUxMjdlLTA1IDE2Ljc4NTkgMCAxNi4yODYxQzAgMTUuNzg2MiAwLjE1ODY0MSAxNS4zNzU2IDAuNDggMTUuMDU0MkMwLjgwMTQyOSAxNC43MzI4IDEuMjEgMTQuNTcwOCAxLjcxIDE0LjU3MDhIMjIuMjlaTTIyLjI4NjEgNkMyMi43ODU5IDYuMDAwMDkgMjMuMTk2NyA2LjE2MDU5IDIzLjUxODEgNi40ODE5M0MyMy44Mzk0IDYuODAzMjcgMjMuOTk5OSA3LjIxNDA2IDI0IDcuNzEzODdDMjQgOC4yMTM2NSAyMy44MzkyIDguNjI0NDMgMjMuNTE4MSA4Ljk0NThDMjMuMTk2NyA5LjI2NzE0IDIyLjc4NTkgOS40MjkxMSAyMi4yODYxIDkuNDI5MkgxLjcxMzg3QzEuMjE0MDYgOS40MjkxMSAwLjgwMzI3MiA5LjI2NzE0IDAuNDgxOTM0IDguOTQ1OEMwLjE2MDc4NCA4LjYyNDQzIDAgOC4yMTM2NSAwIDcuNzEzODdDOC45NjgwMmUtMDUgNy4yMTQwNiAwLjE2MDU5NSA2LjgwMzI3IDAuNDgxOTM0IDYuNDgxOTNDMC44MDMyNzIgNi4xNjA1OSAxLjIxNDA2IDYuMDAwMDkgMS43MTM4NyA2SDIyLjI4NjFaIi8+PC9nPjxkZWZzPjxjbGlwUGF0aCBpZD0iY2xpcDBfMV80NDI0Ij48cmVjdCB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IndoaXRlIi8+PC9jbGlwUGF0aD48L2RlZnM+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={equalFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'EqualFilled';
+}
+
+export default RefIcon;

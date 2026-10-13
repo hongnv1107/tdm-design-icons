@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const paperPlaneSendOutlinedSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M0.752196 12.1886L21.7408 0.195081C22.303 -0.0860161 22.834 -0.0547831 23.3337 0.288781C23.8334 0.632344 24.0521 1.11646 23.9896 1.74112L20.9912 21.2305C20.8975 21.699 20.6477 22.0582 20.2416 22.3081C19.8356 22.5267 19.3983 22.5579 18.9298 22.4018L13.1205 19.9656L10.2158 23.4325C9.90348 23.8073 9.51307 23.9947 9.04457 23.9947C8.60731 23.9947 8.24813 23.8385 7.96703 23.5262C7.6547 23.2451 7.49854 22.8859 7.49854 22.4486V17.6231L0.939594 14.9058C0.377399 14.6248 0.0650689 14.1875 0.00260275 13.5941C-0.0286303 13.0006 0.221234 12.5321 0.752196 12.1886ZM3.18837 13.4067L8.95087 15.796L8.90402 15.7491L19.2109 4.271L3.18837 13.4067ZM18.883 19.9188L21.1318 5.48908L11.106 16.6861L18.883 19.9188Z"/>
+  </svg>
+);
+
+const paperPlaneSendOutlinedIconDefinition = svgToIconDefinition(
+  paperPlaneSendOutlinedSvg,
+  'paper-plane-send-outlined'
+);
+
+/**![PaperPlaneSendOutlined](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMC43NTIxOTYgMTIuMTg4NkwyMS43NDA4IDAuMTk1MDgxQzIyLjMwMyAtMC4wODYwMTYxIDIyLjgzNCAtMC4wNTQ3ODMxIDIzLjMzMzcgMC4yODg3ODFDMjMuODMzNCAwLjYzMjM0NCAyNC4wNTIxIDEuMTE2NDYgMjMuOTg5NiAxLjc0MTEyTDIwLjk5MTIgMjEuMjMwNUMyMC44OTc1IDIxLjY5OSAyMC42NDc3IDIyLjA1ODIgMjAuMjQxNiAyMi4zMDgxQzE5LjgzNTYgMjIuNTI2NyAxOS4zOTgzIDIyLjU1NzkgMTguOTI5OCAyMi40MDE4TDEzLjEyMDUgMTkuOTY1NkwxMC4yMTU4IDIzLjQzMjVDOS45MDM0OCAyMy44MDczIDkuNTEzMDcgMjMuOTk0NyA5LjA0NDU3IDIzLjk5NDdDOC42MDczMSAyMy45OTQ3IDguMjQ4MTMgMjMuODM4NSA3Ljk2NzAzIDIzLjUyNjJDNy42NTQ3IDIzLjI0NTEgNy40OTg1NCAyMi44ODU5IDcuNDk4NTQgMjIuNDQ4NlYxNy42MjMxTDAuOTM5NTk0IDE0LjkwNThDMC4zNzczOTkgMTQuNjI0OCAwLjA2NTA2ODkgMTQuMTg3NSAwLjAwMjYwMjc1IDEzLjU5NDFDLTAuMDI4NjMwMyAxMy4wMDA2IDAuMjIxMjM0IDEyLjUzMjEgMC43NTIxOTYgMTIuMTg4NlpNMy4xODgzNyAxMy40MDY3TDguOTUwODcgMTUuNzk2TDguOTA0MDIgMTUuNzQ5MUwxOS4yMTA5IDQuMjcxTDMuMTg4MzcgMTMuNDA2N1pNMTguODgzIDE5LjkxODhMMjEuMTMxOCA1LjQ4OTA4TDExLjEwNiAxNi42ODYxTDE4Ljg4MyAxOS45MTg4WiIvPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={paperPlaneSendOutlinedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'PaperPlaneSendOutlined';
+}
+
+export default RefIcon;

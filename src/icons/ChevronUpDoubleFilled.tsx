@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const chevronUpDoubleFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M21.7837 23.4979C22.4114 22.8703 22.4501 21.8777 21.9009 21.2043L21.7837 21.0738L13.2122 12.5022C12.5427 11.8328 11.4576 11.8328 10.7881 12.5022L2.21657 21.0738C1.54709 21.7432 1.54709 22.8284 2.21657 23.4979C2.88605 24.1674 3.97123 24.1674 4.64071 23.4979L12.0002 16.1384L19.3596 23.4979L19.4902 23.6151C20.1635 24.1643 21.1561 24.1255 21.7837 23.4979ZM21.7837 11.4978C22.4114 10.8701 22.4501 9.87754 21.9009 9.20421L21.7837 9.07363L13.2122 0.502108C12.5427 -0.16737 11.4576 -0.16737 10.7881 0.502107L2.21657 9.07363C1.54709 9.74311 1.54709 10.8283 2.21657 11.4978C2.88605 12.1672 3.97123 12.1672 4.64071 11.4978L12.0002 4.13831L19.3596 11.4978L19.4902 11.615C20.1635 12.1641 21.1561 12.1254 21.7837 11.4978Z"/>
+  </svg>
+);
+
+const chevronUpDoubleFilledIconDefinition = svgToIconDefinition(
+  chevronUpDoubleFilledSvg,
+  'chevron-up-double-filled'
+);
+
+/**![ChevronUpDoubleFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMjEuNzgzNyAyMy40OTc5QzIyLjQxMTQgMjIuODcwMyAyMi40NTAxIDIxLjg3NzcgMjEuOTAwOSAyMS4yMDQzTDIxLjc4MzcgMjEuMDczOEwxMy4yMTIyIDEyLjUwMjJDMTIuNTQyNyAxMS44MzI4IDExLjQ1NzYgMTEuODMyOCAxMC43ODgxIDEyLjUwMjJMMi4yMTY1NyAyMS4wNzM4QzEuNTQ3MDkgMjEuNzQzMiAxLjU0NzA5IDIyLjgyODQgMi4yMTY1NyAyMy40OTc5QzIuODg2MDUgMjQuMTY3NCAzLjk3MTIzIDI0LjE2NzQgNC42NDA3MSAyMy40OTc5TDEyLjAwMDIgMTYuMTM4NEwxOS4zNTk2IDIzLjQ5NzlMMTkuNDkwMiAyMy42MTUxQzIwLjE2MzUgMjQuMTY0MyAyMS4xNTYxIDI0LjEyNTUgMjEuNzgzNyAyMy40OTc5Wk0yMS43ODM3IDExLjQ5NzhDMjIuNDExNCAxMC44NzAxIDIyLjQ1MDEgOS44Nzc1NCAyMS45MDA5IDkuMjA0MjFMMjEuNzgzNyA5LjA3MzYzTDEzLjIxMjIgMC41MDIxMDhDMTIuNTQyNyAtMC4xNjczNyAxMS40NTc2IC0wLjE2NzM3IDEwLjc4ODEgMC41MDIxMDdMMi4yMTY1NyA5LjA3MzYzQzEuNTQ3MDkgOS43NDMxMSAxLjU0NzA5IDEwLjgyODMgMi4yMTY1NyAxMS40OTc4QzIuODg2MDUgMTIuMTY3MiAzLjk3MTIzIDEyLjE2NzIgNC42NDA3MSAxMS40OTc4TDEyLjAwMDIgNC4xMzgzMUwxOS4zNTk2IDExLjQ5NzhMMTkuNDkwMiAxMS42MTVDMjAuMTYzNSAxMi4xNjQxIDIxLjE1NjEgMTIuMTI1NCAyMS43ODM3IDExLjQ5NzhaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={chevronUpDoubleFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ChevronUpDoubleFilled';
+}
+
+export default RefIcon;

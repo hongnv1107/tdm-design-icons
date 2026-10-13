@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const circleCloseFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM16.9427 7.05729C16.422 6.53662 15.578 6.53667 15.0573 7.05729L12 10.1146L8.94271 7.05729L8.84115 6.96615C8.31748 6.53904 7.54545 6.56922 7.05729 7.05729C6.56914 7.54545 6.53901 8.31745 6.96615 8.84115L7.05729 8.94271L10.1146 12L7.05729 15.0573C6.53659 15.578 6.53659 16.422 7.05729 16.9427C7.57799 17.4634 8.42202 17.4634 8.94271 16.9427L12 13.8854L15.0573 16.9427L15.1589 17.0339C15.6826 17.461 16.4546 17.4309 16.9427 16.9427C17.4308 16.4546 17.461 15.6825 17.0339 15.1589L16.9427 15.0573L13.8854 12L16.9427 8.94271C17.4633 8.42201 17.4634 7.57797 16.9427 7.05729Z"/>
+  </svg>
+);
+
+const circleCloseFilledIconDefinition = svgToIconDefinition(
+  circleCloseFilledSvg,
+  'circle-close-filled'
+);
+
+/**![CircleCloseFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTIgMEMxOC42Mjc0IDAgMjQgNS4zNzI1OCAyNCAxMkMyNCAxOC42Mjc0IDE4LjYyNzQgMjQgMTIgMjRDNS4zNzI1OCAyNCAwIDE4LjYyNzQgMCAxMkMwIDUuMzcyNTggNS4zNzI1OCAwIDEyIDBaTTE2Ljk0MjcgNy4wNTcyOUMxNi40MjIgNi41MzY2MiAxNS41NzggNi41MzY2NyAxNS4wNTczIDcuMDU3MjlMMTIgMTAuMTE0Nkw4Ljk0MjcxIDcuMDU3MjlMOC44NDExNSA2Ljk2NjE1QzguMzE3NDggNi41MzkwNCA3LjU0NTQ1IDYuNTY5MjIgNy4wNTcyOSA3LjA1NzI5QzYuNTY5MTQgNy41NDU0NSA2LjUzOTAxIDguMzE3NDUgNi45NjYxNSA4Ljg0MTE1TDcuMDU3MjkgOC45NDI3MUwxMC4xMTQ2IDEyTDcuMDU3MjkgMTUuMDU3M0M2LjUzNjU5IDE1LjU3OCA2LjUzNjU5IDE2LjQyMiA3LjA1NzI5IDE2Ljk0MjdDNy41Nzc5OSAxNy40NjM0IDguNDIyMDIgMTcuNDYzNCA4Ljk0MjcxIDE2Ljk0MjdMMTIgMTMuODg1NEwxNS4wNTczIDE2Ljk0MjdMMTUuMTU4OSAxNy4wMzM5QzE1LjY4MjYgMTcuNDYxIDE2LjQ1NDYgMTcuNDMwOSAxNi45NDI3IDE2Ljk0MjdDMTcuNDMwOCAxNi40NTQ2IDE3LjQ2MSAxNS42ODI1IDE3LjAzMzkgMTUuMTU4OUwxNi45NDI3IDE1LjA1NzNMMTMuODg1NCAxMkwxNi45NDI3IDguOTQyNzFDMTcuNDYzMyA4LjQyMjAxIDE3LjQ2MzQgNy41Nzc5NyAxNi45NDI3IDcuMDU3MjlaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={circleCloseFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'CircleCloseFilled';
+}
+
+export default RefIcon;

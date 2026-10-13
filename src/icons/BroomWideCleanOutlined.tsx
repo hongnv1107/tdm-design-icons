@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const broomWideCleanOutlinedSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M23.6719 1.92188L17.2969 8.29688L17.9062 8.90625C18.375 9.40625 18.6562 9.96875 18.75 10.5938C18.8438 11.25 18.7344 11.875 18.4219 12.4688L12.4219 23.25C12.1406 23.7188 11.7031 23.9688 11.1094 24C10.7031 24 10.3594 23.8594 10.0781 23.5781L0.421875 13.9219C0.140625 13.6406 0 13.2969 0 12.8906C0.03125 12.2969 0.28125 11.8594 0.75 11.5781L11.5312 5.57812C12.125 5.26562 12.75 5.15625 13.4062 5.25C14.0312 5.34375 14.5938 5.625 15.0938 6.09375L15.7031 6.70312L22.0781 0.328125C22.6094 -0.109375 23.1406 -0.109375 23.6719 0.328125C24.1094 0.859375 24.1094 1.39062 23.6719 1.92188ZM15.1875 13.6875L10.3594 8.85938L2.71875 13.0781L4.26562 14.5781L6.79688 13.7344C7.14062 13.7031 7.29688 13.8594 7.26562 14.2031L6.42188 16.7344L10.9688 21.2812L15.1875 13.6875Z"/>
+  </svg>
+);
+
+const broomWideCleanOutlinedIconDefinition = svgToIconDefinition(
+  broomWideCleanOutlinedSvg,
+  'broom-wide-clean-outlined'
+);
+
+/**![BroomWideCleanOutlined](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMjMuNjcxOSAxLjkyMTg4TDE3LjI5NjkgOC4yOTY4OEwxNy45MDYyIDguOTA2MjVDMTguMzc1IDkuNDA2MjUgMTguNjU2MiA5Ljk2ODc1IDE4Ljc1IDEwLjU5MzhDMTguODQzOCAxMS4yNSAxOC43MzQ0IDExLjg3NSAxOC40MjE5IDEyLjQ2ODhMMTIuNDIxOSAyMy4yNUMxMi4xNDA2IDIzLjcxODggMTEuNzAzMSAyMy45Njg4IDExLjEwOTQgMjRDMTAuNzAzMSAyNCAxMC4zNTk0IDIzLjg1OTQgMTAuMDc4MSAyMy41NzgxTDAuNDIxODc1IDEzLjkyMTlDMC4xNDA2MjUgMTMuNjQwNiAwIDEzLjI5NjkgMCAxMi44OTA2QzAuMDMxMjUgMTIuMjk2OSAwLjI4MTI1IDExLjg1OTQgMC43NSAxMS41NzgxTDExLjUzMTIgNS41NzgxMkMxMi4xMjUgNS4yNjU2MiAxMi43NSA1LjE1NjI1IDEzLjQwNjIgNS4yNUMxNC4wMzEyIDUuMzQzNzUgMTQuNTkzOCA1LjYyNSAxNS4wOTM4IDYuMDkzNzVMMTUuNzAzMSA2LjcwMzEyTDIyLjA3ODEgMC4zMjgxMjVDMjIuNjA5NCAtMC4xMDkzNzUgMjMuMTQwNiAtMC4xMDkzNzUgMjMuNjcxOSAwLjMyODEyNUMyNC4xMDk0IDAuODU5Mzc1IDI0LjEwOTQgMS4zOTA2MiAyMy42NzE5IDEuOTIxODhaTTE1LjE4NzUgMTMuNjg3NUwxMC4zNTk0IDguODU5MzhMMi43MTg3NSAxMy4wNzgxTDQuMjY1NjIgMTQuNTc4MUw2Ljc5Njg4IDEzLjczNDRDNy4xNDA2MiAxMy43MDMxIDcuMjk2ODggMTMuODU5NCA3LjI2NTYyIDE0LjIwMzFMNi40MjE4OCAxNi43MzQ0TDEwLjk2ODggMjEuMjgxMkwxNS4xODc1IDEzLjY4NzVaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={broomWideCleanOutlinedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'BroomWideCleanOutlined';
+}
+
+export default RefIcon;

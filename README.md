@@ -21,14 +21,14 @@ pnpm add @tdm-design/icons
 Best for bundle size — only the icon you import is included:
 
 ```tsx
-import BellFilledIcon from "@tdm-design/icons/BellFilledIcon";
-import BellOutlinedIcon from "@tdm-design/icons/BellOutlinedIcon";
+import BellFilled from "@tdm-design/icons/BellFilled";
+import BellOutlined from "@tdm-design/icons/BellOutlined";
 
 function App() {
   return (
     <>
-      <BellFilledIcon />
-      <BellOutlinedIcon />
+      <BellFilled />
+      <BellOutlined />
     </>
   );
 }
@@ -37,7 +37,7 @@ function App() {
 ### Named import (tree-shaking supported)
 
 ```tsx
-import { BellFilledIcon, BellOutlinedIcon } from "@tdm-design/icons";
+import { BellFilled, BellOutlined } from "@tdm-design/icons";
 ```
 
 ## Props
@@ -53,7 +53,7 @@ All icons accept the same props via `TdmIconProps`:
 | `twoToneColor` | `string`              | —       | Secondary color for two-tone icons   |
 
 ```tsx
-<BellFilledIcon
+<BellFilled
   style={{ color: "#1890ff", fontSize: 24 }}
   className="my-icon"
   spin
@@ -66,20 +66,21 @@ Icons are organized into groups based on their visual style:
 
 | Category   | Description          | Example                 |
 | ---------- | -------------------- | ----------------------- |
-| `Filled`   | Solid filled icons   | `BellFilledIcon`        |
-| `Outlined` | Stroke/outline icons | `BellOutlinedIcon`      |
-| `Color`    | Multi-color icons    | `SocialGoogleColorIcon` |
-| `Flag`     | Country flag icons   | `VNCircleIcon`          |
+| `Filled`   | Solid filled icons   | `BellFilled`        |
+| `Outlined` | Stroke/outline icons | `BellOutlined`      |
+| `Color`    | Multi-color icons    | `SocialGoogleColor` |
+| `Flag`     | Country flag icons   | `VNCircle`          |
 
 ## Naming convention
 
-Icon names follow the pattern: `{Name}{Style}Icon`
+Component names never end with `Icon`. The style is taken from the SVG folder:
 
-| SVG file                    | Import name             |
-| --------------------------- | ----------------------- |
-| `BellFilledIcon.svg`        | `BellFilledIcon`        |
-| `ArrowUpOutlinedIcon.svg`   | `ArrowUpOutlinedIcon`   |
-| `SocialGoogleColorIcon.svg` | `SocialGoogleColorIcon` |
+| SVG file                       | Import name         |
+| ------------------------------ | ------------------- |
+| `svg/filled/Bell.svg`          | `BellFilled`        |
+| `svg/outlined/ArrowUp.svg`     | `ArrowUpOutlined`   |
+| `svg/color/SocialGoogleColorIcon.svg` | `SocialGoogleColor` |
+| `svg/flag/VNCircleIcon.svg`    | `VNCircle`          |
 
 ## License
 

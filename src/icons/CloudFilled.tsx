@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const cloudFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M0 15C0.025 13.8 0.3625 12.75 1.0125 11.85C1.6625 10.95 2.525 10.3 3.6 9.89998C3.6 9.79998 3.6 9.69998 3.6 9.59998C3.65 7.89998 4.2375 6.48748 5.3625 5.36248C6.4875 4.23748 7.9 3.64998 9.6 3.59998C10.725 3.62498 11.7375 3.89998 12.6375 4.42498C13.5375 4.97498 14.2625 5.69998 14.8125 6.59998C15.3875 6.19998 16.05 5.99998 16.8 5.99998C17.825 6.02498 18.675 6.37498 19.35 7.04998C20.025 7.72498 20.375 8.57498 20.4 9.59998C20.4 10.05 20.325 10.4875 20.175 10.9125C21.275 11.1375 22.1875 11.6875 22.9125 12.5625C23.6125 13.4125 23.975 14.425 24 15.6C23.975 16.95 23.5125 18.0875 22.6125 19.0125C21.6875 19.9125 20.55 20.375 19.2 20.4H5.4C3.875 20.35 2.6 19.825 1.575 18.825C0.575 17.8 0.05 16.525 0 15Z"/>
+  </svg>
+);
+
+const cloudFilledIconDefinition = svgToIconDefinition(
+  cloudFilledSvg,
+  'cloud-filled'
+);
+
+/**![CloudFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMCAxNUMwLjAyNSAxMy44IDAuMzYyNSAxMi43NSAxLjAxMjUgMTEuODVDMS42NjI1IDEwLjk1IDIuNTI1IDEwLjMgMy42IDkuODk5OThDMy42IDkuNzk5OTggMy42IDkuNjk5OTggMy42IDkuNTk5OThDMy42NSA3Ljg5OTk4IDQuMjM3NSA2LjQ4NzQ4IDUuMzYyNSA1LjM2MjQ4QzYuNDg3NSA0LjIzNzQ4IDcuOSAzLjY0OTk4IDkuNiAzLjU5OTk4QzEwLjcyNSAzLjYyNDk4IDExLjczNzUgMy44OTk5OCAxMi42Mzc1IDQuNDI0OThDMTMuNTM3NSA0Ljk3NDk4IDE0LjI2MjUgNS42OTk5OCAxNC44MTI1IDYuNTk5OThDMTUuMzg3NSA2LjE5OTk4IDE2LjA1IDUuOTk5OTggMTYuOCA1Ljk5OTk4QzE3LjgyNSA2LjAyNDk4IDE4LjY3NSA2LjM3NDk4IDE5LjM1IDcuMDQ5OThDMjAuMDI1IDcuNzI0OTggMjAuMzc1IDguNTc0OTggMjAuNCA5LjU5OTk4QzIwLjQgMTAuMDUgMjAuMzI1IDEwLjQ4NzUgMjAuMTc1IDEwLjkxMjVDMjEuMjc1IDExLjEzNzUgMjIuMTg3NSAxMS42ODc1IDIyLjkxMjUgMTIuNTYyNUMyMy42MTI1IDEzLjQxMjUgMjMuOTc1IDE0LjQyNSAyNCAxNS42QzIzLjk3NSAxNi45NSAyMy41MTI1IDE4LjA4NzUgMjIuNjEyNSAxOS4wMTI1QzIxLjY4NzUgMTkuOTEyNSAyMC41NSAyMC4zNzUgMTkuMiAyMC40SDUuNEMzLjg3NSAyMC4zNSAyLjYgMTkuODI1IDEuNTc1IDE4LjgyNUMwLjU3NSAxNy44IDAuMDUgMTYuNTI1IDAgMTVaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={cloudFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'CloudFilled';
+}
+
+export default RefIcon;

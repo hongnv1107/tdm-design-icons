@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const ticketSimpleFilledSvg = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M0 6.66667C0.0277778 5.91667 0.291667 5.29167 0.791667 4.79167C1.29167 4.29167 1.91667 4.02778 2.66667 4H21.3333C22.0833 4.02778 22.7083 4.29167 23.2083 4.79167C23.7083 5.29167 23.9722 5.91667 24 6.66667V9.33333C23.9444 9.72222 23.7222 9.98611 23.3333 10.125C22.5 10.4306 22.0556 11.0556 22 12C22.0556 12.9444 22.5 13.5694 23.3333 13.875C23.7222 14.0139 23.9444 14.2778 24 14.6667V17.3333C23.9722 18.0833 23.7083 18.7083 23.2083 19.2083C22.7083 19.7083 22.0833 19.9722 21.3333 20H2.66667C1.91667 19.9722 1.29167 19.7083 0.791667 19.2083C0.291667 18.7083 0.0277778 18.0833 0 17.3333V14.6667C0.0555556 14.2778 0.277778 14.0139 0.666667 13.875C1.5 13.5694 1.94444 12.9444 2 12C1.94444 11.0556 1.5 10.4306 0.666667 10.125C0.277778 9.98611 0.0555556 9.72222 0 9.33333V6.66667Z"/>
+  </svg>
+);
+
+const ticketSimpleFilledIconDefinition = svgToIconDefinition(
+  ticketSimpleFilledSvg,
+  'ticket-simple-filled'
+);
+
+/**![TicketSimpleFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMCA2LjY2NjY3QzAuMDI3Nzc3OCA1LjkxNjY3IDAuMjkxNjY3IDUuMjkxNjcgMC43OTE2NjcgNC43OTE2N0MxLjI5MTY3IDQuMjkxNjcgMS45MTY2NyA0LjAyNzc4IDIuNjY2NjcgNEgyMS4zMzMzQzIyLjA4MzMgNC4wMjc3OCAyMi43MDgzIDQuMjkxNjcgMjMuMjA4MyA0Ljc5MTY3QzIzLjcwODMgNS4yOTE2NyAyMy45NzIyIDUuOTE2NjcgMjQgNi42NjY2N1Y5LjMzMzMzQzIzLjk0NDQgOS43MjIyMiAyMy43MjIyIDkuOTg2MTEgMjMuMzMzMyAxMC4xMjVDMjIuNSAxMC40MzA2IDIyLjA1NTYgMTEuMDU1NiAyMiAxMkMyMi4wNTU2IDEyLjk0NDQgMjIuNSAxMy41Njk0IDIzLjMzMzMgMTMuODc1QzIzLjcyMjIgMTQuMDEzOSAyMy45NDQ0IDE0LjI3NzggMjQgMTQuNjY2N1YxNy4zMzMzQzIzLjk3MjIgMTguMDgzMyAyMy43MDgzIDE4LjcwODMgMjMuMjA4MyAxOS4yMDgzQzIyLjcwODMgMTkuNzA4MyAyMi4wODMzIDE5Ljk3MjIgMjEuMzMzMyAyMEgyLjY2NjY3QzEuOTE2NjcgMTkuOTcyMiAxLjI5MTY3IDE5LjcwODMgMC43OTE2NjcgMTkuMjA4M0MwLjI5MTY2NyAxOC43MDgzIDAuMDI3Nzc3OCAxOC4wODMzIDAgMTcuMzMzM1YxNC42NjY3QzAuMDU1NTU1NiAxNC4yNzc4IDAuMjc3Nzc4IDE0LjAxMzkgMC42NjY2NjcgMTMuODc1QzEuNSAxMy41Njk0IDEuOTQ0NDQgMTIuOTQ0NCAyIDEyQzEuOTQ0NDQgMTEuMDU1NiAxLjUgMTAuNDMwNiAwLjY2NjY2NyAxMC4xMjVDMC4yNzc3NzggOS45ODYxMSAwLjA1NTU1NTYgOS43MjIyMiAwIDkuMzMzMzNWNi42NjY2N1oiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={ticketSimpleFilledIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'TicketSimpleFilled';
+}
+
+export default RefIcon;
