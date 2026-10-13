@@ -80,9 +80,16 @@ jobs:
           esac
 
       - name: Publish to npm
-        run: npm publish --provenance --access public
+        run: |
+          # Prerelease versions (e.g. 1.0.0-beta.0) go to the "next" dist-tag so
+          # they never become "latest".
+          case "$GITHUB_REF_NAME" in
+            *-*) npm publish --provenance --access public --tag next ;;
+            *)   npm publish --provenance --access public ;;
+          esac
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           generate_release_notes: true
+          prerelease: ${{ contains(github.ref_name, '-') }}
