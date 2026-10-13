@@ -1,5 +1,18 @@
 # @tdm-design/icons
 
+## 1.0.0
+
+### Major Changes
+
+- Icons are now synced from the new Figma source. **Breaking:** no component name ends with `Icon` anymore.
+  - Filled/Outlined: `BellFilledIcon` → `BellFilled`, `BellOutlinedIcon` → `BellOutlined`.
+  - Color/Flag: `SocialGoogleColorIcon` → `SocialGoogleColor`, `VNCircleIcon` → `VNCircle`.
+  - Entry imports change the same way: `@tdm-design/icons/BellFilled`.
+- Renamed icons: `XxxCircle` → `CircleXxx` (Check, Close, Dollar, Exclamation, Heart, Info, Minus, Phone, Play, Question, User, Video), `XxxSquare` → `SquareXxx` (Check, Close, Code, Dollar, Heart, Info, List, Minus, Phone, Question, User), `CloseOctagon` → `OctagonClose`, `ShieldClose` → `ShieldXmark`, `Link2` → `LinkSimple`, `QRCode` → `QrCode`, `TV` → `Tv`, `TVRetro` → `TvRetro`, `ParkRotateLeft/Right` → `ObjectRotateLeft/Right`, `ArrowLeftRight` → `SwapOutlined`.
+- Removed: `ArrowUpDown` (use `SwapOutlined` with `rotate={90}`), `ArrowRightLeft`.
+- Style changes: `LoadingLines` and `Usb` are Filled only; `ForensicWatermarking` is Outlined only.
+- Added: `ZoomInFilled/Outlined`, `ZoomOutFilled/Outlined`, `CopyPlusOutlined`, and other new icons. 1038 icons in total.
+
 ## 0.1.10
 
 ### Patch Changes
