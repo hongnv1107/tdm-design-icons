@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const aDSPersonLockLockedSvg = (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M1 12.75C1 10.679 2.679 9 4.75 9H9V10.5H4.75C3.507 10.5 2.5 11.507 2.5 12.75V15H1V12.75ZM9.5 4C9.5 2.619 8.381 1.5 7 1.5C5.619 1.5 4.5 2.619 4.5 4C4.5 5.381 5.619 6.5 7 6.5C8.381 6.5 9.5 5.381 9.5 4ZM11 4C11 6.209 9.209 8 7 8C4.791 8 3 6.209 3 4C3 1.791 4.791 0 7 0C9.209 0 11 1.791 11 4Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M13 8.5C14.105 8.5 15 9.395 15 10.5V11.753C15.558 11.785 16 12.247 16 12.813V14.938C16 15.524 15.524 16 14.938 16H11.063C10.476 16 10 15.524 10 14.938V12.813C10 12.247 10.442 11.785 11 11.753V10.5C11 9.395 11.895 8.5 13 8.5ZM13 10C12.724 10 12.5 10.224 12.5 10.5V11.75H13.5V10.5C13.5 10.224 13.276 10 13 10Z"/>
+  </svg>
+);
+
+const aDSPersonLockLockedIconDefinition = svgToIconDefinition(
+  aDSPersonLockLockedSvg,
+  'ads-person-lock-locked'
+);
+
+/**![ADSPersonLockLocked](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMSAxMi43NUMxIDEwLjY3OSAyLjY3OSA5IDQuNzUgOUg5VjEwLjVINC43NUMzLjUwNyAxMC41IDIuNSAxMS41MDcgMi41IDEyLjc1VjE1SDFWMTIuNzVaTTkuNSA0QzkuNSAyLjYxOSA4LjM4MSAxLjUgNyAxLjVDNS42MTkgMS41IDQuNSAyLjYxOSA0LjUgNEM0LjUgNS4zODEgNS42MTkgNi41IDcgNi41QzguMzgxIDYuNSA5LjUgNS4zODEgOS41IDRaTTExIDRDMTEgNi4yMDkgOS4yMDkgOCA3IDhDNC43OTEgOCAzIDYuMjA5IDMgNEMzIDEuNzkxIDQuNzkxIDAgNyAwQzkuMjA5IDAgMTEgMS43OTEgMTEgNFoiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzIDguNUMxNC4xMDUgOC41IDE1IDkuMzk1IDE1IDEwLjVWMTEuNzUzQzE1LjU1OCAxMS43ODUgMTYgMTIuMjQ3IDE2IDEyLjgxM1YxNC45MzhDMTYgMTUuNTI0IDE1LjUyNCAxNiAxNC45MzggMTZIMTEuMDYzQzEwLjQ3NiAxNiAxMCAxNS41MjQgMTAgMTQuOTM4VjEyLjgxM0MxMCAxMi4yNDcgMTAuNDQyIDExLjc4NSAxMSAxMS43NTNWMTAuNUMxMSA5LjM5NSAxMS44OTUgOC41IDEzIDguNVpNMTMgMTBDMTIuNzI0IDEwIDEyLjUgMTAuMjI0IDEyLjUgMTAuNVYxMS43NUgxMy41VjEwLjVDMTMuNSAxMC4yMjQgMTMuMjc2IDEwIDEzIDEwWiIvPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={aDSPersonLockLockedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ADSPersonLockLocked';
+}
+
+export default RefIcon;

@@ -19,17 +19,22 @@ export const DemoApp: React.FC = () => {
   const [iconQuery, setIconQuery] = useState('');
   const [colorQuery, setColorQuery] = useState('');
   const [flagQuery, setFlagQuery] = useState('');
+  const [adsQuery, setAdsQuery] = useState('');
   const [copiedImport, setCopiedImport] = useState<string | null>(null);
 
-  const { flags, colors, others } = useMemo(() => {
+  const { flags, colors, ads, others } = useMemo(() => {
     const byName = [...entries].sort(([a], [b]) => a.localeCompare(b));
     const flagsSection: [string, IconComponent][] = [];
     const colorsSection: [string, IconComponent][] = [];
+    const adsSection: [string, IconComponent][] = [];
     const othersSection: [string, IconComponent][] = [];
 
     byName.forEach((entry) => {
       const [name] = entry;
-      if (/Circle$/.test(name)) {
+      // ADS must be checked first: many ADS names end with "Circle" too.
+      if (/^ADS[A-Z]/.test(name)) {
+        adsSection.push(entry);
+      } else if (/Circle$/.test(name)) {
         flagsSection.push(entry);
       } else if (/Color$/.test(name)) {
         colorsSection.push(entry);
@@ -38,13 +43,19 @@ export const DemoApp: React.FC = () => {
       }
     });
 
-    return { flags: flagsSection, colors: colorsSection, others: othersSection };
+    return {
+      flags: flagsSection,
+      colors: colorsSection,
+      ads: adsSection,
+      others: othersSection,
+    };
   }, []);
 
   const filtered = useMemo(() => {
     const iq = iconQuery.trim().toLowerCase();
     const cq = colorQuery.trim().toLowerCase();
     const fq = flagQuery.trim().toLowerCase();
+    const aq = adsQuery.trim().toLowerCase();
 
     const match = (name: string, q: string) =>
       !q || name.toLowerCase().includes(q);
@@ -53,12 +64,16 @@ export const DemoApp: React.FC = () => {
       others: others.filter(([name]) => match(name, iq)),
       colors: colors.filter(([name]) => match(name, cq)),
       flags: flags.filter(([name]) => match(name, fq)),
+      ads: ads.filter(([name]) => match(name, aq)),
     };
-  }, [flags, colors, others, iconQuery, colorQuery, flagQuery]);
+  }, [flags, colors, ads, others, iconQuery, colorQuery, flagQuery, adsQuery]);
 
   const totalCount = entries.length;
   const visibleCount =
-    filtered.others.length + filtered.colors.length + filtered.flags.length;
+    filtered.others.length +
+    filtered.colors.length +
+    filtered.flags.length +
+    filtered.ads.length;
   const version = (pkg as any).version as string | undefined;
 
   const handleCopy = useCallback((name: string) => {
@@ -114,6 +129,40 @@ export const DemoApp: React.FC = () => {
             {filtered.others.length === 0 && (
               <div className="demo-empty">
                 No icons match “{iconQuery}”.
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* ADS (Atlassian Design System) icons */}
+        <section style={{ marginTop: 32 }}>
+          <h2 className="demo-section-title">ADS</h2>
+          <div className="demo-search-row">
+            <input
+              className="demo-search"
+              placeholder="Search ADS icons..."
+              value={adsQuery}
+              onChange={(e) => setAdsQuery(e.target.value)}
+            />
+          </div>
+          <div className="demo-grid">
+            {filtered.ads.map(([name, Icon]) => (
+              <button
+                key={name}
+                type="button"
+                className="demo-card"
+                onClick={() => handleCopy(name)}
+                title={`Click to copy import: import ${name} from '@tdm-design/icons/${name}';`}
+              >
+                <div className="demo-icon">
+                  <Icon />
+                </div>
+                <div className="demo-name-tag">{toKebab(name)}</div>
+              </button>
+            ))}
+            {filtered.ads.length === 0 && (
+              <div className="demo-empty">
+                No ADS icons match “{adsQuery}”.
               </div>
             )}
           </div>

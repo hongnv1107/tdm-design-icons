@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const aDSSupportSvg = (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.964 2.904L5.752 4.691C7.104 3.77 8.896 3.77 10.249 4.691L12.036 2.904C9.678 1.032 6.322 1.032 3.964 2.904ZM13.096 3.964L11.309 5.752C12.23 7.104 12.23 8.896 11.309 10.249L13.096 12.036C14.968 9.678 14.968 6.322 13.096 3.964ZM12.036 13.096L10.249 11.309C8.896 12.23 7.104 12.23 5.752 11.309L3.964 13.096C6.322 14.968 9.678 14.968 12.036 13.096ZM2.904 12.036L4.691 10.249C3.77 8.896 3.77 7.104 4.691 5.752L2.904 3.964C1.032 6.322 1.032 9.678 2.904 12.036ZM2.343 2.343C5.467 -0.781 10.533 -0.781 13.657 2.343C16.781 5.467 16.781 10.533 13.657 13.657C10.533 16.781 5.467 16.781 2.343 13.657C-0.781 10.533 -0.781 5.467 2.343 2.343ZM9.768 6.232C8.791 5.256 7.209 5.256 6.232 6.232C5.256 7.209 5.256 8.791 6.232 9.768C7.209 10.744 8.791 10.744 9.768 9.768C10.744 8.791 10.744 7.209 9.768 6.232Z"/>
+  </svg>
+);
+
+const aDSSupportIconDefinition = svgToIconDefinition(
+  aDSSupportSvg,
+  'ads-support'
+);
+
+/**![ADSSupport](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMuOTY0IDIuOTA0TDUuNzUyIDQuNjkxQzcuMTA0IDMuNzcgOC44OTYgMy43NyAxMC4yNDkgNC42OTFMMTIuMDM2IDIuOTA0QzkuNjc4IDEuMDMyIDYuMzIyIDEuMDMyIDMuOTY0IDIuOTA0Wk0xMy4wOTYgMy45NjRMMTEuMzA5IDUuNzUyQzEyLjIzIDcuMTA0IDEyLjIzIDguODk2IDExLjMwOSAxMC4yNDlMMTMuMDk2IDEyLjAzNkMxNC45NjggOS42NzggMTQuOTY4IDYuMzIyIDEzLjA5NiAzLjk2NFpNMTIuMDM2IDEzLjA5NkwxMC4yNDkgMTEuMzA5QzguODk2IDEyLjIzIDcuMTA0IDEyLjIzIDUuNzUyIDExLjMwOUwzLjk2NCAxMy4wOTZDNi4zMjIgMTQuOTY4IDkuNjc4IDE0Ljk2OCAxMi4wMzYgMTMuMDk2Wk0yLjkwNCAxMi4wMzZMNC42OTEgMTAuMjQ5QzMuNzcgOC44OTYgMy43NyA3LjEwNCA0LjY5MSA1Ljc1MkwyLjkwNCAzLjk2NEMxLjAzMiA2LjMyMiAxLjAzMiA5LjY3OCAyLjkwNCAxMi4wMzZaTTIuMzQzIDIuMzQzQzUuNDY3IC0wLjc4MSAxMC41MzMgLTAuNzgxIDEzLjY1NyAyLjM0M0MxNi43ODEgNS40NjcgMTYuNzgxIDEwLjUzMyAxMy42NTcgMTMuNjU3QzEwLjUzMyAxNi43ODEgNS40NjcgMTYuNzgxIDIuMzQzIDEzLjY1N0MtMC43ODEgMTAuNTMzIC0wLjc4MSA1LjQ2NyAyLjM0MyAyLjM0M1pNOS43NjggNi4yMzJDOC43OTEgNS4yNTYgNy4yMDkgNS4yNTYgNi4yMzIgNi4yMzJDNS4yNTYgNy4yMDkgNS4yNTYgOC43OTEgNi4yMzIgOS43NjhDNy4yMDkgMTAuNzQ0IDguNzkxIDEwLjc0NCA5Ljc2OCA5Ljc2OEMxMC43NDQgOC43OTEgMTAuNzQ0IDcuMjA5IDkuNzY4IDYuMjMyWiIvPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={aDSSupportIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ADSSupport';
+}
+
+export default RefIcon;

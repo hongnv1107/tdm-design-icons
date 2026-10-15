@@ -70,10 +70,11 @@ Icons are organized into groups based on their visual style:
 | `Outlined` | Stroke/outline icons | `BellOutlined`      |
 | `Color`    | Multi-color icons    | `SocialGoogleColor` |
 | `Flag`     | Country flag icons   | `VNCircle`          |
+| `ADS`      | Atlassian Design System icons (16×16) | `ADSAIAgent` |
 
 ## Naming convention
 
-Component names never end with `Icon`. The style is taken from the SVG folder:
+Component names never end with `Icon`. ADS icons get the `ADS` prefix at generate time. The style is taken from the SVG folder:
 
 | SVG file                       | Import name         |
 | ------------------------------ | ------------------- |
@@ -81,6 +82,7 @@ Component names never end with `Icon`. The style is taken from the SVG folder:
 | `svg/outlined/ArrowUp.svg`     | `ArrowUpOutlined`   |
 | `svg/color/SocialGoogleColorIcon.svg` | `SocialGoogleColor` |
 | `svg/flag/VNCircleIcon.svg`    | `VNCircle`          |
+| `svg/ads/AIAgent.svg`          | `ADSAIAgent`        |
 
 ## License
 

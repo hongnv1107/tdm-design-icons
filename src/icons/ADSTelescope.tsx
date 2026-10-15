@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const aDSTelescopeSvg = (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M7.686 9.505C7.828 9.344 8.033 9.25 8.25 9.25C8.498 9.25 8.73 9.373 8.87 9.577L12.619 15.078L11.381 15.923L8.999 12.432L8.999 16L7.499 16L7.499 12.433L5.12 15.922L3.88 15.078L7.63 9.577L7.686 9.505Z"/><path d="M10.659 2.963L12.191 5.616L14.439 4.51L12.742 1.569L10.659 2.963ZM4.414 7.146L5.446 8.933L10.842 6.279L9.411 3.8L4.414 7.146ZM15.806 3.877C16.203 4.566 15.935 5.447 15.221 5.798L3.118 11.75C2.321 12.142 1.356 11.849 0.912 11.08L0.289 10.001C-0.155 9.231 0.073 8.249 0.811 7.755L12.017 0.249L12.144 0.173C12.789 -0.166 13.601 0.058 13.974 0.704L15.806 3.877ZM2.211 10.33C2.26 10.415 2.367 10.447 2.455 10.404L4.097 9.596L3.165 7.983L1.646 9.002C1.564 9.057 1.539 9.165 1.588 9.251L2.211 10.33Z"/>
+  </svg>
+);
+
+const aDSTelescopeIconDefinition = svgToIconDefinition(
+  aDSTelescopeSvg,
+  'ads-telescope'
+);
+
+/**![ADSTelescope](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNy42ODYgOS41MDVDNy44MjggOS4zNDQgOC4wMzMgOS4yNSA4LjI1IDkuMjVDOC40OTggOS4yNSA4LjczIDkuMzczIDguODcgOS41NzdMMTIuNjE5IDE1LjA3OEwxMS4zODEgMTUuOTIzTDguOTk5IDEyLjQzMkw4Ljk5OSAxNkw3LjQ5OSAxNkw3LjQ5OSAxMi40MzNMNS4xMiAxNS45MjJMMy44OCAxNS4wNzhMNy42MyA5LjU3N0w3LjY4NiA5LjUwNVoiLz48cGF0aCBkPSJNMTAuNjU5IDIuOTYzTDEyLjE5MSA1LjYxNkwxNC40MzkgNC41MUwxMi43NDIgMS41NjlMMTAuNjU5IDIuOTYzWk00LjQxNCA3LjE0Nkw1LjQ0NiA4LjkzM0wxMC44NDIgNi4yNzlMOS40MTEgMy44TDQuNDE0IDcuMTQ2Wk0xNS44MDYgMy44NzdDMTYuMjAzIDQuNTY2IDE1LjkzNSA1LjQ0NyAxNS4yMjEgNS43OThMMy4xMTggMTEuNzVDMi4zMjEgMTIuMTQyIDEuMzU2IDExLjg0OSAwLjkxMiAxMS4wOEwwLjI4OSAxMC4wMDFDLTAuMTU1IDkuMjMxIDAuMDczIDguMjQ5IDAuODExIDcuNzU1TDEyLjAxNyAwLjI0OUwxMi4xNDQgMC4xNzNDMTIuNzg5IC0wLjE2NiAxMy42MDEgMC4wNTggMTMuOTc0IDAuNzA0TDE1LjgwNiAzLjg3N1pNMi4yMTEgMTAuMzNDMi4yNiAxMC40MTUgMi4zNjcgMTAuNDQ3IDIuNDU1IDEwLjQwNEw0LjA5NyA5LjU5NkwzLjE2NSA3Ljk4M0wxLjY0NiA5LjAwMkMxLjU2NCA5LjA1NyAxLjUzOSA5LjE2NSAxLjU4OCA5LjI1MUwyLjIxMSAxMC4zM1oiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={aDSTelescopeIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ADSTelescope';
+}
+
+export default RefIcon;

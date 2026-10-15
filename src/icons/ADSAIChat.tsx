@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const aDSAIChatSvg = (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M14.5 3.125C14.5 2.504 13.996 2 13.375 2H2.625C2.004 2 1.5 2.504 1.5 3.125V13.957L4.051 12.5H13.375C13.996 12.5 14.5 11.996 14.5 11.375V3.125ZM16 11.375C16 12.825 14.825 14 13.375 14H4.449L1.122 15.901C0.89 16.034 0.605 16.032 0.374 15.898C0.143 15.764 0 15.517 0 15.25V3.125C0 1.675 1.175 0.5 2.625 0.5H13.375C14.825 0.5 16 1.675 16 3.125V11.375Z"/><path d="M5 6.25C5.552 6.25 6 6.698 6 7.25C6 7.802 5.552 8.25 5 8.25C4.448 8.25 4 7.802 4 7.25C4 6.698 4.448 6.25 5 6.25Z"/><path d="M8 6.25C8.552 6.25 9 6.698 9 7.25C9 7.802 8.552 8.25 8 8.25C7.448 8.25 7 7.802 7 7.25C7 6.698 7.448 6.25 8 6.25Z"/><path d="M11 6.25C11.552 6.25 12 6.698 12 7.25C12 7.802 11.552 8.25 11 8.25C10.448 8.25 10 7.802 10 7.25C10 6.698 10.448 6.25 11 6.25Z"/>
+  </svg>
+);
+
+const aDSAIChatIconDefinition = svgToIconDefinition(
+  aDSAIChatSvg,
+  'ads-ai-chat'
+);
+
+/**![ADSAIChat](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSAzLjEyNUMxNC41IDIuNTA0IDEzLjk5NiAyIDEzLjM3NSAySDIuNjI1QzIuMDA0IDIgMS41IDIuNTA0IDEuNSAzLjEyNVYxMy45NTdMNC4wNTEgMTIuNUgxMy4zNzVDMTMuOTk2IDEyLjUgMTQuNSAxMS45OTYgMTQuNSAxMS4zNzVWMy4xMjVaTTE2IDExLjM3NUMxNiAxMi44MjUgMTQuODI1IDE0IDEzLjM3NSAxNEg0LjQ0OUwxLjEyMiAxNS45MDFDMC44OSAxNi4wMzQgMC42MDUgMTYuMDMyIDAuMzc0IDE1Ljg5OEMwLjE0MyAxNS43NjQgMCAxNS41MTcgMCAxNS4yNVYzLjEyNUMwIDEuNjc1IDEuMTc1IDAuNSAyLjYyNSAwLjVIMTMuMzc1QzE0LjgyNSAwLjUgMTYgMS42NzUgMTYgMy4xMjVWMTEuMzc1WiIvPjxwYXRoIGQ9Ik01IDYuMjVDNS41NTIgNi4yNSA2IDYuNjk4IDYgNy4yNUM2IDcuODAyIDUuNTUyIDguMjUgNSA4LjI1QzQuNDQ4IDguMjUgNCA3LjgwMiA0IDcuMjVDNCA2LjY5OCA0LjQ0OCA2LjI1IDUgNi4yNVoiLz48cGF0aCBkPSJNOCA2LjI1QzguNTUyIDYuMjUgOSA2LjY5OCA5IDcuMjVDOSA3LjgwMiA4LjU1MiA4LjI1IDggOC4yNUM3LjQ0OCA4LjI1IDcgNy44MDIgNyA3LjI1QzcgNi42OTggNy40NDggNi4yNSA4IDYuMjVaIi8+PHBhdGggZD0iTTExIDYuMjVDMTEuNTUyIDYuMjUgMTIgNi42OTggMTIgNy4yNUMxMiA3LjgwMiAxMS41NTIgOC4yNSAxMSA4LjI1QzEwLjQ0OCA4LjI1IDEwIDcuODAyIDEwIDcuMjVDMTAgNi42OTggMTAuNDQ4IDYuMjUgMTEgNi4yNVoiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={aDSAIChatIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ADSAIChat';
+}
+
+export default RefIcon;

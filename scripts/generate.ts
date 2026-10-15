@@ -19,6 +19,7 @@ interface IconNames {
 }
 
 const STYLE_FOLDERS = ['filled', 'outlined'];
+const ADS_FOLDER = 'ads';
 
 // svgDir/<filled|outlined>/<Name>.svg has no style baked into the filename, so
 // the style folder is appended to the component name here to keep filled/outlined
@@ -28,6 +29,11 @@ function getComponentName(svgPath: string): string {
   const filename = path.basename(svgPath);
   const baseName = filename.replace(/\.svg$/i, '').replace(/Icon$/, '');
   const relParts = path.relative(svgDir, svgPath).split(path.sep);
+  // svgDir/ads/<Name>.svg keeps the plain Figma name; the ADS prefix is only
+  // added to the component name (AIAgent.svg → ADSAIAgent).
+  if (relParts.length === 2 && relParts[0] === ADS_FOLDER) {
+    return `ADS${baseName}`;
+  }
   if (relParts.length === 2 && STYLE_FOLDERS.includes(relParts[0])) {
     const style = relParts[0];
     const styleSuffix = style.charAt(0).toUpperCase() + style.slice(1);
@@ -42,10 +48,14 @@ function getNames(componentName: string): IconNames {
   // generated identifiers stay distinct either way; componentName without "Icon"
   // (new BellFilled style) passes through unchanged since there's nothing to strip.
   const strippedVarName = varName.replace(/Icon$/, '');
-  const kebabName = componentName
-    .replace(/Icon$/, '')
-    .replace(/([a-z])([A-Z])/g, '$1-$2')
-    .toLowerCase();
+  const baseName = componentName.replace(/Icon$/, '');
+  const toKebab = (s: string) => s.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+  // ADS names start with acronyms (ADSAIAgent), which the lower→upper rule can't
+  // split ("adsaiagent"). Split the ADS prefix and acronym boundaries explicitly,
+  // only for ADS so existing icon class names stay unchanged.
+  const kebabName = /^ADS[A-Z]/.test(baseName)
+    ? `ads-${toKebab(baseName.slice(3).replace(/([A-Z])([A-Z][a-z])/g, '$1-$2'))}`
+    : toKebab(baseName);
   return {
     componentName,
     svgVarName: `${strippedVarName}Svg`,

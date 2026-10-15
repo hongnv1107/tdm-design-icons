@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const aDSTextBoldItalicSvg = (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.465 1.93C4.559 1.392 5.026 1 5.573 1H10.195C11.32 1 12.37 1.398 13.091 2.188C13.825 2.991 14.117 4.088 13.91 5.258C13.741 6.214 13.28 7.04 12.641 7.679C12.789 7.795 12.927 7.922 13.055 8.063C13.789 8.865 14.082 9.962 13.875 11.133C13.465 13.452 11.337 15 9.125 15H3.5C3.168 15 2.852 14.853 2.638 14.598C2.425 14.344 2.334 14.007 2.392 13.68L3.427 7.805C3.431 7.78 3.437 7.756 3.442 7.732L4.465 1.93ZM5.878 6.875H9.16C10.398 6.875 11.495 5.998 11.695 4.867C11.793 4.312 11.645 3.941 11.431 3.706C11.204 3.458 10.798 3.25 10.195 3.25H6.517L5.878 6.875ZM5.479 9.125L4.841 12.75H9.125C10.363 12.75 11.46 11.873 11.66 10.742C11.758 10.188 11.61 9.816 11.395 9.581C11.168 9.333 10.761 9.125 10.16 9.125H5.479Z"/>
+  </svg>
+);
+
+const aDSTextBoldItalicIconDefinition = svgToIconDefinition(
+  aDSTextBoldItalicSvg,
+  'ads-text-bold-italic'
+);
+
+/**![ADSTextBoldItalic](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQuNDY1IDEuOTNDNC41NTkgMS4zOTIgNS4wMjYgMSA1LjU3MyAxSDEwLjE5NUMxMS4zMiAxIDEyLjM3IDEuMzk4IDEzLjA5MSAyLjE4OEMxMy44MjUgMi45OTEgMTQuMTE3IDQuMDg4IDEzLjkxIDUuMjU4QzEzLjc0MSA2LjIxNCAxMy4yOCA3LjA0IDEyLjY0MSA3LjY3OUMxMi43ODkgNy43OTUgMTIuOTI3IDcuOTIyIDEzLjA1NSA4LjA2M0MxMy43ODkgOC44NjUgMTQuMDgyIDkuOTYyIDEzLjg3NSAxMS4xMzNDMTMuNDY1IDEzLjQ1MiAxMS4zMzcgMTUgOS4xMjUgMTVIMy41QzMuMTY4IDE1IDIuODUyIDE0Ljg1MyAyLjYzOCAxNC41OThDMi40MjUgMTQuMzQ0IDIuMzM0IDE0LjAwNyAyLjM5MiAxMy42OEwzLjQyNyA3LjgwNUMzLjQzMSA3Ljc4IDMuNDM3IDcuNzU2IDMuNDQyIDcuNzMyTDQuNDY1IDEuOTNaTTUuODc4IDYuODc1SDkuMTZDMTAuMzk4IDYuODc1IDExLjQ5NSA1Ljk5OCAxMS42OTUgNC44NjdDMTEuNzkzIDQuMzEyIDExLjY0NSAzLjk0MSAxMS40MzEgMy43MDZDMTEuMjA0IDMuNDU4IDEwLjc5OCAzLjI1IDEwLjE5NSAzLjI1SDYuNTE3TDUuODc4IDYuODc1Wk01LjQ3OSA5LjEyNUw0Ljg0MSAxMi43NUg5LjEyNUMxMC4zNjMgMTIuNzUgMTEuNDYgMTEuODczIDExLjY2IDEwLjc0MkMxMS43NTggMTAuMTg4IDExLjYxIDkuODE2IDExLjM5NSA5LjU4MUMxMS4xNjggOS4zMzMgMTAuNzYxIDkuMTI1IDEwLjE2IDkuMTI1SDUuNDc5WiIvPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={aDSTextBoldItalicIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ADSTextBoldItalic';
+}
+
+export default RefIcon;

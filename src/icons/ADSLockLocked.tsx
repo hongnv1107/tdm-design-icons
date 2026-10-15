@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const aDSLockLockedSvg = (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 1.5C6.619 1.5 5.5 2.619 5.5 4V7H10.5V4C10.5 2.619 9.381 1.5 8 1.5ZM12 7V4C12 1.791 10.209 0 8 0C5.791 0 4 1.791 4 4V7C2.895 7 2 7.895 2 9V14C2 15.105 2.895 16 4 16H12C13.105 16 14 15.105 14 14V9C14 7.895 13.105 7 12 7ZM4 8.5C3.724 8.5 3.5 8.724 3.5 9V14C3.5 14.276 3.724 14.5 4 14.5H12C12.276 14.5 12.5 14.276 12.5 14V9C12.5 8.724 12.276 8.5 12 8.5H4ZM7.25 13V10H8.75V13H7.25Z"/>
+  </svg>
+);
+
+const aDSLockLockedIconDefinition = svgToIconDefinition(
+  aDSLockLockedSvg,
+  'ads-lock-locked'
+);
+
+/**![ADSLockLocked](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTggMS41QzYuNjE5IDEuNSA1LjUgMi42MTkgNS41IDRWN0gxMC41VjRDMTAuNSAyLjYxOSA5LjM4MSAxLjUgOCAxLjVaTTEyIDdWNEMxMiAxLjc5MSAxMC4yMDkgMCA4IDBDNS43OTEgMCA0IDEuNzkxIDQgNFY3QzIuODk1IDcgMiA3Ljg5NSAyIDlWMTRDMiAxNS4xMDUgMi44OTUgMTYgNCAxNkgxMkMxMy4xMDUgMTYgMTQgMTUuMTA1IDE0IDE0VjlDMTQgNy44OTUgMTMuMTA1IDcgMTIgN1pNNCA4LjVDMy43MjQgOC41IDMuNSA4LjcyNCAzLjUgOVYxNEMzLjUgMTQuMjc2IDMuNzI0IDE0LjUgNCAxNC41SDEyQzEyLjI3NiAxNC41IDEyLjUgMTQuMjc2IDEyLjUgMTRWOUMxMi41IDguNzI0IDEyLjI3NiA4LjUgMTIgOC41SDRaTTcuMjUgMTNWMTBIOC43NVYxM0g3LjI1WiIvPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={aDSLockLockedIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ADSLockLocked';
+}
+
+export default RefIcon;

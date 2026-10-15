@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const aDSMilestoneMultipleSvg = (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M4.585 2.603C5.245 1.944 6.25 1.844 7.017 2.299L5.682 3.634C5.67 3.644 5.657 3.653 5.646 3.664L1.664 7.646C1.469 7.842 1.469 8.158 1.664 8.353L5.646 12.336C5.654 12.344 5.664 12.35 5.672 12.357L7.016 13.701C6.249 14.155 5.245 14.056 4.585 13.396L0.603 9.414C-0.178 8.633 -0.178 7.367 0.603 6.586L4.585 2.603Z"/><path d="M8.586 2.604C9.367 1.823 10.633 1.823 11.414 2.604L15.397 6.586C16.177 7.367 16.177 8.633 15.397 9.414L11.414 13.397C10.633 14.177 9.367 14.177 8.586 13.397L4.604 9.414C3.823 8.633 3.823 7.367 4.604 6.586L8.586 2.604ZM10.354 3.664C10.158 3.469 9.842 3.469 9.646 3.664L5.664 7.646C5.469 7.842 5.469 8.158 5.664 8.354L9.646 12.336C9.842 12.531 10.158 12.531 10.354 12.336L14.336 8.354C14.531 8.158 14.531 7.842 14.336 7.646L10.354 3.664Z"/>
+  </svg>
+);
+
+const aDSMilestoneMultipleIconDefinition = svgToIconDefinition(
+  aDSMilestoneMultipleSvg,
+  'ads-milestone-multiple'
+);
+
+/**![ADSMilestoneMultiple](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNC41ODUgMi42MDNDNS4yNDUgMS45NDQgNi4yNSAxLjg0NCA3LjAxNyAyLjI5OUw1LjY4MiAzLjYzNEM1LjY3IDMuNjQ0IDUuNjU3IDMuNjUzIDUuNjQ2IDMuNjY0TDEuNjY0IDcuNjQ2QzEuNDY5IDcuODQyIDEuNDY5IDguMTU4IDEuNjY0IDguMzUzTDUuNjQ2IDEyLjMzNkM1LjY1NCAxMi4zNDQgNS42NjQgMTIuMzUgNS42NzIgMTIuMzU3TDcuMDE2IDEzLjcwMUM2LjI0OSAxNC4xNTUgNS4yNDUgMTQuMDU2IDQuNTg1IDEzLjM5NkwwLjYwMyA5LjQxNEMtMC4xNzggOC42MzMgLTAuMTc4IDcuMzY3IDAuNjAzIDYuNTg2TDQuNTg1IDIuNjAzWiIvPjxwYXRoIGQ9Ik04LjU4NiAyLjYwNEM5LjM2NyAxLjgyMyAxMC42MzMgMS44MjMgMTEuNDE0IDIuNjA0TDE1LjM5NyA2LjU4NkMxNi4xNzcgNy4zNjcgMTYuMTc3IDguNjMzIDE1LjM5NyA5LjQxNEwxMS40MTQgMTMuMzk3QzEwLjYzMyAxNC4xNzcgOS4zNjcgMTQuMTc3IDguNTg2IDEzLjM5N0w0LjYwNCA5LjQxNEMzLjgyMyA4LjYzMyAzLjgyMyA3LjM2NyA0LjYwNCA2LjU4Nkw4LjU4NiAyLjYwNFpNMTAuMzU0IDMuNjY0QzEwLjE1OCAzLjQ2OSA5Ljg0MiAzLjQ2OSA5LjY0NiAzLjY2NEw1LjY2NCA3LjY0NkM1LjQ2OSA3Ljg0MiA1LjQ2OSA4LjE1OCA1LjY2NCA4LjM1NEw5LjY0NiAxMi4zMzZDOS44NDIgMTIuNTMxIDEwLjE1OCAxMi41MzEgMTAuMzU0IDEyLjMzNkwxNC4zMzYgOC4zNTRDMTQuNTMxIDguMTU4IDE0LjUzMSA3Ljg0MiAxNC4zMzYgNy42NDZMMTAuMzU0IDMuNjY0WiIvPjwvc3ZnPg==) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={aDSMilestoneMultipleIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ADSMilestoneMultiple';
+}
+
+export default RefIcon;

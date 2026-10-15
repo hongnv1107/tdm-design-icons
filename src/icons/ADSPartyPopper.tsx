@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const aDSPartyPopperSvg = (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.792 14.446C1.645 14.494 1.506 14.355 1.555 14.208L3.265 9.076L6.924 12.735L1.792 14.446ZM8.515 12.204L3.796 7.485L4.328 5.888L10.112 11.672L8.515 12.204ZM0.132 13.734C-0.308 15.053 0.947 16.308 2.266 15.869L10.778 13.031C11.748 12.708 12.038 11.477 11.315 10.755L7.811 7.25L8.763 6.298C10.032 5.029 10.032 2.971 8.763 1.702L8.53 1.47L7.47 2.53L7.702 2.763C8.385 3.446 8.385 4.554 7.702 5.237L6.75 6.189L5.246 4.685C4.523 3.962 3.292 4.253 2.969 5.222L0.132 13.734ZM5.5 1L4 1L4 2.5L5.5 2.5L5.5 1ZM11.03 8.03L12.013 7.048C12.696 6.365 13.804 6.365 14.488 7.048L14.72 7.28L15.78 6.22L15.548 5.987C14.279 4.718 12.221 4.718 10.952 5.987L9.97 6.97L11.03 8.03ZM15 8.5H13.5V10H15V8.5ZM13 1L11.5 1L11.5 2.5L13 2.5L13 1Z"/>
+  </svg>
+);
+
+const aDSPartyPopperIconDefinition = svgToIconDefinition(
+  aDSPartyPopperSvg,
+  'ads-party-popper'
+);
+
+/**![ADSPartyPopper](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEuNzkyIDE0LjQ0NkMxLjY0NSAxNC40OTQgMS41MDYgMTQuMzU1IDEuNTU1IDE0LjIwOEwzLjI2NSA5LjA3Nkw2LjkyNCAxMi43MzVMMS43OTIgMTQuNDQ2Wk04LjUxNSAxMi4yMDRMMy43OTYgNy40ODVMNC4zMjggNS44ODhMMTAuMTEyIDExLjY3Mkw4LjUxNSAxMi4yMDRaTTAuMTMyIDEzLjczNEMtMC4zMDggMTUuMDUzIDAuOTQ3IDE2LjMwOCAyLjI2NiAxNS44NjlMMTAuNzc4IDEzLjAzMUMxMS43NDggMTIuNzA4IDEyLjAzOCAxMS40NzcgMTEuMzE1IDEwLjc1NUw3LjgxMSA3LjI1TDguNzYzIDYuMjk4QzEwLjAzMiA1LjAyOSAxMC4wMzIgMi45NzEgOC43NjMgMS43MDJMOC41MyAxLjQ3TDcuNDcgMi41M0w3LjcwMiAyLjc2M0M4LjM4NSAzLjQ0NiA4LjM4NSA0LjU1NCA3LjcwMiA1LjIzN0w2Ljc1IDYuMTg5TDUuMjQ2IDQuNjg1QzQuNTIzIDMuOTYyIDMuMjkyIDQuMjUzIDIuOTY5IDUuMjIyTDAuMTMyIDEzLjczNFpNNS41IDFMNCAxTDQgMi41TDUuNSAyLjVMNS41IDFaTTExLjAzIDguMDNMMTIuMDEzIDcuMDQ4QzEyLjY5NiA2LjM2NSAxMy44MDQgNi4zNjUgMTQuNDg4IDcuMDQ4TDE0LjcyIDcuMjhMMTUuNzggNi4yMkwxNS41NDggNS45ODdDMTQuMjc5IDQuNzE4IDEyLjIyMSA0LjcxOCAxMC45NTIgNS45ODdMOS45NyA2Ljk3TDExLjAzIDguMDNaTTE1IDguNUgxMy41VjEwSDE1VjguNVpNMTMgMUwxMS41IDFMMTEuNSAyLjVMMTMgMi41TDEzIDFaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={aDSPartyPopperIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ADSPartyPopper';
+}
+
+export default RefIcon;

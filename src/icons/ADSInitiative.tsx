@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const aDSInitiativeSvg = (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M13.5 7C13.5 3.962 11.038 1.5 8 1.5C4.962 1.5 2.5 3.962 2.5 7C2.5 8.861 3.425 10.504 4.842 11.5H11.158C12.575 10.504 13.5 8.861 13.5 7ZM4.607 13C4.418 13 4.25 13.121 4.19 13.301L3.791 14.5H12.209L11.81 13.301C11.75 13.121 11.582 13 11.393 13H4.607ZM8 4.5C6.619 4.5 5.5 5.619 5.5 7H4C4 4.791 5.791 3 8 3V4.5ZM15 7C15 9.012 14.15 10.824 12.793 12.1C12.987 12.302 13.14 12.548 13.232 12.826L13.962 15.013C14.038 15.241 13.999 15.493 13.858 15.689C13.717 15.884 13.491 16 13.25 16H2.75C2.509 16 2.283 15.884 2.142 15.689C2.001 15.493 1.962 15.241 2.038 15.013L2.768 12.826L2.822 12.681C2.915 12.462 3.047 12.266 3.206 12.1C1.849 10.824 1 9.011 1 7C1 3.134 4.134 0 8 0C11.866 0 15 3.134 15 7Z"/>
+  </svg>
+);
+
+const aDSInitiativeIconDefinition = svgToIconDefinition(
+  aDSInitiativeSvg,
+  'ads-initiative'
+);
+
+/**![ADSInitiative](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTMuNSA3QzEzLjUgMy45NjIgMTEuMDM4IDEuNSA4IDEuNUM0Ljk2MiAxLjUgMi41IDMuOTYyIDIuNSA3QzIuNSA4Ljg2MSAzLjQyNSAxMC41MDQgNC44NDIgMTEuNUgxMS4xNThDMTIuNTc1IDEwLjUwNCAxMy41IDguODYxIDEzLjUgN1pNNC42MDcgMTNDNC40MTggMTMgNC4yNSAxMy4xMjEgNC4xOSAxMy4zMDFMMy43OTEgMTQuNUgxMi4yMDlMMTEuODEgMTMuMzAxQzExLjc1IDEzLjEyMSAxMS41ODIgMTMgMTEuMzkzIDEzSDQuNjA3Wk04IDQuNUM2LjYxOSA0LjUgNS41IDUuNjE5IDUuNSA3SDRDNCA0Ljc5MSA1Ljc5MSAzIDggM1Y0LjVaTTE1IDdDMTUgOS4wMTIgMTQuMTUgMTAuODI0IDEyLjc5MyAxMi4xQzEyLjk4NyAxMi4zMDIgMTMuMTQgMTIuNTQ4IDEzLjIzMiAxMi44MjZMMTMuOTYyIDE1LjAxM0MxNC4wMzggMTUuMjQxIDEzLjk5OSAxNS40OTMgMTMuODU4IDE1LjY4OUMxMy43MTcgMTUuODg0IDEzLjQ5MSAxNiAxMy4yNSAxNkgyLjc1QzIuNTA5IDE2IDIuMjgzIDE1Ljg4NCAyLjE0MiAxNS42ODlDMi4wMDEgMTUuNDkzIDEuOTYyIDE1LjI0MSAyLjAzOCAxNS4wMTNMMi43NjggMTIuODI2TDIuODIyIDEyLjY4MUMyLjkxNSAxMi40NjIgMy4wNDcgMTIuMjY2IDMuMjA2IDEyLjFDMS44NDkgMTAuODI0IDEgOS4wMTEgMSA3QzEgMy4xMzQgNC4xMzQgMCA4IDBDMTEuODY2IDAgMTUgMy4xMzQgMTUgN1oiLz48L3N2Zz4=) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={aDSInitiativeIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ADSInitiative';
+}
+
+export default RefIcon;

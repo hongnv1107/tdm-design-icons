@@ -1,0 +1,38 @@
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+
+import * as React from 'react';
+
+import TdmIcon from '../components/TdmIcon';
+import type { TdmIconProps } from '../components/TdmIcon';
+import { svgToIconDefinition } from '../utils';
+
+const aDSVehicleCarSvg = (
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="#cacaca"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.277 3.182C2.465 1.928 3.542 1 4.811 1H11.189C12.458 1 13.535 1.928 13.723 3.182L13.997 5.008L15.276 4.336L15.974 5.664L14.437 6.472C15.374 7.042 16 8.073 16 9.25V13.625C16 14.384 15.384 15 14.625 15H12.375C11.616 15 11 14.384 11 13.625V13.5H5V13.625C5 14.384 4.384 15 3.625 15H1.375C0.616 15 0 14.384 0 13.625V9.25C0 8.073 0.626 7.042 1.563 6.472L0.026 5.664L0.724 4.336L2.003 5.008L2.277 3.182ZM3.371 6L3.76 3.405C3.838 2.885 4.285 2.5 4.811 2.5H11.189C11.715 2.5 12.162 2.885 12.24 3.405L12.629 6H3.371ZM3.25 7.5C2.284 7.5 1.5 8.284 1.5 9.25V13.5H3.5V13.375C3.5 12.616 4.116 12 4.875 12H11.125C11.884 12 12.5 12.616 12.5 13.375V13.5H14.5V9.25C14.5 8.284 13.717 7.5 12.75 7.5H3.25ZM6 10.5H3V9H6V10.5ZM13 10.5H10V9H13V10.5Z"/>
+  </svg>
+);
+
+const aDSVehicleCarIconDefinition = svgToIconDefinition(
+  aDSVehicleCarSvg,
+  'ads-vehicle-car'
+);
+
+/**![ADSVehicleCar](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIuMjc3IDMuMTgyQzIuNDY1IDEuOTI4IDMuNTQyIDEgNC44MTEgMUgxMS4xODlDMTIuNDU4IDEgMTMuNTM1IDEuOTI4IDEzLjcyMyAzLjE4MkwxMy45OTcgNS4wMDhMMTUuMjc2IDQuMzM2TDE1Ljk3NCA1LjY2NEwxNC40MzcgNi40NzJDMTUuMzc0IDcuMDQyIDE2IDguMDczIDE2IDkuMjVWMTMuNjI1QzE2IDE0LjM4NCAxNS4zODQgMTUgMTQuNjI1IDE1SDEyLjM3NUMxMS42MTYgMTUgMTEgMTQuMzg0IDExIDEzLjYyNVYxMy41SDVWMTMuNjI1QzUgMTQuMzg0IDQuMzg0IDE1IDMuNjI1IDE1SDEuMzc1QzAuNjE2IDE1IDAgMTQuMzg0IDAgMTMuNjI1VjkuMjVDMCA4LjA3MyAwLjYyNiA3LjA0MiAxLjU2MyA2LjQ3MkwwLjAyNiA1LjY2NEwwLjcyNCA0LjMzNkwyLjAwMyA1LjAwOEwyLjI3NyAzLjE4MlpNMy4zNzEgNkwzLjc2IDMuNDA1QzMuODM4IDIuODg1IDQuMjg1IDIuNSA0LjgxMSAyLjVIMTEuMTg5QzExLjcxNSAyLjUgMTIuMTYyIDIuODg1IDEyLjI0IDMuNDA1TDEyLjYyOSA2SDMuMzcxWk0zLjI1IDcuNUMyLjI4NCA3LjUgMS41IDguMjg0IDEuNSA5LjI1VjEzLjVIMy41VjEzLjM3NUMzLjUgMTIuNjE2IDQuMTE2IDEyIDQuODc1IDEySDExLjEyNUMxMS44ODQgMTIgMTIuNSAxMi42MTYgMTIuNSAxMy4zNzVWMTMuNUgxNC41VjkuMjVDMTQuNSA4LjI4NCAxMy43MTcgNy41IDEyLjc1IDcuNUgzLjI1Wk02IDEwLjVIM1Y5SDZWMTAuNVpNMTMgMTAuNUgxMFY5SDEzVjEwLjVaIi8+PC9zdmc+) */
+const RefIcon: React.ForwardRefExoticComponent<
+  Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
+> = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
+  return <TdmIcon {...props} ref={ref} icon={aDSVehicleCarIconDefinition} />;
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  RefIcon.displayName = 'ADSVehicleCar';
+}
+
+export default RefIcon;

@@ -29,6 +29,7 @@ tdm-design-icons/
 │   ├── outlined/               # Icon kiểu outlined (VD: Bell.svg → BellOutlined)
 │   ├── color/                  # Icon có màu       (VD: SocialGoogleColorIcon.svg)
 │   ├── flag/                   # Icon cờ quốc gia  (VD: VNCircleIcon.svg)
+│   ├── ads/                    # Icon Atlassian Design System (VD: AIAgent.svg → ADSAIAgent)
 │   └── *.svg                   # Icon không thuộc nhóm cụ thể
 ├── svg-source/                 # SVG gốc tải về từ Figma (chưa phân loại)
 ├── src/
@@ -79,8 +80,9 @@ Tên component **không có đuôi `Icon`**. Style lấy từ thư mục chứa 
 | `svg/outlined/` | `Bell.svg` | `BellOutlined` |
 | `svg/color/` | `SocialGoogleColorIcon.svg` | `SocialGoogleColor` |
 | `svg/flag/` | `VNCircleIcon.svg` | `VNCircle` |
+| `svg/ads/` | `AIAgent.svg` | `ADSAIAgent` |
 
-(Đuôi `Icon` nếu có trong tên file SVG sẽ bị bỏ khi generate.)
+(Đuôi `Icon` nếu có trong tên file SVG sẽ bị bỏ khi generate. Riêng `svg/ads/`: tên file giữ nguyên tên gốc, prefix `ADS` được thêm khi generate.)
 
 ### Bước 3 — Đặt file vào đúng thư mục
 
@@ -90,6 +92,7 @@ Tên component **không có đuôi `Icon`**. Style lấy từ thư mục chứa 
 | Outlined | `svg/outlined/` |
 | Color | `svg/color/` |
 | Flag icon | `svg/flag/` |
+| ADS (Atlassian Design System) — tên file `{TênIconPascalCase}.svg` | `svg/ads/` |
 
 --- | --- | --- |
 | Solid/Filled | `FilledIcon` | `BellFilledIcon.svg` |
