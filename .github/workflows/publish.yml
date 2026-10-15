@@ -81,11 +81,16 @@ jobs:
 
       - name: Publish to npm
         run: |
-          # Prerelease versions (e.g. 1.0.0-beta.0) go to the "next" dist-tag so
-          # they never become "latest".
+          # Prerelease versions publish under their identifier as the dist-tag
+          # (e.g. v0.2.0-rc.0 → "rc", same as @tdm-design/ui) so they never
+          # become "latest".
           case "$GITHUB_REF_NAME" in
-            *-*) npm publish --provenance --access public --tag next ;;
-            *)   npm publish --provenance --access public ;;
+            *-*)
+              DIST_TAG="${GITHUB_REF_NAME#*-}"
+              DIST_TAG="${DIST_TAG%%.*}"
+              npm publish --provenance --access public --tag "$DIST_TAG"
+              ;;
+            *) npm publish --provenance --access public ;;
           esac
 
       - name: Create GitHub Release

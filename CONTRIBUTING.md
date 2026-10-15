@@ -213,6 +213,25 @@ git tag vX.Y.Z
 git push origin --tags
 ```
 
+### Publish bản test (rc)
+
+Giống `@tdm-design/ui`: bản test có đuôi `-rc.N` và lên dist-tag `rc`, không đè `latest`.
+
+```bash
+# 1. Đặt version rc (không tạo commit/tag tự động)
+npm version 0.2.0-rc.0 --no-git-tag-version
+
+# 2. Commit, tag & push
+git add package.json
+git commit -m "chore: release v0.2.0-rc.0"
+git tag v0.2.0-rc.0
+git push origin HEAD --tags
+```
+
+- CI lấy phần sau dấu `-` làm dist-tag: `v0.2.0-rc.0` → `rc`. GitHub Release được đánh dấu prerelease.
+- Cài thử: `pnpm add @tdm-design/icons@rc`.
+- Lần test tiếp theo tăng số cuối: `0.2.0-rc.1`, `0.2.0-rc.2`… Khi chốt, release `v0.2.0` như bình thường.
+
 ---
 
 ## Post-process SVG (tiện ích)
