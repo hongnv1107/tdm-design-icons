@@ -1,5 +1,15 @@
 # @tdm-design/icons
 
+## 0.2.0-rc.1
+
+### Minor Changes
+
+- Add 826 ADS (Atlassian Design System) icons (16×16) from `svg/ads/`, exported as `ADS{Name}` components (e.g. `ADSAIAgent`, `ADSChartPie`). Import: `@tdm-design/icons/ADSAIAgent`.
+
+### Patch Changes
+
+- `MoonFilled` / `MoonOutlined`: re-exported from Figma with a 24×24 viewBox (was 23×24).
+
 ## 0.2.0-rc.0
 
 ### Major Changes

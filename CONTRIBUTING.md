@@ -221,8 +221,10 @@ git push origin --tags
 Giống `@tdm-design/ui`: bản test có đuôi `-rc.N` và lên dist-tag `rc`, không đè `latest`.
 
 ```bash
-# 1. Đặt version rc (không tạo commit/tag tự động)
-npm version 0.2.0-rc.0 --no-git-tag-version
+# 1. Đặt version rc (không tạo commit/tag tự động).
+#    --ignore-scripts: bỏ qua script "version" (changeset version), nếu không nó sẽ
+#    ăn changeset đang chờ và đẩy version thành bản chính thức (vd 0.2.0).
+npm version 0.2.0-rc.0 --no-git-tag-version --ignore-scripts
 
 # 2. Commit, tag & push
 git add package.json
