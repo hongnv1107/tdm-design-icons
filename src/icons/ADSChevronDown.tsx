@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSChevronDownSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSChevronDownIconDefinition = svgToIconDefinition(
   'ads-chevron-down'
 );
 
-/**![ADSChevronDown](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41MyA2LjAzTDguNTMgMTIuMDNDOC4yNTYgMTIuMzA1IDcuODIxIDEyLjMyMiA3LjUyNiAxMi4wODJMNy40NyAxMi4wM0wxLjQ3IDYuMDNMMi41MyA0Ljk3TDggMTAuNDRMMTMuNDcgNC45N0wxNC41MyA2LjAzWiIvPjwvc3ZnPg==) */
+/**![ADSChevronDown](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNTMgNi4wM0w4LjUzIDEyLjAzQzguMjU2IDEyLjMwNSA3LjgyMSAxMi4zMjIgNy41MjYgMTIuMDgyTDcuNDcgMTIuMDNMMS40NyA2LjAzTDIuNTMgNC45N0w4IDEwLjQ0TDEzLjQ3IDQuOTdMMTQuNTMgNi4wM1oiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

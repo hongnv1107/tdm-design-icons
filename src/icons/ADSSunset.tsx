@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSSunsetSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSSunsetIconDefinition = svgToIconDefinition(
   'ads-sunset'
 );
 
-/**![ADSSunset](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOC43NSAxVjNINy4yNVYxSDguNzVaTTExLjc1IDMuODQ1TDEzLjE2NCAyLjQzTDE0LjIyNSAzLjQ5MUwxMi44MTEgNC45MDVMMTEuNzUgMy44NDVaTTMuMTY0IDQuOTE0TDEuNzUgMy41TDIuODExIDIuNDM5TDQuMjI1IDMuODU0TDMuMTY0IDQuOTE0Wk04IDZDNi4zNDMgNiA1IDcuMzQzIDUgOUgzLjVDMy41IDYuNTE1IDUuNTE1IDQuNSA4IDQuNUMxMC40ODUgNC41IDEyLjUgNi41MTUgMTIuNSA5SDExQzExIDcuMzQzIDkuNjU3IDYgOCA2Wk0yIDlIMFY3LjVIMlY5Wk0xNiA5SDE0VjcuNUgxNlY5Wk0xNSAxMkgxVjEwLjVIMTVWMTJaTTEwLjUgMTMuNVYxNUg1LjVWMTMuNUgxMC41WiIvPjwvc3ZnPg==) */
+/**![ADSSunset](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTguNzUgMVYzSDcuMjVWMUg4Ljc1Wk0xMS43NSAzLjg0NUwxMy4xNjQgMi40M0wxNC4yMjUgMy40OTFMMTIuODExIDQuOTA1TDExLjc1IDMuODQ1Wk0zLjE2NCA0LjkxNEwxLjc1IDMuNUwyLjgxMSAyLjQzOUw0LjIyNSAzLjg1NEwzLjE2NCA0LjkxNFpNOCA2QzYuMzQzIDYgNSA3LjM0MyA1IDlIMy41QzMuNSA2LjUxNSA1LjUxNSA0LjUgOCA0LjVDMTAuNDg1IDQuNSAxMi41IDYuNTE1IDEyLjUgOUgxMUMxMSA3LjM0MyA5LjY1NyA2IDggNlpNMiA5SDBWNy41SDJWOVpNMTYgOUgxNFY3LjVIMTZWOVpNMTUgMTJIMVYxMC41SDE1VjEyWk0xMC41IDEzLjVWMTVINS41VjEzLjVIMTAuNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

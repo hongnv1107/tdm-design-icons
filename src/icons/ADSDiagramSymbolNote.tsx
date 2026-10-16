@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolNoteSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolNoteIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-note'
 );
 
-/**![ADSDiagramSymbolNote](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41IDEyLjVDMTQuNSAxMi43NDIgMTQuMzI5IDEyLjk0NCAxNC4xMDEgMTIuOTlMMTQgMTNIMkMxLjcyNCAxMyAxLjUgMTIuNzc2IDEuNSAxMi41VjMuNUMxLjUgMy4yMjQgMS43MjQgMyAyIDNIMTBWNi43NUMxMCA3LjE2NCAxMC4zMzYgNy41IDEwLjc1IDcuNUgxNC41VjEyLjVaTTExLjUgMy41NjFMMTMuOTQgNkgxMS41VjMuNTYxWk0xNiA2Ljc1QzE2IDYuMjMxIDE1Ljc5NCA1LjczMyAxNS40MjcgNS4zNjZMMTIuMTM0IDIuMDczQzExLjc2NyAxLjcwNiAxMS4yNjkgMS41IDEwLjc1IDEuNUgyQzAuODk1IDEuNSAwIDIuMzk1IDAgMy41VjEyLjVDMCAxMy42MDUgMC44OTUgMTQuNSAyIDE0LjVIMTRMMTQuMjA0IDE0LjQ4OUMxNS4yMTMgMTQuMzg3IDE2IDEzLjUzNiAxNiAxMi41VjYuNzVaIi8+PC9zdmc+) */
+/**![ADSDiagramSymbolNote](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSAxMi41QzE0LjUgMTIuNzQyIDE0LjMyOSAxMi45NDQgMTQuMTAxIDEyLjk5TDE0IDEzSDJDMS43MjQgMTMgMS41IDEyLjc3NiAxLjUgMTIuNVYzLjVDMS41IDMuMjI0IDEuNzI0IDMgMiAzSDEwVjYuNzVDMTAgNy4xNjQgMTAuMzM2IDcuNSAxMC43NSA3LjVIMTQuNVYxMi41Wk0xMS41IDMuNTYxTDEzLjk0IDZIMTEuNVYzLjU2MVpNMTYgNi43NUMxNiA2LjIzMSAxNS43OTQgNS43MzMgMTUuNDI3IDUuMzY2TDEyLjEzNCAyLjA3M0MxMS43NjcgMS43MDYgMTEuMjY5IDEuNSAxMC43NSAxLjVIMkMwLjg5NSAxLjUgMCAyLjM5NSAwIDMuNVYxMi41QzAgMTMuNjA1IDAuODk1IDE0LjUgMiAxNC41SDE0TDE0LjIwNCAxNC40ODlDMTUuMjEzIDE0LjM4NyAxNiAxMy41MzYgMTYgMTIuNVY2Ljc1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

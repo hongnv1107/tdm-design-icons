@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSViewSplitSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSViewSplitIconDefinition = svgToIconDefinition(
   'ads-view-split'
 );
 
-/**![ADSViewSplit](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41IDNDMTQuNSAyLjcyNCAxNC4yNzYgMi41IDE0IDIuNUg4Ljc1VjEzLjVIMTRDMTQuMjc2IDEzLjUgMTQuNSAxMy4yNzYgMTQuNSAxM1YzWk0xLjUgMTNDMS41IDEzLjI3NiAxLjcyNCAxMy41IDIgMTMuNUg3LjI1VjIuNUgyQzEuNzI0IDIuNSAxLjUgMi43MjQgMS41IDNWMTNaTTE2IDEzQzE2IDE0LjEwNSAxNS4xMDUgMTUgMTQgMTVIMkMwLjg5NSAxNSAwIDE0LjEwNSAwIDEzVjNDMCAxLjg5NSAwLjg5NSAxIDIgMUgxNEMxNS4xMDUgMSAxNiAxLjg5NSAxNiAzVjEzWiIvPjwvc3ZnPg==) */
+/**![ADSViewSplit](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSAzQzE0LjUgMi43MjQgMTQuMjc2IDIuNSAxNCAyLjVIOC43NVYxMy41SDE0QzE0LjI3NiAxMy41IDE0LjUgMTMuMjc2IDE0LjUgMTNWM1pNMS41IDEzQzEuNSAxMy4yNzYgMS43MjQgMTMuNSAyIDEzLjVINy4yNVYyLjVIMkMxLjcyNCAyLjUgMS41IDIuNzI0IDEuNSAzVjEzWk0xNiAxM0MxNiAxNC4xMDUgMTUuMTA1IDE1IDE0IDE1SDJDMC44OTUgMTUgMCAxNC4xMDUgMCAxM1YzQzAgMS44OTUgMC44OTUgMSAyIDFIMTRDMTUuMTA1IDEgMTYgMS44OTUgMTYgM1YxM1oiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

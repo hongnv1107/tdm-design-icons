@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSMilestoneOverdueSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSMilestoneOverdueIconDefinition = svgToIconDefinition(
   'ads-milestone-overdue'
 );
 
-/**![ADSMilestoneOverdue](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNi41ODUgMi42MDNDNy4zNjYgMS44MjIgOC42MzMgMS44MjMgOS40MTQgMi42MDNMMTMuMzk2IDYuNTg1QzE0LjEyOCA3LjMxOCAxNC4xNzQgOC40NzcgMTMuNTM0IDkuMjYyTDEzLjM5NiA5LjQxNEw5LjQxNCAxMy4zOTZDOC42MzMgMTQuMTc3IDcuMzY2IDE0LjE3NyA2LjU4NSAxMy4zOTZMMi42MDMgOS40MTRDMS44MjMgOC42MzMgMS44MjIgNy4zNjYgMi42MDMgNi41ODVMNi41ODUgMi42MDNaTTggMTBDNy40NDggMTAgNy4wMDEgMTAuNDQ3IDcgMTFDNyAxMS41NTIgNy40NDggMTIgOCAxMkM4LjU1MyAxMS45OTkgOSAxMS41NTIgOSAxMUM5IDEwLjQ0OCA4LjU1MiAxMCA4IDEwWk03LjI1IDRWOUg4Ljc1VjRINy4yNVoiLz48L3N2Zz4=) */
+/**![ADSMilestoneOverdue](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuNTg1IDIuNjAzQzcuMzY2IDEuODIyIDguNjMzIDEuODIzIDkuNDE0IDIuNjAzTDEzLjM5NiA2LjU4NUMxNC4xMjggNy4zMTggMTQuMTc0IDguNDc3IDEzLjUzNCA5LjI2MkwxMy4zOTYgOS40MTRMOS40MTQgMTMuMzk2QzguNjMzIDE0LjE3NyA3LjM2NiAxNC4xNzcgNi41ODUgMTMuMzk2TDIuNjAzIDkuNDE0QzEuODIzIDguNjMzIDEuODIyIDcuMzY2IDIuNjAzIDYuNTg1TDYuNTg1IDIuNjAzWk04IDEwQzcuNDQ4IDEwIDcuMDAxIDEwLjQ0NyA3IDExQzcgMTEuNTUyIDcuNDQ4IDEyIDggMTJDOC41NTMgMTEuOTk5IDkgMTEuNTUyIDkgMTFDOSAxMC40NDggOC41NTIgMTAgOCAxMFpNNy4yNSA0VjlIOC43NVY0SDcuMjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

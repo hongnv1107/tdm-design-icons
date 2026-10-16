@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTakeoutContainerSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTakeoutContainerIconDefinition = svgToIconDefinition(
   'ads-takeout-container'
 );
 
-/**![ADSTakeoutContainer](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNC4zMTMgMS40NDlDNC40MzIgMS4xNzYgNC43MDIgMSA1IDFIMTFDMTEuMjk4IDEgMTEuNTY4IDEuMTc2IDExLjY4NyAxLjQ0OUwxMy4xOTEgNC44ODhMMTUuMDg0IDMuNjI2TDE1LjkxNiA0Ljg3NEwxMy45NTQgNi4xODJMMTIuOTk1IDE0LjMzOEMxMi45NSAxNC43MTUgMTIuNjMgMTUgMTIuMjUgMTVIMy43NUMzLjM3IDE1IDMuMDUgMTQuNzE1IDMuMDA1IDE0LjMzOEwyLjA0NiA2LjE4MkwwLjA4NCA0Ljg3NEwwLjkxNiAzLjYyNkwyLjgwOSA0Ljg4OEw0LjMxMyAxLjQ0OVpNMy41OTMgNi41TDQuNDE3IDEzLjVIMTEuNTgzTDEyLjQwNyA2LjVIMy41OTNaTTExLjYwMyA1TDEwLjUxIDIuNUg1LjQ5MUw0LjM5NyA1SDExLjYwM1oiLz48L3N2Zz4=) */
+/**![ADSTakeoutContainer](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMzEzIDEuNDQ5QzQuNDMyIDEuMTc2IDQuNzAyIDEgNSAxSDExQzExLjI5OCAxIDExLjU2OCAxLjE3NiAxMS42ODcgMS40NDlMMTMuMTkxIDQuODg4TDE1LjA4NCAzLjYyNkwxNS45MTYgNC44NzRMMTMuOTU0IDYuMTgyTDEyLjk5NSAxNC4zMzhDMTIuOTUgMTQuNzE1IDEyLjYzIDE1IDEyLjI1IDE1SDMuNzVDMy4zNyAxNSAzLjA1IDE0LjcxNSAzLjAwNSAxNC4zMzhMMi4wNDYgNi4xODJMMC4wODQgNC44NzRMMC45MTYgMy42MjZMMi44MDkgNC44ODhMNC4zMTMgMS40NDlaTTMuNTkzIDYuNUw0LjQxNyAxMy41SDExLjU4M0wxMi40MDcgNi41SDMuNTkzWk0xMS42MDMgNUwxMC41MSAyLjVINS40OTFMNC4zOTcgNUgxMS42MDNaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

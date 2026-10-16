@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSVideoTimelineClipInsertStartSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSVideoTimelineClipInsertStartIconDefinition = svgToIconDefinition(
   'ads-video-timeline-clip-insert-start'
 );
 
-/**![ADSVideoTimelineClipInsertStart](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik01IDRMNSAxMkM1IDEzLjEwNSA1Ljg5NSAxNCA3IDE0TDE1IDE0VjEyLjVMNyAxMi41QzYuNzI0IDEyLjUgNi41IDEyLjI3NiA2LjUgMTJMNi41IDRDNi41IDMuNzI0IDYuNzI0IDMuNSA3IDMuNUwxNSAzLjVWMkw3IDJDNS44OTUgMiA1IDIuODk1IDUgNFoiLz48cGF0aCBkPSJNMi4yNSAwQzIuNjY0IDAgMyAwLjMzNiAzIDAuNzVWMTUuMjVDMyAxNS42NjQgMi42NjQgMTYgMi4yNSAxNkgxLjc1QzEuMzM2IDE2IDEgMTUuNjY0IDEgMTUuMjVWMC43NUMxIDAuMzM2IDEuMzM2IDAgMS43NSAwSDIuMjVaIi8+PC9zdmc+) */
+/**![ADSVideoTimelineClipInsertStart](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNSA0TDUgMTJDNSAxMy4xMDUgNS44OTUgMTQgNyAxNEwxNSAxNFYxMi41TDcgMTIuNUM2LjcyNCAxMi41IDYuNSAxMi4yNzYgNi41IDEyTDYuNSA0QzYuNSAzLjcyNCA2LjcyNCAzLjUgNyAzLjVMMTUgMy41VjJMNyAyQzUuODk1IDIgNSAyLjg5NSA1IDRaIi8+PHBhdGggZD0iTTIuMjUgMEMyLjY2NCAwIDMgMC4zMzYgMyAwLjc1VjE1LjI1QzMgMTUuNjY0IDIuNjY0IDE2IDIuMjUgMTZIMS43NUMxLjMzNiAxNiAxIDE1LjY2NCAxIDE1LjI1VjAuNzVDMSAwLjMzNiAxLjMzNiAwIDEuNzUgMEgyLjI1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

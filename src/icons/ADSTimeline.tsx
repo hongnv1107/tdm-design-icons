@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTimelineSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTimelineIconDefinition = svgToIconDefinition(
   'ads-timeline'
 );
 
-/**![ADSTimeline](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTEgMi41TDEgMi41TDEgMUwxMSAxTDExIDIuNVpNMTUgNi42NjdMNSA2LjY2N0w1IDUuMTY3TDE1IDUuMTY3TDE1IDYuNjY3Wk0xMSAxMC44MzRMMSAxMC44MzRMMSA5LjMzNEwxMSA5LjMzNEwxMSAxMC44MzRaTTE1IDE1TDUgMTVMNSAxMy41TDE1IDEzLjVMMTUgMTVaIi8+PC9zdmc+) */
+/**![ADSTimeline](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDIuNUwxIDIuNUwxIDFMMTEgMUwxMSAyLjVaTTE1IDYuNjY3TDUgNi42NjdMNSA1LjE2N0wxNSA1LjE2N0wxNSA2LjY2N1pNMTEgMTAuODM0TDEgMTAuODM0TDEgOS4zMzRMMTEgOS4zMzRMMTEgMTAuODM0Wk0xNSAxNUw1IDE1TDUgMTMuNUwxNSAxMy41TDE1IDE1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

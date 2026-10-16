@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSRSSFeedSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSRSSFeedIconDefinition = svgToIconDefinition(
   'ads-rss-feed'
 );
 
-/**![ADSRSSFeed](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0zLjc1IDEwLjVDNC43MTcgMTAuNSA1LjUgMTEuMjg0IDUuNSAxMi4yNUM1LjUgMTMuMjE3IDQuNzE3IDE0IDMuNzUgMTRDMi43ODQgMTQgMiAxMy4yMTcgMiAxMi4yNUMyIDExLjI4NCAyLjc4NCAxMC41IDMuNzUgMTAuNVoiLz48cGF0aCBkPSJNMiAyQzguNjI3IDIgMTQgNy4zNzMgMTQgMTRIMTIuNUMxMi41IDguMjAxIDcuNzk5IDMuNSAyIDMuNVYyWiIvPjxwYXRoIGQ9Ik0yIDZDNi40MTggNiAxMCA5LjU4MiAxMCAxNEg4LjVDOC41IDEwLjQxIDUuNTkgNy41IDIgNy41VjZaIi8+PC9zdmc+) */
+/**![ADSRSSFeed](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMy43NSAxMC41QzQuNzE3IDEwLjUgNS41IDExLjI4NCA1LjUgMTIuMjVDNS41IDEzLjIxNyA0LjcxNyAxNCAzLjc1IDE0QzIuNzg0IDE0IDIgMTMuMjE3IDIgMTIuMjVDMiAxMS4yODQgMi43ODQgMTAuNSAzLjc1IDEwLjVaIi8+PHBhdGggZD0iTTIgMkM4LjYyNyAyIDE0IDcuMzczIDE0IDE0SDEyLjVDMTIuNSA4LjIwMSA3Ljc5OSAzLjUgMiAzLjVWMloiLz48cGF0aCBkPSJNMiA2QzYuNDE4IDYgMTAgOS41ODIgMTAgMTRIOC41QzguNSAxMC40MSA1LjU5IDcuNSAyIDcuNVY2WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

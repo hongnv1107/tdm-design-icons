@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolSendSignalSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolSendSignalIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-send-signal'
 );
 
-/**![ADSDiagramSymbolSendSignal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMSAyLjVDMTEuMjEzIDIuNSAxMS40MTYgMi41OTEgMTEuNTU5IDIuNzVMMTUuODA5IDcuNUMxNi4wNjMgNy43ODUgMTYuMDYzIDguMjE1IDE1LjgwOSA4LjVMMTEuNTU5IDEzLjI1QzExLjQxNiAxMy40MDkgMTEuMjEzIDEzLjUgMTEgMTMuNUgyQzAuODk1IDEzLjUgMCAxMi42MDUgMCAxMS41VjQuNUMwIDMuMzk1IDAuODk1IDIuNSAyIDIuNUgxMVpNMS41IDExLjVDMS41IDExLjc3NiAxLjcyNCAxMiAyIDEySDEwLjY2NUwxNC4yNDMgOEwxMC42NjUgNEgyQzEuNzI0IDQgMS41IDQuMjI0IDEuNSA0LjVWMTEuNVoiLz48L3N2Zz4=) */
+/**![ADSDiagramSymbolSendSignal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTEgMi41QzExLjIxMyAyLjUgMTEuNDE2IDIuNTkxIDExLjU1OSAyLjc1TDE1LjgwOSA3LjVDMTYuMDYzIDcuNzg1IDE2LjA2MyA4LjIxNSAxNS44MDkgOC41TDExLjU1OSAxMy4yNUMxMS40MTYgMTMuNDA5IDExLjIxMyAxMy41IDExIDEzLjVIMkMwLjg5NSAxMy41IDAgMTIuNjA1IDAgMTEuNVY0LjVDMCAzLjM5NSAwLjg5NSAyLjUgMiAyLjVIMTFaTTEuNSAxMS41QzEuNSAxMS43NzYgMS43MjQgMTIgMiAxMkgxMC42NjVMMTQuMjQzIDhMMTAuNjY1IDRIMkMxLjcyNCA0IDEuNSA0LjIyNCAxLjUgNC41VjExLjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

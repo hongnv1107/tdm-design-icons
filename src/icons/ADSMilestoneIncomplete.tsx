@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSMilestoneIncompleteSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSMilestoneIncompleteIconDefinition = svgToIconDefinition(
   'ads-milestone-incomplete'
 );
 
-/**![ADSMilestoneIncomplete](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik02LjU4NiAyLjYwNEM3LjM2NyAxLjgyMyA4LjYzMyAxLjgyMyA5LjQxNCAyLjYwNEwxMy4zOTYgNi41ODZDMTQuMTc3IDcuMzY3IDE0LjE3NyA4LjYzMyAxMy4zOTYgOS40MTRMOS40MTQgMTMuMzk3QzguNjMzIDE0LjE3NyA3LjM2NyAxNC4xNzcgNi41ODYgMTMuMzk3TDIuNjAzIDkuNDE0QzEuODIyIDguNjMzIDEuODIyIDcuMzY3IDIuNjAzIDYuNTg2TDYuNTg2IDIuNjA0Wk04LjM1MyAzLjY2NEM4LjE1OCAzLjQ2OSA3Ljg0MSAzLjQ2OSA3LjY0NiAzLjY2NEwzLjY2NCA3LjY0NkMzLjQ2OSA3Ljg0MiAzLjQ2OSA4LjE1OCAzLjY2NCA4LjM1NEw3LjY0NiAxMi4zMzZDNy44NDEgMTIuNTMxIDguMTU4IDEyLjUzMSA4LjM1MyAxMi4zMzZMMTIuMzM2IDguMzU0QzEyLjUzMSA4LjE1OCAxMi41MzEgNy44NDIgMTIuMzM2IDcuNjQ2TDguMzUzIDMuNjY0WiIvPjwvc3ZnPg==) */
+/**![ADSMilestoneIncomplete](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNi41ODYgMi42MDRDNy4zNjcgMS44MjMgOC42MzMgMS44MjMgOS40MTQgMi42MDRMMTMuMzk2IDYuNTg2QzE0LjE3NyA3LjM2NyAxNC4xNzcgOC42MzMgMTMuMzk2IDkuNDE0TDkuNDE0IDEzLjM5N0M4LjYzMyAxNC4xNzcgNy4zNjcgMTQuMTc3IDYuNTg2IDEzLjM5N0wyLjYwMyA5LjQxNEMxLjgyMiA4LjYzMyAxLjgyMiA3LjM2NyAyLjYwMyA2LjU4Nkw2LjU4NiAyLjYwNFpNOC4zNTMgMy42NjRDOC4xNTggMy40NjkgNy44NDEgMy40NjkgNy42NDYgMy42NjRMMy42NjQgNy42NDZDMy40NjkgNy44NDIgMy40NjkgOC4xNTggMy42NjQgOC4zNTRMNy42NDYgMTIuMzM2QzcuODQxIDEyLjUzMSA4LjE1OCAxMi41MzEgOC4zNTMgMTIuMzM2TDEyLjMzNiA4LjM1NEMxMi41MzEgOC4xNTggMTIuNTMxIDcuODQyIDEyLjMzNiA3LjY0Nkw4LjM1MyAzLjY2NFoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

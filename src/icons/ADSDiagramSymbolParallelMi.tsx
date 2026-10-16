@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolParallelMiSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolParallelMiIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-parallel-mi'
 );
 
-/**![ADSDiagramSymbolParallelMi](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0zLjUgMTVIMkwyIDFMMy41IDFMMy41IDE1Wk04Ljc1IDE1SDcuMjVMNy4yNSAxTDguNzUgMUw4Ljc1IDE1Wk0xNCAxNUwxMi41IDE1TDEyLjUgMUwxNCAxTDE0IDE1WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramSymbolParallelMi](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMy41IDE1SDJMMiAxTDMuNSAxTDMuNSAxNVpNOC43NSAxNUg3LjI1TDcuMjUgMUw4Ljc1IDFMOC43NSAxNVpNMTQgMTVMMTIuNSAxNUwxMi41IDFMMTQgMUwxNCAxNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

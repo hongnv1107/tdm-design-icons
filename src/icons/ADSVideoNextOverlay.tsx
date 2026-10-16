@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSVideoNextOverlaySvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSVideoNextOverlayIconDefinition = svgToIconDefinition(
   'ads-video-next-overlay'
 );
 
-/**![ADSVideoNextOverlay](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTMgMUwxMyAxNUgxMS41VjguNzA4QzExLjM1MyA5LjA0NCAxMS4wOTYgOS4zNDEgMTAuNzI5IDkuNTM5TDQuNTgyIDEyLjg2MkMzLjQxNiAxMy40OTMgMiAxMi42NDggMiAxMS4zMjNWNC42NzdDMiAzLjM1MiAzLjQxNiAyLjUwOCA0LjU4MiAzLjEzOEwxMC43MjkgNi40NjFDMTEuMDk2IDYuNjU5IDExLjM1MyA2Ljk1NiAxMS41IDcuMjkyVjFIMTNaIi8+PC9zdmc+) */
+/**![ADSVideoNextOverlay](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzIDFMMTMgMTVIMTEuNVY4LjcwOEMxMS4zNTMgOS4wNDQgMTEuMDk2IDkuMzQxIDEwLjcyOSA5LjUzOUw0LjU4MiAxMi44NjJDMy40MTYgMTMuNDkzIDIgMTIuNjQ4IDIgMTEuMzIzVjQuNjc3QzIgMy4zNTIgMy40MTYgMi41MDggNC41ODIgMy4xMzhMMTAuNzI5IDYuNDYxQzExLjA5NiA2LjY1OSAxMS4zNTMgNi45NTYgMTEuNSA3LjI5MlYxSDEzWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

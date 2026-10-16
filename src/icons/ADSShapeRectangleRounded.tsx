@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSShapeRectangleRoundedSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSShapeRectangleRoundedIconDefinition = svgToIconDefinition(
   'ads-shape-rectangle-rounded'
 );
 
-/**![ADSShapeRectangleRounded](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMS41IDQuNzVDMS41IDIuOTU1IDIuOTU1IDEuNSA0Ljc1IDEuNUgxMS4yNUMxMy4wNDUgMS41IDE0LjUgMi45NTUgMTQuNSA0Ljc1VjExLjI1QzE0LjUgMTMuMDQ1IDEzLjA0NSAxNC41IDExLjI1IDE0LjVINC43NUMyLjk1NSAxNC41IDEuNSAxMy4wNDUgMS41IDExLjI1VjQuNzVaTTQuNzUgM0MzLjc4NCAzIDMgMy43ODQgMyA0Ljc1VjExLjI1QzMgMTIuMjE3IDMuNzg0IDEzIDQuNzUgMTNIMTEuMjVDMTIuMjE3IDEzIDEzIDEyLjIxNyAxMyAxMS4yNVY0Ljc1QzEzIDMuNzg0IDEyLjIxNyAzIDExLjI1IDNINC43NVoiLz48L3N2Zz4=) */
+/**![ADSShapeRectangleRounded](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEuNSA0Ljc1QzEuNSAyLjk1NSAyLjk1NSAxLjUgNC43NSAxLjVIMTEuMjVDMTMuMDQ1IDEuNSAxNC41IDIuOTU1IDE0LjUgNC43NVYxMS4yNUMxNC41IDEzLjA0NSAxMy4wNDUgMTQuNSAxMS4yNSAxNC41SDQuNzVDMi45NTUgMTQuNSAxLjUgMTMuMDQ1IDEuNSAxMS4yNVY0Ljc1Wk00Ljc1IDNDMy43ODQgMyAzIDMuNzg0IDMgNC43NVYxMS4yNUMzIDEyLjIxNyAzLjc4NCAxMyA0Ljc1IDEzSDExLjI1QzEyLjIxNyAxMyAxMyAxMi4yMTcgMTMgMTEuMjVWNC43NUMxMyAzLjc4NCAxMi4yMTcgMyAxMS4yNSAzSDQuNzVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

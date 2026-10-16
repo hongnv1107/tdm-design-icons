@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSContentWrapRightSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSContentWrapRightIconDefinition = svgToIconDefinition(
   'ads-content-wrap-right'
 );
 
-/**![ADSContentWrapRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMi41TDEgMi41TDEgMUwxNSAxTDE1IDIuNVpNMTAuNSA2LjVMMTAuNSA5LjVMMTMuNSA5LjVMMTMuNSA2LjVMMTAuNSA2LjVaTTEwLjM3NSA1TDEzLjYyNSA1QzE0LjM4NCA1IDE1IDUuNjE2IDE1IDYuMzc1TDE1IDkuNjI1QzE1IDEwLjM4NCAxNC4zODQgMTEgMTMuNjI1IDExTDEwLjM3NSAxMUM5LjYxNiAxMSA5IDEwLjM4NCA5IDkuNjI1TDkgNi4zNzVDOSA1LjYxNiA5LjYxNiA1IDEwLjM3NSA1Wk03IDYuNjY3TDEgNi42NjdMMSA1LjE2N0w3IDUuMTY3TDcgNi42NjdaTTcgMTAuODMzTDEgMTAuODMzTDEgOS4zMzNMNyA5LjMzM0w3IDEwLjgzM1pNMTUgMTVMMSAxNUwxIDEzLjVMMTUgMTMuNUwxNSAxNVoiLz48L3N2Zz4=) */
+/**![ADSContentWrapRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE1IDIuNUwxIDIuNUwxIDFMMTUgMUwxNSAyLjVaTTEwLjUgNi41TDEwLjUgOS41TDEzLjUgOS41TDEzLjUgNi41TDEwLjUgNi41Wk0xMC4zNzUgNUwxMy42MjUgNUMxNC4zODQgNSAxNSA1LjYxNiAxNSA2LjM3NUwxNSA5LjYyNUMxNSAxMC4zODQgMTQuMzg0IDExIDEzLjYyNSAxMUwxMC4zNzUgMTFDOS42MTYgMTEgOSAxMC4zODQgOSA5LjYyNUw5IDYuMzc1QzkgNS42MTYgOS42MTYgNSAxMC4zNzUgNVpNNyA2LjY2N0wxIDYuNjY3TDEgNS4xNjdMNyA1LjE2N0w3IDYuNjY3Wk03IDEwLjgzM0wxIDEwLjgzM0wxIDkuMzMzTDcgOS4zMzNMNyAxMC44MzNaTTE1IDE1TDEgMTVMMSAxMy41TDE1IDEzLjVMMTUgMTVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

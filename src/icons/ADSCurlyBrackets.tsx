@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSCurlyBracketsSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSCurlyBracketsIconDefinition = svgToIconDefinition(
   'ads-curly-brackets'
 );
 
-/**![ADSCurlyBrackets](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTAgMUwxMi41IDFDMTMuNjA1IDEgMTQuNSAxLjg5NSAxNC41IDNWNy4yNUwxNiA3LjI1VjguNzVMMTQuNSA4Ljc1VjEzQzE0LjUgMTQuMTA1IDEzLjYwNSAxNSAxMi41IDE1SDEwVjEzLjVIMTIuNUMxMi43NzYgMTMuNSAxMyAxMy4yNzYgMTMgMTNMMTMgM0MxMyAyLjcyNCAxMi43NzYgMi41IDEyLjUgMi41TDEwIDIuNVYxWk0xLjUgM0MxLjUgMS44OTUgMi4zOTUgMSAzLjUgMUg2VjIuNUgzLjVDMy4yMjQgMi41IDMgMi43MjQgMyAzVjEzQzMgMTMuMjc2IDMuMjI0IDEzLjUgMy41IDEzLjVINlYxNUgzLjVDMi4zOTUgMTUgMS41IDE0LjEwNSAxLjUgMTNWOC43NUgwVjcuMjVIMS41VjNaIi8+PC9zdmc+) */
+/**![ADSCurlyBrackets](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDFMMTIuNSAxQzEzLjYwNSAxIDE0LjUgMS44OTUgMTQuNSAzVjcuMjVMMTYgNy4yNVY4Ljc1TDE0LjUgOC43NVYxM0MxNC41IDE0LjEwNSAxMy42MDUgMTUgMTIuNSAxNUgxMFYxMy41SDEyLjVDMTIuNzc2IDEzLjUgMTMgMTMuMjc2IDEzIDEzTDEzIDNDMTMgMi43MjQgMTIuNzc2IDIuNSAxMi41IDIuNUwxMCAyLjVWMVpNMS41IDNDMS41IDEuODk1IDIuMzk1IDEgMy41IDFINlYyLjVIMy41QzMuMjI0IDIuNSAzIDIuNzI0IDMgM1YxM0MzIDEzLjI3NiAzLjIyNCAxMy41IDMuNSAxMy41SDZWMTVIMy41QzIuMzk1IDE1IDEuNSAxNC4xMDUgMS41IDEzVjguNzVIMFY3LjI1SDEuNVYzWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

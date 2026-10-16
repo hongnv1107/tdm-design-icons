@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSExpandElementSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSExpandElementIconDefinition = svgToIconDefinition(
   'ads-expand-element'
 );
 
-/**![ADSExpandElement](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMSAzQzEgMS44OTUgMS44OTUgMSAzIDFIMTVWMi41SDNDMi43MjQgMi41IDIuNSAyLjcyNCAyLjUgM1YxNUgxVjNaIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjQ4MiA4LjQxN0w0LjYwNyA1LjY2N0w1LjY0MyA0LjU4M0w4IDYuODM3TDEwLjM1NyA0LjU4M0wxMS4zOTMgNS42NjdMOC41MTggOC40MTdDOC4yMjggOC42OTQgNy43NzIgOC42OTQgNy40ODIgOC40MTdaIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNSAxMkg0LjVWMTAuNUgxNVYxMlpNMTUgMTVINC41VjEzLjVIMTVWMTVaIi8+PC9zdmc+) */
+/**![ADSExpandElement](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEgM0MxIDEuODk1IDEuODk1IDEgMyAxSDE1VjIuNUgzQzIuNzI0IDIuNSAyLjUgMi43MjQgMi41IDNWMTVIMVYzWiIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNy40ODIgOC40MTdMNC42MDcgNS42NjdMNS42NDMgNC41ODNMOCA2LjgzN0wxMC4zNTcgNC41ODNMMTEuMzkzIDUuNjY3TDguNTE4IDguNDE3QzguMjI4IDguNjk0IDcuNzcyIDguNjk0IDcuNDgyIDguNDE3WiIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTJINC41VjEwLjVIMTVWMTJaTTE1IDE1SDQuNVYxMy41SDE1VjE1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

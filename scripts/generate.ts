@@ -42,24 +42,6 @@ function getComponentName(svgPath: string): string {
   return baseName;
 }
 
-// ADS icons are drawn on a 16x16 grid. Pad them by 4 on each side so they sit on
-// the same 24x24 canvas as the other sets and render at a matching visual size.
-const ADS_VIEW_BOX = '-4 -4 24 24';
-
-function isAdsSvg(svgPath: string): boolean {
-  const relParts = path.relative(svgDir, svgPath).split(path.sep);
-  return relParts.length === 2 && relParts[0] === ADS_FOLDER;
-}
-
-function padAdsSvg(svgContent: string): string {
-  return svgContent.replace(/<svg\b[^>]*>/i, tag =>
-    tag
-      .replace(/\swidth="[^"]*"/, ' width="24"')
-      .replace(/\sheight="[^"]*"/, ' height="24"')
-      .replace(/\sviewBox="[^"]*"/, ` viewBox="${ADS_VIEW_BOX}"`)
-  );
-}
-
 function getNames(componentName: string): IconNames {
   const varName = componentName.charAt(0).toLowerCase() + componentName.slice(1);
   // Strip a trailing "Icon" when present (legacy BellFilledIcon style) so the two
@@ -211,8 +193,7 @@ async function generateIcons(): Promise<void> {
     }
     seenBy.set(names.componentName, relPath);
 
-    const rawSvg = await readFile(svgPath, 'utf-8');
-    const svgContent = isAdsSvg(svgPath) ? padAdsSvg(rawSvg) : rawSvg;
+    const svgContent = await readFile(svgPath, 'utf-8');
     const svgJsx = svgToJsx(svgContent);
     if (!svgJsx) {
       console.error(`[ERROR] Failed to parse ${filename}`);

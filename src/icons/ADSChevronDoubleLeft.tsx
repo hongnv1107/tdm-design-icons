@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSChevronDoubleLeftSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSChevronDoubleLeftIconDefinition = svgToIconDefinition(
   'ads-chevron-double-left'
 );
 
-/**![ADSChevronDoubleLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik03LjcyIDEuNDdMMS43MiA3LjQ3QzEuNDQ1IDcuNzQ0IDEuNDI4IDguMTc5IDEuNjY4IDguNDc0TDEuNzIgOC41M0w3LjcyIDE0LjUzTDguNzggMTMuNDdMMy4zMTEgOEw4Ljc4IDIuNTNMNy43MiAxLjQ3WiIvPjxwYXRoIGQ9Ik0xMi40NyAxLjQ3TDYuNDcgNy40N0M2LjE5NSA3Ljc0NCA2LjE3OCA4LjE3OSA2LjQxOCA4LjQ3NEw2LjQ3IDguNTNMMTIuNDcgMTQuNTNMMTMuNTMgMTMuNDdMOC4wNjEgOEwxMy41MyAyLjUzTDEyLjQ3IDEuNDdaIi8+PC9zdmc+) */
+/**![ADSChevronDoubleLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNy43MiAxLjQ3TDEuNzIgNy40N0MxLjQ0NSA3Ljc0NCAxLjQyOCA4LjE3OSAxLjY2OCA4LjQ3NEwxLjcyIDguNTNMNy43MiAxNC41M0w4Ljc4IDEzLjQ3TDMuMzExIDhMOC43OCAyLjUzTDcuNzIgMS40N1oiLz48cGF0aCBkPSJNMTIuNDcgMS40N0w2LjQ3IDcuNDdDNi4xOTUgNy43NDQgNi4xNzggOC4xNzkgNi40MTggOC40NzRMNi40NyA4LjUzTDEyLjQ3IDE0LjUzTDEzLjUzIDEzLjQ3TDguMDYxIDhMMTMuNTMgMi41M0wxMi40NyAxLjQ3WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

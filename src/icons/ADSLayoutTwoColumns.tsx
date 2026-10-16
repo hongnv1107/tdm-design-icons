@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSLayoutTwoColumnsSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSLayoutTwoColumnsIconDefinition = svgToIconDefinition(
   'ads-layout-two-columns'
 );
 
-/**![ADSLayoutTwoColumns](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMCAyLjM3NUMwIDEuNjE2IDAuNjE2IDEgMS4zNzUgMUg1Ljg3NUM2LjYzNCAxIDcuMjUgMS42MTYgNy4yNSAyLjM3NVYxMy42MjVDNy4yNSAxNC4zODQgNi42MzQgMTUgNS44NzUgMTVIMS4zNzVDMC42MTYgMTUgMCAxNC4zODQgMCAxMy42MjVWMi4zNzVaTTEuNSAyLjVWMTMuNUg1Ljc1VjIuNUgxLjVaTTguNzUgMi4zNzVDOC43NSAxLjYxNiA5LjM2NiAxIDEwLjEyNSAxSDE0LjYyNUMxNS4zODQgMSAxNiAxLjYxNiAxNiAyLjM3NVYxMy42MjVDMTYgMTQuMzg0IDE1LjM4NCAxNSAxNC42MjUgMTVIMTAuMTI1QzkuMzY2IDE1IDguNzUgMTQuMzg0IDguNzUgMTMuNjI1VjIuMzc1Wk0xMC4yNSAyLjVWMTMuNUgxNC41VjIuNUgxMC4yNVoiLz48L3N2Zz4=) */
+/**![ADSLayoutTwoColumns](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTAgMi4zNzVDMCAxLjYxNiAwLjYxNiAxIDEuMzc1IDFINS44NzVDNi42MzQgMSA3LjI1IDEuNjE2IDcuMjUgMi4zNzVWMTMuNjI1QzcuMjUgMTQuMzg0IDYuNjM0IDE1IDUuODc1IDE1SDEuMzc1QzAuNjE2IDE1IDAgMTQuMzg0IDAgMTMuNjI1VjIuMzc1Wk0xLjUgMi41VjEzLjVINS43NVYyLjVIMS41Wk04Ljc1IDIuMzc1QzguNzUgMS42MTYgOS4zNjYgMSAxMC4xMjUgMUgxNC42MjVDMTUuMzg0IDEgMTYgMS42MTYgMTYgMi4zNzVWMTMuNjI1QzE2IDE0LjM4NCAxNS4zODQgMTUgMTQuNjI1IDE1SDEwLjEyNUM5LjM2NiAxNSA4Ljc1IDE0LjM4NCA4Ljc1IDEzLjYyNVYyLjM3NVpNMTAuMjUgMi41VjEzLjVIMTQuNVYyLjVIMTAuMjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

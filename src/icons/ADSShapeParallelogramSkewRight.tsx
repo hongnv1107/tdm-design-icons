@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSShapeParallelogramSkewRightSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSShapeParallelogramSkewRightIconDefinition = svgToIconDefinition(
   'ads-shape-parallelogram-skew-right'
 );
 
-/**![ADSShapeParallelogramSkewRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNC4xNDYgMi4zNzRDNC4zNTIgMS44NDcgNC44NiAxLjUgNS40MjYgMS41SDE0LjU4NEMxNS41NTIgMS41IDE2LjIxNyAyLjQ3NCAxNS44NjQgMy4zNzZMMTEuODU0IDEzLjYyNkMxMS42NDcgMTQuMTUzIDExLjEzOSAxNC41IDEwLjU3MyAxNC41SDEuNDE1QzAuNDQ3IDE0LjUgLTAuMjE4IDEzLjUyNiAwLjEzNSAxMi42MjRMNC4xNDYgMi4zNzRaTTUuNTEyIDNMMS41OTkgMTNIMTAuNDg4TDE0LjQwMSAzSDUuNTEyWiIvPjwvc3ZnPg==) */
+/**![ADSShapeParallelogramSkewRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMTQ2IDIuMzc0QzQuMzUyIDEuODQ3IDQuODYgMS41IDUuNDI2IDEuNUgxNC41ODRDMTUuNTUyIDEuNSAxNi4yMTcgMi40NzQgMTUuODY0IDMuMzc2TDExLjg1NCAxMy42MjZDMTEuNjQ3IDE0LjE1MyAxMS4xMzkgMTQuNSAxMC41NzMgMTQuNUgxLjQxNUMwLjQ0NyAxNC41IC0wLjIxOCAxMy41MjYgMC4xMzUgMTIuNjI0TDQuMTQ2IDIuMzc0Wk01LjUxMiAzTDEuNTk5IDEzSDEwLjQ4OEwxNC40MDEgM0g1LjUxMloiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

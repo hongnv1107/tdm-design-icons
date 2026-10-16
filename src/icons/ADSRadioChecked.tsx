@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSRadioCheckedSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSRadioCheckedIconDefinition = svgToIconDefinition(
   'ads-radio-checked'
 );
 
-/**![ADSRadioChecked](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAwQzMuNTgyIDAgMCAzLjU4MiAwIDhDMCAxMi40MTggMy41ODIgMTYgOCAxNkMxMi40MTggMTYgMTYgMTIuNDE4IDE2IDhDMTYgMy41ODIgMTIuNDE4IDAgOCAwWk04IDVDNi4zNDMgNSA1IDYuMzQzIDUgOEM1IDkuNjU3IDYuMzQzIDExIDggMTFDOS42NTcgMTEgMTEgOS42NTcgMTEgOEMxMSA2LjM0MyA5LjY1NyA1IDggNVoiLz48L3N2Zz4=) */
+/**![ADSRadioChecked](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTggMEMzLjU4MiAwIDAgMy41ODIgMCA4QzAgMTIuNDE4IDMuNTgyIDE2IDggMTZDMTIuNDE4IDE2IDE2IDEyLjQxOCAxNiA4QzE2IDMuNTgyIDEyLjQxOCAwIDggMFpNOCA1QzYuMzQzIDUgNSA2LjM0MyA1IDhDNSA5LjY1NyA2LjM0MyAxMSA4IDExQzkuNjU3IDExIDExIDkuNjU3IDExIDhDMTEgNi4zNDMgOS42NTcgNSA4IDVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

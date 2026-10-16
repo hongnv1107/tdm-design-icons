@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDecisionSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDecisionIconDefinition = svgToIconDefinition(
   'ads-decision'
 );
 
-/**![ADSDecision](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTMuOTcgMC45N0w5LjQ3IDUuNDdMMTAuNTMgNi41M0wxNS4wMyAyLjAzTDEzLjk3IDAuOTdaTTMuNTYxIDIuNUg4VjFIMS43NUMxLjMzNiAxIDEgMS4zMzYgMSAxLjc1VjhIMi41VjMuNTYxTDcuMTA0IDguMTY0QzcuMTk3IDguMjU4IDcuMjUgOC4zODUgNy4yNSA4LjUxOFYxNUg4Ljc1VjguNTE4QzguNzUgNy45ODcgOC41MzkgNy40NzkgOC4xNjQgNy4xMDRMMy41NjEgMi41WiIvPjwvc3ZnPg==) */
+/**![ADSDecision](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjk3IDAuOTdMOS40NyA1LjQ3TDEwLjUzIDYuNTNMMTUuMDMgMi4wM0wxMy45NyAwLjk3Wk0zLjU2MSAyLjVIOFYxSDEuNzVDMS4zMzYgMSAxIDEuMzM2IDEgMS43NVY4SDIuNVYzLjU2MUw3LjEwNCA4LjE2NEM3LjE5NyA4LjI1OCA3LjI1IDguMzg1IDcuMjUgOC41MThWMTVIOC43NVY4LjUxOEM4Ljc1IDcuOTg3IDguNTM5IDcuNDc5IDguMTY0IDcuMTA0TDMuNTYxIDIuNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

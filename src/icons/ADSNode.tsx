@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSNodeSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSNodeIconDefinition = svgToIconDefinition(
   'ads-node'
 );
 
-/**![ADSNode](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMCA4QzEwIDkuMTA1IDkuMTA1IDEwIDggMTBDNi44OTUgMTAgNiA5LjEwNSA2IDhDNiA2Ljg5NSA2Ljg5NSA2IDggNkM5LjEwNSA2IDEwIDYuODk1IDEwIDhaIi8+PC9zdmc+) */
+/**![ADSNode](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTAgOEMxMCA5LjEwNSA5LjEwNSAxMCA4IDEwQzYuODk1IDEwIDYgOS4xMDUgNiA4QzYgNi44OTUgNi44OTUgNiA4IDZDOS4xMDUgNiAxMCA2Ljg5NSAxMCA4WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

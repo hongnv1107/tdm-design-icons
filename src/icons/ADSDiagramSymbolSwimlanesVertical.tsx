@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolSwimlanesVerticalSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolSwimlanesVerticalIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-swimlanes-vertical'
 );
 
-/**![ADSDiagramSymbolSwimlanesVertical](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMS41IDVIOC43NVYxNC41SDExQzExLjI3NiAxNC41IDExLjUgMTQuMjc2IDExLjUgMTRWNVpNNC41IDE0QzQuNSAxNC4yNzYgNC43MjQgMTQuNSA1IDE0LjVINy4yNVY1SDQuNVYxNFpNMTEuNSAyQzExLjUgMS43MjQgMTEuMjc2IDEuNSAxMSAxLjVIOC43NVYzLjVIMTEuNVYyWk00LjUgMy41SDcuMjVWMS41SDVDNC43MjQgMS41IDQuNSAxLjcyNCA0LjUgMlYzLjVaTTEzIDE0QzEzIDE1LjEwNSAxMi4xMDUgMTYgMTEgMTZINUMzLjg5NSAxNiAzIDE1LjEwNSAzIDE0VjJDMyAwLjg5NSAzLjg5NSAwIDUgMEgxMUMxMi4xMDUgMCAxMyAwLjg5NSAxMyAyVjE0WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramSymbolSwimlanesVertical](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTEuNSA1SDguNzVWMTQuNUgxMUMxMS4yNzYgMTQuNSAxMS41IDE0LjI3NiAxMS41IDE0VjVaTTQuNSAxNEM0LjUgMTQuMjc2IDQuNzI0IDE0LjUgNSAxNC41SDcuMjVWNUg0LjVWMTRaTTExLjUgMkMxMS41IDEuNzI0IDExLjI3NiAxLjUgMTEgMS41SDguNzVWMy41SDExLjVWMlpNNC41IDMuNUg3LjI1VjEuNUg1QzQuNzI0IDEuNSA0LjUgMS43MjQgNC41IDJWMy41Wk0xMyAxNEMxMyAxNS4xMDUgMTIuMTA1IDE2IDExIDE2SDVDMy44OTUgMTYgMyAxNS4xMDUgMyAxNFYyQzMgMC44OTUgMy44OTUgMCA1IDBIMTFDMTIuMTA1IDAgMTMgMC44OTUgMTMgMlYxNFoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

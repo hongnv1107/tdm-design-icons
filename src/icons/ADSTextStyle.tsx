@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTextStyleSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTextStyleIconDefinition = svgToIconDefinition(
   'ads-text-style'
 );
 
-/**![ADSTextStyle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNi43OTkgMC40ODRDNi45MDkgMC4xOTMgNy4xODggMCA3LjUgMEg4LjUxOEM4LjgzIDAgOS4xMDkgMC4xOTMgOS4yMTkgMC40ODVMMTIuOTUyIDEwLjM2QzEyLjk4NCAxMC40NDUgMTMgMTAuNTM0IDEzIDEwLjYyNVYxMUgxMS41VjEwLjc2MkwxMC40NTYgOEg1LjU0OUw0LjUgMTAuNzYzVjExSDNWMTAuNjI1QzMgMTAuNTM0IDMuMDE3IDEwLjQ0NCAzLjA0OSAxMC4zNTlMNi43OTkgMC40ODRaTTYuMTE5IDYuNUg5Ljg4OUw4LjAwOCAxLjUyNEw2LjExOSA2LjVaIi8+PC9zdmc+) */
+/**![ADSTextStyle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuNzk5IDAuNDg0QzYuOTA5IDAuMTkzIDcuMTg4IDAgNy41IDBIOC41MThDOC44MyAwIDkuMTA5IDAuMTkzIDkuMjE5IDAuNDg1TDEyLjk1MiAxMC4zNkMxMi45ODQgMTAuNDQ1IDEzIDEwLjUzNCAxMyAxMC42MjVWMTFIMTEuNVYxMC43NjJMMTAuNDU2IDhINS41NDlMNC41IDEwLjc2M1YxMUgzVjEwLjYyNUMzIDEwLjUzNCAzLjAxNyAxMC40NDQgMy4wNDkgMTAuMzU5TDYuNzk5IDAuNDg0Wk02LjExOSA2LjVIOS44ODlMOC4wMDggMS41MjRMNi4xMTkgNi41WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

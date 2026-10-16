@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSSortAscendingSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSSortAscendingIconDefinition = svgToIconDefinition(
   'ads-sort-ascending'
 );
 
-/**![ADSSortAscending](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMTIuNUwxIDEyLjVMMSAxNEwxNSAxNEwxNSAxMi41Wk0xMy4yNSA4Ljc1TDEzLjI1IDMuNTYxTDE0Ljk3IDUuMjhMMTYuMDMgNC4yMkwxMy4wMyAxLjIyQzEyLjg5IDEuMDc5IDEyLjY5OSAxIDEyLjUgMUMxMi4zMDEgMSAxMi4xMSAxLjA3OSAxMS45NyAxLjIyTDguOTcgNC4yMkwxMC4wMyA1LjI4TDExLjc1IDMuNTYxTDExLjc1IDguNzVMMTMuMjUgOC43NVpNOCA3LjI1TDEgNy4yNUwxIDguNzVMOCA4Ljc1TDggNy4yNVpNNiAyTDEgMkwxIDMuNUw2IDMuNUw2IDJaIi8+PC9zdmc+) */
+/**![ADSSortAscending](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE1IDEyLjVMMSAxMi41TDEgMTRMMTUgMTRMMTUgMTIuNVpNMTMuMjUgOC43NUwxMy4yNSAzLjU2MUwxNC45NyA1LjI4TDE2LjAzIDQuMjJMMTMuMDMgMS4yMkMxMi44OSAxLjA3OSAxMi42OTkgMSAxMi41IDFDMTIuMzAxIDEgMTIuMTEgMS4wNzkgMTEuOTcgMS4yMkw4Ljk3IDQuMjJMMTAuMDMgNS4yOEwxMS43NSAzLjU2MUwxMS43NSA4Ljc1TDEzLjI1IDguNzVaTTggNy4yNUwxIDcuMjVMMSA4Ljc1TDggOC43NUw4IDcuMjVaTTYgMkwxIDJMMSAzLjVMNiAzLjVMNiAyWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

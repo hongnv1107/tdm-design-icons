@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTableColumnsDistributeSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTableColumnsDistributeIconDefinition = svgToIconDefinition(
   'ads-table-columns-distribute'
 );
 
-/**![ADSTableColumnsDistribute](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiAyLjM3NUMyIDEuNjE2IDIuNjE2IDEgMy4zNzUgMUgxMi42MjVDMTMuMzg0IDEgMTQgMS42MTYgMTQgMi4zNzVWMTMuNjI1QzE0IDE0LjM4NCAxMy4zODQgMTUgMTIuNjI1IDE1SDMuMzc1QzIuNjE2IDE1IDIgMTQuMzg0IDIgMTMuNjI1VjIuMzc1Wk0zLjUgMi41VjEzLjVINS41VjIuNUgzLjVaTTcgMi41VjEzLjVIOVYyLjVIN1pNMTAuNSAyLjVWMTMuNUgxMi41VjIuNUgxMC41WiIvPjwvc3ZnPg==) */
+/**![ADSTableColumnsDistribute](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMi4zNzVDMiAxLjYxNiAyLjYxNiAxIDMuMzc1IDFIMTIuNjI1QzEzLjM4NCAxIDE0IDEuNjE2IDE0IDIuMzc1VjEzLjYyNUMxNCAxNC4zODQgMTMuMzg0IDE1IDEyLjYyNSAxNUgzLjM3NUMyLjYxNiAxNSAyIDE0LjM4NCAyIDEzLjYyNVYyLjM3NVpNMy41IDIuNVYxMy41SDUuNVYyLjVIMy41Wk03IDIuNVYxMy41SDlWMi41SDdaTTEwLjUgMi41VjEzLjVIMTIuNVYyLjVIMTAuNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

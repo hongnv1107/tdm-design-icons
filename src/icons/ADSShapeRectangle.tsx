@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSShapeRectangleSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSShapeRectangleIconDefinition = svgToIconDefinition(
   'ads-shape-rectangle'
 );
 
-/**![ADSShapeRectangle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMS41IDIuODc1QzEuNSAyLjExNiAyLjExNiAxLjUgMi44NzUgMS41SDEzLjEyNUMxMy44ODQgMS41IDE0LjUgMi4xMTYgMTQuNSAyLjg3NVYxMy4xMjVDMTQuNSAxMy44ODQgMTMuODg0IDE0LjUgMTMuMTI1IDE0LjVIMi44NzVDMi4xMTYgMTQuNSAxLjUgMTMuODg0IDEuNSAxMy4xMjVWMi44NzVaTTMgM1YxM0gxM1YzSDNaIi8+PC9zdmc+) */
+/**![ADSShapeRectangle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEuNSAyLjg3NUMxLjUgMi4xMTYgMi4xMTYgMS41IDIuODc1IDEuNUgxMy4xMjVDMTMuODg0IDEuNSAxNC41IDIuMTE2IDE0LjUgMi44NzVWMTMuMTI1QzE0LjUgMTMuODg0IDEzLjg4NCAxNC41IDEzLjEyNSAxNC41SDIuODc1QzIuMTE2IDE0LjUgMS41IDEzLjg4NCAxLjUgMTMuMTI1VjIuODc1Wk0zIDNWMTNIMTNWM0gzWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

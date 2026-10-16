@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSVideoHDFilledSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSVideoHDFilledIconDefinition = svgToIconDefinition(
   'ads-video-hd-filled'
 );
 
-/**![ADSVideoHDFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMC4yNSA5LjVWNi41SDExLjI1QzExLjM4OCA2LjUgMTEuNSA2LjYxMiAxMS41IDYuNzVWOS4yNUMxMS41IDkuMzg4IDExLjM4OCA5LjUgMTEuMjUgOS41SDEwLjI1WiIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiAyQzAuODk1IDIgMCAyLjg5NSAwIDRWMTJDMCAxMy4xMDUgMC44OTUgMTQgMiAxNEgxNEMxNS4xMDUgMTQgMTYgMTMuMTA1IDE2IDEyVjRDMTYgMi44OTUgMTUuMTA1IDIgMTQgMkgyWk00Ljc1IDVWNy4yNUg2VjVINy41VjExSDZWOC43NUg0Ljc1VjExSDMuMjVWNUg0Ljc1Wk0xMS4yNSA1SDguNzVWMTFIMTEuMjVDMTIuMjE3IDExIDEzIDEwLjIxNyAxMyA5LjI1VjYuNzVDMTMgNS43ODQgMTIuMjE3IDUgMTEuMjUgNVoiLz48L3N2Zz4=) */
+/**![ADSVideoHDFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTAuMjUgOS41VjYuNUgxMS4yNUMxMS4zODggNi41IDExLjUgNi42MTIgMTEuNSA2Ljc1VjkuMjVDMTEuNSA5LjM4OCAxMS4zODggOS41IDExLjI1IDkuNUgxMC4yNVoiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMkMwLjg5NSAyIDAgMi44OTUgMCA0VjEyQzAgMTMuMTA1IDAuODk1IDE0IDIgMTRIMTRDMTUuMTA1IDE0IDE2IDEzLjEwNSAxNiAxMlY0QzE2IDIuODk1IDE1LjEwNSAyIDE0IDJIMlpNNC43NSA1VjcuMjVINlY1SDcuNVYxMUg2VjguNzVINC43NVYxMUgzLjI1VjVINC43NVpNMTEuMjUgNUg4Ljc1VjExSDExLjI1QzEyLjIxNyAxMSAxMyAxMC4yMTcgMTMgOS4yNVY2Ljc1QzEzIDUuNzg0IDEyLjIxNyA1IDExLjI1IDVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

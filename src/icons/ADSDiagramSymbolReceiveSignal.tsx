@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolReceiveSignalSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolReceiveSignalIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-receive-signal'
 );
 
-/**![ADSDiagramSymbolReceiveSignal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41IDQuNUMxNC41IDQuMjI0IDE0LjI3NiA0IDE0IDRIMi40MjZMNS41NTggNy41QzUuODEzIDcuNzg1IDUuODEzIDguMjE1IDUuNTU4IDguNUwyLjQyNiAxMkgxNEMxNC4yNzYgMTIgMTQuNSAxMS43NzYgMTQuNSAxMS41VjQuNVpNMTYgMTEuNUMxNiAxMi42MDUgMTUuMTA0IDEzLjUgMTQgMTMuNUgwLjc1QzAuNDU0IDEzLjUgMC4xODYgMTMuMzI2IDAuMDY1IDEzLjA1NkMtMC4wNTUgMTIuNzg2IC0wLjAwNiAxMi40NyAwLjE5MSAxMi4yNUwzLjk5MyA4TDAuMTkxIDMuNzVDLTAuMDA2IDMuNTMgLTAuMDU1IDMuMjE0IDAuMDY1IDIuOTQ0QzAuMTg2IDIuNjc0IDAuNDU0IDIuNSAwLjc1IDIuNUgxNEMxNS4xMDQgMi41IDE2IDMuMzk1IDE2IDQuNVYxMS41WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramSymbolReceiveSignal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSA0LjVDMTQuNSA0LjIyNCAxNC4yNzYgNCAxNCA0SDIuNDI2TDUuNTU4IDcuNUM1LjgxMyA3Ljc4NSA1LjgxMyA4LjIxNSA1LjU1OCA4LjVMMi40MjYgMTJIMTRDMTQuMjc2IDEyIDE0LjUgMTEuNzc2IDE0LjUgMTEuNVY0LjVaTTE2IDExLjVDMTYgMTIuNjA1IDE1LjEwNCAxMy41IDE0IDEzLjVIMC43NUMwLjQ1NCAxMy41IDAuMTg2IDEzLjMyNiAwLjA2NSAxMy4wNTZDLTAuMDU1IDEyLjc4NiAtMC4wMDYgMTIuNDcgMC4xOTEgMTIuMjVMMy45OTMgOEwwLjE5MSAzLjc1Qy0wLjAwNiAzLjUzIC0wLjA1NSAzLjIxNCAwLjA2NSAyLjk0NEMwLjE4NiAyLjY3NCAwLjQ1NCAyLjUgMC43NSAyLjVIMTRDMTUuMTA0IDIuNSAxNiAzLjM5NSAxNiA0LjVWMTEuNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolMergeSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolMergeIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-merge'
 );
 
-/**![ADSDiagramSymbolMerge](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC42MDMgMkMxNS42OTIgMiAxNi4zNDkgMy4yMDYgMTUuNzU4IDQuMTIxTDkuMTU2IDE0LjM0NEM4LjYxNCAxNS4xODMgNy4zODcgMTUuMTgzIDYuODQ1IDE0LjM0NEwwLjI0MyA0LjEyMUMtMC4zNDggMy4yMDYgMC4zMDkgMiAxLjM5OCAySDE0LjYwM1pNOCAxMy4zNjZMMTQuMzczIDMuNUgxLjYyN0w4IDEzLjM2NloiLz48L3N2Zz4=) */
+/**![ADSDiagramSymbolMerge](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNjAzIDJDMTUuNjkyIDIgMTYuMzQ5IDMuMjA2IDE1Ljc1OCA0LjEyMUw5LjE1NiAxNC4zNDRDOC42MTQgMTUuMTgzIDcuMzg3IDE1LjE4MyA2Ljg0NSAxNC4zNDRMMC4yNDMgNC4xMjFDLTAuMzQ4IDMuMjA2IDAuMzA5IDIgMS4zOTggMkgxNC42MDNaTTggMTMuMzY2TDE0LjM3MyAzLjVIMS42MjdMOCAxMy4zNjZaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

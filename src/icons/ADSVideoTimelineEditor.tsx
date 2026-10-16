@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSVideoTimelineEditorSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSVideoTimelineEditorIconDefinition = svgToIconDefinition(
   'ads-video-timeline-editor'
 );
 
-/**![ADSVideoTimelineEditor](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik04Ljc1IDE2TDguNzUgMEw3LjI1IDBMNy4yNSAxNkg4Ljc1Wk0wIDRMMCAxMkMwIDEzLjEwNSAwLjg5NSAxNCAyIDE0SDVWMTIuNUgyQzEuNzI0IDEyLjUgMS41IDEyLjI3NiAxLjUgMTJMMS41IDRDMS41IDMuNzI0IDEuNzI0IDMuNSAyIDMuNUw1IDMuNVYyTDIgMkMwLjg5NSAyIDAgMi44OTUgMCA0Wk0xNC41IDRMMTQuNSAxMkMxNC41IDEyLjI3NiAxNC4yNzYgMTIuNSAxNCAxMi41TDExIDEyLjVWMTRMMTQgMTRDMTUuMTA1IDE0IDE2IDEzLjEwNSAxNiAxMlY0QzE2IDIuODk1IDE1LjEwNSAyIDE0IDJMMTEgMlYzLjVMMTQgMy41QzE0LjI3NiAzLjUgMTQuNSAzLjcyNCAxNC41IDRaIi8+PC9zdmc+) */
+/**![ADSVideoTimelineEditor](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNOC43NSAxNkw4Ljc1IDBMNy4yNSAwTDcuMjUgMTZIOC43NVpNMCA0TDAgMTJDMCAxMy4xMDUgMC44OTUgMTQgMiAxNEg1VjEyLjVIMkMxLjcyNCAxMi41IDEuNSAxMi4yNzYgMS41IDEyTDEuNSA0QzEuNSAzLjcyNCAxLjcyNCAzLjUgMiAzLjVMNSAzLjVWMkwyIDJDMC44OTUgMiAwIDIuODk1IDAgNFpNMTQuNSA0TDE0LjUgMTJDMTQuNSAxMi4yNzYgMTQuMjc2IDEyLjUgMTQgMTIuNUwxMSAxMi41VjE0TDE0IDE0QzE1LjEwNSAxNCAxNiAxMy4xMDUgMTYgMTJWNEMxNiAyLjg5NSAxNS4xMDUgMiAxNCAyTDExIDJWMy41TDE0IDMuNUMxNC4yNzYgMy41IDE0LjUgMy43MjQgMTQuNSA0WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

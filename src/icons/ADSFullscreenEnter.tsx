@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSFullscreenEnterSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSFullscreenEnterIconDefinition = svgToIconDefinition(
   'ads-fullscreen-enter'
 );
 
-/**![ADSFullscreenEnter](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTMgMi41TDEwIDIuNVYxTDEzIDFDMTQuMTA1IDEgMTUgMS44OTUgMTUgM1Y2SDEzLjVWM0MxMy41IDIuNzI0IDEzLjI3NiAyLjUgMTMgMi41Wk0zIDIuNUMyLjcyNCAyLjUgMi41IDIuNzI0IDIuNSAzTDIuNSA2SDFMMSAzQzEgMS44OTUgMS44OTUgMSAzIDFMNiAxVjIuNUwzIDIuNVpNMi41IDEwTDIuNSAxM0MyLjUgMTMuMjc2IDIuNzI0IDEzLjUgMyAxMy41SDZWMTVIM0MxLjg5NiAxNSAxIDE0LjEwNSAxIDEzTDEgMTBIMi41Wk0xMy41IDEzVjEwSDE1VjEzQzE1IDE0LjEwNSAxNC4xMDUgMTUgMTMgMTVIMTBWMTMuNUgxM0MxMy4yNzYgMTMuNSAxMy41IDEzLjI3NiAxMy41IDEzWiIvPjwvc3ZnPg==) */
+/**![ADSFullscreenEnter](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzIDIuNUwxMCAyLjVWMUwxMyAxQzE0LjEwNSAxIDE1IDEuODk1IDE1IDNWNkgxMy41VjNDMTMuNSAyLjcyNCAxMy4yNzYgMi41IDEzIDIuNVpNMyAyLjVDMi43MjQgMi41IDIuNSAyLjcyNCAyLjUgM0wyLjUgNkgxTDEgM0MxIDEuODk1IDEuODk1IDEgMyAxTDYgMVYyLjVMMyAyLjVaTTIuNSAxMEwyLjUgMTNDMi41IDEzLjI3NiAyLjcyNCAxMy41IDMgMTMuNUg2VjE1SDNDMS44OTYgMTUgMSAxNC4xMDUgMSAxM0wxIDEwSDIuNVpNMTMuNSAxM1YxMEgxNVYxM0MxNSAxNC4xMDUgMTQuMTA1IDE1IDEzIDE1SDEwVjEzLjVIMTNDMTMuMjc2IDEzLjUgMTMuNSAxMy4yNzYgMTMuNSAxM1oiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

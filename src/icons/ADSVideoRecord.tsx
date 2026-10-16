@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSVideoRecordSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSVideoRecordIconDefinition = svgToIconDefinition(
   'ads-video-record'
 );
 
-/**![ADSVideoRecord](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMS4wODQgOC4wNjhDMS4wODQgNC4yMDIgNC4yMTggMS4wNjggOC4wODQgMS4wNjhDMTEuOTUgMS4wNjggMTUuMDg0IDQuMjAyIDE1LjA4NCA4LjA2OEMxNS4wODQgMTEuOTM0IDExLjk1IDE1LjA2OCA4LjA4NCAxNS4wNjhDNC4yMTggMTUuMDY4IDEuMDg0IDExLjkzNCAxLjA4NCA4LjA2OFoiLz48L3N2Zz4=) */
+/**![ADSVideoRecord](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEuMDg0IDguMDY4QzEuMDg0IDQuMjAyIDQuMjE4IDEuMDY4IDguMDg0IDEuMDY4QzExLjk1IDEuMDY4IDE1LjA4NCA0LjIwMiAxNS4wODQgOC4wNjhDMTUuMDg0IDExLjkzNCAxMS45NSAxNS4wNjggOC4wODQgMTUuMDY4QzQuMjE4IDE1LjA2OCAxLjA4NCAxMS45MzQgMS4wODQgOC4wNjhaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

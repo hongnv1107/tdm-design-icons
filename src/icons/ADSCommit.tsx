@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSCommitSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSCommitIconDefinition = svgToIconDefinition(
   'ads-commit'
 );
 
-/**![ADSCommit](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNy4yNSA1LjM1NEM2LjA5NiA1LjY4IDUuMjUgNi43NDEgNS4yNSA4QzUuMjUgOS4yNTkgNi4wOTYgMTAuMzIgNy4yNSAxMC42NDdWMTZIOC43NVYxMC42NDdDOS45MDQgMTAuMzIgMTAuNzUgOS4yNTkgMTAuNzUgOEMxMC43NSA2Ljc0MSA5LjkwNCA1LjY4IDguNzUgNS4zNTRWMEg3LjI1VjUuMzU0Wk04IDYuNzVDNy4zMSA2Ljc1IDYuNzUgNy4zMSA2Ljc1IDhDNi43NSA4LjY5IDcuMzEgOS4yNSA4IDkuMjVDOC42OSA5LjI1IDkuMjUgOC42OSA5LjI1IDhDOS4yNSA3LjMxIDguNjkgNi43NSA4IDYuNzVaIi8+PC9zdmc+) */
+/**![ADSCommit](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMjUgNS4zNTRDNi4wOTYgNS42OCA1LjI1IDYuNzQxIDUuMjUgOEM1LjI1IDkuMjU5IDYuMDk2IDEwLjMyIDcuMjUgMTAuNjQ3VjE2SDguNzVWMTAuNjQ3QzkuOTA0IDEwLjMyIDEwLjc1IDkuMjU5IDEwLjc1IDhDMTAuNzUgNi43NDEgOS45MDQgNS42OCA4Ljc1IDUuMzU0VjBINy4yNVY1LjM1NFpNOCA2Ljc1QzcuMzEgNi43NSA2Ljc1IDcuMzEgNi43NSA4QzYuNzUgOC42OSA3LjMxIDkuMjUgOCA5LjI1QzguNjkgOS4yNSA5LjI1IDguNjkgOS4yNSA4QzkuMjUgNy4zMSA4LjY5IDYuNzUgOCA2Ljc1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

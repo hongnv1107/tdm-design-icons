@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolSortSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolSortIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-sort'
 );
 
-/**![ADSDiagramSymbolSort](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik03LjEzMiAwLjMxN0M3LjYzNiAtMC4wOTQgOC4zNjQgLTAuMDk0IDguODY5IDAuMzE3TDguOTczIDAuNDExTDE1LjU4OSA3LjAyN0wxNS42ODMgNy4xMzJDMTYuMDk0IDcuNjM2IDE2LjA5NCA4LjM2NCAxNS42ODMgOC44NjhMMTUuNTg5IDguOTczTDguOTczIDE1LjU4OUM4LjQ3IDE2LjA5MiA3LjY3MiAxNi4xMjMgNy4xMzIgMTUuNjgzTDcuMDI4IDE1LjU4OUwwLjQxMSA4Ljk3M0MtMC4xMjUgOC40MzYgLTAuMTI1IDcuNTY0IDAuNDExIDcuMDI3TDcuMDI4IDAuNDExTDcuMTMyIDAuMzE3Wk04IDE0LjQzOEwxMy42ODkgOC43NUgyLjMxMkw4IDE0LjQzOFpNMi4zMTIgNy4yNUgxMy42ODlMOCAxLjU2MUwyLjMxMiA3LjI1WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramSymbolSort](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNy4xMzIgMC4zMTdDNy42MzYgLTAuMDk0IDguMzY0IC0wLjA5NCA4Ljg2OSAwLjMxN0w4Ljk3MyAwLjQxMUwxNS41ODkgNy4wMjdMMTUuNjgzIDcuMTMyQzE2LjA5NCA3LjYzNiAxNi4wOTQgOC4zNjQgMTUuNjgzIDguODY4TDE1LjU4OSA4Ljk3M0w4Ljk3MyAxNS41ODlDOC40NyAxNi4wOTIgNy42NzIgMTYuMTIzIDcuMTMyIDE1LjY4M0w3LjAyOCAxNS41ODlMMC40MTEgOC45NzNDLTAuMTI1IDguNDM2IC0wLjEyNSA3LjU2NCAwLjQxMSA3LjAyN0w3LjAyOCAwLjQxMUw3LjEzMiAwLjMxN1pNOCAxNC40MzhMMTMuNjg5IDguNzVIMi4zMTJMOCAxNC40MzhaTTIuMzEyIDcuMjVIMTMuNjg5TDggMS41NjFMMi4zMTIgNy4yNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSExpandHorizontalSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSExpandHorizontalIconDefinition = svgToIconDefinition(
   'ads-expand-horizontal'
 );
 
-/**![ADSExpandHorizontal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xLjUgMVYxNUgwVjFIMS41Wk0xNiAxVjE1SDE0LjVWMUgxNlpNMTQuMjggNy40N0MxNC41NzMgNy43NjMgMTQuNTczIDguMjM3IDE0LjI4IDguNTNMMTEuMDMgMTEuNzhMOS45NyAxMC43MkwxMS45NCA4Ljc1SDQuMDYxTDYuMDMgMTAuNzJMNC45NyAxMS43OEwxLjcyIDguNTNDMS40MjcgOC4yMzcgMS40MjcgNy43NjMgMS43MiA3LjQ3TDQuOTcgNC4yMkw2LjAzIDUuMjhMNC4wNjEgNy4yNUgxMS45NEw5Ljk3IDUuMjhMMTEuMDMgNC4yMkwxNC4yOCA3LjQ3WiIvPjwvc3ZnPg==) */
+/**![ADSExpandHorizontal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMS41IDFWMTVIMFYxSDEuNVpNMTYgMVYxNUgxNC41VjFIMTZaTTE0LjI4IDcuNDdDMTQuNTczIDcuNzYzIDE0LjU3MyA4LjIzNyAxNC4yOCA4LjUzTDExLjAzIDExLjc4TDkuOTcgMTAuNzJMMTEuOTQgOC43NUg0LjA2MUw2LjAzIDEwLjcyTDQuOTcgMTEuNzhMMS43MiA4LjUzQzEuNDI3IDguMjM3IDEuNDI3IDcuNzYzIDEuNzIgNy40N0w0Ljk3IDQuMjJMNi4wMyA1LjI4TDQuMDYxIDcuMjVIMTEuOTRMOS45NyA1LjI4TDExLjAzIDQuMjJMMTQuMjggNy40N1oiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

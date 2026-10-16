@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTabSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTabIconDefinition = svgToIconDefinition(
   'ads-tab'
 );
 
-/**![ADSTab](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNy4yOCAzLjQ3TDExLjI4IDcuNDdDMTEuNTczIDcuNzYzIDExLjU3MyA4LjIzNyAxMS4yOCA4LjUzTDcuMjggMTIuNTNMNi4yMiAxMS40N0w4LjkzOSA4Ljc1SDFWNy4yNUg4LjkzOUw2LjIyIDQuNTNMNy4yOCAzLjQ3Wk0xNSAzLjVWMTIuNUgxMy41VjMuNUgxNVoiLz48L3N2Zz4=) */
+/**![ADSTab](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMjggMy40N0wxMS4yOCA3LjQ3QzExLjU3MyA3Ljc2MyAxMS41NzMgOC4yMzcgMTEuMjggOC41M0w3LjI4IDEyLjUzTDYuMjIgMTEuNDdMOC45MzkgOC43NUgxVjcuMjVIOC45MzlMNi4yMiA0LjUzTDcuMjggMy40N1pNMTUgMy41VjEyLjVIMTMuNVYzLjVIMTVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

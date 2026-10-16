@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramArrowheadSequenceRightSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramArrowheadSequenceRightIconDefinition = svgToIconDefinition(
   'ads-diagram-arrowhead-sequence-right'
 );
 
-/**![ADSDiagramArrowheadSequenceRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik04LjQxOSAyLjMyN0M4LjY3NSAyLjIwMSA4Ljk4MSAyLjIzMSA5LjIwNyAyLjQwNUwxNS43MDcgNy40MDVDMTUuODkyIDcuNTQ3IDE2IDcuNzY3IDE2IDhDMTYgOC4yMzMgMTUuODkyIDguNDUzIDE1LjcwNyA4LjU5NUw5LjIwNyAxMy41OTVDOC45ODEgMTMuNzY5IDguNjc1IDEzLjc5OSA4LjQxOSAxMy42NzNDOC4xNjMgMTMuNTQ3IDggMTMuMjg2IDggMTNWOC43NUgwVjcuMjVIOFYzQzggMi43MTQgOC4xNjMgMi40NTMgOC40MTkgMi4zMjdaIi8+PC9zdmc+) */
+/**![ADSDiagramArrowheadSequenceRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNOC40MTkgMi4zMjdDOC42NzUgMi4yMDEgOC45ODEgMi4yMzEgOS4yMDcgMi40MDVMMTUuNzA3IDcuNDA1QzE1Ljg5MiA3LjU0NyAxNiA3Ljc2NyAxNiA4QzE2IDguMjMzIDE1Ljg5MiA4LjQ1MyAxNS43MDcgOC41OTVMOS4yMDcgMTMuNTk1QzguOTgxIDEzLjc2OSA4LjY3NSAxMy43OTkgOC40MTkgMTMuNjczQzguMTYzIDEzLjU0NyA4IDEzLjI4NiA4IDEzVjguNzVIMFY3LjI1SDhWM0M4IDIuNzE0IDguMTYzIDIuNDUzIDguNDE5IDIuMzI3WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

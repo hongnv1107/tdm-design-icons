@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramArrowheadDefaultFlowRightSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramArrowheadDefaultFlowRightIconDefinition = svgToIconDefinition(
   'ads-diagram-arrowhead-default-flow-right'
 );
 
-/**![ADSDiagramArrowheadDefaultFlowRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMi4wNjEgNy4yNDlIMTZWOC43NDlIMTMuNTYxTDE1LjAzIDEwLjIxOUwxMy45NyAxMS4yNzlMMTEuNDQgOC43NDlIMFY3LjI0OUg5LjkzOUw4LjIyIDUuNTI5TDkuMjggNC40NjlMMTIuMDYxIDcuMjQ5WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramArrowheadDefaultFlowRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTIuMDYxIDcuMjQ5SDE2VjguNzQ5SDEzLjU2MUwxNS4wMyAxMC4yMTlMMTMuOTcgMTEuMjc5TDExLjQ0IDguNzQ5SDBWNy4yNDlIOS45MzlMOC4yMiA1LjUyOUw5LjI4IDQuNDY5TDEyLjA2MSA3LjI0OVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

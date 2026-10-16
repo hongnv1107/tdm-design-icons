@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSFlagFilledSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSFlagFilledIconDefinition = svgToIconDefinition(
   'ads-flag-filled'
 );
 
-/**![ADSFlagFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiAxLjc1QzIgMS4zMzYgMi4zMzYgMSAyLjc1IDFIMTRDMTQuMjg0IDEgMTQuNTQ0IDEuMTYxIDE0LjY3MSAxLjQxNUMxNC43OTggMS42NjkgMTQuNzcgMS45NzMgMTQuNiAyLjJMMTEuOTM4IDUuNzVMMTQuNiA5LjNDMTQuNzcgOS41MjcgMTQuNzk4IDkuODMxIDE0LjY3MSAxMC4wODVDMTQuNTQ0IDEwLjM0IDE0LjI4NCAxMC41IDE0IDEwLjVIMy41VjE1SDJWMS43NVoiLz48L3N2Zz4=) */
+/**![ADSFlagFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMS43NUMyIDEuMzM2IDIuMzM2IDEgMi43NSAxSDE0QzE0LjI4NCAxIDE0LjU0NCAxLjE2MSAxNC42NzEgMS40MTVDMTQuNzk4IDEuNjY5IDE0Ljc3IDEuOTczIDE0LjYgMi4yTDExLjkzOCA1Ljc1TDE0LjYgOS4zQzE0Ljc3IDkuNTI3IDE0Ljc5OCA5LjgzMSAxNC42NzEgMTAuMDg1QzE0LjU0NCAxMC4zNCAxNC4yODQgMTAuNSAxNCAxMC41SDMuNVYxNUgyVjEuNzVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

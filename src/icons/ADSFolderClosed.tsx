@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSFolderClosedSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSFolderClosedIconDefinition = svgToIconDefinition(
   'ads-folder-closed'
 );
 
-/**![ADSFolderClosed](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMyAyLjVDMi43MjQgMi41IDIuNSAyLjcyNCAyLjUgM1Y2SDEzLjVWNC43NUMxMy41IDQuNDc0IDEzLjI3NiA0LjI1IDEzIDQuMjVINy42ODlMNS45MzkgMi41SDNaTTEzLjUgNy41SDIuNVYxM0MyLjUgMTMuMjc2IDIuNzI0IDEzLjUgMyAxMy41SDEzQzEzLjI3NiAxMy41IDEzLjUgMTMuMjc2IDEzLjUgMTNWNy41Wk0xIDNDMSAxLjg5NSAxLjg5NSAxIDMgMUg2LjU2MUw4LjMxMSAyLjc1SDEzQzE0LjEwNSAyLjc1IDE1IDMuNjQ1IDE1IDQuNzVWMTNDMTUgMTQuMTA1IDE0LjEwNSAxNSAxMyAxNUgzQzEuODk1IDE1IDEgMTQuMTA1IDEgMTNWM1oiLz48L3N2Zz4=) */
+/**![ADSFolderClosed](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgMi41QzIuNzI0IDIuNSAyLjUgMi43MjQgMi41IDNWNkgxMy41VjQuNzVDMTMuNSA0LjQ3NCAxMy4yNzYgNC4yNSAxMyA0LjI1SDcuNjg5TDUuOTM5IDIuNUgzWk0xMy41IDcuNUgyLjVWMTNDMi41IDEzLjI3NiAyLjcyNCAxMy41IDMgMTMuNUgxM0MxMy4yNzYgMTMuNSAxMy41IDEzLjI3NiAxMy41IDEzVjcuNVpNMSAzQzEgMS44OTUgMS44OTUgMSAzIDFINi41NjFMOC4zMTEgMi43NUgxM0MxNC4xMDUgMi43NSAxNSAzLjY0NSAxNSA0Ljc1VjEzQzE1IDE0LjEwNSAxNC4xMDUgMTUgMTMgMTVIM0MxLjg5NSAxNSAxIDE0LjEwNSAxIDEzVjNaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

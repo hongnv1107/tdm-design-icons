@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSSmartLinkCardSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSSmartLinkCardIconDefinition = svgToIconDefinition(
   'ads-smart-link-card'
 );
 
-/**![ADSSmartLinkCard](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiA0LjVDMS43MjQgNC41IDEuNSA0LjcyNCAxLjUgNVYxMUMxLjUgMTEuMjc2IDEuNzI0IDExLjUgMiAxMS41SDEwVjQuNUgyWk0xMS41IDQuNVYxMS41SDE0QzE0LjI3NiAxMS41IDE0LjUgMTEuMjc2IDE0LjUgMTFWNUMxNC41IDQuNzI0IDE0LjI3NiA0LjUgMTQgNC41SDExLjVaTTAgNUMwIDMuODk1IDAuODk1IDMgMiAzSDE0QzE1LjEwNSAzIDE2IDMuODk1IDE2IDVWMTFDMTYgMTIuMTA1IDE1LjEwNSAxMyAxNCAxM0gyQzAuODk1IDEzIDAgMTIuMTA1IDAgMTFWNVpNOC41IDcuNUgzVjZIOC41VjcuNVpNNiAxMEgzVjguNUg2VjEwWiIvPjwvc3ZnPg==) */
+/**![ADSSmartLinkCard](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNC41QzEuNzI0IDQuNSAxLjUgNC43MjQgMS41IDVWMTFDMS41IDExLjI3NiAxLjcyNCAxMS41IDIgMTEuNUgxMFY0LjVIMlpNMTEuNSA0LjVWMTEuNUgxNEMxNC4yNzYgMTEuNSAxNC41IDExLjI3NiAxNC41IDExVjVDMTQuNSA0LjcyNCAxNC4yNzYgNC41IDE0IDQuNUgxMS41Wk0wIDVDMCAzLjg5NSAwLjg5NSAzIDIgM0gxNEMxNS4xMDUgMyAxNiAzLjg5NSAxNiA1VjExQzE2IDEyLjEwNSAxNS4xMDUgMTMgMTQgMTNIMkMwLjg5NSAxMyAwIDEyLjEwNSAwIDExVjVaTTguNSA3LjVIM1Y2SDguNVY3LjVaTTYgMTBIM1Y4LjVINlYxMFoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

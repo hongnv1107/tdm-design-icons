@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSVideoPauseOverlaySvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSVideoPauseOverlayIconDefinition = svgToIconDefinition(
   'ads-video-pause-overlay'
 );
 
-/**![ADSVideoPauseOverlay](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiAzQzIgMS44OTUgMi44OTUgMSA0IDFINUM2LjEwNSAxIDcgMS44OTUgNyAzVjEzQzcgMTQuMTA1IDYuMTA1IDE1IDUgMTVINEMyLjg5NSAxNSAyIDE0LjEwNSAyIDEzVjNaTTkgM0M5IDEuODk1IDkuODk1IDEgMTEgMUgxMkMxMy4xMDUgMSAxNCAxLjg5NSAxNCAzVjEzQzE0IDE0LjEwNSAxMy4xMDUgMTUgMTIgMTVIMTFDOS44OTUgMTUgOSAxNC4xMDUgOSAxM1YzWiIvPjwvc3ZnPg==) */
+/**![ADSVideoPauseOverlay](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgM0MyIDEuODk1IDIuODk1IDEgNCAxSDVDNi4xMDUgMSA3IDEuODk1IDcgM1YxM0M3IDE0LjEwNSA2LjEwNSAxNSA1IDE1SDRDMi44OTUgMTUgMiAxNC4xMDUgMiAxM1YzWk05IDNDOSAxLjg5NSA5Ljg5NSAxIDExIDFIMTJDMTMuMTA1IDEgMTQgMS44OTUgMTQgM1YxM0MxNCAxNC4xMDUgMTMuMTA1IDE1IDEyIDE1SDExQzkuODk1IDE1IDkgMTQuMTA1IDkgMTNWM1oiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSFieldDropdownSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSFieldDropdownIconDefinition = svgToIconDefinition(
   'ads-field-dropdown'
 );
 
-/**![ADSFieldDropdown](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTQgMy41SDBWMkgxNEMxNS4xMDUgMiAxNiAyLjg5NSAxNiA0VjEyQzE2IDEzLjEwNSAxNS4xMDUgMTQgMTQgMTRIMFYxMi41SDE0QzE0LjI3NiAxMi41IDE0LjUgMTIuMjc2IDE0LjUgMTJWNEMxNC41IDMuNzI0IDE0LjI3NiAzLjUgMTQgMy41Wk05IDguMTg5TDcuMDMgNi4yMkw1Ljk3IDcuMjhMOC40NyA5Ljc4QzguNjEgOS45MjEgOC44MDEgMTAgOSAxMEM5LjE5OSAxMCA5LjM5IDkuOTIxIDkuNTMgOS43OEwxMi4wMyA3LjI4TDEwLjk3IDYuMjJMOSA4LjE4OVoiLz48L3N2Zz4=) */
+/**![ADSFieldDropdown](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0IDMuNUgwVjJIMTRDMTUuMTA1IDIgMTYgMi44OTUgMTYgNFYxMkMxNiAxMy4xMDUgMTUuMTA1IDE0IDE0IDE0SDBWMTIuNUgxNEMxNC4yNzYgMTIuNSAxNC41IDEyLjI3NiAxNC41IDEyVjRDMTQuNSAzLjcyNCAxNC4yNzYgMy41IDE0IDMuNVpNOSA4LjE4OUw3LjAzIDYuMjJMNS45NyA3LjI4TDguNDcgOS43OEM4LjYxIDkuOTIxIDguODAxIDEwIDkgMTBDOS4xOTkgMTAgOS4zOSA5LjkyMSA5LjUzIDkuNzhMMTIuMDMgNy4yOEwxMC45NyA2LjIyTDkgOC4xODlaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

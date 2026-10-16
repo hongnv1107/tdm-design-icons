@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSPanelSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSPanelIconDefinition = svgToIconDefinition(
   'ads-panel'
 );
 
-/**![ADSPanel](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTQgMy41QzE0LjI3NiAzLjUgMTQuNSAzLjcyNCAxNC41IDRWMTJDMTQuNSAxMi4yNzYgMTQuMjc2IDEyLjUgMTQgMTIuNUgyQzEuNzI0IDEyLjUgMS41IDEyLjI3NiAxLjUgMTJWNEMxLjUgMy43MjQgMS43MjQgMy41IDIgMy41SDE0Wk0xNiA0QzE2IDIuODk1IDE1LjEwNSAyIDE0IDJIMkMwLjg5NSAyIDAgMi44OTUgMCA0VjEyQzAgMTMuMTA1IDAuODk1IDE0IDIgMTRIMTRDMTUuMTA1IDE0IDE2IDEzLjEwNSAxNiAxMlY0Wk04IDUuNUgzVjdIOFY1LjVaTTEzIDEwLjVWOUgzVjEwLjVIMTNaIi8+PC9zdmc+) */
+/**![ADSPanel](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0IDMuNUMxNC4yNzYgMy41IDE0LjUgMy43MjQgMTQuNSA0VjEyQzE0LjUgMTIuMjc2IDE0LjI3NiAxMi41IDE0IDEyLjVIMkMxLjcyNCAxMi41IDEuNSAxMi4yNzYgMS41IDEyVjRDMS41IDMuNzI0IDEuNzI0IDMuNSAyIDMuNUgxNFpNMTYgNEMxNiAyLjg5NSAxNS4xMDUgMiAxNCAySDJDMC44OTUgMiAwIDIuODk1IDAgNFYxMkMwIDEzLjEwNSAwLjg5NSAxNCAyIDE0SDE0QzE1LjEwNSAxNCAxNiAxMy4xMDUgMTYgMTJWNFpNOCA1LjVIM1Y3SDhWNS41Wk0xMyAxMC41VjlIM1YxMC41SDEzWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

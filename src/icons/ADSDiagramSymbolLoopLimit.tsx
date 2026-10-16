@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolLoopLimitSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolLoopLimitIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-loop-limit'
 );
 
-/**![ADSDiagramSymbolLoopLimit](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xLjUgNy4wNjJWMTIuNUgxNC41VjcuMDYyTDEwLjkzOSAzLjVINS4wNjJMMS41IDcuMDYyWk0xNiAxMi42MjVDMTYgMTMuMzg0IDE1LjM4NCAxNCAxNC42MjUgMTRIMS4zNzVDMC42MTYgMTQgMCAxMy4zODQgMCAxMi42MjVWNy4wMDlDMCA2LjY0NCAwLjE0NSA2LjI5NCAwLjQwMiA2LjAzNkw0LjAzNiAyLjQwMkw0LjEzOCAyLjMxMkM0LjM4MiAyLjExMSA0LjY5IDIgNS4wMDkgMkgxMC45OTFDMTEuMzEgMiAxMS42MTggMi4xMTEgMTEuODYyIDIuMzEyTDExLjk2NCAyLjQwMkwxNS41OTggNi4wMzZMMTUuNjg5IDYuMTM4QzE1Ljg4OSA2LjM4MiAxNiA2LjY5IDE2IDcuMDA5VjEyLjYyNVoiLz48L3N2Zz4=) */
+/**![ADSDiagramSymbolLoopLimit](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMS41IDcuMDYyVjEyLjVIMTQuNVY3LjA2MkwxMC45MzkgMy41SDUuMDYyTDEuNSA3LjA2MlpNMTYgMTIuNjI1QzE2IDEzLjM4NCAxNS4zODQgMTQgMTQuNjI1IDE0SDEuMzc1QzAuNjE2IDE0IDAgMTMuMzg0IDAgMTIuNjI1VjcuMDA5QzAgNi42NDQgMC4xNDUgNi4yOTQgMC40MDIgNi4wMzZMNC4wMzYgMi40MDJMNC4xMzggMi4zMTJDNC4zODIgMi4xMTEgNC42OSAyIDUuMDA5IDJIMTAuOTkxQzExLjMxIDIgMTEuNjE4IDIuMTExIDExLjg2MiAyLjMxMkwxMS45NjQgMi40MDJMMTUuNTk4IDYuMDM2TDE1LjY4OSA2LjEzOEMxNS44ODkgNi4zODIgMTYgNi42OSAxNiA3LjAwOVYxMi42MjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

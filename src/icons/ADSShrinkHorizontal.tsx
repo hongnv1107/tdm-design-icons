@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSShrinkHorizontalSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSShrinkHorizontalIconDefinition = svgToIconDefinition(
   'ads-shrink-horizontal'
 );
 
-/**![ADSShrinkHorizontal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNi4yNSA4Ljc1SDBWNy4yNUg2LjI1VjguNzVaTTkuNzUgNy4yNUgxNlY4Ljc1SDkuNzVWNy4yNVoiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMTg5IDhMMi4yMiA1LjAzTDMuMjggMy45N0w2Ljc4IDcuNDdDNy4wNzMgNy43NjMgNy4wNzMgOC4yMzcgNi43OCA4LjUzTDMuMjggMTIuMDNMMi4yMiAxMC45N0w1LjE4OSA4Wk05LjIyIDcuNDdMMTIuNzIgMy45N0wxMy43OCA1LjAzTDEwLjgxMSA4TDEzLjc4IDEwLjk3TDEyLjcyIDEyLjAzTDkuMjIgOC41M0M4LjkyNyA4LjIzNyA4LjkyNyA3Ljc2MyA5LjIyIDcuNDdaIi8+PC9zdmc+) */
+/**![ADSShrinkHorizontal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuMjUgOC43NUgwVjcuMjVINi4yNVY4Ljc1Wk05Ljc1IDcuMjVIMTZWOC43NUg5Ljc1VjcuMjVaIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01LjE4OSA4TDIuMjIgNS4wM0wzLjI4IDMuOTdMNi43OCA3LjQ3QzcuMDczIDcuNzYzIDcuMDczIDguMjM3IDYuNzggOC41M0wzLjI4IDEyLjAzTDIuMjIgMTAuOTdMNS4xODkgOFpNOS4yMiA3LjQ3TDEyLjcyIDMuOTdMMTMuNzggNS4wM0wxMC44MTEgOEwxMy43OCAxMC45N0wxMi43MiAxMi4wM0w5LjIyIDguNTNDOC45MjcgOC4yMzcgOC45MjcgNy43NjMgOS4yMiA3LjQ3WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

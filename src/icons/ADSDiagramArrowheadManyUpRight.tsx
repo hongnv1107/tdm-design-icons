@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramArrowheadManyUpRightSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramArrowheadManyUpRightIconDefinition = svgToIconDefinition(
   'ads-diagram-arrowhead-many-up-right'
 );
 
-/**![ADSDiagramArrowheadManyUpRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik05Ljk1MiAxLjMxM0w4LjU3MyA2LjM2NUwxMi4yMzMgMi43MDZMMTMuMjk0IDMuNzY3TDkuNjM0IDcuNDI3TDE0LjY4OCA2LjA0OUwxNC44ODUgNi43NzJMMTUuMDgzIDcuNDk2TDcuNDk2IDkuNTY0TDEuOTggMTUuMDgxTDAuOTIgMTQuMDJMNi40MzYgOC41MDRMOC41MDUgMC45MThMOS45NTIgMS4zMTNaIi8+PC9zdmc+) */
+/**![ADSDiagramArrowheadManyUpRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNOS45NTIgMS4zMTNMOC41NzMgNi4zNjVMMTIuMjMzIDIuNzA2TDEzLjI5NCAzLjc2N0w5LjYzNCA3LjQyN0wxNC42ODggNi4wNDlMMTQuODg1IDYuNzcyTDE1LjA4MyA3LjQ5Nkw3LjQ5NiA5LjU2NEwxLjk4IDE1LjA4MUwwLjkyIDE0LjAyTDYuNDM2IDguNTA0TDguNTA1IDAuOTE4TDkuOTUyIDEuMzEzWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

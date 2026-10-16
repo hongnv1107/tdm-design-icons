@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSUndoSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSUndoIconDefinition = svgToIconDefinition(
   'ads-undo'
 );
 
-/**![ADSUndo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMS4yMiA0LjcyTDQuNzIgMS4yMkw1Ljc4IDIuMjhMMy41NjEgNC41TDEwLjI1IDQuNUMxMi44NzMgNC41IDE1IDYuNjI3IDE1IDkuMjVDMTUgMTEuODczIDEyLjg3MyAxNCAxMC4yNSAxNEg4VjEyLjVIMTAuMjVDMTIuMDQ1IDEyLjUgMTMuNSAxMS4wNDUgMTMuNSA5LjI1QzEzLjUgNy40NTUgMTIuMDQ1IDYgMTAuMjUgNkwzLjU2MSA2TDUuNzggOC4yMkw0LjcyIDkuMjhMMS4yMiA1Ljc4QzEuMDc5IDUuNjQgMSA1LjQ0OSAxIDUuMjVDMSA1LjA1MSAxLjA3OSA0Ljg2IDEuMjIgNC43MloiLz48L3N2Zz4=) */
+/**![ADSUndo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEuMjIgNC43Mkw0LjcyIDEuMjJMNS43OCAyLjI4TDMuNTYxIDQuNUwxMC4yNSA0LjVDMTIuODczIDQuNSAxNSA2LjYyNyAxNSA5LjI1QzE1IDExLjg3MyAxMi44NzMgMTQgMTAuMjUgMTRIOFYxMi41SDEwLjI1QzEyLjA0NSAxMi41IDEzLjUgMTEuMDQ1IDEzLjUgOS4yNUMxMy41IDcuNDU1IDEyLjA0NSA2IDEwLjI1IDZMMy41NjEgNkw1Ljc4IDguMjJMNC43MiA5LjI4TDEuMjIgNS43OEMxLjA3OSA1LjY0IDEgNS40NDkgMSA1LjI1QzEgNS4wNTEgMS4wNzkgNC44NiAxLjIyIDQuNzJaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

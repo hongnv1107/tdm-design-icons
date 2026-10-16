@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSCollapseVerticalSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSCollapseVerticalIconDefinition = svgToIconDefinition(
   'ads-collapse-vertical'
 );
 
-/**![ADSCollapseVertical](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0wIDcuMjVMMTYgNy4yNVY4Ljc1SDBMMCA3LjI1Wk03LjQ3IDkuOTdDNy42MSA5LjgyOSA3LjgwMSA5Ljc1IDggOS43NUM4LjE5OSA5Ljc1IDguMzkgOS44MjkgOC41MyA5Ljk3TDExLjc4IDEzLjIyTDEwLjcyIDE0LjI4TDguNzUgMTIuMzExVjE2SDcuMjVMNy4yNSAxMi4zMTFMNS4yOCAxNC4yOEw0LjIyIDEzLjIyTDcuNDcgOS45N1pNNS4yOCAxLjcyTDcuMjUgMy42ODlMNy4yNSAwTDguNzUgMFYzLjY4OUwxMC43MiAxLjcyTDExLjc4IDIuNzhMOC41MyA2LjAzQzguMjM3IDYuMzIzIDcuNzYzIDYuMzIzIDcuNDcgNi4wM0w0LjIyIDIuNzhMNS4yOCAxLjcyWiIvPjwvc3ZnPg==) */
+/**![ADSCollapseVertical](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMCA3LjI1TDE2IDcuMjVWOC43NUgwTDAgNy4yNVpNNy40NyA5Ljk3QzcuNjEgOS44MjkgNy44MDEgOS43NSA4IDkuNzVDOC4xOTkgOS43NSA4LjM5IDkuODI5IDguNTMgOS45N0wxMS43OCAxMy4yMkwxMC43MiAxNC4yOEw4Ljc1IDEyLjMxMVYxNkg3LjI1TDcuMjUgMTIuMzExTDUuMjggMTQuMjhMNC4yMiAxMy4yMkw3LjQ3IDkuOTdaTTUuMjggMS43Mkw3LjI1IDMuNjg5TDcuMjUgMEw4Ljc1IDBWMy42ODlMMTAuNzIgMS43MkwxMS43OCAyLjc4TDguNTMgNi4wM0M4LjIzNyA2LjMyMyA3Ljc2MyA2LjMyMyA3LjQ3IDYuMDNMNC4yMiAyLjc4TDUuMjggMS43MloiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

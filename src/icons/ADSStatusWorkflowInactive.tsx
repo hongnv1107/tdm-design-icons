@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSStatusWorkflowInactiveSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSStatusWorkflowInactiveIconDefinition = svgToIconDefinition(
   'ads-status-workflow-inactive'
 );
 
-/**![ADSStatusWorkflowInactive](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0yLjM0MyAyLjM0M0M1LjQ2NyAtMC43ODEgMTAuNTMzIC0wLjc4MSAxMy42NTggMi4zNDNDMTYuNzgyIDUuNDY3IDE2Ljc4MiAxMC41MzMgMTMuNjU4IDEzLjY1OEMxMC41MzMgMTYuNzgyIDUuNDY3IDE2Ljc4MiAyLjM0MyAxMy42NThDLTAuNzgxIDEwLjUzMyAtMC43ODEgNS40NjcgMi4zNDMgMi4zNDNaTTEyLjU5NyAzLjQwNEMxMC4wNTkgMC44NjUgNS45NDIgMC44NjUgMy40MDQgMy40MDRDMC44NjUgNS45NDIgMC44NjUgMTAuMDU5IDMuNDA0IDEyLjU5N0M1Ljk0MiAxNS4xMzYgMTAuMDU5IDE1LjEzNiAxMi41OTcgMTIuNTk3QzE1LjEzNiAxMC4wNTkgMTUuMTM2IDUuOTQyIDEyLjU5NyAzLjQwNFpNMTEuNzEyIDUuMzQ5TDUuMzQ5IDExLjcxMkw0LjI4OCAxMC42NTJMMTAuNjUyIDQuMjg4TDExLjcxMiA1LjM0OVoiLz48L3N2Zz4=) */
+/**![ADSStatusWorkflowInactive](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMi4zNDMgMi4zNDNDNS40NjcgLTAuNzgxIDEwLjUzMyAtMC43ODEgMTMuNjU4IDIuMzQzQzE2Ljc4MiA1LjQ2NyAxNi43ODIgMTAuNTMzIDEzLjY1OCAxMy42NThDMTAuNTMzIDE2Ljc4MiA1LjQ2NyAxNi43ODIgMi4zNDMgMTMuNjU4Qy0wLjc4MSAxMC41MzMgLTAuNzgxIDUuNDY3IDIuMzQzIDIuMzQzWk0xMi41OTcgMy40MDRDMTAuMDU5IDAuODY1IDUuOTQyIDAuODY1IDMuNDA0IDMuNDA0QzAuODY1IDUuOTQyIDAuODY1IDEwLjA1OSAzLjQwNCAxMi41OTdDNS45NDIgMTUuMTM2IDEwLjA1OSAxNS4xMzYgMTIuNTk3IDEyLjU5N0MxNS4xMzYgMTAuMDU5IDE1LjEzNiA1Ljk0MiAxMi41OTcgMy40MDRaTTExLjcxMiA1LjM0OUw1LjM0OSAxMS43MTJMNC4yODggMTAuNjUyTDEwLjY1MiA0LjI4OEwxMS43MTIgNS4zNDlaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

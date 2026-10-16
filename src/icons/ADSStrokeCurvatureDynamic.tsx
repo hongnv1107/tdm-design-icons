@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSStrokeCurvatureDynamicSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSStrokeCurvatureDynamicIconDefinition = svgToIconDefinition(
   'ads-stroke-curvature-dynamic'
 );
 
-/**![ADSStrokeCurvatureDynamic](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOS4yNSAzLjVDOC45NzQgMy41IDguNzUgMy43MjQgOC43NSA0VjEyQzguNzUgMTMuMTA1IDcuODU1IDE0IDYuNzUgMTRIMVYxMi41SDYuNzVDNy4wMjYgMTIuNSA3LjI1IDEyLjI3NiA3LjI1IDEyVjRDNy4yNSAyLjg5NSA4LjE0NSAyIDkuMjUgMkgxNVYzLjVIOS4yNVoiLz48L3N2Zz4=) */
+/**![ADSStrokeCurvatureDynamic](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMjUgMy41QzguOTc0IDMuNSA4Ljc1IDMuNzI0IDguNzUgNFYxMkM4Ljc1IDEzLjEwNSA3Ljg1NSAxNCA2Ljc1IDE0SDFWMTIuNUg2Ljc1QzcuMDI2IDEyLjUgNy4yNSAxMi4yNzYgNy4yNSAxMlY0QzcuMjUgMi44OTUgOC4xNDUgMiA5LjI1IDJIMTVWMy41SDkuMjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSHardwareDisposeSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSHardwareDisposeIconDefinition = svgToIconDefinition(
   'ads-hardware-dispose'
 );
 
-/**![ADSHardwareDispose](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xIDEwVjNDMSAxLjg5NSAxLjg5NSAxIDMgMUg4VjIuNUgzQzIuNzI0IDIuNSAyLjUgMi43MjQgMi41IDNWMTBDMi41IDEwLjI3NiAyLjcyNCAxMC41IDMgMTAuNUgxM0MxMy4yNzYgMTAuNSAxMy41IDEwLjI3NiAxMy41IDEwVjhIMTVWMTBDMTUgMTEuMTA1IDE0LjEwNSAxMiAxMyAxMkg4Ljc1VjEzLjVIMTJWMTVINFYxMy41SDcuMjVWMTJIM0MxLjg5NSAxMiAxIDExLjEwNSAxIDEwWiIvPjxwYXRoIGQ9Ik0xNS43OCAxLjI3OUwxNC4wNjEgMi45OTlMMTUuNzggNC43MTlMMTQuNzIgNS43NzlMMTMgNC4wNkwxMS4yOCA1Ljc3OUwxMC4yMiA0LjcxOUwxMS45NCAyLjk5OUwxMC4yMiAxLjI3OUwxMS4yOCAwLjIxOUwxMyAxLjkzOEwxNC43MiAwLjIxOUwxNS43OCAxLjI3OVoiLz48L3N2Zz4=) */
+/**![ADSHardwareDispose](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMSAxMFYzQzEgMS44OTUgMS44OTUgMSAzIDFIOFYyLjVIM0MyLjcyNCAyLjUgMi41IDIuNzI0IDIuNSAzVjEwQzIuNSAxMC4yNzYgMi43MjQgMTAuNSAzIDEwLjVIMTNDMTMuMjc2IDEwLjUgMTMuNSAxMC4yNzYgMTMuNSAxMFY4SDE1VjEwQzE1IDExLjEwNSAxNC4xMDUgMTIgMTMgMTJIOC43NVYxMy41SDEyVjE1SDRWMTMuNUg3LjI1VjEySDNDMS44OTUgMTIgMSAxMS4xMDUgMSAxMFoiLz48cGF0aCBkPSJNMTUuNzggMS4yNzlMMTQuMDYxIDIuOTk5TDE1Ljc4IDQuNzE5TDE0LjcyIDUuNzc5TDEzIDQuMDZMMTEuMjggNS43NzlMMTAuMjIgNC43MTlMMTEuOTQgMi45OTlMMTAuMjIgMS4yNzlMMTEuMjggMC4yMTlMMTMgMS45MzhMMTQuNzIgMC4yMTlMMTUuNzggMS4yNzlaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

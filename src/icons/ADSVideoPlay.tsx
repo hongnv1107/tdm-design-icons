@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSVideoPlaySvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSVideoPlayIconDefinition = svgToIconDefinition(
   'ads-video-play'
 );
 
-/**![ADSVideoPlay](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiAzLjExMkMyIDEuNTkyIDMuNjMgMC42MjcgNC45NjMgMS4zNTlMMTMuODY1IDYuMjQ3QzE1LjI0OSA3LjAwNiAxNS4yNDkgOC45OTQgMTMuODY1IDkuNzUzTDQuOTYzIDE0LjY0MUMzLjYzIDE1LjM3MyAyIDE0LjQwOCAyIDEyLjg4OFYzLjExMlpNNC4yNDEgMi42NzRDMy45MDcgMi40OTEgMy41IDIuNzMyIDMuNSAzLjExMlYxMi44ODhDMy41IDEzLjI2OCAzLjkwNyAxMy41MDkgNC4yNDEgMTMuMzI2TDEzLjE0MyA4LjQzOEMxMy40ODkgOC4yNDggMTMuNDg5IDcuNzUyIDEzLjE0MyA3LjU2Mkw0LjI0MSAyLjY3NFoiLz48L3N2Zz4=) */
+/**![ADSVideoPlay](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMy4xMTJDMiAxLjU5MiAzLjYzIDAuNjI3IDQuOTYzIDEuMzU5TDEzLjg2NSA2LjI0N0MxNS4yNDkgNy4wMDYgMTUuMjQ5IDguOTk0IDEzLjg2NSA5Ljc1M0w0Ljk2MyAxNC42NDFDMy42MyAxNS4zNzMgMiAxNC40MDggMiAxMi44ODhWMy4xMTJaTTQuMjQxIDIuNjc0QzMuOTA3IDIuNDkxIDMuNSAyLjczMiAzLjUgMy4xMTJWMTIuODg4QzMuNSAxMy4yNjggMy45MDcgMTMuNTA5IDQuMjQxIDEzLjMyNkwxMy4xNDMgOC40MzhDMTMuNDg5IDguMjQ4IDEzLjQ4OSA3Ljc1MiAxMy4xNDMgNy41NjJMNC4yNDEgMi42NzRaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

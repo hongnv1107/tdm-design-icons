@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTextHeadingFiveSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTextHeadingFiveIconDefinition = svgToIconDefinition(
   'ads-text-heading-five'
 );
 
-/**![ADSTextHeadingFive](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTYgOC41SDEyLjI1QzExLjgzNiA4LjUgMTEuNSA4LjgzNiAxMS41IDkuMjVWMTIuMjVDMTEuNSAxMi42NjQgMTEuODM2IDEzIDEyLjI1IDEzSDE0LjVWMTQuNUgxMS41VjE2SDE0LjYyNUMxNS4zODQgMTYgMTYgMTUuMzg0IDE2IDE0LjYyNVYxMi44NzVDMTYgMTIuMTE2IDE1LjM4NCAxMS41IDE0LjYyNSAxMS41SDEzVjEwSDE2VjguNVoiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIuNSA2LjI1VjFIMVYxM0gyLjVWNy43NUg4VjEzSDkuNVYxSDhWNi4yNUgyLjVaIi8+PC9zdmc+) */
+/**![ADSTextHeadingFive](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDguNUgxMi4yNUMxMS44MzYgOC41IDExLjUgOC44MzYgMTEuNSA5LjI1VjEyLjI1QzExLjUgMTIuNjY0IDExLjgzNiAxMyAxMi4yNSAxM0gxNC41VjE0LjVIMTEuNVYxNkgxNC42MjVDMTUuMzg0IDE2IDE2IDE1LjM4NCAxNiAxNC42MjVWMTIuODc1QzE2IDEyLjExNiAxNS4zODQgMTEuNSAxNC42MjUgMTEuNUgxM1YxMEgxNlY4LjVaIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yLjUgNi4yNVYxSDFWMTNIMi41VjcuNzVIOFYxM0g5LjVWMUg4VjYuMjVIMi41WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

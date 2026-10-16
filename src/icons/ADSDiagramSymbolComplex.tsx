@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolComplexSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolComplexIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-complex'
 );
 
-/**![ADSDiagramSymbolComplex](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik04Ljc1IDFWNi40NDJMMTMuMDA2IDMuMDVMMTMuNDczIDMuNjM2TDEzLjk0IDQuMjIyTDkuNjg2IDcuNjE1TDE0Ljk5MSA4LjgyNkwxNC44MjQgOS41NThMMTQuNjU4IDEwLjI4OUw5LjM1MSA5LjA3N0wxMS43MTMgMTMuOTgxTDEwLjM2MSAxNC42MzJMOCA5LjcyOEw1LjYzOSAxNC42MzJMNC4yODcgMTMuOTgxTDYuNjQ4IDkuMDc3TDEuMzQzIDEwLjI4OUwxLjAwOSA4LjgyNkw2LjMxNCA3LjYxNEwyLjA2IDQuMjIyTDIuOTk1IDMuMDQ5TDcuMjUgNi40NDFWMUg4Ljc1WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramSymbolComplex](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNOC43NSAxVjYuNDQyTDEzLjAwNiAzLjA1TDEzLjQ3MyAzLjYzNkwxMy45NCA0LjIyMkw5LjY4NiA3LjYxNUwxNC45OTEgOC44MjZMMTQuODI0IDkuNTU4TDE0LjY1OCAxMC4yODlMOS4zNTEgOS4wNzdMMTEuNzEzIDEzLjk4MUwxMC4zNjEgMTQuNjMyTDggOS43MjhMNS42MzkgMTQuNjMyTDQuMjg3IDEzLjk4MUw2LjY0OCA5LjA3N0wxLjM0MyAxMC4yODlMMS4wMDkgOC44MjZMNi4zMTQgNy42MTRMMi4wNiA0LjIyMkwyLjk5NSAzLjA0OUw3LjI1IDYuNDQxVjFIOC43NVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

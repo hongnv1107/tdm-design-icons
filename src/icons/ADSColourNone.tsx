@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSColourNoneSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSColourNoneIconDefinition = svgToIconDefinition(
   'ads-colour-none'
 );
 
-/**![ADSColourNone](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0wLjQ3IDEuNTNMMTQuNDcgMTUuNTNMMTUuNTMgMTQuNDdMMS41MyAwLjQ3TDAuNDcgMS41M1oiLz48cGF0aCBkPSJNOS4zMTggMTIuNUwxMC44MTggMTRINEMyLjg5NSAxNCAyIDEzLjEwNSAyIDEyVjUuMTgyTDMuNSA2LjY4MlYxMkMzLjUgMTIuMjc2IDMuNzI0IDEyLjUgNCAxMi41SDkuMzE4WiIvPjxwYXRoIGQ9Ik0xMiAySDUuMTgyTDYuNjgyIDMuNUgxMkMxMi4yNzYgMy41IDEyLjUgMy43MjQgMTIuNSA0VjkuMzE4TDE0IDEwLjgxOFY0QzE0IDIuODk1IDEzLjEwNSAyIDEyIDJaIi8+PC9zdmc+) */
+/**![ADSColourNone](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMC40NyAxLjUzTDE0LjQ3IDE1LjUzTDE1LjUzIDE0LjQ3TDEuNTMgMC40N0wwLjQ3IDEuNTNaIi8+PHBhdGggZD0iTTkuMzE4IDEyLjVMMTAuODE4IDE0SDRDMi44OTUgMTQgMiAxMy4xMDUgMiAxMlY1LjE4MkwzLjUgNi42ODJWMTJDMy41IDEyLjI3NiAzLjcyNCAxMi41IDQgMTIuNUg5LjMxOFoiLz48cGF0aCBkPSJNMTIgMkg1LjE4Mkw2LjY4MiAzLjVIMTJDMTIuMjc2IDMuNSAxMi41IDMuNzI0IDEyLjUgNFY5LjMxOEwxNCAxMC44MThWNEMxNCAyLjg5NSAxMy4xMDUgMiAxMiAyWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

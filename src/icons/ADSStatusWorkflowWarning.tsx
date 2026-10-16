@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSStatusWorkflowWarningSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSStatusWorkflowWarningIconDefinition = svgToIconDefinition(
   'ads-status-workflow-warning'
 );
 
-/**![ADSStatusWorkflowWarning](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41IDhDMTQuNSA0LjQxIDExLjU5IDEuNSA4IDEuNUM0LjQxIDEuNSAxLjUgNC40MSAxLjUgOEMxLjUgMTEuNTkgNC40MSAxNC41IDggMTQuNUMxMS41OSAxNC41IDE0LjUgMTEuNTkgMTQuNSA4Wk0xNiA4QzE2IDEyLjQxOCAxMi40MTggMTYgOCAxNkMzLjU4MiAxNiAwIDEyLjQxOCAwIDhDMCAzLjU4MiAzLjU4MiAwIDggMEMxMi40MTggMCAxNiAzLjU4MiAxNiA4WiIvPjxwYXRoIGQ9Ik04Ljc1IDMuNVY5SDcuMjVWMy41SDguNzVaIi8+PHBhdGggZD0iTTggMTAuNUM4LjU1MyAxMC41IDkgMTAuOTQ4IDkgMTEuNUM5IDEyLjA1MiA4LjU1MyAxMi41IDggMTIuNUM3LjQ0OCAxMi41IDcgMTIuMDUyIDcgMTEuNUM3IDEwLjk0OCA3LjQ0OCAxMC41IDggMTAuNVoiLz48L3N2Zz4=) */
+/**![ADSStatusWorkflowWarning](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSA4QzE0LjUgNC40MSAxMS41OSAxLjUgOCAxLjVDNC40MSAxLjUgMS41IDQuNDEgMS41IDhDMS41IDExLjU5IDQuNDEgMTQuNSA4IDE0LjVDMTEuNTkgMTQuNSAxNC41IDExLjU5IDE0LjUgOFpNMTYgOEMxNiAxMi40MTggMTIuNDE4IDE2IDggMTZDMy41ODIgMTYgMCAxMi40MTggMCA4QzAgMy41ODIgMy41ODIgMCA4IDBDMTIuNDE4IDAgMTYgMy41ODIgMTYgOFoiLz48cGF0aCBkPSJNOC43NSAzLjVWOUg3LjI1VjMuNUg4Ljc1WiIvPjxwYXRoIGQ9Ik04IDEwLjVDOC41NTMgMTAuNSA5IDEwLjk0OCA5IDExLjVDOSAxMi4wNTIgOC41NTMgMTIuNSA4IDEyLjVDNy40NDggMTIuNSA3IDEyLjA1MiA3IDExLjVDNyAxMC45NDggNy40NDggMTAuNSA4IDEwLjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

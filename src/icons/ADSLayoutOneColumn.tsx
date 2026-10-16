@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSLayoutOneColumnSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSLayoutOneColumnIconDefinition = svgToIconDefinition(
   'ads-layout-one-column'
 );
 
-/**![ADSLayoutOneColumn](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMCAyLjM3NUMwIDEuNjE2IDAuNjE2IDEgMS4zNzUgMUgxNC42MjVDMTUuMzg0IDEgMTYgMS42MTYgMTYgMi4zNzVWMTMuNjI1QzE2IDE0LjM4NCAxNS4zODQgMTUgMTQuNjI1IDE1SDEuMzc1QzAuNjE2IDE1IDAgMTQuMzg0IDAgMTMuNjI1VjIuMzc1Wk0xLjUgMi41VjEzLjVIMTQuNVYyLjVIMS41WiIvPjwvc3ZnPg==) */
+/**![ADSLayoutOneColumn](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTAgMi4zNzVDMCAxLjYxNiAwLjYxNiAxIDEuMzc1IDFIMTQuNjI1QzE1LjM4NCAxIDE2IDEuNjE2IDE2IDIuMzc1VjEzLjYyNUMxNiAxNC4zODQgMTUuMzg0IDE1IDE0LjYyNSAxNUgxLjM3NUMwLjYxNiAxNSAwIDE0LjM4NCAwIDEzLjYyNVYyLjM3NVpNMS41IDIuNVYxMy41SDE0LjVWMi41SDEuNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

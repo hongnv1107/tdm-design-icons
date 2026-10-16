@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSFieldCheckboxGroupSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSFieldCheckboxGroupIconDefinition = svgToIconDefinition(
   'ads-field-checkbox-group'
 );
 
-/**![ADSFieldCheckboxGroup](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMSAyLjc1QzEgMi4zMzYgMS4zMzYgMiAxLjc1IDJINS4yNUM1LjY2NCAyIDYgMi4zMzYgNiAyLjc1VjYuMjVDNiA2LjY2NCA1LjY2NCA3IDUuMjUgN0gxLjc1QzEuMzM2IDcgMSA2LjY2NCAxIDYuMjVWMi43NVpNMi41IDMuNVY1LjVINC41VjMuNUgyLjVaTTE2IDUuMjVIOFYzLjc1SDE2VjUuMjVaTTEgOS43NUMxIDkuMzM2IDEuMzM2IDkgMS43NSA5SDUuMjVDNS42NjQgOSA2IDkuMzM2IDYgOS43NVYxMy4yNUM2IDEzLjY2NCA1LjY2NCAxNCA1LjI1IDE0SDEuNzVDMS4zMzYgMTQgMSAxMy42NjQgMSAxMy4yNVY5Ljc1Wk0yLjUgMTAuNVYxMi41SDQuNVYxMC41SDIuNVpNMTYgMTIuMjVIOFYxMC43NUgxNlYxMi4yNVoiLz48L3N2Zz4=) */
+/**![ADSFieldCheckboxGroup](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEgMi43NUMxIDIuMzM2IDEuMzM2IDIgMS43NSAySDUuMjVDNS42NjQgMiA2IDIuMzM2IDYgMi43NVY2LjI1QzYgNi42NjQgNS42NjQgNyA1LjI1IDdIMS43NUMxLjMzNiA3IDEgNi42NjQgMSA2LjI1VjIuNzVaTTIuNSAzLjVWNS41SDQuNVYzLjVIMi41Wk0xNiA1LjI1SDhWMy43NUgxNlY1LjI1Wk0xIDkuNzVDMSA5LjMzNiAxLjMzNiA5IDEuNzUgOUg1LjI1QzUuNjY0IDkgNiA5LjMzNiA2IDkuNzVWMTMuMjVDNiAxMy42NjQgNS42NjQgMTQgNS4yNSAxNEgxLjc1QzEuMzM2IDE0IDEgMTMuNjY0IDEgMTMuMjVWOS43NVpNMi41IDEwLjVWMTIuNUg0LjVWMTAuNUgyLjVaTTE2IDEyLjI1SDhWMTAuNzVIMTZWMTIuMjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

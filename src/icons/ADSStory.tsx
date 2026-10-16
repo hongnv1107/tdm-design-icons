@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSStorySvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSStoryIconDefinition = svgToIconDefinition(
   'ads-story'
 );
 
-/**![ADSStory](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMS41MTggM0MxMS41MTggMi43MjQgMTEuMjk0IDIuNSAxMS4wMTggMi41SDQuOTgyQzQuNzA2IDIuNSA0LjQ4MiAyLjcyNCA0LjQ4MiAzVjEyLjgwNkw4IDEwLjMzM0w4LjQzMSAxMC42MzdMMTEuNTE4IDEyLjgwNlYzWk0xMy4wMTggMTQuMjAyQzEzLjAxNyAxNC43OSAxMi4zOTYgMTUuMTUgMTEuODk2IDE0Ljg5NkwxMS43OTcgMTQuODM2TDcuOTk5IDEyLjE2Nkw0LjIwMyAxNC44MzZDMy42OSAxNS4xOTcgMi45ODMgMTQuODMgMi45ODIgMTQuMjAyVjNDMi45ODIgMS44OTUgMy44NzggMSA0Ljk4MiAxSDExLjAxOEMxMi4xMjIgMSAxMy4wMTggMS44OTUgMTMuMDE4IDNWMTQuMjAyWiIvPjwvc3ZnPg==) */
+/**![ADSStory](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTEuNTE4IDNDMTEuNTE4IDIuNzI0IDExLjI5NCAyLjUgMTEuMDE4IDIuNUg0Ljk4MkM0LjcwNiAyLjUgNC40ODIgMi43MjQgNC40ODIgM1YxMi44MDZMOCAxMC4zMzNMOC40MzEgMTAuNjM3TDExLjUxOCAxMi44MDZWM1pNMTMuMDE4IDE0LjIwMkMxMy4wMTcgMTQuNzkgMTIuMzk2IDE1LjE1IDExLjg5NiAxNC44OTZMMTEuNzk3IDE0LjgzNkw3Ljk5OSAxMi4xNjZMNC4yMDMgMTQuODM2QzMuNjkgMTUuMTk3IDIuOTgzIDE0LjgzIDIuOTgyIDE0LjIwMlYzQzIuOTgyIDEuODk1IDMuODc4IDEgNC45ODIgMUgxMS4wMThDMTIuMTIyIDEgMTMuMDE4IDEuODk1IDEzLjAxOCAzVjE0LjIwMloiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

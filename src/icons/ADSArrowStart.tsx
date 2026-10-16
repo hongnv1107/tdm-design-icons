@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSArrowStartSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSArrowStartIconDefinition = svgToIconDefinition(
   'ads-arrow-start'
 );
 
-/**![ADSArrowStart](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik04Ljc4IDQuMDNMNS41NjEgNy4yNUgxNlY4Ljc1SDUuNTYxTDguNzggMTEuOTdMNy43MiAxMy4wM0wzLjIyIDguNTNDMi45MjcgOC4yMzcgMi45MjcgNy43NjMgMy4yMiA3LjQ3TDcuNzIgMi45N0w4Ljc4IDQuMDNaTTEuNSAzVjEzSDBWM0gxLjVaIi8+PC9zdmc+) */
+/**![ADSArrowStart](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNOC43OCA0LjAzTDUuNTYxIDcuMjVIMTZWOC43NUg1LjU2MUw4Ljc4IDExLjk3TDcuNzIgMTMuMDNMMy4yMiA4LjUzQzIuOTI3IDguMjM3IDIuOTI3IDcuNzYzIDMuMjIgNy40N0w3LjcyIDIuOTdMOC43OCA0LjAzWk0xLjUgM1YxM0gwVjNIMS41WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

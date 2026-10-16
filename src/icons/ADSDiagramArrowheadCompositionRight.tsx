@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramArrowheadCompositionRightSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramArrowheadCompositionRightIconDefinition = svgToIconDefinition(
   'ads-diagram-arrowhead-composition-right'
 );
 
-/**![ADSDiagramArrowheadCompositionRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik05Ljg3NSAzLjFDMTAuMTQ1IDIuOTQ0IDEwLjQ5IDIuOTcgMTAuNzM1IDMuMTc5TDE1LjczNSA3LjQyOUMxNS45MDMgNy41NzEgMTYgNy43OCAxNiA4QzE2IDguMjIgMTUuOTAzIDguNDI5IDE1LjczNSA4LjU3MUwxMC43MzUgMTIuODIxQzEwLjQ1NSAxMy4wNTkgMTAuMDQ1IDEzLjA1OSA5Ljc2NSAxMi44MjFMNC45NzUgOC43NUgwVjcuMjVINC45NzVMOS43NjUgMy4xNzlMOS44NzUgMy4xWiIvPjwvc3ZnPg==) */
+/**![ADSDiagramArrowheadCompositionRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNOS44NzUgMy4xQzEwLjE0NSAyLjk0NCAxMC40OSAyLjk3IDEwLjczNSAzLjE3OUwxNS43MzUgNy40MjlDMTUuOTAzIDcuNTcxIDE2IDcuNzggMTYgOEMxNiA4LjIyIDE1LjkwMyA4LjQyOSAxNS43MzUgOC41NzFMMTAuNzM1IDEyLjgyMUMxMC40NTUgMTMuMDU5IDEwLjA0NSAxMy4wNTkgOS43NjUgMTIuODIxTDQuOTc1IDguNzVIMFY3LjI1SDQuOTc1TDkuNzY1IDMuMTc5TDkuODc1IDMuMVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSCheckboxIndeterminateSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSCheckboxIndeterminateIconDefinition = svgToIconDefinition(
   'ads-checkbox-indeterminate'
 );
 
-/**![ADSCheckboxIndeterminate](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMyAxQzEuODk1IDEgMSAxLjg5NSAxIDNWMTNDMSAxNC4xMDUgMS44OTUgMTUgMyAxNUgxM0MxNC4xMDUgMTUgMTUgMTQuMTA1IDE1IDEzVjNDMTUgMS44OTUgMTQuMTA1IDEgMTMgMUgzWk0zLjc1IDguNzVIMTIuMjVWNy4yNUgzLjc1VjguNzVaIi8+PC9zdmc+) */
+/**![ADSCheckboxIndeterminate](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgMUMxLjg5NSAxIDEgMS44OTUgMSAzVjEzQzEgMTQuMTA1IDEuODk1IDE1IDMgMTVIMTNDMTQuMTA1IDE1IDE1IDE0LjEwNSAxNSAxM1YzQzE1IDEuODk1IDE0LjEwNSAxIDEzIDFIM1pNMy43NSA4Ljc1SDEyLjI1VjcuMjVIMy43NVY4Ljc1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolPredefinedProcessSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolPredefinedProcessIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-predefined-process'
 );
 
-/**![ADSDiagramSymbolPredefinedProcess](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41IDMuNUMxNC41IDMuMjU4IDE0LjMyOSAzLjA1NiAxNC4xMDEgMy4wMUwxNCAzSDEzVjEzSDE0QzE0LjI3NiAxMyAxNC41IDEyLjc3NiAxNC41IDEyLjVWMy41Wk00LjUgMTNIMTEuNVYzSDQuNVYxM1pNMS41IDEyLjVDMS41IDEyLjc3NiAxLjcyNCAxMyAyIDEzSDNWM0gyQzEuNzI0IDMgMS41IDMuMjI0IDEuNSAzLjVWMTIuNVpNMTYgMTIuNUMxNiAxMy42MDUgMTUuMTA1IDE0LjUgMTQgMTQuNUgyQzAuODk1IDE0LjUgMCAxMy42MDUgMCAxMi41VjMuNUMwIDIuMzk1IDAuODk1IDEuNSAyIDEuNUgxNEwxNC4yMDQgMS41MTFDMTUuMjEzIDEuNjEzIDE2IDIuNDY0IDE2IDMuNVYxMi41WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramSymbolPredefinedProcess](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSAzLjVDMTQuNSAzLjI1OCAxNC4zMjkgMy4wNTYgMTQuMTAxIDMuMDFMMTQgM0gxM1YxM0gxNEMxNC4yNzYgMTMgMTQuNSAxMi43NzYgMTQuNSAxMi41VjMuNVpNNC41IDEzSDExLjVWM0g0LjVWMTNaTTEuNSAxMi41QzEuNSAxMi43NzYgMS43MjQgMTMgMiAxM0gzVjNIMkMxLjcyNCAzIDEuNSAzLjIyNCAxLjUgMy41VjEyLjVaTTE2IDEyLjVDMTYgMTMuNjA1IDE1LjEwNSAxNC41IDE0IDE0LjVIMkMwLjg5NSAxNC41IDAgMTMuNjA1IDAgMTIuNVYzLjVDMCAyLjM5NSAwLjg5NSAxLjUgMiAxLjVIMTRMMTQuMjA0IDEuNTExQzE1LjIxMyAxLjYxMyAxNiAyLjQ2NCAxNiAzLjVWMTIuNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSHierarchySvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSHierarchyIconDefinition = svgToIconDefinition(
   'ads-hierarchy'
 );
 
-/**![ADSHierarchy](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik04IDIuNVY0SDBWMi41SDhaIi8+PHBhdGggZD0iTTEyIDcuMjVWOC43NUg0VjcuMjVIMTJaIi8+PHBhdGggZD0iTTE2IDEyVjEzLjVIOFYxMkgxNloiLz48L3N2Zz4=) */
+/**![ADSHierarchy](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNOCAyLjVWNEgwVjIuNUg4WiIvPjxwYXRoIGQ9Ik0xMiA3LjI1VjguNzVINFY3LjI1SDEyWiIvPjxwYXRoIGQ9Ik0xNiAxMlYxMy41SDhWMTJIMTZaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

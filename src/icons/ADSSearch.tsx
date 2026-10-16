@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSSearchSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSSearchIconDefinition = svgToIconDefinition(
   'ads-search'
 );
 
-/**![ADSSearch](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNyAyLjVDNC41MTUgMi41IDIuNSA0LjUxNSAyLjUgN0MyLjUgOS40ODUgNC41MTUgMTEuNSA3IDExLjVDOC4yNDMgMTEuNSA5LjM2NyAxMC45OTcgMTAuMTgyIDEwLjE4MkMxMC45OTcgOS4zNjcgMTEuNSA4LjI0MyAxMS41IDdDMTEuNSA0LjUxNSA5LjQ4NSAyLjUgNyAyLjVaTTEgN0MxIDMuNjg2IDMuNjg2IDEgNyAxQzEwLjMxNCAxIDEzIDMuNjg2IDEzIDdDMTMgOC4zODYgMTIuNTI5IDkuNjYzIDExLjc0IDEwLjY3OUwxNS4wMyAxMy45N0wxMy45NyAxNS4wM0wxMC42NzkgMTEuNzRDOS42NjMgMTIuNTI5IDguMzg2IDEzIDcgMTNDMy42ODYgMTMgMSAxMC4zMTQgMSA3WiIvPjwvc3ZnPg==) */
+/**![ADSSearch](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcgMi41QzQuNTE1IDIuNSAyLjUgNC41MTUgMi41IDdDMi41IDkuNDg1IDQuNTE1IDExLjUgNyAxMS41QzguMjQzIDExLjUgOS4zNjcgMTAuOTk3IDEwLjE4MiAxMC4xODJDMTAuOTk3IDkuMzY3IDExLjUgOC4yNDMgMTEuNSA3QzExLjUgNC41MTUgOS40ODUgMi41IDcgMi41Wk0xIDdDMSAzLjY4NiAzLjY4NiAxIDcgMUMxMC4zMTQgMSAxMyAzLjY4NiAxMyA3QzEzIDguMzg2IDEyLjUyOSA5LjY2MyAxMS43NCAxMC42NzlMMTUuMDMgMTMuOTdMMTMuOTcgMTUuMDNMMTAuNjc5IDExLjc0QzkuNjYzIDEyLjUyOSA4LjM4NiAxMyA3IDEzQzMuNjg2IDEzIDEgMTAuMzE0IDEgN1oiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

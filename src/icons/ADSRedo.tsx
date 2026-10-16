@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSRedoSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSRedoIconDefinition = svgToIconDefinition(
   'ads-redo'
 );
 
-/**![ADSRedo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTQuNzggNC43MkwxMS4yOCAxLjIyTDEwLjIyIDIuMjhMMTIuNDM5IDQuNUw1Ljc1IDQuNUMzLjEyNyA0LjUgMSA2LjYyNyAxIDkuMjVDMSAxMS44NzMgMy4xMjcgMTQgNS43NSAxNEg4VjEyLjVINS43NUMzLjk1NSAxMi41IDIuNSAxMS4wNDUgMi41IDkuMjVDMi41IDcuNDU1IDMuOTU1IDYgNS43NSA2TDEyLjQzOSA2TDEwLjIyIDguMjJMMTEuMjggOS4yOEwxNC43OCA1Ljc4QzE0LjkyMSA1LjY0IDE1IDUuNDQ5IDE1IDUuMjVDMTUgNS4wNTEgMTQuOTIxIDQuODYgMTQuNzggNC43MloiLz48L3N2Zz4=) */
+/**![ADSRedo](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0Ljc4IDQuNzJMMTEuMjggMS4yMkwxMC4yMiAyLjI4TDEyLjQzOSA0LjVMNS43NSA0LjVDMy4xMjcgNC41IDEgNi42MjcgMSA5LjI1QzEgMTEuODczIDMuMTI3IDE0IDUuNzUgMTRIOFYxMi41SDUuNzVDMy45NTUgMTIuNSAyLjUgMTEuMDQ1IDIuNSA5LjI1QzIuNSA3LjQ1NSAzLjk1NSA2IDUuNzUgNkwxMi40MzkgNkwxMC4yMiA4LjIyTDExLjI4IDkuMjhMMTQuNzggNS43OEMxNC45MjEgNS42NCAxNSA1LjQ0OSAxNSA1LjI1QzE1IDUuMDUxIDE0LjkyMSA0Ljg2IDE0Ljc4IDQuNzJaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

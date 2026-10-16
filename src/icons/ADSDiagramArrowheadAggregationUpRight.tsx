@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramArrowheadAggregationUpRightSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramArrowheadAggregationUpRightIconDefinition = svgToIconDefinition(
   'ads-diagram-arrowhead-aggregation-up-right'
 );
 
-/**![ADSDiagramArrowheadAggregationUpRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMy4xNzMgMi4wMTlDMTMuMzkyIDIuMDAxIDEzLjYwOCAyLjA4IDEzLjc2NCAyLjIzNkMxMy45MTkgMi4zOTEgMTMuOTk5IDIuNjA3IDEzLjk4MSAyLjgyN0wxMy40NTEgOS4zNjhDMTMuNDIxIDkuNzM0IDEzLjEzIDEwLjAyNSAxMi43NjQgMTAuMDU0TDYuNDk3IDEwLjU2MkwyLjk4IDE0LjA4TDEuOTIgMTMuMDE5TDUuNDM3IDkuNTAxTDUuOTQ1IDMuMjM2TDUuOTY5IDMuMTAyQzYuMDQ5IDIuODAxIDYuMzEyIDIuNTc1IDYuNjMyIDIuNTQ5TDEzLjE3MyAyLjAxOVpNNy4zODkgMy45OTNMNi45ODEgOS4wMTdMMTIuMDA3IDguNjFMMTIuNDE1IDMuNTg1TDcuMzg5IDMuOTkzWiIvPjwvc3ZnPg==) */
+/**![ADSDiagramArrowheadAggregationUpRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTMuMTczIDIuMDE5QzEzLjM5MiAyLjAwMSAxMy42MDggMi4wOCAxMy43NjQgMi4yMzZDMTMuOTE5IDIuMzkxIDEzLjk5OSAyLjYwNyAxMy45ODEgMi44MjdMMTMuNDUxIDkuMzY4QzEzLjQyMSA5LjczNCAxMy4xMyAxMC4wMjUgMTIuNzY0IDEwLjA1NEw2LjQ5NyAxMC41NjJMMi45OCAxNC4wOEwxLjkyIDEzLjAxOUw1LjQzNyA5LjUwMUw1Ljk0NSAzLjIzNkw1Ljk2OSAzLjEwMkM2LjA0OSAyLjgwMSA2LjMxMiAyLjU3NSA2LjYzMiAyLjU0OUwxMy4xNzMgMi4wMTlaTTcuMzg5IDMuOTkzTDYuOTgxIDkuMDE3TDEyLjAwNyA4LjYxTDEyLjQxNSAzLjU4NUw3LjM4OSAzLjk5M1oiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

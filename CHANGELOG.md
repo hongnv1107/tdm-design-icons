@@ -1,5 +1,11 @@
 # @tdm-design/icons
 
+## 0.2.0-rc.3
+
+### Patch Changes
+
+- Revert the rc.2 ADS viewBox change: ADS icons are back to their original 16×16 `viewBox="0 0 16 16"`.
+
 ## 0.2.0-rc.2
 
 ### Patch Changes

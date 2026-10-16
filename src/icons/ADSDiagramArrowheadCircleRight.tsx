@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramArrowheadCircleRightSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramArrowheadCircleRightIconDefinition = svgToIconDefinition(
   'ads-diagram-arrowhead-circle-right'
 );
 
-/**![ADSDiagramArrowheadCircleRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41IDhDMTQuNSA3LjAzNCAxMy43MTcgNi4yNSAxMi43NSA2LjI1QzExLjc4NCA2LjI1IDExIDcuMDM0IDExIDhDMTEgOC45NjcgMTEuNzg0IDkuNzUgMTIuNzUgOS43NUMxMy43MTcgOS43NSAxNC41IDguOTY3IDE0LjUgOFpNMTYgOEMxNiA5Ljc5NSAxNC41NDUgMTEuMjUgMTIuNzUgMTEuMjVDMTEuMjEzIDExLjI1IDkuOTI3IDEwLjE4MyA5LjU4OCA4Ljc1SDBWNy4yNUg5LjU4OEM5LjkyNyA1LjgxNyAxMS4yMTMgNC43NSAxMi43NSA0Ljc1QzE0LjU0NSA0Ljc1IDE2IDYuMjA1IDE2IDhaIi8+PC9zdmc+) */
+/**![ADSDiagramArrowheadCircleRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSA4QzE0LjUgNy4wMzQgMTMuNzE3IDYuMjUgMTIuNzUgNi4yNUMxMS43ODQgNi4yNSAxMSA3LjAzNCAxMSA4QzExIDguOTY3IDExLjc4NCA5Ljc1IDEyLjc1IDkuNzVDMTMuNzE3IDkuNzUgMTQuNSA4Ljk2NyAxNC41IDhaTTE2IDhDMTYgOS43OTUgMTQuNTQ1IDExLjI1IDEyLjc1IDExLjI1QzExLjIxMyAxMS4yNSA5LjkyNyAxMC4xODMgOS41ODggOC43NUgwVjcuMjVIOS41ODhDOS45MjcgNS44MTcgMTEuMjEzIDQuNzUgMTIuNzUgNC43NUMxNC41NDUgNC43NSAxNiA2LjIwNSAxNiA4WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

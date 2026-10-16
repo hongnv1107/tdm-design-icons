@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSCalendarPlusSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSCalendarPlusIconDefinition = svgToIconDefinition(
   'ads-calendar-plus'
 );
 
-/**![ADSCalendarPlus](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNC41IDIuNVY0LjVINlYyLjVIMTBWNC41SDExLjVWMi41SDEzQzEzLjI3NiAyLjUgMTMuNSAyLjcyNCAxMy41IDNWNkgyLjVWM0MyLjUgMi43MjQgMi43MjQgMi41IDMgMi41SDQuNVpNMi41IDcuNVYxM0MyLjUgMTMuMjc2IDIuNzI0IDEzLjUgMyAxMy41SDcuNVYxNUgzQzEuODk1IDE1IDEgMTQuMTA1IDEgMTNWM0MxIDEuODk1IDEuODk1IDEgMyAxSDQuNVYwSDZWMUgxMFYwSDExLjVWMUgxM0MxNC4xMDUgMSAxNSAxLjg5NSAxNSAzVjcuNUgyLjVaTTEyLjI1IDEyLjI1VjEwSDEzLjc1VjEyLjI1SDE2VjEzLjc1SDEzLjc1VjE2SDEyLjI1VjEzLjc1SDEwVjEyLjI1SDEyLjI1WiIvPjwvc3ZnPg==) */
+/**![ADSCalendarPlus](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQuNSAyLjVWNC41SDZWMi41SDEwVjQuNUgxMS41VjIuNUgxM0MxMy4yNzYgMi41IDEzLjUgMi43MjQgMTMuNSAzVjZIMi41VjNDMi41IDIuNzI0IDIuNzI0IDIuNSAzIDIuNUg0LjVaTTIuNSA3LjVWMTNDMi41IDEzLjI3NiAyLjcyNCAxMy41IDMgMTMuNUg3LjVWMTVIM0MxLjg5NSAxNSAxIDE0LjEwNSAxIDEzVjNDMSAxLjg5NSAxLjg5NSAxIDMgMUg0LjVWMEg2VjFIMTBWMEgxMS41VjFIMTNDMTQuMTA1IDEgMTUgMS44OTUgMTUgM1Y3LjVIMi41Wk0xMi4yNSAxMi4yNVYxMEgxMy43NVYxMi4yNUgxNlYxMy43NUgxMy43NVYxNkgxMi4yNVYxMy43NUgxMFYxMi4yNUgxMi4yNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSVideoRewindOverlaySvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSVideoRewindOverlayIconDefinition = svgToIconDefinition(
   'ads-video-rewind-overlay'
 );
 
-/**![ADSVideoRewindOverlay](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC4xMzggMy44NDFDMTUuMDE0IDMuNTA0IDE2IDQuMTQ1IDE2IDUuMTI2VjEwLjg3NkMxNiAxMS45MjIgMTQuODc4IDEyLjU4MSAxMy45NjQgMTIuMDgxTDguNzE0IDkuMjA1QzguMjQ4IDguOTUgOC4wMTEgOC40OTIgOC4wMDEgOC4wM1YxMC44NzZDOC4wMDEgMTEuOTIyIDYuODc5IDEyLjU4MSA1Ljk2NSAxMi4wODFMMC43MTQgOS4yMDVDLTAuMjM4IDguNjgzIC0wLjIzOCA3LjMxOCAwLjcxNCA2Ljc5N0w1Ljk2NSAzLjkyMUw2LjEzOCAzLjg0MUM3LjAxNCAzLjUwNCA4LjAwMSA0LjE0NCA4LjAwMSA1LjEyNlY3Ljk2OEM4LjAxMSA3LjUwNyA4LjI0OSA3LjA1MSA4LjcxNCA2Ljc5N0wxMy45NjQgMy45MjFMMTQuMTM4IDMuODQxWiIvPjwvc3ZnPg==) */
+/**![ADSVideoRewindOverlay](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuMTM4IDMuODQxQzE1LjAxNCAzLjUwNCAxNiA0LjE0NSAxNiA1LjEyNlYxMC44NzZDMTYgMTEuOTIyIDE0Ljg3OCAxMi41ODEgMTMuOTY0IDEyLjA4MUw4LjcxNCA5LjIwNUM4LjI0OCA4Ljk1IDguMDExIDguNDkyIDguMDAxIDguMDNWMTAuODc2QzguMDAxIDExLjkyMiA2Ljg3OSAxMi41ODEgNS45NjUgMTIuMDgxTDAuNzE0IDkuMjA1Qy0wLjIzOCA4LjY4MyAtMC4yMzggNy4zMTggMC43MTQgNi43OTdMNS45NjUgMy45MjFMNi4xMzggMy44NDFDNy4wMTQgMy41MDQgOC4wMDEgNC4xNDQgOC4wMDEgNS4xMjZWNy45NjhDOC4wMTEgNy41MDcgOC4yNDkgNy4wNTEgOC43MTQgNi43OTdMMTMuOTY0IDMuOTIxTDE0LjEzOCAzLjg0MVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

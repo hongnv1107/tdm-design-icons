@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSChartTrendDownSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSChartTrendDownIconDefinition = svgToIconDefinition(
   'ads-chart-trend-down'
 );
 
-/**![ADSChartTrendDown](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xIDEzVjFIMi41VjEzQzIuNSAxMy4yNzYgMi43MjQgMTMuNSAzIDEzLjVIMTVWMTVIM0MxLjg5NSAxNSAxIDE0LjEwNSAxIDEzWiIvPjxwYXRoIGQ9Ik0xNSA2SDEzLjVWNy45MzlMOS43OCA0LjIyQzkuNDg3IDMuOTI3IDkuMDEzIDMuOTI3IDguNzIgNC4yMkw3LjI1IDUuNjg5TDUuMDMgMy40N0wzLjk3IDQuNTNMNi43MiA3LjI4TDYuNzc2IDcuMzMyQzcuMDcxIDcuNTcyIDcuNTA2IDcuNTU1IDcuNzggNy4yOEw5LjI1IDUuODExTDEyLjQ0IDlIMTAuNVYxMC41SDE0LjI1QzE0LjY2NCAxMC41IDE1IDEwLjE2NCAxNSA5Ljc1VjZaIi8+PC9zdmc+) */
+/**![ADSChartTrendDown](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMSAxM1YxSDIuNVYxM0MyLjUgMTMuMjc2IDIuNzI0IDEzLjUgMyAxMy41SDE1VjE1SDNDMS44OTUgMTUgMSAxNC4xMDUgMSAxM1oiLz48cGF0aCBkPSJNMTUgNkgxMy41VjcuOTM5TDkuNzggNC4yMkM5LjQ4NyAzLjkyNyA5LjAxMyAzLjkyNyA4LjcyIDQuMjJMNy4yNSA1LjY4OUw1LjAzIDMuNDdMMy45NyA0LjUzTDYuNzIgNy4yOEw2Ljc3NiA3LjMzMkM3LjA3MSA3LjU3MiA3LjUwNiA3LjU1NSA3Ljc4IDcuMjhMOS4yNSA1LjgxMUwxMi40NCA5SDEwLjVWMTAuNUgxNC4yNUMxNC42NjQgMTAuNSAxNSAxMC4xNjQgMTUgOS43NVY2WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

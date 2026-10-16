@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSAlertSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSAlertIconDefinition = svgToIconDefinition(
   'ads-alert'
 );
 
-/**![ADSAlert](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOC43NSAwVjNINy4yNVYwSDguNzVaTTIuMTIzIDEuMDYzTDQuMTcxIDMuMTExTDMuMTExIDQuMTcyTDEuMDYzIDIuMTIzTDIuMTIzIDEuMDYzWk0xNC45MzcgMi4xMjNMMTIuODg5IDQuMTcyTDExLjgyOCAzLjExMUwxMy44NzYgMS4wNjNMMTQuOTM3IDIuMTIzWk00LjE5NSA1Ljg3NUM0LjI2IDUuMDk4IDQuOTEgNC41IDUuNjkgNC41SDEwLjMxQzExLjA5IDQuNSAxMS43NCA1LjA5OCAxMS44MDQgNS44NzVMMTIuNDQgMTMuNUgxNFYxNUgyVjEzLjVIMy41Nkw0LjE5NSA1Ljg3NVpNNS4wNjUgMTMuNUgxMC45MzVMMTAuMzEgNkw1LjY5IDZMNS4wNjUgMTMuNVoiLz48L3N2Zz4=) */
+/**![ADSAlert](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTguNzUgMFYzSDcuMjVWMEg4Ljc1Wk0yLjEyMyAxLjA2M0w0LjE3MSAzLjExMUwzLjExMSA0LjE3MkwxLjA2MyAyLjEyM0wyLjEyMyAxLjA2M1pNMTQuOTM3IDIuMTIzTDEyLjg4OSA0LjE3MkwxMS44MjggMy4xMTFMMTMuODc2IDEuMDYzTDE0LjkzNyAyLjEyM1pNNC4xOTUgNS44NzVDNC4yNiA1LjA5OCA0LjkxIDQuNSA1LjY5IDQuNUgxMC4zMUMxMS4wOSA0LjUgMTEuNzQgNS4wOTggMTEuODA0IDUuODc1TDEyLjQ0IDEzLjVIMTRWMTVIMlYxMy41SDMuNTZMNC4xOTUgNS44NzVaTTUuMDY1IDEzLjVIMTAuOTM1TDEwLjMxIDZMNS42OSA2TDUuMDY1IDEzLjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSLayoutTwoColumnsSidebarRightSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSLayoutTwoColumnsSidebarRightIconDefinition = svgToIconDefinition(
   'ads-layout-two-columns-sidebar-right'
 );
 
-/**![ADSLayoutTwoColumnsSidebarRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMCAyLjM3NUMwIDEuNjE2IDAuNjE2IDEgMS4zNzUgMUg5LjEyNUM5Ljg4NCAxIDEwLjUgMS42MTYgMTAuNSAyLjM3NVYxMy42MjVDMTAuNSAxNC4zODQgOS44ODQgMTUgOS4xMjUgMTVIMS4zNzVDMC42MTYgMTUgMCAxNC4zODQgMCAxMy42MjVWMi4zNzVaTTEuNSAyLjVWMTMuNUg5VjIuNUgxLjVaTTEyIDIuMzc1QzEyIDEuNjE2IDEyLjYxNiAxIDEzLjM3NSAxSDE0LjYyNUMxNS4zODQgMSAxNiAxLjYxNiAxNiAyLjM3NVYxMy42MjVDMTYgMTQuMzg0IDE1LjM4NCAxNSAxNC42MjUgMTVIMTMuMzc1QzEyLjYxNiAxNSAxMiAxNC4zODQgMTIgMTMuNjI1VjIuMzc1Wk0xMy41IDIuNVYxMy41SDE0LjVWMi41SDEzLjVaIi8+PC9zdmc+) */
+/**![ADSLayoutTwoColumnsSidebarRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTAgMi4zNzVDMCAxLjYxNiAwLjYxNiAxIDEuMzc1IDFIOS4xMjVDOS44ODQgMSAxMC41IDEuNjE2IDEwLjUgMi4zNzVWMTMuNjI1QzEwLjUgMTQuMzg0IDkuODg0IDE1IDkuMTI1IDE1SDEuMzc1QzAuNjE2IDE1IDAgMTQuMzg0IDAgMTMuNjI1VjIuMzc1Wk0xLjUgMi41VjEzLjVIOVYyLjVIMS41Wk0xMiAyLjM3NUMxMiAxLjYxNiAxMi42MTYgMSAxMy4zNzUgMUgxNC42MjVDMTUuMzg0IDEgMTYgMS42MTYgMTYgMi4zNzVWMTMuNjI1QzE2IDE0LjM4NCAxNS4zODQgMTUgMTQuNjI1IDE1SDEzLjM3NUMxMi42MTYgMTUgMTIgMTQuMzg0IDEyIDEzLjYyNVYyLjM3NVpNMTMuNSAyLjVWMTMuNUgxNC41VjIuNUgxMy41WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

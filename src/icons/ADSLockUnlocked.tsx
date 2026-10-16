@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSLockUnlockedSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSLockUnlockedIconDefinition = svgToIconDefinition(
   'ads-lock-unlocked'
 );
 
-/**![ADSLockUnlocked](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxLjVDNi42MTkgMS41IDUuNSAyLjYxOSA1LjUgNFY3SDEyQzEzLjEwNSA3IDE0IDcuODk1IDE0IDlWMTRDMTQgMTUuMTA1IDEzLjEwNSAxNiAxMiAxNkg0QzIuODk1IDE2IDIgMTUuMTA1IDIgMTRWOUMyIDcuODk1IDIuODk1IDcgNCA3VjRDNCAxLjc5MSA1Ljc5MSAwIDggMEMxMC4yMDkgMCAxMiAxLjc5MSAxMiA0SDEwLjVDMTAuNSAyLjYxOSA5LjM4MSAxLjUgOCAxLjVaTTQgOC41QzMuNzI0IDguNSAzLjUgOC43MjQgMy41IDlWMTRDMy41IDE0LjI3NiAzLjcyNCAxNC41IDQgMTQuNUgxMkMxMi4yNzYgMTQuNSAxMi41IDE0LjI3NiAxMi41IDE0VjlDMTIuNSA4LjcyNCAxMi4yNzYgOC41IDEyIDguNUg0WiIvPjwvc3ZnPg==) */
+/**![ADSLockUnlocked](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTggMS41QzYuNjE5IDEuNSA1LjUgMi42MTkgNS41IDRWN0gxMkMxMy4xMDUgNyAxNCA3Ljg5NSAxNCA5VjE0QzE0IDE1LjEwNSAxMy4xMDUgMTYgMTIgMTZINEMyLjg5NSAxNiAyIDE1LjEwNSAyIDE0VjlDMiA3Ljg5NSAyLjg5NSA3IDQgN1Y0QzQgMS43OTEgNS43OTEgMCA4IDBDMTAuMjA5IDAgMTIgMS43OTEgMTIgNEgxMC41QzEwLjUgMi42MTkgOS4zODEgMS41IDggMS41Wk00IDguNUMzLjcyNCA4LjUgMy41IDguNzI0IDMuNSA5VjE0QzMuNSAxNC4yNzYgMy43MjQgMTQuNSA0IDE0LjVIMTJDMTIuMjc2IDE0LjUgMTIuNSAxNC4yNzYgMTIuNSAxNFY5QzEyLjUgOC43MjQgMTIuMjc2IDguNSAxMiA4LjVINFoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

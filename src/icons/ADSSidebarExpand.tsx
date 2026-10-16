@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSSidebarExpandSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSSidebarExpandIconDefinition = svgToIconDefinition(
   'ads-sidebar-expand'
 );
 
-/**![ADSSidebarExpand](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTQgMi41QzE0LjI3NiAyLjUgMTQuNSAyLjcyNCAxNC41IDNWMTNDMTQuNSAxMy4yNzYgMTQuMjc2IDEzLjUgMTQgMTMuNUgxMlYyLjVIMTRaTTEwLjUgMi41VjEzLjVIMkMxLjcyNCAxMy41IDEuNSAxMy4yNzYgMS41IDEzVjNDMS41IDIuNzI0IDEuNzI0IDIuNSAyIDIuNUgxMC41Wk0xNiAzQzE2IDEuODk1IDE1LjEwNSAxIDE0IDFIMkMwLjg5NSAxIDAgMS44OTUgMCAzVjEzQzAgMTQuMTA1IDAuODk1IDE1IDIgMTVIMTRDMTUuMTA1IDE1IDE2IDE0LjEwNSAxNiAxM1YzWk04LjAzIDcuNDdMNS41MyA0Ljk3TDQuNDcgNi4wM0w2LjQzOSA4TDQuNDcgOS45N0w1LjUzIDExLjAzTDguMDMgOC41M0M4LjMyMyA4LjIzNyA4LjMyMyA3Ljc2MyA4LjAzIDcuNDdaIi8+PC9zdmc+) */
+/**![ADSSidebarExpand](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0IDIuNUMxNC4yNzYgMi41IDE0LjUgMi43MjQgMTQuNSAzVjEzQzE0LjUgMTMuMjc2IDE0LjI3NiAxMy41IDE0IDEzLjVIMTJWMi41SDE0Wk0xMC41IDIuNVYxMy41SDJDMS43MjQgMTMuNSAxLjUgMTMuMjc2IDEuNSAxM1YzQzEuNSAyLjcyNCAxLjcyNCAyLjUgMiAyLjVIMTAuNVpNMTYgM0MxNiAxLjg5NSAxNS4xMDUgMSAxNCAxSDJDMC44OTUgMSAwIDEuODk1IDAgM1YxM0MwIDE0LjEwNSAwLjg5NSAxNSAyIDE1SDE0QzE1LjEwNSAxNSAxNiAxNC4xMDUgMTYgMTNWM1pNOC4wMyA3LjQ3TDUuNTMgNC45N0w0LjQ3IDYuMDNMNi40MzkgOEw0LjQ3IDkuOTdMNS41MyAxMS4wM0w4LjAzIDguNTNDOC4zMjMgOC4yMzcgOC4zMjMgNy43NjMgOC4wMyA3LjQ3WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

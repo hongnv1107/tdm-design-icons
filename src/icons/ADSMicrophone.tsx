@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSMicrophoneSvg = (
   <svg
-    width="24"
-    height="24"
-    viewBox="-4 -4 24 24"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSMicrophoneIconDefinition = svgToIconDefinition(
   'ads-microphone'
 );
 
-/**![ADSMicrophone](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxLjVDNy4xNzIgMS41IDYuNSAyLjE3MiA2LjUgM1Y3QzYuNSA3LjgyOCA3LjE3MiA4LjUgOCA4LjVDOC44MjggOC41IDkuNSA3LjgyOCA5LjUgN1YzQzkuNSAyLjE3MiA4LjgyOCAxLjUgOCAxLjVaTTUgM0M1IDEuMzQzIDYuMzQzIDAgOCAwQzkuNjU3IDAgMTEgMS4zNDMgMTEgM1Y3QzExIDguNjU3IDkuNjU3IDEwIDggMTBDNi4zNDMgMTAgNSA4LjY1NyA1IDdWM1pNMy41IDdDMy41IDkuNDg1IDUuNTE1IDExLjUgOCAxMS41QzEwLjQ4NSAxMS41IDEyLjUgOS40ODUgMTIuNSA3SDE0QzE0IDEwLjA2IDExLjcxIDEyLjU4NSA4Ljc1IDEyLjk1NFYxNC41SDEyVjE2SDRWMTQuNUg3LjI1VjEyLjk1NEM0LjI5IDEyLjU4NSAyIDEwLjA2IDIgN0gzLjVaIi8+PC9zdmc+) */
+/**![ADSMicrophone](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTggMS41QzcuMTcyIDEuNSA2LjUgMi4xNzIgNi41IDNWN0M2LjUgNy44MjggNy4xNzIgOC41IDggOC41QzguODI4IDguNSA5LjUgNy44MjggOS41IDdWM0M5LjUgMi4xNzIgOC44MjggMS41IDggMS41Wk01IDNDNSAxLjM0MyA2LjM0MyAwIDggMEM5LjY1NyAwIDExIDEuMzQzIDExIDNWN0MxMSA4LjY1NyA5LjY1NyAxMCA4IDEwQzYuMzQzIDEwIDUgOC42NTcgNSA3VjNaTTMuNSA3QzMuNSA5LjQ4NSA1LjUxNSAxMS41IDggMTEuNUMxMC40ODUgMTEuNSAxMi41IDkuNDg1IDEyLjUgN0gxNEMxNCAxMC4wNiAxMS43MSAxMi41ODUgOC43NSAxMi45NTRWMTQuNUgxMlYxNkg0VjE0LjVINy4yNVYxMi45NTRDNC4yOSAxMi41ODUgMiAxMC4wNiAyIDdIMy41WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
