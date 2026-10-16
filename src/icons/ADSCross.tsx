@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSCrossSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSCrossIconDefinition = svgToIconDefinition(
   'ads-cross'
 );
 
-/**![ADSCross](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTMuNTMgMy41M0w5LjA2MSA4TDEzLjUzIDEyLjQ3TDEyLjQ3IDEzLjUzTDggOS4wNjFMMy41MyAxMy41M0wyLjQ3IDEyLjQ3TDYuOTM5IDhMMi40NyAzLjUzTDMuNTMgMi40N0w4IDYuOTM5TDEyLjQ3IDIuNDdMMTMuNTMgMy41M1oiLz48L3N2Zz4=) */
+/**![ADSCross](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMy41MyAzLjUzTDkuMDYxIDhMMTMuNTMgMTIuNDdMMTIuNDcgMTMuNTNMOCA5LjA2MUwzLjUzIDEzLjUzTDIuNDcgMTIuNDdMNi45MzkgOEwyLjQ3IDMuNTNMMy41MyAyLjQ3TDggNi45MzlMMTIuNDcgMi40N0wxMy41MyAzLjUzWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSFilterSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSFilterIconDefinition = svgToIconDefinition(
   'ads-filter'
 );
 
-/**![ADSFilter](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTEgMTJWMTMuNUg1VjEySDExWk0xMyA3LjI1VjguNzVMMyA4Ljc1VjcuMjVMMTMgNy4yNVpNMTUgMi41VjRMMSA0TDEgMi41TDE1IDIuNVoiLz48L3N2Zz4=) */
+/**![ADSFilter](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMSAxMlYxMy41SDVWMTJIMTFaTTEzIDcuMjVWOC43NUwzIDguNzVWNy4yNUwxMyA3LjI1Wk0xNSAyLjVWNEwxIDRMMSAyLjVMMTUgMi41WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

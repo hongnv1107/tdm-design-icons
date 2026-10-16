@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSCheckMarkSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSCheckMarkIconDefinition = svgToIconDefinition(
   'ads-check-mark'
 );
 
-/**![ADSCheckMark](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTMuOTU5IDMuOTcxTDYuNzA5IDEyLjk3MUM2LjU2OCAxMy4xNDYgNi4zNTQgMTMuMjQ5IDYuMTI5IDEzLjI1QzUuOTAzIDEzLjI1MSA1LjY4OSAxMy4xNTEgNS41NDYgMTIuOTc3TDIuMDQ2IDguNzI3TDMuMjA0IDcuNzczTDYuMTE4IDExLjMxMkwxMi43OTEgMy4wMjlMMTMuOTU5IDMuOTcxWiIvPjwvc3ZnPg==) */
+/**![ADSCheckMark](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMy45NTkgMy45NzFMNi43MDkgMTIuOTcxQzYuNTY4IDEzLjE0NiA2LjM1NCAxMy4yNDkgNi4xMjkgMTMuMjVDNS45MDMgMTMuMjUxIDUuNjg5IDEzLjE1MSA1LjU0NiAxMi45NzdMMi4wNDYgOC43MjdMMy4yMDQgNy43NzNMNi4xMTggMTEuMzEyTDEyLjc5MSAzLjAyOUwxMy45NTkgMy45NzFaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

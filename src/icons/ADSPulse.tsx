@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSPulseSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSPulseIconDefinition = svgToIconDefinition(
   'ads-pulse'
 );
 
-/**![ADSPulse](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuMjUgMUM2LjU4NiAxIDYuODgyIDEuMjI0IDYuOTcyIDEuNTQ4TDkuNzUgMTEuNDY4TDEwLjc3OCA3Ljc5OEMxMC44NjkgNy40NzQgMTEuMTY0IDcuMjUgMTEuNSA3LjI1SDE2VjguNzVIMTIuMDY5TDEwLjQ3MiAxNC40NTJDMTAuMzgyIDE0Ljc3NiAxMC4wODYgMTUgOS43NSAxNUM5LjQxNCAxNSA5LjExOCAxNC43NzYgOS4wMjggMTQuNDUyTDYuMjUgNC41MzJMNS4yMjIgOC4yMDJDNS4xMzIgOC41MjYgNC44MzYgOC43NSA0LjUgOC43NUgwVjcuMjVIMy45MzFMNS41MjggMS41NDhDNS42MTggMS4yMjQgNS45MTQgMSA2LjI1IDFaIi8+PC9zdmc+) */
+/**![ADSPulse](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNi4yNSAxQzYuNTg2IDEgNi44ODIgMS4yMjQgNi45NzIgMS41NDhMOS43NSAxMS40NjhMMTAuNzc4IDcuNzk4QzEwLjg2OSA3LjQ3NCAxMS4xNjQgNy4yNSAxMS41IDcuMjVIMTZWOC43NUgxMi4wNjlMMTAuNDcyIDE0LjQ1MkMxMC4zODIgMTQuNzc2IDEwLjA4NiAxNSA5Ljc1IDE1QzkuNDE0IDE1IDkuMTE4IDE0Ljc3NiA5LjAyOCAxNC40NTJMNi4yNSA0LjUzMkw1LjIyMiA4LjIwMkM1LjEzMiA4LjUyNiA0LjgzNiA4Ljc1IDQuNSA4Ljc1SDBWNy4yNUgzLjkzMUw1LjUyOCAxLjU0OEM1LjYxOCAxLjIyNCA1LjkxNCAxIDYuMjUgMVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSFieldSelectSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSFieldSelectIconDefinition = svgToIconDefinition(
   'ads-field-select'
 );
 
-/**![ADSFieldSelect](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSA4QzE0LjUgNC40MSAxMS41OSAxLjUgOCAxLjVDNC40MSAxLjUgMS41IDQuNDEgMS41IDhDMS41IDExLjU5IDQuNDEgMTQuNSA4IDE0LjVDMTEuNTkgMTQuNSAxNC41IDExLjU5IDE0LjUgOFpNMTYgOEMxNiAxMi40MTggMTIuNDE4IDE2IDggMTZDMy41ODIgMTYgMCAxMi40MTggMCA4QzAgMy41ODIgMy41ODIgMCA4IDBDMTIuNDE4IDAgMTYgMy41ODIgMTYgOFoiLz48cGF0aCBkPSJNMTIuMDMxIDcuMjc5TDguNTMxIDEwLjc3OUM4LjIzOCAxMS4wNzIgNy43NjMgMTEuMDcyIDcuNDcgMTAuNzc5TDMuOTcgNy4yNzlMNS4wMzEgNi4yMTlMOCA5LjE4OEwxMC45NyA2LjIxOUwxMi4wMzEgNy4yNzlaIi8+PC9zdmc+) */
+/**![ADSFieldSelect](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41IDhDMTQuNSA0LjQxIDExLjU5IDEuNSA4IDEuNUM0LjQxIDEuNSAxLjUgNC40MSAxLjUgOEMxLjUgMTEuNTkgNC40MSAxNC41IDggMTQuNUMxMS41OSAxNC41IDE0LjUgMTEuNTkgMTQuNSA4Wk0xNiA4QzE2IDEyLjQxOCAxMi40MTggMTYgOCAxNkMzLjU4MiAxNiAwIDEyLjQxOCAwIDhDMCAzLjU4MiAzLjU4MiAwIDggMEMxMi40MTggMCAxNiAzLjU4MiAxNiA4WiIvPjxwYXRoIGQ9Ik0xMi4wMzEgNy4yNzlMOC41MzEgMTAuNzc5QzguMjM4IDExLjA3MiA3Ljc2MyAxMS4wNzIgNy40NyAxMC43NzlMMy45NyA3LjI3OUw1LjAzMSA2LjIxOUw4IDkuMTg4TDEwLjk3IDYuMjE5TDEyLjAzMSA3LjI3OVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

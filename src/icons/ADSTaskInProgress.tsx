@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTaskInProgressSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTaskInProgressIconDefinition = svgToIconDefinition(
   'ads-task-in-progress'
 );
 
-/**![ADSTaskInProgress](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEuNTQzIDcuMjVIOS4xODlMNi45NyA1LjAzTDguMDMgMy45N0wxMS41MyA3LjQ3QzExLjY3MSA3LjYxIDExLjc1IDcuODAxIDExLjc1IDhDMTEuNzUgOC4xOTkgMTEuNjcxIDguMzkgMTEuNTMgOC41M0w4LjAzIDEyLjAzTDYuOTcgMTAuOTdMOS4xODkgOC43NUgxLjU0M0MxLjkxNSAxMS45ODcgNC42NjQgMTQuNSA4IDE0LjVDMTEuNTkgMTQuNSAxNC41IDExLjU5IDE0LjUgOEMxNC41IDQuNDEgMTEuNTkgMS41IDggMS41QzQuNjY0IDEuNSAxLjkxNSA0LjAxMyAxLjU0MyA3LjI1Wk0wIDhDMCAzLjU4MiAzLjU4MiAwIDggMEMxMi40MTggMCAxNiAzLjU4MiAxNiA4QzE2IDEyLjQxOCAxMi40MTggMTYgOCAxNkMzLjU4MiAxNiAwIDEyLjQxOCAwIDhaIi8+PC9zdmc+) */
+/**![ADSTaskInProgress](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMS41NDMgNy4yNUg5LjE4OUw2Ljk3IDUuMDNMOC4wMyAzLjk3TDExLjUzIDcuNDdDMTEuNjcxIDcuNjEgMTEuNzUgNy44MDEgMTEuNzUgOEMxMS43NSA4LjE5OSAxMS42NzEgOC4zOSAxMS41MyA4LjUzTDguMDMgMTIuMDNMNi45NyAxMC45N0w5LjE4OSA4Ljc1SDEuNTQzQzEuOTE1IDExLjk4NyA0LjY2NCAxNC41IDggMTQuNUMxMS41OSAxNC41IDE0LjUgMTEuNTkgMTQuNSA4QzE0LjUgNC40MSAxMS41OSAxLjUgOCAxLjVDNC42NjQgMS41IDEuOTE1IDQuMDEzIDEuNTQzIDcuMjVaTTAgOEMwIDMuNTgyIDMuNTgyIDAgOCAwQzEyLjQxOCAwIDE2IDMuNTgyIDE2IDhDMTYgMTIuNDE4IDEyLjQxOCAxNiA4IDE2QzMuNTgyIDE2IDAgMTIuNDE4IDAgOFoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

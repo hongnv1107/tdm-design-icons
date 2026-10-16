@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSFlaskSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSFlaskIconDefinition = svgToIconDefinition(
   'ads-flask'
 );
 
-/**![ADSFlask](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTEuMjUgMVYyLjVIMTAuNVYzLjg1OUwxMy43ODMgMTIuMjczQzE0LjI5NSAxMy41ODQgMTMuMzI4IDE1IDExLjkyIDE1SDQuMDhDMi42NzIgMTUgMS43MDUgMTMuNTg0IDIuMjE3IDEyLjI3M0w1LjUgMy44NTlWMi41SDQuNzVWMUgxMS4yNVpNMy42MTQgMTIuODE4QzMuNDg2IDEzLjE0NiAzLjcyOCAxMy41IDQuMDggMTMuNUgxMS45MkMxMi4yNzIgMTMuNSAxMi41MTQgMTMuMTQ2IDEyLjM4NiAxMi44MThMMTAuODk3IDlINS4xMDRMMy42MTQgMTIuODE4Wk03IDRDNyA0LjA5MyA2Ljk4MiA0LjE4NiA2Ljk0OCA0LjI3Mkw1LjY5IDcuNUgxMC4zMTFMOS4wNTIgNC4yNzJDOS4wMTggNC4xODYgOSA0LjA5MyA5IDRWMi41SDdWNFoiLz48L3N2Zz4=) */
+/**![ADSFlask](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMS4yNSAxVjIuNUgxMC41VjMuODU5TDEzLjc4MyAxMi4yNzNDMTQuMjk1IDEzLjU4NCAxMy4zMjggMTUgMTEuOTIgMTVINC4wOEMyLjY3MiAxNSAxLjcwNSAxMy41ODQgMi4yMTcgMTIuMjczTDUuNSAzLjg1OVYyLjVINC43NVYxSDExLjI1Wk0zLjYxNCAxMi44MThDMy40ODYgMTMuMTQ2IDMuNzI4IDEzLjUgNC4wOCAxMy41SDExLjkyQzEyLjI3MiAxMy41IDEyLjUxNCAxMy4xNDYgMTIuMzg2IDEyLjgxOEwxMC44OTcgOUg1LjEwNEwzLjYxNCAxMi44MThaTTcgNEM3IDQuMDkzIDYuOTgyIDQuMTg2IDYuOTQ4IDQuMjcyTDUuNjkgNy41SDEwLjMxMUw5LjA1MiA0LjI3MkM5LjAxOCA0LjE4NiA5IDQuMDkzIDkgNFYyLjVIN1Y0WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

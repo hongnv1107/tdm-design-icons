@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSStatusWorkflowDangerSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSStatusWorkflowDangerIconDefinition = svgToIconDefinition(
   'ads-status-workflow-danger'
 );
 
-/**![ADSStatusWorkflowDanger](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTggMEMxMi40MTggMCAxNiAzLjU4MiAxNiA4QzE2IDEyLjQxOCAxMi40MTggMTYgOCAxNkMzLjU4MiAxNiAwIDEyLjQxOCAwIDhDMCAzLjU4MiAzLjU4MiAwIDggMFpNOCAxMC41QzcuNDQ4IDEwLjUgNyAxMC45NDggNyAxMS41QzcgMTIuMDUyIDcuNDQ4IDEyLjUgOCAxMi41QzguNTUyIDEyLjUgOSAxMi4wNTIgOSAxMS41QzkgMTAuOTQ4IDguNTUyIDEwLjUgOCAxMC41Wk03LjI1IDMuNVY5SDguNzVWMy41SDcuMjVaIi8+PC9zdmc+) */
+/**![ADSStatusWorkflowDanger](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAwQzEyLjQxOCAwIDE2IDMuNTgyIDE2IDhDMTYgMTIuNDE4IDEyLjQxOCAxNiA4IDE2QzMuNTgyIDE2IDAgMTIuNDE4IDAgOEMwIDMuNTgyIDMuNTgyIDAgOCAwWk04IDEwLjVDNy40NDggMTAuNSA3IDEwLjk0OCA3IDExLjVDNyAxMi4wNTIgNy40NDggMTIuNSA4IDEyLjVDOC41NTIgMTIuNSA5IDEyLjA1MiA5IDExLjVDOSAxMC45NDggOC41NTIgMTAuNSA4IDEwLjVaTTcuMjUgMy41VjlIOC43NVYzLjVINy4yNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

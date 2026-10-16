@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSChevronRightSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSChevronRightIconDefinition = svgToIconDefinition(
   'ads-chevron-right'
 );
 
-/**![ADSChevronRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNi4wMyAxLjQ3TDEyLjAzIDcuNDdDMTIuMzA1IDcuNzQ0IDEyLjMyMiA4LjE3OSAxMi4wODIgOC40NzRMMTIuMDMgOC41M0w2LjAzIDE0LjUzTDQuOTcgMTMuNDdMMTAuNDQgOEw0Ljk3IDIuNTNMNi4wMyAxLjQ3WiIvPjwvc3ZnPg==) */
+/**![ADSChevronRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik02LjAzIDEuNDdMMTIuMDMgNy40N0MxMi4zMDUgNy43NDQgMTIuMzIyIDguMTc5IDEyLjA4MiA4LjQ3NEwxMi4wMyA4LjUzTDYuMDMgMTQuNTNMNC45NyAxMy40N0wxMC40NCA4TDQuOTcgMi41M0w2LjAzIDEuNDdaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

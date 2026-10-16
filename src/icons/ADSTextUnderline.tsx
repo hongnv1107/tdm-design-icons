@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTextUnderlineSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTextUnderlineIconDefinition = svgToIconDefinition(
   'ads-text-underline'
 );
 
-/**![ADSTextUnderline](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMuNSA4VjFINVY4QzUgOS42NTcgNi4zNDMgMTEgOCAxMUM5LjY1NyAxMSAxMSA5LjY1NyAxMSA4VjFIMTIuNVY4QzEyLjUgMTAuNDg1IDEwLjQ4NSAxMi41IDggMTIuNUM1LjUxNSAxMi41IDMuNSAxMC40ODUgMy41IDhaTTAgMTZWMTQuNUgxNlYxNkgwWiIvPjwvc3ZnPg==) */
+/**![ADSTextUnderline](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMy41IDhWMUg1VjhDNSA5LjY1NyA2LjM0MyAxMSA4IDExQzkuNjU3IDExIDExIDkuNjU3IDExIDhWMUgxMi41VjhDMTIuNSAxMC40ODUgMTAuNDg1IDEyLjUgOCAxMi41QzUuNTE1IDEyLjUgMy41IDEwLjQ4NSAzLjUgOFpNMCAxNlYxNC41SDE2VjE2SDBaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

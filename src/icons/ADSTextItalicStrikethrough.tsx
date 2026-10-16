@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTextItalicStrikethroughSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTextItalicStrikethroughIconDefinition = svgToIconDefinition(
   'ads-text-italic-strikethrough'
 );
 
-/**![ADSTextItalicStrikethrough](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNiAxSDEyLjVWMi41SDEwLjA5MUw5LjMxMSA1Ljc1SDcuNzY5TDguNTQ5IDIuNUg2VjFaIi8+PHBhdGggZD0iTTYuNjg5IDEwLjI1SDguMjMxTDcuNDUxIDEzLjVIMTBWMTVIMy41VjEzLjVINS45MDlMNi42ODkgMTAuMjVaIi8+PHBhdGggZD0iTTE1IDcuMjVIMVY4Ljc1SDE1VjcuMjVaIi8+PC9zdmc+) */
+/**![ADSTextItalicStrikethrough](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik02IDFIMTIuNVYyLjVIMTAuMDkxTDkuMzExIDUuNzVINy43NjlMOC41NDkgMi41SDZWMVoiLz48cGF0aCBkPSJNNi42ODkgMTAuMjVIOC4yMzFMNy40NTEgMTMuNUgxMFYxNUgzLjVWMTMuNUg1LjkwOUw2LjY4OSAxMC4yNVoiLz48cGF0aCBkPSJNMTUgNy4yNUgxVjguNzVIMTVWNy4yNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

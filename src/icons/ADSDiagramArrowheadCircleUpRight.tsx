@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramArrowheadCircleUpRightSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramArrowheadCircleUpRightIconDefinition = svgToIconDefinition(
   'ads-diagram-arrowhead-circle-up-right'
 );
 
-/**![ADSDiagramArrowheadCircleUpRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNOC45MTcgMi40ODhDMTAuMTg2IDEuMjE5IDEyLjI0NCAxLjIxOSAxMy41MTMgMi40ODhDMTQuNzgyIDMuNzU3IDE0Ljc4MiA1LjgxNSAxMy41MTMgNy4wODRDMTIuNDI2IDguMTcxIDEwLjc2MiA4LjMyNiA5LjUwOSA3LjU1MkwyLjcyOSAxNC4zMzJMMS42NjkgMTMuMjcxTDguNDQ4IDYuNDkxQzcuNjc1IDUuMjM4IDcuODMxIDMuNTc1IDguOTE3IDIuNDg4Wk0xMi40NTIgMy41NDlDMTEuNzY5IDIuODY1IDEwLjY2MSAyLjg2NSA5Ljk3OCAzLjU0OUM5LjI5NCA0LjIzMiA5LjI5NCA1LjM0IDkuOTc4IDYuMDIzQzEwLjY2MSA2LjcwNyAxMS43NjkgNi43MDcgMTIuNDUyIDYuMDIzQzEzLjEzNiA1LjM0IDEzLjEzNiA0LjIzMiAxMi40NTIgMy41NDlaIi8+PC9zdmc+) */
+/**![ADSDiagramArrowheadCircleUpRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik04LjkxNyAyLjQ4OEMxMC4xODYgMS4yMTkgMTIuMjQ0IDEuMjE5IDEzLjUxMyAyLjQ4OEMxNC43ODIgMy43NTcgMTQuNzgyIDUuODE1IDEzLjUxMyA3LjA4NEMxMi40MjYgOC4xNzEgMTAuNzYyIDguMzI2IDkuNTA5IDcuNTUyTDIuNzI5IDE0LjMzMkwxLjY2OSAxMy4yNzFMOC40NDggNi40OTFDNy42NzUgNS4yMzggNy44MzEgMy41NzUgOC45MTcgMi40ODhaTTEyLjQ1MiAzLjU0OUMxMS43NjkgMi44NjUgMTAuNjYxIDIuODY1IDkuOTc4IDMuNTQ5QzkuMjk0IDQuMjMyIDkuMjk0IDUuMzQgOS45NzggNi4wMjNDMTAuNjYxIDYuNzA3IDExLjc2OSA2LjcwNyAxMi40NTIgNi4wMjNDMTMuMTM2IDUuMzQgMTMuMTM2IDQuMjMyIDEyLjQ1MiAzLjU0OVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

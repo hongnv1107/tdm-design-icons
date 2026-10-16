@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSLogInSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSLogInIconDefinition = svgToIconDefinition(
   'ads-log-in'
 );
 
-/**![ADSLogIn](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzIDIuNUg4VjFIMTNDMTQuMTA1IDEgMTUgMS44OTUgMTUgM1YxM0MxNSAxNC4xMDUgMTQuMTA1IDE1IDEzIDE1SDhWMTMuNUgxM0MxMy4yNzYgMTMuNSAxMy41IDEzLjI3NiAxMy41IDEzVjNDMTMuNSAyLjcyNCAxMy4yNzYgMi41IDEzIDIuNVpNNy40MzkgNy4yNUw1LjIyIDUuMDNMNi4yOCAzLjk3TDkuNzggNy40N0MxMC4wNzMgNy43NjMgMTAuMDczIDguMjM3IDkuNzggOC41M0w2LjI4IDEyLjAzTDUuMjIgMTAuOTdMNy40MzkgOC43NUgxVjcuMjVINy40MzlaIi8+PC9zdmc+) */
+/**![ADSLogIn](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTMgMi41SDhWMUgxM0MxNC4xMDUgMSAxNSAxLjg5NSAxNSAzVjEzQzE1IDE0LjEwNSAxNC4xMDUgMTUgMTMgMTVIOFYxMy41SDEzQzEzLjI3NiAxMy41IDEzLjUgMTMuMjc2IDEzLjUgMTNWM0MxMy41IDIuNzI0IDEzLjI3NiAyLjUgMTMgMi41Wk03LjQzOSA3LjI1TDUuMjIgNS4wM0w2LjI4IDMuOTdMOS43OCA3LjQ3QzEwLjA3MyA3Ljc2MyAxMC4wNzMgOC4yMzcgOS43OCA4LjUzTDYuMjggMTIuMDNMNS4yMiAxMC45N0w3LjQzOSA4Ljc1SDFWNy4yNUg3LjQzOVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

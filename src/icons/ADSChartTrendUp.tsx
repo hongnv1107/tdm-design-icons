@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSChartTrendUpSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSChartTrendUpIconDefinition = svgToIconDefinition(
   'ads-chart-trend-up'
 );
 
-/**![ADSChartTrendUp](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMSAxM1YxSDIuNVYxM0MyLjUgMTMuMjc2IDIuNzI0IDEzLjUgMyAxMy41SDE1VjE1SDNDMS44OTUgMTUgMSAxNC4xMDUgMSAxM1oiLz48cGF0aCBkPSJNMTUgNy41SDEzLjVWNS41NjFMOS43OCA5LjI4QzkuNDg3IDkuNTczIDkuMDEzIDkuNTczIDguNzIgOS4yOEw3LjI1IDcuODExTDUuMDMgMTAuMDNMMy45NyA4Ljk3TDYuNzIgNi4yMkw2Ljc3NiA2LjE2OEM3LjA3MSA1LjkyOCA3LjUwNiA1Ljk0NSA3Ljc4IDYuMjJMOS4yNSA3LjY4OUwxMi40NCA0LjVIMTAuNVYzSDE0LjI1QzE0LjY2NCAzIDE1IDMuMzM2IDE1IDMuNzVWNy41WiIvPjwvc3ZnPg==) */
+/**![ADSChartTrendUp](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xIDEzVjFIMi41VjEzQzIuNSAxMy4yNzYgMi43MjQgMTMuNSAzIDEzLjVIMTVWMTVIM0MxLjg5NSAxNSAxIDE0LjEwNSAxIDEzWiIvPjxwYXRoIGQ9Ik0xNSA3LjVIMTMuNVY1LjU2MUw5Ljc4IDkuMjhDOS40ODcgOS41NzMgOS4wMTMgOS41NzMgOC43MiA5LjI4TDcuMjUgNy44MTFMNS4wMyAxMC4wM0wzLjk3IDguOTdMNi43MiA2LjIyTDYuNzc2IDYuMTY4QzcuMDcxIDUuOTI4IDcuNTA2IDUuOTQ1IDcuNzggNi4yMkw5LjI1IDcuNjg5TDEyLjQ0IDQuNUgxMC41VjNIMTQuMjVDMTQuNjY0IDMgMTUgMy4zMzYgMTUgMy43NVY3LjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

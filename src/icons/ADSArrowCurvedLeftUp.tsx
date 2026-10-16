@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSArrowCurvedLeftUpSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSArrowCurvedLeftUpIconDefinition = svgToIconDefinition(
   'ads-arrow-curved-left-up'
 );
 
-/**![ADSArrowCurvedLeftUp](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTAgMTMuNUM4LjM0MyAxMy41IDcgMTIuMTU3IDcgMTAuNVYzLjU2MUwxMC4yMiA2Ljc4TDExLjI4IDUuNzJMNi43OCAxLjIyQzYuNjQgMS4wNzkgNi40NDkgMSA2LjI1IDFDNi4wNTEgMSA1Ljg2IDEuMDc5IDUuNzIgMS4yMkwxLjIyIDUuNzJMMi4yOCA2Ljc4TDUuNSAzLjU2MVYxMC41QzUuNSAxMi45ODUgNy41MTUgMTUgMTAgMTVIMTVWMTMuNUgxMFoiLz48L3N2Zz4=) */
+/**![ADSArrowCurvedLeftUp](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMCAxMy41QzguMzQzIDEzLjUgNyAxMi4xNTcgNyAxMC41VjMuNTYxTDEwLjIyIDYuNzhMMTEuMjggNS43Mkw2Ljc4IDEuMjJDNi42NCAxLjA3OSA2LjQ0OSAxIDYuMjUgMUM2LjA1MSAxIDUuODYgMS4wNzkgNS43MiAxLjIyTDEuMjIgNS43MkwyLjI4IDYuNzhMNS41IDMuNTYxVjEwLjVDNS41IDEyLjk4NSA3LjUxNSAxNSAxMCAxNUgxNVYxMy41SDEwWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

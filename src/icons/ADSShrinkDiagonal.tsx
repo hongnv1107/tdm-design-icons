@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSShrinkDiagonalSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSShrinkDiagonalIconDefinition = svgToIconDefinition(
   'ads-shrink-diagonal'
 );
 
-/**![ADSShrinkDiagonal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTguNzIgNi4yMkwxMy45NyAwLjk3TDE1LjAzIDIuMDNMOS43OCA3LjI4TDguNzIgNi4yMlpNNy4yOCA5Ljc4TDIuMDMgMTUuMDNMMC45NyAxMy45N0w2LjIyIDguNzJMNy4yOCA5Ljc4WiIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTAgNlYySDguNVY2Ljc1QzguNSA3LjE2NCA4LjgzNiA3LjUgOS4yNSA3LjVIMTRWNkgxMFpNMiA4LjVINi43NUM3LjE2NCA4LjUgNy41IDguODM2IDcuNSA5LjI1VjE0SDZWMTBIMlY4LjVaIi8+PC9zdmc+) */
+/**![ADSShrinkDiagonal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOC43MiA2LjIyTDEzLjk3IDAuOTdMMTUuMDMgMi4wM0w5Ljc4IDcuMjhMOC43MiA2LjIyWk03LjI4IDkuNzhMMi4wMyAxNS4wM0wwLjk3IDEzLjk3TDYuMjIgOC43Mkw3LjI4IDkuNzhaIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMCA2VjJIOC41VjYuNzVDOC41IDcuMTY0IDguODM2IDcuNSA5LjI1IDcuNUgxNFY2SDEwWk0yIDguNUg2Ljc1QzcuMTY0IDguNSA3LjUgOC44MzYgNy41IDkuMjVWMTRINlYxMEgyVjguNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

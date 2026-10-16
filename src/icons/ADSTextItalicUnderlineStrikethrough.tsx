@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTextItalicUnderlineStrikethroughSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTextItalicUnderlineStrikethroughIconDefinition = svgToIconDefinition(
   'ads-text-italic-underline-strikethrough'
 );
 
-/**![ADSTextItalicUnderlineStrikethrough](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTEuNTEgMUg2LjQ0VjIuNUg4LjIyNEw3Ljc1NiA0LjVIOS4yOTdMOS43NjUgMi41SDExLjUxVjFaIi8+PHBhdGggZD0iTTguMjQ0IDlINi43MDNMNi4yMzUgMTFINC40OVYxMi41SDkuNTZWMTFINy43NzZMOC4yNDQgOVoiLz48cGF0aCBkPSJNMTYgMTZIMFYxNC41SDE2VjE2WiIvPjxwYXRoIGQ9Ik0xNSA2SDFWNy41SDE1VjZaIi8+PC9zdmc+) */
+/**![ADSTextItalicUnderlineStrikethrough](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMS41MSAxSDYuNDRWMi41SDguMjI0TDcuNzU2IDQuNUg5LjI5N0w5Ljc2NSAyLjVIMTEuNTFWMVoiLz48cGF0aCBkPSJNOC4yNDQgOUg2LjcwM0w2LjIzNSAxMUg0LjQ5VjEyLjVIOS41NlYxMUg3Ljc3Nkw4LjI0NCA5WiIvPjxwYXRoIGQ9Ik0xNiAxNkgwVjE0LjVIMTZWMTZaIi8+PHBhdGggZD0iTTE1IDZIMVY3LjVIMTVWNloiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

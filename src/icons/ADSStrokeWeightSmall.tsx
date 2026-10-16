@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSStrokeWeightSmallSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSStrokeWeightSmallIconDefinition = svgToIconDefinition(
   'ads-stroke-weight-small'
 );
 
-/**![ADSStrokeWeightSmall](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuMjUgOEM2LjI1IDguOTY3IDcuMDM0IDkuNzUgOCA5Ljc1QzguOTY3IDkuNzUgOS43NSA4Ljk2NyA5Ljc1IDhDOS43NSA3LjAzNCA4Ljk2NyA2LjI1IDggNi4yNUM3LjAzNCA2LjI1IDYuMjUgNy4wMzQgNi4yNSA4WiIvPjwvc3ZnPg==) */
+/**![ADSStrokeWeightSmall](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNi4yNSA4QzYuMjUgOC45NjcgNy4wMzQgOS43NSA4IDkuNzVDOC45NjcgOS43NSA5Ljc1IDguOTY3IDkuNzUgOEM5Ljc1IDcuMDM0IDguOTY3IDYuMjUgOCA2LjI1QzcuMDM0IDYuMjUgNi4yNSA3LjAzNCA2LjI1IDhaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSSortOptionsSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSSortOptionsIconDefinition = svgToIconDefinition(
   'ads-sort-options'
 );
 
-/**![ADSSortOptions](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMjIgMS4yMkM0LjUxMyAwLjkyNyA0Ljk4NyAwLjkyNyA1LjI4IDEuMjJMOC41MyA0LjQ3TDcuNDcgNS41M0w1LjUgMy41NjFMNS41IDE0SDRMNCAzLjU2MUwyLjAzIDUuNTNMMC45NyA0LjQ3TDQuMjIgMS4yMlpNMTAuNSAxMi40MzlWMkgxMlYxMi40MzlMMTMuOTcgMTAuNDdMMTUuMDMgMTEuNTNMMTEuNzggMTQuNzhDMTEuNDg4IDE1LjA3MyAxMS4wMTMgMTUuMDczIDEwLjcyIDE0Ljc4TDcuNDcgMTEuNTNMOC41MyAxMC40N0wxMC41IDEyLjQzOVoiLz48L3N2Zz4=) */
+/**![ADSSortOptions](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNC4yMiAxLjIyQzQuNTEzIDAuOTI3IDQuOTg3IDAuOTI3IDUuMjggMS4yMkw4LjUzIDQuNDdMNy40NyA1LjUzTDUuNSAzLjU2MUw1LjUgMTRINEw0IDMuNTYxTDIuMDMgNS41M0wwLjk3IDQuNDdMNC4yMiAxLjIyWk0xMC41IDEyLjQzOVYySDEyVjEyLjQzOUwxMy45NyAxMC40N0wxNS4wMyAxMS41M0wxMS43OCAxNC43OEMxMS40ODggMTUuMDczIDExLjAxMyAxNS4wNzMgMTAuNzIgMTQuNzhMNy40NyAxMS41M0w4LjUzIDEwLjQ3TDEwLjUgMTIuNDM5WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

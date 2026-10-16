@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSImageInlineSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSImageInlineIconDefinition = svgToIconDefinition(
   'ads-image-inline'
 );
 
-/**![ADSImageInline](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTAgNi4zNzVDMCA1LjYxNiAwLjYxNiA1IDEuMzc1IDVINC42MjVDNS4zODQgNSA2IDUuNjE2IDYgNi4zNzVWOS42MjVDNiAxMC4zODQgNS4zODQgMTEgNC42MjUgMTFIMS4zNzVDMC42MTYgMTEgMCAxMC4zODQgMCA5LjYyNVY2LjM3NVpNMS41IDYuNVY5LjVINC41VjYuNUgxLjVaTTE2IDguNzVIOFY3LjI1SDE2VjguNzVaIi8+PC9zdmc+) */
+/**![ADSImageInline](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMCA2LjM3NUMwIDUuNjE2IDAuNjE2IDUgMS4zNzUgNUg0LjYyNUM1LjM4NCA1IDYgNS42MTYgNiA2LjM3NVY5LjYyNUM2IDEwLjM4NCA1LjM4NCAxMSA0LjYyNSAxMUgxLjM3NUMwLjYxNiAxMSAwIDEwLjM4NCAwIDkuNjI1VjYuMzc1Wk0xLjUgNi41VjkuNUg0LjVWNi41SDEuNVpNMTYgOC43NUg4VjcuMjVIMTZWOC43NVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

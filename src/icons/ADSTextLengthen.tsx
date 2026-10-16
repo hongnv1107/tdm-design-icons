@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTextLengthenSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTextLengthenIconDefinition = svgToIconDefinition(
   'ads-text-lengthen'
 );
 
-/**![ADSTextLengthen](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE1IDIuNUwxIDIuNUwxIDFMMTUgMVYyLjVaTTE1IDYuNjY3TDEgNi42NjdMMSA1LjE2N0wxNSA1LjE2N1Y2LjY2N1pNMTUgMTAuODMzTDEgMTAuODMzTDEgOS4zMzNMMTUgOS4zMzNMMTUgMTAuODMzWk04IDE1TDEgMTVMMSAxMy41TDggMTMuNVYxNVoiLz48L3N2Zz4=) */
+/**![ADSTextLengthen](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMi41TDEgMi41TDEgMUwxNSAxVjIuNVpNMTUgNi42NjdMMSA2LjY2N0wxIDUuMTY3TDE1IDUuMTY3VjYuNjY3Wk0xNSAxMC44MzNMMSAxMC44MzNMMSA5LjMzM0wxNSA5LjMzM0wxNSAxMC44MzNaTTggMTVMMSAxNUwxIDEzLjVMOCAxMy41VjE1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

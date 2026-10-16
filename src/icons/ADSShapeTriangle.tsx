@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSShapeTriangleSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSShapeTriangleIconDefinition = svgToIconDefinition(
   'ads-shape-triangle'
 );
 
-/**![ADSShapeTriangle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuOCAxLjg1N0M3LjMyNSAwLjkyIDguNjc1IDAuOTIgOS4yIDEuODU3TDE1LjEzNCAxMi40NTNDMTUuNjQ3IDEzLjM3IDE0Ljk4NCAxNC41IDEzLjkzNCAxNC41SDIuMDY2QzEuMDE2IDE0LjUgMC4zNTMgMTMuMzcgMC44NjcgMTIuNDUzTDYuOCAxLjg1N1pNOCAyLjc4NUwyLjI4IDEzSDEzLjcyMUw4IDIuNzg1WiIvPjwvc3ZnPg==) */
+/**![ADSShapeTriangle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNi44IDEuODU3QzcuMzI1IDAuOTIgOC42NzUgMC45MiA5LjIgMS44NTdMMTUuMTM0IDEyLjQ1M0MxNS42NDcgMTMuMzcgMTQuOTg0IDE0LjUgMTMuOTM0IDE0LjVIMi4wNjZDMS4wMTYgMTQuNSAwLjM1MyAxMy4zNyAwLjg2NyAxMi40NTNMNi44IDEuODU3Wk04IDIuNzg1TDIuMjggMTNIMTMuNzIxTDggMi43ODVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolSummingJunctionSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolSummingJunctionIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-summing-junction'
 );
 
-/**![ADSDiagramSymbolSummingJunction](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTMuNSA4QzEzLjUgNi43NTEgMTMuMDgzIDUuNjAxIDEyLjM4MiA0LjY3OEw5LjA2MSA4TDEyLjM4MiAxMS4zMjFDMTMuMDgzIDEwLjM5OCAxMy41IDkuMjQ4IDEzLjUgOFpNNC42NzggMTIuMzgyQzUuNjAxIDEzLjA4MyA2Ljc1MSAxMy41IDggMTMuNUM5LjI0OCAxMy41IDEwLjM5OCAxMy4wODMgMTEuMzIxIDEyLjM4Mkw4IDkuMDYxTDQuNjc4IDEyLjM4MlpNOCAyLjVDNi43NTIgMi41IDUuNjAxIDIuOTE2IDQuNjc4IDMuNjE3TDggNi45MzlMMTEuMzIxIDMuNjE3QzEwLjM5OCAyLjkxNyA5LjI0OCAyLjUgOCAyLjVaTTIuNSA4QzIuNSA5LjI0OCAyLjkxNyAxMC4zOTggMy42MTcgMTEuMzIxTDYuOTM5IDhMMy42MTcgNC42NzhDMi45MTYgNS42MDEgMi41IDYuNzUyIDIuNSA4Wk0xNSA4QzE1IDExLjg2NiAxMS44NjYgMTUgOCAxNUM0LjEzNCAxNSAxIDExLjg2NiAxIDhDMSA0LjEzNCA0LjEzNCAxIDggMUMxMS44NjYgMSAxNSA0LjEzNCAxNSA4WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramSymbolSummingJunction](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMy41IDhDMTMuNSA2Ljc1MSAxMy4wODMgNS42MDEgMTIuMzgyIDQuNjc4TDkuMDYxIDhMMTIuMzgyIDExLjMyMUMxMy4wODMgMTAuMzk4IDEzLjUgOS4yNDggMTMuNSA4Wk00LjY3OCAxMi4zODJDNS42MDEgMTMuMDgzIDYuNzUxIDEzLjUgOCAxMy41QzkuMjQ4IDEzLjUgMTAuMzk4IDEzLjA4MyAxMS4zMjEgMTIuMzgyTDggOS4wNjFMNC42NzggMTIuMzgyWk04IDIuNUM2Ljc1MiAyLjUgNS42MDEgMi45MTYgNC42NzggMy42MTdMOCA2LjkzOUwxMS4zMjEgMy42MTdDMTAuMzk4IDIuOTE3IDkuMjQ4IDIuNSA4IDIuNVpNMi41IDhDMi41IDkuMjQ4IDIuOTE3IDEwLjM5OCAzLjYxNyAxMS4zMjFMNi45MzkgOEwzLjYxNyA0LjY3OEMyLjkxNiA1LjYwMSAyLjUgNi43NTIgMi41IDhaTTE1IDhDMTUgMTEuODY2IDExLjg2NiAxNSA4IDE1QzQuMTM0IDE1IDEgMTEuODY2IDEgOEMxIDQuMTM0IDQuMTM0IDEgOCAxQzExLjg2NiAxIDE1IDQuMTM0IDE1IDhaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

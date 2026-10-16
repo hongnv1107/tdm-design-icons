@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSVideoOverlayToolsSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSVideoOverlayToolsIconDefinition = svgToIconDefinition(
   'ads-video-overlay-tools'
 );
 
-/**![ADSVideoOverlayTools](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuMjUgMEgxMS41QzExLjkxNCAwIDEyLjI1IDAuMzM2IDEyLjI1IDAuNzVWNkgxMC43NVYyLjU2MUw2LjI4IDcuMDNMNS4yMiA1Ljk3TDkuNjg5IDEuNUg2LjI1VjBaTTEuNSAxMFYxNC41SDZWMTBIMS41Wk0wIDkuODc1QzAgOS4xMTYgMC42MTYgOC41IDEuMzc1IDguNUg2LjEyNUM2Ljg4NCA4LjUgNy41IDkuMTE2IDcuNSA5Ljg3NVYxNC42MjVDNy41IDE1LjM4NCA2Ljg4NCAxNiA2LjEyNSAxNkgxLjM3NUMwLjYxNiAxNiAwIDE1LjM4NCAwIDE0LjYyNVY5Ljg3NVpNMTEuNSAxMEg5VjguNUgxNS41VjEwSDEzVjE2SDExLjVWMTBaIi8+PC9zdmc+) */
+/**![ADSVideoOverlayTools](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNi4yNSAwSDExLjVDMTEuOTE0IDAgMTIuMjUgMC4zMzYgMTIuMjUgMC43NVY2SDEwLjc1VjIuNTYxTDYuMjggNy4wM0w1LjIyIDUuOTdMOS42ODkgMS41SDYuMjVWMFpNMS41IDEwVjE0LjVINlYxMEgxLjVaTTAgOS44NzVDMCA5LjExNiAwLjYxNiA4LjUgMS4zNzUgOC41SDYuMTI1QzYuODg0IDguNSA3LjUgOS4xMTYgNy41IDkuODc1VjE0LjYyNUM3LjUgMTUuMzg0IDYuODg0IDE2IDYuMTI1IDE2SDEuMzc1QzAuNjE2IDE2IDAgMTUuMzg0IDAgMTQuNjI1VjkuODc1Wk0xMS41IDEwSDlWOC41SDE1LjVWMTBIMTNWMTZIMTEuNVYxMFoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

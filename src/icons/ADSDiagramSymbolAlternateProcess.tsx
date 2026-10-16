@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolAlternateProcessSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolAlternateProcessIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-alternate-process'
 );
 
-/**![ADSDiagramSymbolAlternateProcess](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSA1Ljg3NUMxNC41IDQuNTYzIDEzLjQzNyAzLjUgMTIuMTI1IDMuNUgzLjg3NUMyLjU2MyAzLjUgMS41IDQuNTYzIDEuNSA1Ljg3NVYxMC4xMjVDMS41IDExLjQzNyAyLjU2MyAxMi41IDMuODc1IDEyLjVIMTIuMTI1QzEzLjQzNyAxMi41IDE0LjUgMTEuNDM3IDE0LjUgMTAuMTI1VjUuODc1Wk0xNiAxMC4xMjVDMTYgMTIuMjY1IDE0LjI2NSAxNCAxMi4xMjUgMTRIMy44NzVDMS43MzUgMTQgMCAxMi4yNjUgMCAxMC4xMjVWNS44NzVDMCAzLjczNSAxLjczNSAyIDMuODc1IDJIMTIuMTI1QzE0LjI2NSAyIDE2IDMuNzM1IDE2IDUuODc1VjEwLjEyNVoiLz48L3N2Zz4=) */
+/**![ADSDiagramSymbolAlternateProcess](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41IDUuODc1QzE0LjUgNC41NjMgMTMuNDM3IDMuNSAxMi4xMjUgMy41SDMuODc1QzIuNTYzIDMuNSAxLjUgNC41NjMgMS41IDUuODc1VjEwLjEyNUMxLjUgMTEuNDM3IDIuNTYzIDEyLjUgMy44NzUgMTIuNUgxMi4xMjVDMTMuNDM3IDEyLjUgMTQuNSAxMS40MzcgMTQuNSAxMC4xMjVWNS44NzVaTTE2IDEwLjEyNUMxNiAxMi4yNjUgMTQuMjY1IDE0IDEyLjEyNSAxNEgzLjg3NUMxLjczNSAxNCAwIDEyLjI2NSAwIDEwLjEyNVY1Ljg3NUMwIDMuNzM1IDEuNzM1IDIgMy44NzUgMkgxMi4xMjVDMTQuMjY1IDIgMTYgMy43MzUgMTYgNS44NzVWMTAuMTI1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

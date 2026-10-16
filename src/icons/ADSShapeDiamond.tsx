@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSShapeDiamondSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSShapeDiamondIconDefinition = svgToIconDefinition(
   'ads-shape-diamond'
 );
 
-/**![ADSShapeDiamond](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMDI4IDAuNjYyQzcuNTY1IDAuMTI1IDguNDM1IDAuMTI1IDguOTcyIDAuNjYyTDE1LjMzOCA3LjAyOEMxNS44NzUgNy41NjUgMTUuODc1IDguNDM1IDE1LjMzOCA4Ljk3Mkw4Ljk3MiAxNS4zMzhDOC40MzUgMTUuODc1IDcuNTY1IDE1Ljg3NSA3LjAyOCAxNS4zMzhMMC42NjIgOC45NzJDMC4xMjUgOC40MzUgMC4xMjUgNy41NjUgMC42NjIgNy4wMjhMNy4wMjggMC42NjJaTTggMS44MTFMMS44MTEgOEw4IDE0LjE4OUwxNC4xODkgOEw4IDEuODExWiIvPjwvc3ZnPg==) */
+/**![ADSShapeDiamond](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNy4wMjggMC42NjJDNy41NjUgMC4xMjUgOC40MzUgMC4xMjUgOC45NzIgMC42NjJMMTUuMzM4IDcuMDI4QzE1Ljg3NSA3LjU2NSAxNS44NzUgOC40MzUgMTUuMzM4IDguOTcyTDguOTcyIDE1LjMzOEM4LjQzNSAxNS44NzUgNy41NjUgMTUuODc1IDcuMDI4IDE1LjMzOEwwLjY2MiA4Ljk3MkMwLjEyNSA4LjQzNSAwLjEyNSA3LjU2NSAwLjY2MiA3LjAyOEw3LjAyOCAwLjY2MlpNOCAxLjgxMUwxLjgxMSA4TDggMTQuMTg5TDE0LjE4OSA4TDggMS44MTFaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

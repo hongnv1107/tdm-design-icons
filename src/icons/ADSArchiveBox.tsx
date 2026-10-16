@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSArchiveBoxSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSArchiveBoxIconDefinition = svgToIconDefinition(
   'ads-archive-box'
 );
 
-/**![ADSArchiveBox](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEgMUgxNVY2SDE0VjEzQzE0IDE0LjEwNSAxMy4xMDUgMTUgMTIgMTVINEMyLjg5NSAxNSAyIDE0LjEwNSAyIDEzVjZIMVYxWk0zLjUgNlYxM0MzLjUgMTMuMjc2IDMuNzI0IDEzLjUgNCAxMy41SDEyQzEyLjI3NiAxMy41IDEyLjUgMTMuMjc2IDEyLjUgMTNWNkgzLjVaTTEzLjUgNC41SDIuNVYyLjVIMTMuNVY0LjVaTTEwLjUgOUg1LjVWNy41SDEwLjVWOVoiLz48L3N2Zz4=) */
+/**![ADSArchiveBox](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMSAxSDE1VjZIMTRWMTNDMTQgMTQuMTA1IDEzLjEwNSAxNSAxMiAxNUg0QzIuODk1IDE1IDIgMTQuMTA1IDIgMTNWNkgxVjFaTTMuNSA2VjEzQzMuNSAxMy4yNzYgMy43MjQgMTMuNSA0IDEzLjVIMTJDMTIuMjc2IDEzLjUgMTIuNSAxMy4yNzYgMTIuNSAxM1Y2SDMuNVpNMTMuNSA0LjVIMi41VjIuNUgxMy41VjQuNVpNMTAuNSA5SDUuNVY3LjVIMTAuNVY5WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

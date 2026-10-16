@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSPriorityLowestSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSPriorityLowestIconDefinition = svgToIconDefinition(
   'ads-priority-lowest'
 );
 
-/**![ADSPriorityLowest](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTMuOTEzIDkuMjUxTDguNDEzIDEyLjg3NkM4LjE2MyAxMy4wNDEgNy44MzcgMTMuMDQxIDcuNTg3IDEyLjg3NkwyLjA4NyA5LjI1MUwyLjkxMyA3Ljk5OUw4IDExLjM1MkwxMy4wODcgNy45OTlMMTMuOTEzIDkuMjUxWk0xMy45MTMgNC43NTFMOC40MTMgOC4zNzZDOC4xNjMgOC41NDEgNy44MzcgOC41NDEgNy41ODcgOC4zNzZMMi4wODcgNC43NTFMMi45MTMgMy40OTlMOCA2Ljg1MkwxMy4wODcgMy40OTlMMTMuOTEzIDQuNzUxWiIvPjwvc3ZnPg==) */
+/**![ADSPriorityLowest](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMy45MTMgOS4yNTFMOC40MTMgMTIuODc2QzguMTYzIDEzLjA0MSA3LjgzNyAxMy4wNDEgNy41ODcgMTIuODc2TDIuMDg3IDkuMjUxTDIuOTEzIDcuOTk5TDggMTEuMzUyTDEzLjA4NyA3Ljk5OUwxMy45MTMgOS4yNTFaTTEzLjkxMyA0Ljc1MUw4LjQxMyA4LjM3NkM4LjE2MyA4LjU0MSA3LjgzNyA4LjU0MSA3LjU4NyA4LjM3NkwyLjA4NyA0Ljc1MUwyLjkxMyAzLjQ5OUw4IDYuODUyTDEzLjA4NyAzLjQ5OUwxMy45MTMgNC43NTFaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

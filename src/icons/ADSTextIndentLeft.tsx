@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTextIndentLeftSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTextIndentLeftIconDefinition = svgToIconDefinition(
   'ads-text-indent-left'
 );
 
-/**![ADSTextIndentLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE1IDIuNUwxIDIuNUwxIDFMMTUgMUwxNSAyLjVaTTIuODExIDhMNS4wMyA1Ljc4TDMuOTcgNC43MkwxLjIyIDcuNDdDMC45MjcgNy43NjMgMC45MjcgOC4yMzcgMS4yMiA4LjUzTDMuOTcgMTEuMjhMNS4wMyAxMC4yMkwyLjgxMSA4Wk0xNSA2LjY2N0w4IDYuNjY3TDggNS4xNjdMMTUgNS4xNjdMMTUgNi42NjdaTTE1IDEwLjgzM0w4IDEwLjgzM0w4IDkuMzMzTDE1IDkuMzMzTDE1IDEwLjgzM1pNMTUgMTVMMSAxNUwxIDEzLjVMMTUgMTMuNUwxNSAxNVoiLz48L3N2Zz4=) */
+/**![ADSTextIndentLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMi41TDEgMi41TDEgMUwxNSAxTDE1IDIuNVpNMi44MTEgOEw1LjAzIDUuNzhMMy45NyA0LjcyTDEuMjIgNy40N0MwLjkyNyA3Ljc2MyAwLjkyNyA4LjIzNyAxLjIyIDguNTNMMy45NyAxMS4yOEw1LjAzIDEwLjIyTDIuODExIDhaTTE1IDYuNjY3TDggNi42NjdMOCA1LjE2N0wxNSA1LjE2N0wxNSA2LjY2N1pNMTUgMTAuODMzTDggMTAuODMzTDggOS4zMzNMMTUgOS4zMzNMMTUgMTAuODMzWk0xNSAxNUwxIDE1TDEgMTMuNUwxNSAxMy41TDE1IDE1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

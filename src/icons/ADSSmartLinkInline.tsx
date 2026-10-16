@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSSmartLinkInlineSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSSmartLinkInlineIconDefinition = svgToIconDefinition(
   'ads-smart-link-inline'
 );
 
-/**![ADSSmartLinkInline](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgNi41QzEuNzI0IDYuNSAxLjUgNi43MjQgMS41IDdWOUMxLjUgOS4yNzYgMS43MjQgOS41IDIgOS41SDQuNVY2LjVIMlpNNiA2LjVWOS41SDE0QzE0LjI3NiA5LjUgMTQuNSA5LjI3NiAxNC41IDlWN0MxNC41IDYuNzI0IDE0LjI3NiA2LjUgMTQgNi41SDZaTTAgN0MwIDUuODk1IDAuODk1IDUgMiA1SDE0QzE1LjEwNSA1IDE2IDUuODk1IDE2IDdWOUMxNiAxMC4xMDUgMTUuMTA1IDExIDE0IDExSDJDMC44OTUgMTEgMCAxMC4xMDUgMCA5VjdaIi8+PC9zdmc+) */
+/**![ADSSmartLinkInline](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiA2LjVDMS43MjQgNi41IDEuNSA2LjcyNCAxLjUgN1Y5QzEuNSA5LjI3NiAxLjcyNCA5LjUgMiA5LjVINC41VjYuNUgyWk02IDYuNVY5LjVIMTRDMTQuMjc2IDkuNSAxNC41IDkuMjc2IDE0LjUgOVY3QzE0LjUgNi43MjQgMTQuMjc2IDYuNSAxNCA2LjVINlpNMCA3QzAgNS44OTUgMC44OTUgNSAyIDVIMTRDMTUuMTA1IDUgMTYgNS44OTUgMTYgN1Y5QzE2IDEwLjEwNSAxNS4xMDUgMTEgMTQgMTFIMkMwLjg5NSAxMSAwIDEwLjEwNSAwIDlWN1oiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSVideoPlayOverlaySvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSVideoPlayOverlayIconDefinition = svgToIconDefinition(
   'ads-video-play-overlay'
 );
 
-/**![ADSVideoPlayOverlay](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMy4xMTJDMiAxLjU5MiAzLjYzIDAuNjI3IDQuOTYzIDEuMzU5TDEzLjg2NSA2LjI0N0MxNS4yNDkgNy4wMDYgMTUuMjQ5IDguOTk0IDEzLjg2NSA5Ljc1M0w0Ljk2MyAxNC42NDFDMy42MyAxNS4zNzMgMiAxNC40MDggMiAxMi44ODhWMy4xMTJaIi8+PC9zdmc+) */
+/**![ADSVideoPlayOverlay](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiAzLjExMkMyIDEuNTkyIDMuNjMgMC42MjcgNC45NjMgMS4zNTlMMTMuODY1IDYuMjQ3QzE1LjI0OSA3LjAwNiAxNS4yNDkgOC45OTQgMTMuODY1IDkuNzUzTDQuOTYzIDE0LjY0MUMzLjYzIDE1LjM3MyAyIDE0LjQwOCAyIDEyLjg4OFYzLjExMloiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

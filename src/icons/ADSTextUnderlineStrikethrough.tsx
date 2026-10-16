@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTextUnderlineStrikethroughSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTextUnderlineStrikethroughIconDefinition = svgToIconDefinition(
   'ads-text-underline-strikethrough'
 );
 
-/**![ADSTextUnderlineStrikethrough](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMy41IDQuNUg1VjFIMy41VjQuNVoiLz48cGF0aCBkPSJNNS4xNzEgOUM1LjU4MyAxMC4xNjUgNi42OTQgMTEgOCAxMUM5LjMwNiAxMSAxMC40MTcgMTAuMTY1IDEwLjgyOSA5SDEyLjM4OEMxMS45MzQgMTEuMDA0IDEwLjE0MiAxMi41IDggMTIuNUM1Ljg1OCAxMi41IDQuMDY2IDExLjAwNCAzLjYxMiA5SDUuMTcxWiIvPjxwYXRoIGQ9Ik0xMi41IDQuNUgxMVYxSDEyLjVWNC41WiIvPjxwYXRoIGQ9Ik0wIDE2VjE0LjVIMTZWMTZIMFoiLz48cGF0aCBkPSJNMTUgNkgxVjcuNUgxNVY2WiIvPjwvc3ZnPg==) */
+/**![ADSTextUnderlineStrikethrough](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0zLjUgNC41SDVWMUgzLjVWNC41WiIvPjxwYXRoIGQ9Ik01LjE3MSA5QzUuNTgzIDEwLjE2NSA2LjY5NCAxMSA4IDExQzkuMzA2IDExIDEwLjQxNyAxMC4xNjUgMTAuODI5IDlIMTIuMzg4QzExLjkzNCAxMS4wMDQgMTAuMTQyIDEyLjUgOCAxMi41QzUuODU4IDEyLjUgNC4wNjYgMTEuMDA0IDMuNjEyIDlINS4xNzFaIi8+PHBhdGggZD0iTTEyLjUgNC41SDExVjFIMTIuNVY0LjVaIi8+PHBhdGggZD0iTTAgMTZWMTQuNUgxNlYxNkgwWiIvPjxwYXRoIGQ9Ik0xNSA2SDFWNy41SDE1VjZaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

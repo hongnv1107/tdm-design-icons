@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSAlignImageRightSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSAlignImageRightIconDefinition = svgToIconDefinition(
   'ads-align-image-right'
 );
 
-/**![ADSAlignImageRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE1IDIuNUwxIDIuNUwxIDFMMTUgMVYyLjVaTTEwLjUgNi41VjkuNUwxMy41IDkuNVY2LjVIMTAuNVpNMTAuMzc1IDVMMTMuNjI1IDVDMTQuMzg0IDUgMTUgNS42MTYgMTUgNi4zNzVWOS42MjVDMTUgMTAuMzg0IDE0LjM4NCAxMSAxMy42MjUgMTFMMTAuMzc1IDExQzkuNjE2IDExIDkgMTAuMzg0IDkgOS42MjVWNi4zNzVDOSA1LjYxNiA5LjYxNiA1IDEwLjM3NSA1Wk0xNSAxNUwxIDE1TDEgMTMuNUwxNSAxMy41VjE1WiIvPjwvc3ZnPg==) */
+/**![ADSAlignImageRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMi41TDEgMi41TDEgMUwxNSAxVjIuNVpNMTAuNSA2LjVWOS41TDEzLjUgOS41VjYuNUgxMC41Wk0xMC4zNzUgNUwxMy42MjUgNUMxNC4zODQgNSAxNSA1LjYxNiAxNSA2LjM3NVY5LjYyNUMxNSAxMC4zODQgMTQuMzg0IDExIDEzLjYyNSAxMUwxMC4zNzUgMTFDOS42MTYgMTEgOSAxMC4zODQgOSA5LjYyNVY2LjM3NUM5IDUuNjE2IDkuNjE2IDUgMTAuMzc1IDVaTTE1IDE1TDEgMTVMMSAxMy41TDE1IDEzLjVWMTVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSAlignImageCenterSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSAlignImageCenterIconDefinition = svgToIconDefinition(
   'ads-align-image-center'
 );
 
-/**![ADSAlignImageCenter](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE1IDIuNUwxIDIuNUwxIDFMMTUgMVYyLjVaTTYuNSA2LjVWOS41SDkuNVY2LjVMNi41IDYuNVpNNi4zNzUgNUw5LjYyNSA1QzEwLjM4NCA1IDExIDUuNjE2IDExIDYuMzc1VjkuNjI1QzExIDEwLjM4NCAxMC4zODQgMTEgOS42MjUgMTFINi4zNzVDNS42MTYgMTEgNSAxMC4zODQgNSA5LjYyNUw1IDYuMzc1QzUgNS42MTYgNS42MTYgNSA2LjM3NSA1Wk0xNSAxNUwxIDE1TDEgMTMuNUwxNSAxMy41VjE1WiIvPjwvc3ZnPg==) */
+/**![ADSAlignImageCenter](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTUgMi41TDEgMi41TDEgMUwxNSAxVjIuNVpNNi41IDYuNVY5LjVIOS41VjYuNUw2LjUgNi41Wk02LjM3NSA1TDkuNjI1IDVDMTAuMzg0IDUgMTEgNS42MTYgMTEgNi4zNzVWOS42MjVDMTEgMTAuMzg0IDEwLjM4NCAxMSA5LjYyNSAxMUg2LjM3NUM1LjYxNiAxMSA1IDEwLjM4NCA1IDkuNjI1TDUgNi4zNzVDNSA1LjYxNiA1LjYxNiA1IDYuMzc1IDVaTTE1IDE1TDEgMTVMMSAxMy41TDE1IDEzLjVWMTVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

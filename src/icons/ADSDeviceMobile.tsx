@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDeviceMobileSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDeviceMobileIconDefinition = svgToIconDefinition(
   'ads-device-mobile'
 );
 
-/**![ADSDeviceMobile](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIuNSAyQzIuNSAwLjg5NSAzLjM5NSAwIDQuNSAwSDExLjVDMTIuNjA1IDAgMTMuNSAwLjg5NSAxMy41IDJWMTRDMTMuNSAxNS4xMDUgMTIuNjA1IDE2IDExLjUgMTZINC41QzMuMzk1IDE2IDIuNSAxNS4xMDUgMi41IDE0VjJaTTQuNSAxLjVDNC4yMjQgMS41IDQgMS43MjQgNCAyVjE0QzQgMTQuMjc2IDQuMjI0IDE0LjUgNC41IDE0LjVIMTEuNUMxMS43NzYgMTQuNSAxMiAxNC4yNzYgMTIgMTRWMkMxMiAxLjcyNCAxMS43NzYgMS41IDExLjUgMS41SDQuNVpNMTAgMTNINlYxMS41SDEwVjEzWiIvPjwvc3ZnPg==) */
+/**![ADSDeviceMobile](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMi41IDJDMi41IDAuODk1IDMuMzk1IDAgNC41IDBIMTEuNUMxMi42MDUgMCAxMy41IDAuODk1IDEzLjUgMlYxNEMxMy41IDE1LjEwNSAxMi42MDUgMTYgMTEuNSAxNkg0LjVDMy4zOTUgMTYgMi41IDE1LjEwNSAyLjUgMTRWMlpNNC41IDEuNUM0LjIyNCAxLjUgNCAxLjcyNCA0IDJWMTRDNCAxNC4yNzYgNC4yMjQgMTQuNSA0LjUgMTQuNUgxMS41QzExLjc3NiAxNC41IDEyIDE0LjI3NiAxMiAxNFYyQzEyIDEuNzI0IDExLjc3NiAxLjUgMTEuNSAxLjVINC41Wk0xMCAxM0g2VjExLjVIMTBWMTNaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

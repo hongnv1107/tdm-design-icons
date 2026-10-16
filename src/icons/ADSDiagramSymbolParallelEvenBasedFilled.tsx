@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolParallelEvenBasedFilledSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolParallelEvenBasedFilledIconDefinition = svgToIconDefinitio
   'ads-diagram-symbol-parallel-even-based-filled'
 );
 
-/**![ADSDiagramSymbolParallelEvenBasedFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTAgMUMxMC40MTQgMSAxMC43NSAxLjMzNiAxMC43NSAxLjc1VjUuMjVIMTQuMjVDMTQuNjY0IDUuMjUgMTUgNS41ODYgMTUgNlYxMEMxNSAxMC40MTQgMTQuNjY0IDEwLjc1IDE0LjI1IDEwLjc1SDEwLjc1VjE0LjI1QzEwLjc1IDE0LjY2NCAxMC40MTQgMTUgMTAgMTVINkM1LjU4NiAxNSA1LjI1IDE0LjY2NCA1LjI1IDE0LjI1VjEwLjc1SDEuNzVDMS4zMzYgMTAuNzUgMSAxMC40MTQgMSAxMFY2QzEgNS41ODYgMS4zMzYgNS4yNSAxLjc1IDUuMjVINS4yNVYxLjc1QzUuMjUgMS4zMzYgNS41ODYgMSA2IDFIMTBaIi8+PC9zdmc+) */
+/**![ADSDiagramSymbolParallelEvenBasedFilled](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMCAxQzEwLjQxNCAxIDEwLjc1IDEuMzM2IDEwLjc1IDEuNzVWNS4yNUgxNC4yNUMxNC42NjQgNS4yNSAxNSA1LjU4NiAxNSA2VjEwQzE1IDEwLjQxNCAxNC42NjQgMTAuNzUgMTQuMjUgMTAuNzVIMTAuNzVWMTQuMjVDMTAuNzUgMTQuNjY0IDEwLjQxNCAxNSAxMCAxNUg2QzUuNTg2IDE1IDUuMjUgMTQuNjY0IDUuMjUgMTQuMjVWMTAuNzVIMS43NUMxLjMzNiAxMC43NSAxIDEwLjQxNCAxIDEwVjZDMSA1LjU4NiAxLjMzNiA1LjI1IDEuNzUgNS4yNUg1LjI1VjEuNzVDNS4yNSAxLjMzNiA1LjU4NiAxIDYgMUgxMFoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

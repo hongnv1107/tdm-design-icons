@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolTerminatorSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolTerminatorIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-terminator'
 );
 
-/**![ADSDiagramSymbolTerminator](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSA4QzE0LjUgNS41MTUgMTIuNDg1IDMuNSAxMCAzLjVINkMzLjUxNSAzLjUgMS41IDUuNTE1IDEuNSA4QzEuNSAxMC40ODUgMy41MTUgMTIuNSA2IDEyLjVIMTBDMTIuNDg1IDEyLjUgMTQuNSAxMC40ODUgMTQuNSA4Wk0xNiA4QzE2IDExLjMxNCAxMy4zMTQgMTQgMTAgMTRINkMyLjY4NiAxNCAwIDExLjMxNCAwIDhDMCA0LjY4NiAyLjY4NiAyIDYgMkgxMEMxMy4zMTQgMiAxNiA0LjY4NiAxNiA4WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramSymbolTerminator](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41IDhDMTQuNSA1LjUxNSAxMi40ODUgMy41IDEwIDMuNUg2QzMuNTE1IDMuNSAxLjUgNS41MTUgMS41IDhDMS41IDEwLjQ4NSAzLjUxNSAxMi41IDYgMTIuNUgxMEMxMi40ODUgMTIuNSAxNC41IDEwLjQ4NSAxNC41IDhaTTE2IDhDMTYgMTEuMzE0IDEzLjMxNCAxNCAxMCAxNEg2QzIuNjg2IDE0IDAgMTEuMzE0IDAgOEMwIDQuNjg2IDIuNjg2IDIgNiAySDEwQzEzLjMxNCAyIDE2IDQuNjg2IDE2IDhaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

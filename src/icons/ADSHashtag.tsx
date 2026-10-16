@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSHashtagSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSHashtagIconDefinition = svgToIconDefinition(
   'ads-hashtag'
 );
 
-/**![ADSHashtag](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMjc0IDVMNi4wMTIgMC44NjhMNy40ODggMS4xMzJMNi43OTggNUgxMC4yNzRMMTEuMDEyIDAuODY4TDEyLjQ4OCAxLjEzMkwxMS43OTggNUgxNVY2LjVIMTEuNTNMMTAuOTk0IDkuNUgxNFYxMUgxMC43MjZMOS45ODggMTUuMTMyTDguNTEyIDE0Ljg2OEw5LjIwMiAxMUg1LjcyNkw0Ljk4OCAxNS4xMzJMMy41MTIgMTQuODY4TDQuMjAyIDExSDFWOS41SDQuNDdMNS4wMDYgNi41SDJWNUg1LjI3NFpNNi41MyA2LjVMNS45OTQgOS41SDkuNDdMMTAuMDA2IDYuNUg2LjUzWiIvPjwvc3ZnPg==) */
+/**![ADSHashtag](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNS4yNzQgNUw2LjAxMiAwLjg2OEw3LjQ4OCAxLjEzMkw2Ljc5OCA1SDEwLjI3NEwxMS4wMTIgMC44NjhMMTIuNDg4IDEuMTMyTDExLjc5OCA1SDE1VjYuNUgxMS41M0wxMC45OTQgOS41SDE0VjExSDEwLjcyNkw5Ljk4OCAxNS4xMzJMOC41MTIgMTQuODY4TDkuMjAyIDExSDUuNzI2TDQuOTg4IDE1LjEzMkwzLjUxMiAxNC44NjhMNC4yMDIgMTFIMVY5LjVINC40N0w1LjAwNiA2LjVIMlY1SDUuMjc0Wk02LjUzIDYuNUw1Ljk5NCA5LjVIOS40N0wxMC4wMDYgNi41SDYuNTNaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

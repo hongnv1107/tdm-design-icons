@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTableColumnMoveRightSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTableColumnMoveRightIconDefinition = svgToIconDefinition(
   'ads-table-column-move-right'
 );
 
-/**![ADSTableColumnMoveRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTAgMi4zNzVDMCAxLjYxNiAwLjYxNiAxIDEuMzc1IDFINy4xMjVDNy44ODQgMSA4LjUgMS42MTYgOC41IDIuMzc1VjEzLjYyNUM4LjUgMTQuMzg0IDcuODg0IDE1IDcuMTI1IDE1SDEuMzc1QzAuNjE2IDE1IDAgMTQuMzg0IDAgMTMuNjI1VjIuMzc1Wk0xLjUgMi41VjEzLjVIMy41VjIuNUgxLjVaTTUgMi41VjEzLjVIN1YyLjVINVpNMTIuNzggNC40N0wxNS43OCA3LjQ3QzE2LjA3MyA3Ljc2MyAxNi4wNzMgOC4yMzcgMTUuNzggOC41M0wxMi43OCAxMS41M0wxMS43MiAxMC40N0wxMy40MzkgOC43NUgxMFY3LjI1SDEzLjQzOUwxMS43MiA1LjUzTDEyLjc4IDQuNDdaIi8+PC9zdmc+) */
+/**![ADSTableColumnMoveRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMCAyLjM3NUMwIDEuNjE2IDAuNjE2IDEgMS4zNzUgMUg3LjEyNUM3Ljg4NCAxIDguNSAxLjYxNiA4LjUgMi4zNzVWMTMuNjI1QzguNSAxNC4zODQgNy44ODQgMTUgNy4xMjUgMTVIMS4zNzVDMC42MTYgMTUgMCAxNC4zODQgMCAxMy42MjVWMi4zNzVaTTEuNSAyLjVWMTMuNUgzLjVWMi41SDEuNVpNNSAyLjVWMTMuNUg3VjIuNUg1Wk0xMi43OCA0LjQ3TDE1Ljc4IDcuNDdDMTYuMDczIDcuNzYzIDE2LjA3MyA4LjIzNyAxNS43OCA4LjUzTDEyLjc4IDExLjUzTDExLjcyIDEwLjQ3TDEzLjQzOSA4Ljc1SDEwVjcuMjVIMTMuNDM5TDExLjcyIDUuNTNMMTIuNzggNC40N1oiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSArrowsDiagonalUpRightDownLeftSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSArrowsDiagonalUpRightDownLeftIconDefinition = svgToIconDefinition(
   'ads-arrows-diagonal-up-right-down-left'
 );
 
-/**![ADSArrowsDiagonalUpRightDownLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQgMUg5LjI1QzkuNjY0IDEgMTAgMS4zMzYgMTAgMS43NVY3SDguNVYzLjU2MUwyLjAzIDEwLjAzTDAuOTcgOC45N0w3LjQzOSAyLjVINFYxWk03LjUgMTIuNDM5TDEzLjk3IDUuOTdMMTUuMDMgNy4wM0w4LjU2MSAxMy41SDEyVjE1SDYuNzVDNi4zMzYgMTUgNiAxNC42NjQgNiAxNC4yNVY5SDcuNVYxMi40MzlaIi8+PC9zdmc+) */
+/**![ADSArrowsDiagonalUpRightDownLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNCAxSDkuMjVDOS42NjQgMSAxMCAxLjMzNiAxMCAxLjc1VjdIOC41VjMuNTYxTDIuMDMgMTAuMDNMMC45NyA4Ljk3TDcuNDM5IDIuNUg0VjFaTTcuNSAxMi40MzlMMTMuOTcgNS45N0wxNS4wMyA3LjAzTDguNTYxIDEzLjVIMTJWMTVINi43NUM2LjMzNiAxNSA2IDE0LjY2NCA2IDE0LjI1VjlINy41VjEyLjQzOVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

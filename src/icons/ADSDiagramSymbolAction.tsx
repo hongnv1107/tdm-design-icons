@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolActionSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolActionIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-action'
 );
 
-/**![ADSDiagramSymbolAction](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMS41IDEyLjVIMTQuNVYzLjVIMS41VjEyLjVaTTE2IDEyLjYyNUMxNiAxMy4zODQgMTUuMzg0IDE0IDE0LjYyNSAxNEgxLjM3NUMwLjYxNiAxNCAwIDEzLjM4NCAwIDEyLjYyNVYzLjM3NUMwIDIuNjE2IDAuNjE2IDIgMS4zNzUgMkgxNC42MjVDMTUuMzg0IDIgMTYgMi42MTYgMTYgMy4zNzVWMTIuNjI1WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramSymbolAction](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xLjUgMTIuNUgxNC41VjMuNUgxLjVWMTIuNVpNMTYgMTIuNjI1QzE2IDEzLjM4NCAxNS4zODQgMTQgMTQuNjI1IDE0SDEuMzc1QzAuNjE2IDE0IDAgMTMuMzg0IDAgMTIuNjI1VjMuMzc1QzAgMi42MTYgMC42MTYgMiAxLjM3NSAySDE0LjYyNUMxNS4zODQgMiAxNiAyLjYxNiAxNiAzLjM3NVYxMi42MjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

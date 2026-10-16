@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSAtlassianIntelligenceSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSAtlassianIntelligenceIconDefinition = svgToIconDefinition(
   'ads-atlassian-intelligence'
 );
 
-/**![ADSAtlassianIntelligence](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNOC43NSAxMlYxNUg3LjI1VjEySDguNzVaTTYuNTMgMTAuNTNMMi41MyAxNC41M0wxLjQ3IDEzLjQ3TDUuNDcgOS40N0w2LjUzIDEwLjUzWk0xNC41MyAxMy40N0wxMy40NyAxNC41M0w5LjQ3IDEwLjUzTDEwLjUzIDkuNDdMMTQuNTMgMTMuNDdaTTQgNy4yNVY4Ljc1SDFWNy4yNUg0Wk0xNSA3LjI1VjguNzVIMTJWNy4yNUgxNVpNNi41MyA1LjQ3TDUuNDcgNi41M0wxLjQ3IDIuNTNMMi41MyAxLjQ3TDYuNTMgNS40N1pNMTQuNTMgMi41M0wxMC41MyA2LjUzTDkuNDcgNS40N0wxMy40NyAxLjQ3TDE0LjUzIDIuNTNaTTguNzUgMVY0SDcuMjVWMUg4Ljc1WiIvPjwvc3ZnPg==) */
+/**![ADSAtlassianIntelligence](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik04Ljc1IDEyVjE1SDcuMjVWMTJIOC43NVpNNi41MyAxMC41M0wyLjUzIDE0LjUzTDEuNDcgMTMuNDdMNS40NyA5LjQ3TDYuNTMgMTAuNTNaTTE0LjUzIDEzLjQ3TDEzLjQ3IDE0LjUzTDkuNDcgMTAuNTNMMTAuNTMgOS40N0wxNC41MyAxMy40N1pNNCA3LjI1VjguNzVIMVY3LjI1SDRaTTE1IDcuMjVWOC43NUgxMlY3LjI1SDE1Wk02LjUzIDUuNDdMNS40NyA2LjUzTDEuNDcgMi41M0wyLjUzIDEuNDdMNi41MyA1LjQ3Wk0xNC41MyAyLjUzTDEwLjUzIDYuNTNMOS40NyA1LjQ3TDEzLjQ3IDEuNDdMMTQuNTMgMi41M1pNOC43NSAxVjRINy4yNVYxSDguNzVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

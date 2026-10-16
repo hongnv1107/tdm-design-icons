@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramArrowheadInheritanceLeftSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramArrowheadInheritanceLeftIconDefinition = svgToIconDefinition(
   'ads-diagram-arrowhead-inheritance-left'
 );
 
-/**![ADSDiagramArrowheadInheritanceLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNy41ODEgMi4zMjdDNy4zMjUgMi4yMDEgNy4wMTkgMi4yMzEgNi43OTMgMi40MDVMMC4yOTMgNy40MDVDMC4xMDggNy41NDcgMCA3Ljc2NyAwIDhDMCA4LjIzMyAwLjEwOCA4LjQ1MyAwLjI5MyA4LjU5NUw2Ljc5MyAxMy41OTVDNy4wMTkgMTMuNzY5IDcuMzI1IDEzLjc5OSA3LjU4MSAxMy42NzNDNy44MzcgMTMuNTQ3IDggMTMuMjg2IDggMTNWOC43NUgxNlY3LjI1SDhWM0M4IDIuNzE0IDcuODM3IDIuNDUzIDcuNTgxIDIuMzI3Wk02LjUgMTEuNDc3TDEuOTggOEw2LjUgNC41MjJWMTEuNDc3WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramArrowheadInheritanceLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik03LjU4MSAyLjMyN0M3LjMyNSAyLjIwMSA3LjAxOSAyLjIzMSA2Ljc5MyAyLjQwNUwwLjI5MyA3LjQwNUMwLjEwOCA3LjU0NyAwIDcuNzY3IDAgOEMwIDguMjMzIDAuMTA4IDguNDUzIDAuMjkzIDguNTk1TDYuNzkzIDEzLjU5NUM3LjAxOSAxMy43NjkgNy4zMjUgMTMuNzk5IDcuNTgxIDEzLjY3M0M3LjgzNyAxMy41NDcgOCAxMy4yODYgOCAxM1Y4Ljc1SDE2VjcuMjVIOFYzQzggMi43MTQgNy44MzcgMi40NTMgNy41ODEgMi4zMjdaTTYuNSAxMS40NzdMMS45OCA4TDYuNSA0LjUyMlYxMS40NzdaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

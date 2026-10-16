@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSAlignTextCenterSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSAlignTextCenterIconDefinition = svgToIconDefinition(
   'ads-align-text-center'
 );
 
-/**![ADSAlignTextCenter](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEyIDMuNUw0IDMuNVYyTDEyIDJWMy41Wk0xNSA4Ljc1SDFMMSA3LjI1SDE1VjguNzVaTTEyIDE0SDRMNCAxMi41SDEyVjE0WiIvPjwvc3ZnPg==) */
+/**![ADSAlignTextCenter](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMy41TDQgMy41VjJMMTIgMlYzLjVaTTE1IDguNzVIMUwxIDcuMjVIMTVWOC43NVpNMTIgMTRINEw0IDEyLjVIMTJWMTRaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

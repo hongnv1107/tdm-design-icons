@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramArrowheadZeroOrOneLeftSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramArrowheadZeroOrOneLeftIconDefinition = svgToIconDefinition(
   'ads-diagram-arrowhead-zero-or-one-left'
 );
 
-/**![ADSDiagramArrowheadZeroOrOneLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNOC41IDQuNzVDMTAuMDM3IDQuNzUgMTEuMzI0IDUuODE3IDExLjY2MiA3LjI1SDE2VjguNzVIMTEuNjYyQzExLjMyNCAxMC4xODMgMTAuMDM3IDExLjI1IDguNSAxMS4yNUM2Ljk2MyAxMS4yNSA1LjY3NyAxMC4xODMgNS4zMzggOC43NUgzLjc1VjExSDIuMjVWOC43NUgwVjcuMjVIMi4yNVY1SDMuNzVWNy4yNUg1LjMzOEM1LjY3NyA1LjgxNyA2Ljk2MyA0Ljc1IDguNSA0Ljc1Wk04LjUgNi4yNUM3LjUzNCA2LjI1IDYuNzUgNy4wMzQgNi43NSA4QzYuNzUgOC45NjcgNy41MzQgOS43NSA4LjUgOS43NUM5LjQ2NyA5Ljc1IDEwLjI1IDguOTY3IDEwLjI1IDhDMTAuMjUgNy4wMzQgOS40NjcgNi4yNSA4LjUgNi4yNVoiLz48L3N2Zz4=) */
+/**![ADSDiagramArrowheadZeroOrOneLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik04LjUgNC43NUMxMC4wMzcgNC43NSAxMS4zMjQgNS44MTcgMTEuNjYyIDcuMjVIMTZWOC43NUgxMS42NjJDMTEuMzI0IDEwLjE4MyAxMC4wMzcgMTEuMjUgOC41IDExLjI1QzYuOTYzIDExLjI1IDUuNjc3IDEwLjE4MyA1LjMzOCA4Ljc1SDMuNzVWMTFIMi4yNVY4Ljc1SDBWNy4yNUgyLjI1VjVIMy43NVY3LjI1SDUuMzM4QzUuNjc3IDUuODE3IDYuOTYzIDQuNzUgOC41IDQuNzVaTTguNSA2LjI1QzcuNTM0IDYuMjUgNi43NSA3LjAzNCA2Ljc1IDhDNi43NSA4Ljk2NyA3LjUzNCA5Ljc1IDguNSA5Ljc1QzkuNDY3IDkuNzUgMTAuMjUgOC45NjcgMTAuMjUgOEMxMC4yNSA3LjAzNCA5LjQ2NyA2LjI1IDguNSA2LjI1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

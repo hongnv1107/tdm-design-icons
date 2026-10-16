@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSCollapseHorizontalSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSCollapseHorizontalIconDefinition = svgToIconDefinition(
   'ads-collapse-horizontal'
 );
 
-/**![ADSCollapseHorizontal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNy4yNSAwVjE2SDguNzVWMEg3LjI1Wk05Ljk3IDcuNDdDOS42NzcgNy43NjMgOS42NzcgOC4yMzcgOS45NyA4LjUzTDEzLjIyIDExLjc4TDE0LjI4IDEwLjcyTDEyLjMxMSA4Ljc1SDE2VjcuMjVIMTIuMzExTDE0LjI4IDUuMjhMMTMuMjIgNC4yMkw5Ljk3IDcuNDdaTTEuNzIgNS4yOEwzLjY4OSA3LjI1SDBWOC43NUgzLjY4OUwxLjcyIDEwLjcyTDIuNzggMTEuNzhMNi4wMyA4LjUzQzYuMzIzIDguMjM3IDYuMzIzIDcuNzYzIDYuMDMgNy40N0wyLjc4IDQuMjJMMS43MiA1LjI4WiIvPjwvc3ZnPg==) */
+/**![ADSCollapseHorizontal](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik03LjI1IDBWMTZIOC43NVYwSDcuMjVaTTkuOTcgNy40N0M5LjY3NyA3Ljc2MyA5LjY3NyA4LjIzNyA5Ljk3IDguNTNMMTMuMjIgMTEuNzhMMTQuMjggMTAuNzJMMTIuMzExIDguNzVIMTZWNy4yNUgxMi4zMTFMMTQuMjggNS4yOEwxMy4yMiA0LjIyTDkuOTcgNy40N1pNMS43MiA1LjI4TDMuNjg5IDcuMjVIMFY4Ljc1SDMuNjg5TDEuNzIgMTAuNzJMMi43OCAxMS43OEw2LjAzIDguNTNDNi4zMjMgOC4yMzcgNi4zMjMgNy43NjMgNi4wMyA3LjQ3TDIuNzggNC4yMkwxLjcyIDUuMjhaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

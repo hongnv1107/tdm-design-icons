@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSChartBulletSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSChartBulletIconDefinition = svgToIconDefinition(
   'ads-chart-bullet'
 );
 
-/**![ADSChartBullet](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMSAxM1YxSDIuNVYxM0MyLjUgMTMuMjc2IDIuNzI0IDEzLjUgMyAxMy41SDE1VjE1SDNDMS44OTUgMTUgMSAxNC4xMDUgMSAxM1oiLz48cGF0aCBkPSJNMTEgOC41SDEzLjVWNkgxMVY4LjVaTTUuNSA4LjVIOS41VjZINS41VjguNVpNMTUgOC42MjVDMTUgOS4zODQgMTQuMzg0IDEwIDEzLjYyNSAxMEgxMVYxMS41SDkuNVYxMEg1LjM3NUM0LjYxNiAxMCA0IDkuMzg0IDQgOC42MjVWNS44NzVDNCA1LjExNiA0LjYxNiA0LjUgNS4zNzUgNC41SDkuNVYzSDExVjQuNUgxMy42MjVDMTQuMzg0IDQuNSAxNSA1LjExNiAxNSA1Ljg3NVY4LjYyNVoiLz48L3N2Zz4=) */
+/**![ADSChartBullet](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xIDEzVjFIMi41VjEzQzIuNSAxMy4yNzYgMi43MjQgMTMuNSAzIDEzLjVIMTVWMTVIM0MxLjg5NSAxNSAxIDE0LjEwNSAxIDEzWiIvPjxwYXRoIGQ9Ik0xMSA4LjVIMTMuNVY2SDExVjguNVpNNS41IDguNUg5LjVWNkg1LjVWOC41Wk0xNSA4LjYyNUMxNSA5LjM4NCAxNC4zODQgMTAgMTMuNjI1IDEwSDExVjExLjVIOS41VjEwSDUuMzc1QzQuNjE2IDEwIDQgOS4zODQgNCA4LjYyNVY1Ljg3NUM0IDUuMTE2IDQuNjE2IDQuNSA1LjM3NSA0LjVIOS41VjNIMTFWNC41SDEzLjYyNUMxNC4zODQgNC41IDE1IDUuMTE2IDE1IDUuODc1VjguNjI1WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

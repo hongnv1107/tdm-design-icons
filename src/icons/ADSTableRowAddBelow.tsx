@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTableRowAddBelowSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTableRowAddBelowIconDefinition = svgToIconDefinition(
   'ads-table-row-add-below'
 );
 
-/**![ADSTableRowAddBelow](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIuMzc1IDBDMS42MTYgMCAxIDAuNjE2IDEgMS4zNzVMMSA3LjEyNUMxIDcuODg0IDEuNjE2IDguNSAyLjM3NSA4LjVMMTMuNjI1IDguNUMxNC4zODQgOC41IDE1IDcuODg0IDE1IDcuMTI1TDE1IDEuMzc1QzE1IDAuNjE2IDE0LjM4NCAwIDEzLjYyNSAwTDIuMzc1IDBaTTIuNSAxLjVMMTMuNSAxLjVMMTMuNSAzLjVMMi41IDMuNUwyLjUgMS41Wk0yLjUgNUwxMy41IDVMMTMuNSA3TDIuNSA3TDIuNSA1Wk04Ljc1IDEyLjI1TDExIDEyLjI1TDExIDEzLjc1TDguNzUgMTMuNzVMOC43NSAxNkw3LjI1IDE2TDcuMjUgMTMuNzVMNSAxMy43NUw1IDEyLjI1TDcuMjUgMTIuMjVMNy4yNSAxMEw4Ljc1IDEwTDguNzUgMTIuMjVaIi8+PC9zdmc+) */
+/**![ADSTableRowAddBelow](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMi4zNzUgMEMxLjYxNiAwIDEgMC42MTYgMSAxLjM3NUwxIDcuMTI1QzEgNy44ODQgMS42MTYgOC41IDIuMzc1IDguNUwxMy42MjUgOC41QzE0LjM4NCA4LjUgMTUgNy44ODQgMTUgNy4xMjVMMTUgMS4zNzVDMTUgMC42MTYgMTQuMzg0IDAgMTMuNjI1IDBMMi4zNzUgMFpNMi41IDEuNUwxMy41IDEuNUwxMy41IDMuNUwyLjUgMy41TDIuNSAxLjVaTTIuNSA1TDEzLjUgNUwxMy41IDdMMi41IDdMMi41IDVaTTguNzUgMTIuMjVMMTEgMTIuMjVMMTEgMTMuNzVMOC43NSAxMy43NUw4Ljc1IDE2TDcuMjUgMTZMNy4yNSAxMy43NUw1IDEzLjc1TDUgMTIuMjVMNy4yNSAxMi4yNUw3LjI1IDEwTDguNzUgMTBMOC43NSAxMi4yNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

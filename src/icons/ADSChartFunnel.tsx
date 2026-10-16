@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSChartFunnelSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSChartFunnelIconDefinition = svgToIconDefinition(
   'ads-chart-funnel'
 );
 
-/**![ADSChartFunnel](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMSAxM1YxSDIuNVYxM0MyLjUgMTMuMjc2IDIuNzI0IDEzLjUgMyAxMy41SDE1VjE1SDNDMS44OTUgMTUgMSAxNC4xMDUgMSAxM1oiLz48cGF0aCBkPSJNMTMuMjUgMi41QzEzLjY2NCAyLjUgMTQgMi44MzYgMTQgMy4yNVYzLjk2N0MxNCA0LjM2MyAxMy44MjkgNC43NCAxMy41MyA1LjAwMUwxMCA4LjA5VjEySDguNVY4LjA5TDQuOTcgNS4wMDFDNC42NzEgNC43NCA0LjUgNC4zNjMgNC41IDMuOTY3VjMuMjVDNC41IDIuODM2IDQuODM2IDIuNSA1LjI1IDIuNUgxMy4yNVpNOS4yNSA2Ljc1M0wxMi4zOTcgNEg2LjEwNEw5LjI1IDYuNzUzWiIvPjwvc3ZnPg==) */
+/**![ADSChartFunnel](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xIDEzVjFIMi41VjEzQzIuNSAxMy4yNzYgMi43MjQgMTMuNSAzIDEzLjVIMTVWMTVIM0MxLjg5NSAxNSAxIDE0LjEwNSAxIDEzWiIvPjxwYXRoIGQ9Ik0xMy4yNSAyLjVDMTMuNjY0IDIuNSAxNCAyLjgzNiAxNCAzLjI1VjMuOTY3QzE0IDQuMzYzIDEzLjgyOSA0Ljc0IDEzLjUzIDUuMDAxTDEwIDguMDlWMTJIOC41VjguMDlMNC45NyA1LjAwMUM0LjY3MSA0Ljc0IDQuNSA0LjM2MyA0LjUgMy45NjdWMy4yNUM0LjUgMi44MzYgNC44MzYgMi41IDUuMjUgMi41SDEzLjI1Wk05LjI1IDYuNzUzTDEyLjM5NyA0SDYuMTA0TDkuMjUgNi43NTNaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTextSubscriptSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTextSubscriptIconDefinition = svgToIconDefinition(
   'ads-text-subscript'
 );
 
-/**![ADSTextSubscript](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNi4yNTYgOEw5Ljk0OCAxNEg4LjE4N0w1LjM5NiA5LjQ2NUwyLjc3OSAxNEgxLjA0OEw0LjUwOSA4TDEuMDQ4IDJIMi43NzlMNS4zOTYgNi41MzRMOC4xODcgMkg5Ljk0OEw2LjI1NiA4WiIvPjxwYXRoIGQ9Ik0xMy43NSA4LjVMMTMuODI3IDguNTA0QzE0LjIwNSA4LjU0MyAxNC41IDguODYyIDE0LjUgOS4yNVYxNkgxM1YxMEgxMlY4LjVIMTMuNzVaIi8+PC9zdmc+) */
+/**![ADSTextSubscript](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik02LjI1NiA4TDkuOTQ4IDE0SDguMTg3TDUuMzk2IDkuNDY1TDIuNzc5IDE0SDEuMDQ4TDQuNTA5IDhMMS4wNDggMkgyLjc3OUw1LjM5NiA2LjUzNEw4LjE4NyAySDkuOTQ4TDYuMjU2IDhaIi8+PHBhdGggZD0iTTEzLjc1IDguNUwxMy44MjcgOC41MDRDMTQuMjA1IDguNTQzIDE0LjUgOC44NjIgMTQuNSA5LjI1VjE2SDEzVjEwSDEyVjguNUgxMy43NVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

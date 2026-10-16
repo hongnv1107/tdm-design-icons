@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSFileSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSFileIconDefinition = svgToIconDefinition(
   'ads-file'
 );
 
-/**![ADSFile](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMTRDMiAxNS4xMDUgMi44OTUgMTYgNCAxNkgxMkMxMy4xMDUgMTYgMTQgMTUuMTA1IDE0IDE0VjUuMjVDMTQgNC43MzEgMTMuNzk0IDQuMjMzIDEzLjQyNyAzLjg2NkwxMC4xMzQgMC41NzNDOS43NjcgMC4yMDYgOS4yNjkgMCA4Ljc1IDBINEMyLjg5NSAwIDIgMC44OTUgMiAyVjE0Wk00IDE0LjVDMy43MjQgMTQuNSAzLjUgMTQuMjc2IDMuNSAxNFYyQzMuNSAxLjcyNCAzLjcyNCAxLjUgNCAxLjVIOFY1LjI1QzggNS42NjQgOC4zMzYgNiA4Ljc1IDZIMTIuNVYxNEMxMi41IDE0LjI3NiAxMi4yNzYgMTQuNSAxMiAxNC41SDRaTTExLjkzOSA0LjVIOS41VjIuMDYxTDExLjkzOSA0LjVaIi8+PC9zdmc+) */
+/**![ADSFile](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiAxNEMyIDE1LjEwNSAyLjg5NSAxNiA0IDE2SDEyQzEzLjEwNSAxNiAxNCAxNS4xMDUgMTQgMTRWNS4yNUMxNCA0LjczMSAxMy43OTQgNC4yMzMgMTMuNDI3IDMuODY2TDEwLjEzNCAwLjU3M0M5Ljc2NyAwLjIwNiA5LjI2OSAwIDguNzUgMEg0QzIuODk1IDAgMiAwLjg5NSAyIDJWMTRaTTQgMTQuNUMzLjcyNCAxNC41IDMuNSAxNC4yNzYgMy41IDE0VjJDMy41IDEuNzI0IDMuNzI0IDEuNSA0IDEuNUg4VjUuMjVDOCA1LjY2NCA4LjMzNiA2IDguNzUgNkgxMi41VjE0QzEyLjUgMTQuMjc2IDEyLjI3NiAxNC41IDEyIDE0LjVINFpNMTEuOTM5IDQuNUg5LjVWMi4wNjFMMTEuOTM5IDQuNVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

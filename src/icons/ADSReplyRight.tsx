@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSReplyRightSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSReplyRightIconDefinition = svgToIconDefinition(
   'ads-reply-right'
 );
 
-/**![ADSReplyRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTAuMjIgMi4yNzlMMTMuNDQgNS40OTlIOC41QzMuODA2IDUuNDk5IDAgOS4zMDUgMCAxMy45OTlIMS41QzEuNSAxMC4xMzMgNC42MzQgNi45OTkgOC41IDYuOTk5SDEzLjQ0TDEwLjIyIDEwLjIxOUwxMS4yOCAxMS4yNzlMMTUuNzggNi43NzlDMTUuOTIxIDYuNjM5IDE2IDYuNDQ4IDE2IDYuMjQ5QzE2IDYuMDUgMTUuOTIxIDUuODU5IDE1Ljc4IDUuNzE5TDExLjI4IDEuMjE5TDEwLjIyIDIuMjc5WiIvPjwvc3ZnPg==) */
+/**![ADSReplyRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMC4yMiAyLjI3OUwxMy40NCA1LjQ5OUg4LjVDMy44MDYgNS40OTkgMCA5LjMwNSAwIDEzLjk5OUgxLjVDMS41IDEwLjEzMyA0LjYzNCA2Ljk5OSA4LjUgNi45OTlIMTMuNDRMMTAuMjIgMTAuMjE5TDExLjI4IDExLjI3OUwxNS43OCA2Ljc3OUMxNS45MjEgNi42MzkgMTYgNi40NDggMTYgNi4yNDlDMTYgNi4wNSAxNS45MjEgNS44NTkgMTUuNzggNS43MTlMMTEuMjggMS4yMTlMMTAuMjIgMi4yNzlaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

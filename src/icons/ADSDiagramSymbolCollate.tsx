@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramSymbolCollateSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramSymbolCollateIconDefinition = svgToIconDefinition(
   'ads-diagram-symbol-collate'
 );
 
-/**![ADSDiagramSymbolCollate](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTMuODM5IDJDMTQuNzg3IDIgMTUuMjMzIDMuMTI1IDE0LjYyNyAzLjc3N0wxNC40OTEgMy45MDFMOS4yMjIgOEwxNC40OTEgMTIuMDk5TDE0LjYyNyAxMi4yMjNDMTUuMjMzIDEyLjg3NSAxNC43ODcgMTQgMTMuODM5IDE0SDIuMTYxQzEuMTUgMTQgMC43MSAxMi43MiAxLjUwOSAxMi4wOTlMNi43NzggOEwxLjUwOSAzLjkwMUMwLjcxIDMuMjggMS4xNSAyIDIuMTYxIDJIMTMuODM5Wk0zLjQzNyAxMi41SDEyLjU2NEw4IDguOTVMMy40MzcgMTIuNVpNOCA3LjA0OUwxMi41NjQgMy41SDMuNDM3TDggNy4wNDlaIi8+PC9zdmc+) */
+/**![ADSDiagramSymbolCollate](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMy44MzkgMkMxNC43ODcgMiAxNS4yMzMgMy4xMjUgMTQuNjI3IDMuNzc3TDE0LjQ5MSAzLjkwMUw5LjIyMiA4TDE0LjQ5MSAxMi4wOTlMMTQuNjI3IDEyLjIyM0MxNS4yMzMgMTIuODc1IDE0Ljc4NyAxNCAxMy44MzkgMTRIMi4xNjFDMS4xNSAxNCAwLjcxIDEyLjcyIDEuNTA5IDEyLjA5OUw2Ljc3OCA4TDEuNTA5IDMuOTAxQzAuNzEgMy4yOCAxLjE1IDIgMi4xNjEgMkgxMy44MzlaTTMuNDM3IDEyLjVIMTIuNTY0TDggOC45NUwzLjQzNyAxMi41Wk04IDcuMDQ5TDEyLjU2NCAzLjVIMy40MzdMOCA3LjA0OVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

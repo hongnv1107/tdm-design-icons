@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSGrowVerticalSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSGrowVerticalIconDefinition = svgToIconDefinition(
   'ads-grow-vertical'
 );
 
-/**![ADSGrowVertical](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuNDcgMTUuNzhMMy45NyAxMi4yOEw1LjAzIDExLjIyTDcuMjUgMTMuNDM5TDcuMjUgOUw4Ljc1IDlMOC43NSAxMy40MzlMMTAuOTcgMTEuMjJMMTIuMDMgMTIuMjhMOC41MyAxNS43OEM4LjIzNyAxNi4wNzMgNy43NjMgMTYuMDczIDcuNDcgMTUuNzhaTTcuMjUgMi41NjFMNS4wMyA0Ljc4TDMuOTcgMy43Mkw3LjQ3IDAuMjJDNy43NjMgLTAuMDczIDguMjM3IC0wLjA3MyA4LjUzIDAuMjJMMTIuMDMgMy43MkwxMC45NyA0Ljc4TDguNzUgMi41NjFMOC43NSA3TDcuMjUgN0w3LjI1IDIuNTYxWiIvPjwvc3ZnPg==) */
+/**![ADSGrowVertical](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNy40NyAxNS43OEwzLjk3IDEyLjI4TDUuMDMgMTEuMjJMNy4yNSAxMy40MzlMNy4yNSA5TDguNzUgOUw4Ljc1IDEzLjQzOUwxMC45NyAxMS4yMkwxMi4wMyAxMi4yOEw4LjUzIDE1Ljc4QzguMjM3IDE2LjA3MyA3Ljc2MyAxNi4wNzMgNy40NyAxNS43OFpNNy4yNSAyLjU2MUw1LjAzIDQuNzhMMy45NyAzLjcyTDcuNDcgMC4yMkM3Ljc2MyAtMC4wNzMgOC4yMzcgLTAuMDczIDguNTMgMC4yMkwxMi4wMyAzLjcyTDEwLjk3IDQuNzhMOC43NSAyLjU2MUw4Ljc1IDdMNy4yNSA3TDcuMjUgMi41NjFaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

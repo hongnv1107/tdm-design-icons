@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSPanelLeftSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSPanelLeftIconDefinition = svgToIconDefinition(
   'ads-panel-left'
 );
 
-/**![ADSPanelLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSAzQzE0LjUgMi43MjQgMTQuMjc2IDIuNSAxNCAyLjVIOFYxMy41SDE0QzE0LjI3NiAxMy41IDE0LjUgMTMuMjc2IDE0LjUgMTNWM1pNNSAxMFYxMS41SDNWMTBINVpNNSA3VjguNUgzVjdINVpNNSA0VjUuNUgzVjRINVpNMS41IDEzQzEuNSAxMy4yNzYgMS43MjQgMTMuNSAyIDEzLjVINi41VjIuNUgyQzEuNzI0IDIuNSAxLjUgMi43MjQgMS41IDNWMTNaTTE2IDEzQzE2IDE0LjEwNSAxNS4xMDUgMTUgMTQgMTVIMkMwLjg5NSAxNSAwIDE0LjEwNSAwIDEzVjNDMCAxLjg5NSAwLjg5NSAxIDIgMUgxNEMxNS4xMDUgMSAxNiAxLjg5NSAxNiAzVjEzWiIvPjwvc3ZnPg==) */
+/**![ADSPanelLeft](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41IDNDMTQuNSAyLjcyNCAxNC4yNzYgMi41IDE0IDIuNUg4VjEzLjVIMTRDMTQuMjc2IDEzLjUgMTQuNSAxMy4yNzYgMTQuNSAxM1YzWk01IDEwVjExLjVIM1YxMEg1Wk01IDdWOC41SDNWN0g1Wk01IDRWNS41SDNWNEg1Wk0xLjUgMTNDMS41IDEzLjI3NiAxLjcyNCAxMy41IDIgMTMuNUg2LjVWMi41SDJDMS43MjQgMi41IDEuNSAyLjcyNCAxLjUgM1YxM1pNMTYgMTNDMTYgMTQuMTA1IDE1LjEwNSAxNSAxNCAxNUgyQzAuODk1IDE1IDAgMTQuMTA1IDAgMTNWM0MwIDEuODk1IDAuODk1IDEgMiAxSDE0QzE1LjEwNSAxIDE2IDEuODk1IDE2IDNWMTNaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

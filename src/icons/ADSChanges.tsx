@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSChangesSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSChangesIconDefinition = svgToIconDefinition(
   'ads-changes'
 );
 
-/**![ADSChanges](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0Ljc4IDQuMjJMMTEuNTMgMC45N0wxMC40NyAyLjAzTDEyLjQzOSA0SDJWNS41SDEyLjQzOUwxMC40NyA3LjQ3TDExLjUzIDguNTNMMTQuNzggNS4yOEMxNS4wNzMgNC45ODcgMTUuMDczIDQuNTEzIDE0Ljc4IDQuMjJaTTMuNTYxIDEwLjVMNS41MyA4LjUzTDQuNDcgNy40N0wxLjIyIDEwLjcyQzAuOTI3IDExLjAxMyAwLjkyNyAxMS40ODggMS4yMiAxMS43OEw0LjQ3IDE1LjAzTDUuNTMgMTMuOTdMMy41NjEgMTJIMTRWMTAuNUgzLjU2MVoiLz48L3N2Zz4=) */
+/**![ADSChanges](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTQuNzggNC4yMkwxMS41MyAwLjk3TDEwLjQ3IDIuMDNMMTIuNDM5IDRIMlY1LjVIMTIuNDM5TDEwLjQ3IDcuNDdMMTEuNTMgOC41M0wxNC43OCA1LjI4QzE1LjA3MyA0Ljk4NyAxNS4wNzMgNC41MTMgMTQuNzggNC4yMlpNMy41NjEgMTAuNUw1LjUzIDguNTNMNC40NyA3LjQ3TDEuMjIgMTAuNzJDMC45MjcgMTEuMDEzIDAuOTI3IDExLjQ4OCAxLjIyIDExLjc4TDQuNDcgMTUuMDNMNS41MyAxMy45N0wzLjU2MSAxMkgxNFYxMC41SDMuNTYxWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

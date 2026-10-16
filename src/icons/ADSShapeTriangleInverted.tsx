@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSShapeTriangleInvertedSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSShapeTriangleInvertedIconDefinition = svgToIconDefinition(
   'ads-shape-triangle-inverted'
 );
 
-/**![ADSShapeTriangleInverted](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuOCAxNC4xNDNDNy4zMjUgMTUuMDgxIDguNjc1IDE1LjA4MSA5LjIgMTQuMTQzTDE1LjEzNCAzLjU0N0MxNS42NDcgMi42MzEgMTQuOTg0IDEuNSAxMy45MzQgMS41SDIuMDY2QzEuMDE2IDEuNSAwLjM1MyAyLjYzMSAwLjg2NyAzLjU0N0w2LjggMTQuMTQzWk04IDEzLjIxNUwyLjI4IDNIMTMuNzIxTDggMTMuMjE1WiIvPjwvc3ZnPg==) */
+/**![ADSShapeTriangleInverted](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNi44IDE0LjE0M0M3LjMyNSAxNS4wODEgOC42NzUgMTUuMDgxIDkuMiAxNC4xNDNMMTUuMTM0IDMuNTQ3QzE1LjY0NyAyLjYzMSAxNC45ODQgMS41IDEzLjkzNCAxLjVIMi4wNjZDMS4wMTYgMS41IDAuMzUzIDIuNjMxIDAuODY3IDMuNTQ3TDYuOCAxNC4xNDNaTTggMTMuMjE1TDIuMjggM0gxMy43MjFMOCAxMy4yMTVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

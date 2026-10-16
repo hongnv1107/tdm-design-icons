@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDiagramArrowheadZeroOrOneRightSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDiagramArrowheadZeroOrOneRightIconDefinition = svgToIconDefinition(
   'ads-diagram-arrowhead-zero-or-one-right'
 );
 
-/**![ADSDiagramArrowheadZeroOrOneRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNNy41IDQuNzVDOS4wMzcgNC43NSAxMC4zMjQgNS44MTcgMTAuNjYyIDcuMjVIMTIuMjVWNUgxMy43NVY3LjI1SDE2VjguNzVIMTMuNzVWMTFIMTIuMjVWOC43NUgxMC42NjJDMTAuMzI0IDEwLjE4MyA5LjAzNyAxMS4yNSA3LjUgMTEuMjVDNS45NjMgMTEuMjUgNC42NzcgMTAuMTgzIDQuMzM4IDguNzVIMFY3LjI1SDQuMzM4QzQuNjc3IDUuODE3IDUuOTYzIDQuNzUgNy41IDQuNzVaTTcuNSA2LjI1QzYuNTM0IDYuMjUgNS43NSA3LjAzNCA1Ljc1IDhDNS43NSA4Ljk2NyA2LjUzNCA5Ljc1IDcuNSA5Ljc1QzguNDY3IDkuNzUgOS4yNSA4Ljk2NyA5LjI1IDhDOS4yNSA3LjAzNCA4LjQ2NyA2LjI1IDcuNSA2LjI1WiIvPjwvc3ZnPg==) */
+/**![ADSDiagramArrowheadZeroOrOneRight](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik03LjUgNC43NUM5LjAzNyA0Ljc1IDEwLjMyNCA1LjgxNyAxMC42NjIgNy4yNUgxMi4yNVY1SDEzLjc1VjcuMjVIMTZWOC43NUgxMy43NVYxMUgxMi4yNVY4Ljc1SDEwLjY2MkMxMC4zMjQgMTAuMTgzIDkuMDM3IDExLjI1IDcuNSAxMS4yNUM1Ljk2MyAxMS4yNSA0LjY3NyAxMC4xODMgNC4zMzggOC43NUgwVjcuMjVINC4zMzhDNC42NzcgNS44MTcgNS45NjMgNC43NSA3LjUgNC43NVpNNy41IDYuMjVDNi41MzQgNi4yNSA1Ljc1IDcuMDM0IDUuNzUgOEM1Ljc1IDguOTY3IDYuNTM0IDkuNzUgNy41IDkuNzVDOC40NjcgOS43NSA5LjI1IDguOTY3IDkuMjUgOEM5LjI1IDcuMDM0IDguNDY3IDYuMjUgNy41IDYuMjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSCursorSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSCursorIconDefinition = svgToIconDefinition(
   'ads-cursor'
 );
 
-/**![ADSCursor](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIuODI3IDIuODI3TDYuOTE0IDEzLjIzTDguMTg2IDkuMDk2QzguMzIgOC42NiA4LjY2IDguMzIgOS4wOTYgOC4xODZMMTMuMjMgNi45MTRMMi44MjcgMi44MjdaTTEuMzI2IDMuMTA5QzAuODg3IDEuOTkxIDEuOTkxIDAuODg3IDMuMTA5IDEuMzI2TDE0LjExMSA1LjY0OEMxNS4zMjIgNi4xMjQgMTUuMjU2IDcuODYgMTQuMDEyIDguMjQyTDkuNiA5LjZMOC4yNDIgMTQuMDEyQzcuODYgMTUuMjU2IDYuMTI0IDE1LjMyMiA1LjY0OCAxNC4xMTFMMS4zMjYgMy4xMDlaIi8+PC9zdmc+) */
+/**![ADSCursor](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMi44MjcgMi44MjdMNi45MTQgMTMuMjNMOC4xODYgOS4wOTZDOC4zMiA4LjY2IDguNjYgOC4zMiA5LjA5NiA4LjE4NkwxMy4yMyA2LjkxNEwyLjgyNyAyLjgyN1pNMS4zMjYgMy4xMDlDMC44ODcgMS45OTEgMS45OTEgMC44ODcgMy4xMDkgMS4zMjZMMTQuMTExIDUuNjQ4QzE1LjMyMiA2LjEyNCAxNS4yNTYgNy44NiAxNC4wMTIgOC4yNDJMOS42IDkuNkw4LjI0MiAxNC4wMTJDNy44NiAxNS4yNTYgNi4xMjQgMTUuMzIyIDUuNjQ4IDE0LjExMUwxLjMyNiAzLjEwOVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

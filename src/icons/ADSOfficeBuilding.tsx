@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSOfficeBuildingSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSOfficeBuildingIconDefinition = svgToIconDefinition(
   'ads-office-building'
 );
 
-/**![ADSOfficeBuilding](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMkMyIDAuODk1IDIuODk1IDAgNCAwSDEyQzEzLjEwNSAwIDE0IDAuODk1IDE0IDJWMTQuNUgxNVYxNkgxVjE0LjVIMlYyWk0zLjUgMTQuNUg1LjVWMTAuNzVDNS41IDEwLjMzNiA1LjgzNiAxMCA2LjI1IDEwSDkuNzVDMTAuMTY0IDEwIDEwLjUgMTAuMzM2IDEwLjUgMTAuNzVWMTQuNUgxMi41VjJDMTIuNSAxLjcyNCAxMi4yNzYgMS41IDEyIDEuNUg0QzMuNzI0IDEuNSAzLjUgMS43MjQgMy41IDJWMTQuNVpNOSAxNC41VjExLjVIN1YxNC41SDlaTTcgNC41SDVWM0g3VjQuNVpNMTEgNC41SDlWM0gxMVY0LjVaTTUgNkg3VjcuNUg1VjZaTTkgNkgxMVY3LjVIOVY2WiIvPjwvc3ZnPg==) */
+/**![ADSOfficeBuilding](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiAyQzIgMC44OTUgMi44OTUgMCA0IDBIMTJDMTMuMTA1IDAgMTQgMC44OTUgMTQgMlYxNC41SDE1VjE2SDFWMTQuNUgyVjJaTTMuNSAxNC41SDUuNVYxMC43NUM1LjUgMTAuMzM2IDUuODM2IDEwIDYuMjUgMTBIOS43NUMxMC4xNjQgMTAgMTAuNSAxMC4zMzYgMTAuNSAxMC43NVYxNC41SDEyLjVWMkMxMi41IDEuNzI0IDEyLjI3NiAxLjUgMTIgMS41SDRDMy43MjQgMS41IDMuNSAxLjcyNCAzLjUgMlYxNC41Wk05IDE0LjVWMTEuNUg3VjE0LjVIOVpNNyA0LjVINVYzSDdWNC41Wk0xMSA0LjVIOVYzSDExVjQuNVpNNSA2SDdWNy41SDVWNlpNOSA2SDExVjcuNUg5VjZaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

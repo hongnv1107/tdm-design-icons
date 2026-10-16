@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSStatusDiscoverySvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSStatusDiscoveryIconDefinition = svgToIconDefinition(
   'ads-status-discovery'
 );
 
-/**![ADSStatusDiscovery](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTAuNSAxNS4wNjFWMTEuMjVDMTAuNSAxMC44MzYgMTAuODM2IDEwLjUgMTEuMjUgMTAuNUgxNS4wNjFMMTAuNSAxNS4wNjFaIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMyAxQzE0LjEwNSAxIDE1IDEuODk1IDE1IDNWOUgxMC4yNUM5LjU2IDkgOSA5LjU2IDkgMTAuMjVWMTVIM0MxLjg5NSAxNSAxIDE0LjEwNSAxIDEzVjNDMSAxLjg5NSAxLjg5NSAxIDMgMUgxM1pNNCA5SDdWNy41SDRWOVpNNCA0VjUuNUgxMVY0SDRaIi8+PC9zdmc+) */
+/**![ADSStatusDiscovery](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMC41IDE1LjA2MVYxMS4yNUMxMC41IDEwLjgzNiAxMC44MzYgMTAuNSAxMS4yNSAxMC41SDE1LjA2MUwxMC41IDE1LjA2MVoiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzIDFDMTQuMTA1IDEgMTUgMS44OTUgMTUgM1Y5SDEwLjI1QzkuNTYgOSA5IDkuNTYgOSAxMC4yNVYxNUgzQzEuODk1IDE1IDEgMTQuMTA1IDEgMTNWM0MxIDEuODk1IDEuODk1IDEgMyAxSDEzWk00IDlIN1Y3LjVINFY5Wk00IDRWNS41SDExVjRINFoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

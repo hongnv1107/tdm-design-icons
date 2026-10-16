@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSPowerSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSPowerIconDefinition = svgToIconDefinition(
   'ads-power'
 );
 
-/**![ADSPower](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTguNzUgMEw4Ljc1IDhINy4yNUw3LjI1IDBIOC43NVpNNS4xNDIgMy4yMTNDMy41NTcgNC4xODUgMi41IDUuOTM5IDIuNSA3Ljk0M0MyLjUgMTEuMDA3IDQuOTcgMTMuNSA4IDEzLjVDMTEuMDMgMTMuNSAxMy41IDExLjAwNyAxMy41IDcuOTQzQzEzLjUgNS45MzkgMTIuNDQzIDQuMTg1IDEwLjg1OCAzLjIxM0wxMS42NDIgMS45MzRDMTMuNjU1IDMuMTY5IDE1IDUuMzk5IDE1IDcuOTQzQzE1IDExLjgyMSAxMS44NzMgMTUgOCAxNUM0LjEyNyAxNSAxIDExLjgyMSAxIDcuOTQzQzEgNS4zOTkgMi4zNDUgMy4xNjkgNC4zNTggMS45MzRMNS4xNDIgMy4yMTNaIi8+PC9zdmc+) */
+/**![ADSPower](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOC43NSAwTDguNzUgOEg3LjI1TDcuMjUgMEg4Ljc1Wk01LjE0MiAzLjIxM0MzLjU1NyA0LjE4NSAyLjUgNS45MzkgMi41IDcuOTQzQzIuNSAxMS4wMDcgNC45NyAxMy41IDggMTMuNUMxMS4wMyAxMy41IDEzLjUgMTEuMDA3IDEzLjUgNy45NDNDMTMuNSA1LjkzOSAxMi40NDMgNC4xODUgMTAuODU4IDMuMjEzTDExLjY0MiAxLjkzNEMxMy42NTUgMy4xNjkgMTUgNS4zOTkgMTUgNy45NDNDMTUgMTEuODIxIDExLjg3MyAxNSA4IDE1QzQuMTI3IDE1IDEgMTEuODIxIDEgNy45NDNDMSA1LjM5OSAyLjM0NSAzLjE2OSA0LjM1OCAxLjkzNEw1LjE0MiAzLjIxM1oiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

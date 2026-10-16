@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTableCellClearSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTableCellClearIconDefinition = svgToIconDefinition(
   'ads-table-cell-clear'
 );
 
-/**![ADSTableCellClear](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIgMy41QzEuNzI0IDMuNSAxLjUgMy43MjQgMS41IDRWMTJDMS41IDEyLjI3NiAxLjcyNCAxMi41IDIgMTIuNUgxNEMxNC4yNzYgMTIuNSAxNC41IDEyLjI3NiAxNC41IDEyVjRDMTQuNSAzLjcyNCAxNC4yNzYgMy41IDE0IDMuNUgyWk0wIDRDMCAyLjg5NSAwLjg5NSAyIDIgMkgxNEMxNS4xMDUgMiAxNiAyLjg5NSAxNiA0VjEyQzE2IDEzLjEwNSAxNS4xMDUgMTQgMTQgMTRIMkMwLjg5NSAxNCAwIDEzLjEwNSAwIDEyVjRaTTYuOTM5IDhMNS4yMiA2LjI4TDYuMjggNS4yMkw4IDYuOTM5TDkuNzIgNS4yMkwxMC43OCA2LjI4TDkuMDYxIDhMMTAuNzggOS43Mkw5LjcyIDEwLjc4TDggOS4wNjFMNi4yOCAxMC43OEw1LjIyIDkuNzJMNi45MzkgOFoiLz48L3N2Zz4=) */
+/**![ADSTableCellClear](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiAzLjVDMS43MjQgMy41IDEuNSAzLjcyNCAxLjUgNFYxMkMxLjUgMTIuMjc2IDEuNzI0IDEyLjUgMiAxMi41SDE0QzE0LjI3NiAxMi41IDE0LjUgMTIuMjc2IDE0LjUgMTJWNEMxNC41IDMuNzI0IDE0LjI3NiAzLjUgMTQgMy41SDJaTTAgNEMwIDIuODk1IDAuODk1IDIgMiAySDE0QzE1LjEwNSAyIDE2IDIuODk1IDE2IDRWMTJDMTYgMTMuMTA1IDE1LjEwNSAxNCAxNCAxNEgyQzAuODk1IDE0IDAgMTMuMTA1IDAgMTJWNFpNNi45MzkgOEw1LjIyIDYuMjhMNi4yOCA1LjIyTDggNi45MzlMOS43MiA1LjIyTDEwLjc4IDYuMjhMOS4wNjEgOEwxMC43OCA5LjcyTDkuNzIgMTAuNzhMOCA5LjA2MUw2LjI4IDEwLjc4TDUuMjIgOS43Mkw2LjkzOSA4WiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

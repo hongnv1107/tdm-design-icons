@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTextAdjustLengthSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTextAdjustLengthIconDefinition = svgToIconDefinition(
   'ads-text-adjust-length'
 );
 
-/**![ADSTextAdjustLength](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMy4yNSAxQzMuNDQ5IDEgMy42NCAxLjA3OSAzLjc4IDEuMjJMNi4yOCAzLjcyTDUuMjIgNC43OEw0IDMuNTYxVjEyLjQ0TDUuMjIgMTEuMjJMNi4yOCAxMi4yOEwzLjc4IDE0Ljc4QzMuNDg3IDE1LjA3MyAzLjAxMyAxNS4wNzMgMi43MiAxNC43OEwwLjIyIDEyLjI4TDEuMjggMTEuMjJMMi41IDEyLjQ0VjMuNTYxTDEuMjggNC43OEwwLjIyIDMuNzJMMi43MiAxLjIyTDIuODM0IDEuMTI2QzIuOTU2IDEuMDQ0IDMuMTAxIDEgMy4yNSAxWk0xMyAxMS41VjEzSDhWMTEuNUgxM1pNMTYgNy4yNVY4Ljc1SDhWNy4yNUgxNlpNMTYgM1Y0LjVIOFYzSDE2WiIvPjwvc3ZnPg==) */
+/**![ADSTextAdjustLength](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0zLjI1IDFDMy40NDkgMSAzLjY0IDEuMDc5IDMuNzggMS4yMkw2LjI4IDMuNzJMNS4yMiA0Ljc4TDQgMy41NjFWMTIuNDRMNS4yMiAxMS4yMkw2LjI4IDEyLjI4TDMuNzggMTQuNzhDMy40ODcgMTUuMDczIDMuMDEzIDE1LjA3MyAyLjcyIDE0Ljc4TDAuMjIgMTIuMjhMMS4yOCAxMS4yMkwyLjUgMTIuNDRWMy41NjFMMS4yOCA0Ljc4TDAuMjIgMy43MkwyLjcyIDEuMjJMMi44MzQgMS4xMjZDMi45NTYgMS4wNDQgMy4xMDEgMSAzLjI1IDFaTTEzIDExLjVWMTNIOFYxMS41SDEzWk0xNiA3LjI1VjguNzVIOFY3LjI1SDE2Wk0xNiAzVjQuNUg4VjNIMTZaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

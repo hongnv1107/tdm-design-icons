@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSCrossOctagonSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSCrossOctagonIconDefinition = svgToIconDefinition(
   'ads-cross-octagon'
 );
 
-/**![ADSCrossOctagon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMTAzIDFMMTAuODk3IDFMMTUgNS4xMDNWMTAuODk3TDEwLjg5NyAxNUg1LjEwM0wxIDEwLjg5N0wxIDUuMTAzTDUuMTAzIDFaTTUuNzI0IDIuNUw0LjY0MyAzLjU4Mkw4IDYuOTM5TDExLjM1NyAzLjU4MkwxMC4yNzYgMi41TDUuNzI0IDIuNVpNMTIuNDE4IDQuNjQzTDkuMDYxIDhMMTIuNDE4IDExLjM1N0wxMy41IDEwLjI3NlY1LjcyNEwxMi40MTggNC42NDNaTTExLjM1NyAxMi40MThMOCA5LjA2MUw0LjY0MyAxMi40MThMNS43MjQgMTMuNUgxMC4yNzZMMTEuMzU3IDEyLjQxOFpNMy41ODIgMTEuMzU3TDYuOTM5IDhMMy41ODIgNC42NDNMMi41IDUuNzI0TDIuNSAxMC4yNzZMMy41ODIgMTEuMzU3WiIvPjwvc3ZnPg==) */
+/**![ADSCrossOctagon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNS4xMDMgMUwxMC44OTcgMUwxNSA1LjEwM1YxMC44OTdMMTAuODk3IDE1SDUuMTAzTDEgMTAuODk3TDEgNS4xMDNMNS4xMDMgMVpNNS43MjQgMi41TDQuNjQzIDMuNTgyTDggNi45MzlMMTEuMzU3IDMuNTgyTDEwLjI3NiAyLjVMNS43MjQgMi41Wk0xMi40MTggNC42NDNMOS4wNjEgOEwxMi40MTggMTEuMzU3TDEzLjUgMTAuMjc2VjUuNzI0TDEyLjQxOCA0LjY0M1pNMTEuMzU3IDEyLjQxOEw4IDkuMDYxTDQuNjQzIDEyLjQxOEw1LjcyNCAxMy41SDEwLjI3NkwxMS4zNTcgMTIuNDE4Wk0zLjU4MiAxMS4zNTdMNi45MzkgOEwzLjU4MiA0LjY0M0wyLjUgNS43MjRMMi41IDEwLjI3NkwzLjU4MiAxMS4zNTdaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

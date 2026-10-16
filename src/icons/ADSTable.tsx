@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTableSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTableIconDefinition = svgToIconDefinition(
   'ads-table'
 );
 
-/**![ADSTable](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTQuNSA4Ljc1SDYuNVYxMi41SDE0QzE0LjI3NiAxMi41IDE0LjUgMTIuMjc2IDE0LjUgMTJWOC43NVpNMS41IDEyQzEuNSAxMi4yNzYgMS43MjQgMTIuNSAyIDEyLjVINVY4Ljc1SDEuNVYxMlpNMTQuNSA0QzE0LjUgMy43MjQgMTQuMjc2IDMuNSAxNCAzLjVINi41VjcuMjVIMTQuNVY0Wk0xLjUgNy4yNUg1VjMuNUgyQzEuNzI0IDMuNSAxLjUgMy43MjQgMS41IDRWNy4yNVpNMTYgMTJDMTYgMTMuMTA1IDE1LjEwNSAxNCAxNCAxNEgyQzAuODk1IDE0IDAgMTMuMTA1IDAgMTJWNEMwIDIuODk1IDAuODk1IDIgMiAySDE0QzE1LjEwNSAyIDE2IDIuODk1IDE2IDRWMTJaIi8+PC9zdmc+) */
+/**![ADSTable](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xNC41IDguNzVINi41VjEyLjVIMTRDMTQuMjc2IDEyLjUgMTQuNSAxMi4yNzYgMTQuNSAxMlY4Ljc1Wk0xLjUgMTJDMS41IDEyLjI3NiAxLjcyNCAxMi41IDIgMTIuNUg1VjguNzVIMS41VjEyWk0xNC41IDRDMTQuNSAzLjcyNCAxNC4yNzYgMy41IDE0IDMuNUg2LjVWNy4yNUgxNC41VjRaTTEuNSA3LjI1SDVWMy41SDJDMS43MjQgMy41IDEuNSAzLjcyNCAxLjUgNFY3LjI1Wk0xNiAxMkMxNiAxMy4xMDUgMTUuMTA1IDE0IDE0IDE0SDJDMC44OTUgMTQgMCAxMy4xMDUgMCAxMlY0QzAgMi44OTUgMC44OTUgMiAyIDJIMTRDMTUuMTA1IDIgMTYgMi44OTUgMTYgNFYxMloiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

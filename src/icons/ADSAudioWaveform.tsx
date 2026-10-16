@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSAudioWaveformSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSAudioWaveformIconDefinition = svgToIconDefinition(
   'ads-audio-waveform'
 );
 
-/**![ADSAudioWaveform](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYgMTVMNiAxTDcuNSAxTDcuNSAxNUg2Wk0xMS44NzUgMTMuNVYyLjVIMTMuMzc1VjEzLjVIMTEuODc1Wk0zIDEyLjVMMyAzLjVINC41TDQuNSAxMi41SDNaTTkgMTEuNVY0LjVMMTAuNSA0LjVWMTEuNUg5Wk0xNC41IDEwLjVWNS41SDE2VjEwLjVIMTQuNVpNMCAxMEwwIDZIMS41TDEuNSAxMEgwWiIvPjwvc3ZnPg==) */
+/**![ADSAudioWaveform](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNiAxNUw2IDFMNy41IDFMNy41IDE1SDZaTTExLjg3NSAxMy41VjIuNUgxMy4zNzVWMTMuNUgxMS44NzVaTTMgMTIuNUwzIDMuNUg0LjVMNC41IDEyLjVIM1pNOSAxMS41VjQuNUwxMC41IDQuNVYxMS41SDlaTTE0LjUgMTAuNVY1LjVIMTZWMTAuNUgxNC41Wk0wIDEwTDAgNkgxLjVMMS41IDEwSDBaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

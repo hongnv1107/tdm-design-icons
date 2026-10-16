@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSTextWrapSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSTextWrapIconDefinition = svgToIconDefinition(
   'ads-text-wrap'
 );
 
-/**![ADSTextWrap](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjM3NSA1TDAgNUwwIDMuNUwxMy4zNzUgMy41QzE0LjgyNSAzLjUgMTYgNC42NzUgMTYgNi4xMjVMMTYgOC44NzVDMTYgMTAuMzI1IDE0LjgyNSAxMS41IDEzLjM3NSAxMS41TDkuNTYxIDExLjVMMTEuMjggMTMuMjJMMTAuMjIgMTQuMjhMNy4yMiAxMS4yOEM2LjkyNyAxMC45ODcgNi45MjcgMTAuNTEzIDcuMjIgMTAuMjJMMTAuMjIgNy4yMkwxMS4yOCA4LjI4TDkuNTYxIDEwTDEzLjM3NSAxMEMxMy45OTYgMTAgMTQuNSA5LjQ5NiAxNC41IDguODc1TDE0LjUgNi4xMjVDMTQuNSA1LjUwNCAxMy45OTYgNSAxMy4zNzUgNVpNNSAxMS41TDAgMTEuNUwwIDEwTDUgMTBMNSAxMS41WiIvPjwvc3ZnPg==) */
+/**![ADSTextWrap](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTMuMzc1IDVMMCA1TDAgMy41TDEzLjM3NSAzLjVDMTQuODI1IDMuNSAxNiA0LjY3NSAxNiA2LjEyNUwxNiA4Ljg3NUMxNiAxMC4zMjUgMTQuODI1IDExLjUgMTMuMzc1IDExLjVMOS41NjEgMTEuNUwxMS4yOCAxMy4yMkwxMC4yMiAxNC4yOEw3LjIyIDExLjI4QzYuOTI3IDEwLjk4NyA2LjkyNyAxMC41MTMgNy4yMiAxMC4yMkwxMC4yMiA3LjIyTDExLjI4IDguMjhMOS41NjEgMTBMMTMuMzc1IDEwQzEzLjk5NiAxMCAxNC41IDkuNDk2IDE0LjUgOC44NzVMMTQuNSA2LjEyNUMxNC41IDUuNTA0IDEzLjk5NiA1IDEzLjM3NSA1Wk01IDExLjVMMCAxMS41TDAgMTBMNSAxMEw1IDExLjVaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

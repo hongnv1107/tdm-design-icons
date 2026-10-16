@@ -1,5 +1,11 @@
 # @tdm-design/icons
 
+## 0.2.0-rc.2
+
+### Patch Changes
+
+- ADS icons: padded from a 16×16 grid onto a 24×24 canvas (`viewBox="-4 -4 24 24"`) so they render at the same visual size as the other icon sets.
+
 ## 0.2.0-rc.1
 
 ### Minor Changes

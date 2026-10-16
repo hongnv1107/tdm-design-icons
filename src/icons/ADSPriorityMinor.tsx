@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSPriorityMinorSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSPriorityMinorIconDefinition = svgToIconDefinition(
   'ads-priority-minor'
 );
 
-/**![ADSPriorityMinor](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBkPSJNMTMuOTEzIDExLjI1MUw4LjQxMyAxNC44NzZDOC4xNjMgMTUuMDQxIDcuODM3IDE1LjA0MSA3LjU4NyAxNC44NzZMMi4wODcgMTEuMjUxTDIuOTEzIDkuOTk5TDggMTMuMzUyTDEzLjA4NyA5Ljk5OUwxMy45MTMgMTEuMjUxWk0xMy45MTMgNi43NTFMOC40MTMgMTAuMzc2QzguMTYzIDEwLjU0MSA3LjgzNyAxMC41NDEgNy41ODcgMTAuMzc2TDIuMDg3IDYuNzUxTDIuOTEzIDUuNDk5TDggOC44NTJMMTMuMDg3IDUuNDk5TDEzLjkxMyA2Ljc1MVpNMTMuOTEzIDIuMjUxTDguNDEzIDUuODc2QzguMTYzIDYuMDQxIDcuODM3IDYuMDQxIDcuNTg3IDUuODc2TDIuMDg3IDIuMjUxTDIuOTEzIDAuOTk5TDggNC4zNTJMMTMuMDg3IDAuOTk5TDEzLjkxMyAyLjI1MVoiLz48L3N2Zz4=) */
+/**![ADSPriorityMinor](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGQ9Ik0xMy45MTMgMTEuMjUxTDguNDEzIDE0Ljg3NkM4LjE2MyAxNS4wNDEgNy44MzcgMTUuMDQxIDcuNTg3IDE0Ljg3NkwyLjA4NyAxMS4yNTFMMi45MTMgOS45OTlMOCAxMy4zNTJMMTMuMDg3IDkuOTk5TDEzLjkxMyAxMS4yNTFaTTEzLjkxMyA2Ljc1MUw4LjQxMyAxMC4zNzZDOC4xNjMgMTAuNTQxIDcuODM3IDEwLjU0MSA3LjU4NyAxMC4zNzZMMi4wODcgNi43NTFMMi45MTMgNS40OTlMOCA4Ljg1MkwxMy4wODcgNS40OTlMMTMuOTEzIDYuNzUxWk0xMy45MTMgMi4yNTFMOC40MTMgNS44NzZDOC4xNjMgNi4wNDEgNy44MzcgNi4wNDEgNy41ODcgNS44NzZMMi4wODcgMi4yNTFMMi45MTMgMC45OTlMOCA0LjM1MkwxMy4wODcgMC45OTlMMTMuOTEzIDIuMjUxWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

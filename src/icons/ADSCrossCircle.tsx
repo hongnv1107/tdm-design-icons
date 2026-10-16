@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSCrossCircleSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSCrossCircleIconDefinition = svgToIconDefinition(
   'ads-cross-circle'
 );
 
-/**![ADSCrossCircle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTggMEMzLjU4MiAwIDAgMy41ODIgMCA4QzAgMTIuNDE4IDMuNTgyIDE2IDggMTZDMTIuNDE4IDE2IDE2IDEyLjQxOCAxNiA4QzE2IDMuNTgyIDEyLjQxOCAwIDggMFpNMTIuMDMgNS4wM0w5LjA2MSA4TDEyLjAzIDEwLjk3TDEwLjk3IDEyLjAzTDggOS4wNjFMNS4wMyAxMi4wM0wzLjk3IDEwLjk3TDYuOTM5IDhMMy45NyA1LjAzTDUuMDMgMy45N0w4IDYuOTM5TDEwLjk3IDMuOTdMMTIuMDMgNS4wM1oiLz48L3N2Zz4=) */
+/**![ADSCrossCircle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAwQzMuNTgyIDAgMCAzLjU4MiAwIDhDMCAxMi40MTggMy41ODIgMTYgOCAxNkMxMi40MTggMTYgMTYgMTIuNDE4IDE2IDhDMTYgMy41ODIgMTIuNDE4IDAgOCAwWk0xMi4wMyA1LjAzTDkuMDYxIDhMMTIuMDMgMTAuOTdMMTAuOTcgMTIuMDNMOCA5LjA2MUw1LjAzIDEyLjAzTDMuOTcgMTAuOTdMNi45MzkgOEwzLjk3IDUuMDNMNS4wMyAzLjk3TDggNi45MzlMMTAuOTcgMy45N0wxMi4wMyA1LjAzWiIvPjwvc3ZnPg==) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

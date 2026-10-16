@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSStrokeCurvatureCurvedSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSStrokeCurvatureCurvedIconDefinition = svgToIconDefinition(
   'ads-stroke-curvature-curved'
 );
 
-/**![ADSStrokeCurvatureCurved](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEyLjEwMyAzLjVDMTAuNjYzIDMuNSA5LjQyNiA0LjUyNCA5LjE1NiA1LjkzOUw4LjMxNyAxMC4zNDJDNy45MTMgMTIuNDY0IDYuMDU3IDE0IDMuODk3IDE0SDFWMTIuNUgzLjg5N0M1LjMzNyAxMi41IDYuNTc0IDExLjQ3NiA2Ljg0NCAxMC4wNjFMNy42ODMgNS42NThDOC4wODcgMy41MzYgOS45NDMgMiAxMi4xMDMgMkgxNVYzLjVIMTIuMTAzWiIvPjwvc3ZnPg==) */
+/**![ADSStrokeCurvatureCurved](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTIuMTAzIDMuNUMxMC42NjMgMy41IDkuNDI2IDQuNTI0IDkuMTU2IDUuOTM5TDguMzE3IDEwLjM0MkM3LjkxMyAxMi40NjQgNi4wNTcgMTQgMy44OTcgMTRIMVYxMi41SDMuODk3QzUuMzM3IDEyLjUgNi41NzQgMTEuNDc2IDYuODQ0IDEwLjA2MUw3LjY4MyA1LjY1OEM4LjA4NyAzLjUzNiA5Ljk0MyAyIDEyLjEwMyAySDE1VjMuNUgxMi4xMDNaIi8+PC9zdmc+) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {

@@ -9,9 +9,9 @@ import { svgToIconDefinition } from '../utils';
 
 const aDSDividerElementSvg = (
   <svg
-    width="16"
-    height="16"
-    viewBox="0 0 16 16"
+    width="24"
+    height="24"
+    viewBox="-4 -4 24 24"
     fill="#cacaca"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -24,7 +24,7 @@ const aDSDividerElementIconDefinition = svgToIconDefinition(
   'ads-divider-element'
 );
 
-/**![ADSDividerElement](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjY2FjYWNhIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0IDE1TDE0IDEyLjVDMTQgMTEuMzk1IDEzLjEwNSAxMC41IDEyIDEwLjVINEMyLjg5NSAxMC41IDIgMTEuMzk1IDIgMTIuNUwyIDE1SDMuNUwzLjUgMTIuNUMzLjUgMTIuMjI0IDMuNzI0IDEyIDQgMTJIMTJDMTIuMjc2IDEyIDEyLjUgMTIuMjI0IDEyLjUgMTIuNUwxMi41IDE1TDE0IDE1Wk0xNiA3LjI1SDBWOC43NUgxNlY3LjI1Wk0yIDMuNTAxQzIgNC42MDYgMi44OTYgNS41IDQgNS41SDEyQzEzLjEwNSA1LjUgMTQgNC42MDUgMTQgMy41TDE0IDFMMTIuNSAxTDEyLjUgMy41QzEyLjUgMy43NzYgMTIuMjc2IDQgMTIgNEg0QzMuNzIzIDQgMy41IDMuNzc2IDMuNSAzLjUwMVYxSDJWMy41MDFaIi8+PC9zdmc+) */
+/**![ADSDividerElement](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9Ii00IC00IDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNjYWNhY2EiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTQgMTVMMTQgMTIuNUMxNCAxMS4zOTUgMTMuMTA1IDEwLjUgMTIgMTAuNUg0QzIuODk1IDEwLjUgMiAxMS4zOTUgMiAxMi41TDIgMTVIMy41TDMuNSAxMi41QzMuNSAxMi4yMjQgMy43MjQgMTIgNCAxMkgxMkMxMi4yNzYgMTIgMTIuNSAxMi4yMjQgMTIuNSAxMi41TDEyLjUgMTVMMTQgMTVaTTE2IDcuMjVIMFY4Ljc1SDE2VjcuMjVaTTIgMy41MDFDMiA0LjYwNiAyLjg5NiA1LjUgNCA1LjVIMTJDMTMuMTA1IDUuNSAxNCA0LjYwNSAxNCAzLjVMMTQgMUwxMi41IDFMMTIuNSAzLjVDMTIuNSAzLjc3NiAxMi4yNzYgNCAxMiA0SDRDMy43MjMgNCAzLjUgMy43NzYgMy41IDMuNTAxVjFIMlYzLjUwMVoiLz48L3N2Zz4=) */
 const RefIcon: React.ForwardRefExoticComponent<
   Omit<TdmIconProps, 'ref'> & React.RefAttributes<HTMLSpanElement>
 > = React.forwardRef<HTMLSpanElement, TdmIconProps>((props, ref) => {
