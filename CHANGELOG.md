@@ -1,5 +1,11 @@
 # @tdm-design/icons
 
+## 0.2.0-rc.4
+
+### Minor Changes
+
+- Add `viewBox` prop to all icon components to override the inner `<svg>` viewBox (e.g. `<ADSAdd viewBox="-4 -4 24 24" />`).
+
 ## 0.2.0-rc.3
 
 ### Patch Changes
