@@ -50,6 +50,7 @@ All icons accept the same props via `TdmIconProps`:
 | `className`    | `string`              | —       | CSS class for the wrapper            |
 | `spin`         | `boolean`             | `false` | Applies a spinning animation         |
 | `rotate`       | `number`              | —       | Rotation angle in degrees            |
+| `viewBox`      | `string`              | —       | Overrides the inner `<svg>` viewBox  |
 | `twoToneColor` | `string`              | —       | Secondary color for two-tone icons   |
 
 ```tsx
@@ -58,6 +59,9 @@ All icons accept the same props via `TdmIconProps`:
   className="my-icon"
   spin
 />
+
+// Pad a 16×16 ADS icon onto a 24×24 grid
+<ADSAdd viewBox="-4 -4 24 24" />
 ```
 
 ## Icon categories

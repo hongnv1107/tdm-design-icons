@@ -8,7 +8,10 @@ import Context from './Context';
 import type { IconBaseProps } from './Icon';
 import ReactIcon from './IconBase';
 
-export type TdmIconProps = IconBaseProps;
+export interface TdmIconProps extends IconBaseProps {
+  /** Overrides the viewBox of the inner <svg>, e.g. `-4 -4 24 24` to pad a 16px icon onto a 24px grid */
+  viewBox?: string;
+}
 
 export interface IconComponentProps extends TdmIconProps {
   icon: IconDefinition;
@@ -22,6 +25,7 @@ const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>(
 
       // affect inner <svg>...</svg>
       icon,
+      viewBox,
       spin,
       rotate,
 
@@ -65,7 +69,13 @@ const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>(
         onClick={onClick}
         className={classString}
       >
-        <ReactIcon icon={icon} style={svgStyle} />
+        <ReactIcon
+          icon={icon}
+          style={svgStyle}
+          // generate() spreads root props over the svg attrs, so an undefined
+          // viewBox would wipe out the original one
+          {...(viewBox ? { viewBox } : null)}
+        />
       </span>
     );
   }

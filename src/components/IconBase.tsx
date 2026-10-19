@@ -9,6 +9,7 @@ export interface IconProps {
   onClick?: React.MouseEventHandler<Element>;
   style?: React.CSSProperties;
   focusable?: string;
+  viewBox?: string;
 }
 
 const IconBase: React.FC<IconProps> = props => {
