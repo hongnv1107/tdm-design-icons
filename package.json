@@ -1,6 +1,6 @@
 {
   "name": "@tdm-design/icons",
-  "version": "0.2.0-rc.4",
+  "version": "0.2.0-rc.5",
   "description": "TDM Design Icon Library - React icon components with tree-shaking support",
   "keywords": [
     "react",

@@ -1,5 +1,15 @@
 # @tdm-design/icons
 
+## 0.2.0-rc.5
+
+### Minor Changes
+
+- Add ADS icons `ADSDeviceTablet`, `ADSMoon`, `ADSSun` (16×16).
+
+### Patch Changes
+
+- `LoadingLinesFilled`: re-exported from Figma at 16×16 (`viewBox="0 0 16 16"`, was 24×24).
+
 ## 0.2.0-rc.4
 
 ### Minor Changes
