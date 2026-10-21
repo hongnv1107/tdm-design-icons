@@ -1044,7 +1044,7 @@
 - ZMCircle
 - ZWCircle
 
-# ADS icons (826)
+# ADS icons (829)
 - ADSAIAgent
 - ADSAIBot
 - ADSAIChat
@@ -1233,6 +1233,7 @@
 - ADSDepartment
 - ADSDeployedService
 - ADSDeviceMobile
+- ADSDeviceTablet
 - ADSDevices
 - ADSDiagramArchitectureMap
 - ADSDiagramArrowheadAggregationLeft
@@ -1527,6 +1528,7 @@
 - ADSMinus
 - ADSMinusSquare
 - ADSMissedCall
+- ADSMoon
 - ADSNode
 - ADSNodeParallelBottomLeft
 - ADSNodeParallelBottomRight
@@ -1711,6 +1713,7 @@
 - ADSStudio
 - ADSSubtasks
 - ADSSuggestedEdit
+- ADSSun
 - ADSSunset
 - ADSSupport
 - ADSSurvey
